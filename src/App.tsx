@@ -31,7 +31,6 @@ export default function App() {
   const deck = useMemo(
     () =>
       DECK.filter((card) => {
-        if (card.level !== level) return false;
         if (filter === "quick") return true;
         if (card.category !== filter) return false;
         if (topic && card.topic !== topic) return false;

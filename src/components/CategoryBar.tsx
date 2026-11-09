@@ -13,7 +13,7 @@ import {
 import { t, type UiKey } from "../lib/ui";
 import type { FilterId, MotherTongue, TopicId } from "../types";
 
-type Child = { id: TopicId; label?: string; labelKey?: UiKey; icon?: typeof Sparkles };
+type Child = { id: TopicId; labelKey: UiKey; icon?: typeof Sparkles };
 
 const FILTERS: {
   id: FilterId;
@@ -23,14 +23,17 @@ const FILTERS: {
 }[] = [
   { id: "quick", labelKey: "quick", icon: Sparkles, children: [] },
   {
-    id: "household",
-    labelKey: "household",
+    id: "home",
+    labelKey: "home",
     icon: Home,
     children: [
-      { id: "soggiorno", label: "Soggiorno", icon: Sofa },
-      { id: "bagno", label: "Bagno", icon: Bath },
-      { id: "camera", label: "Camera da letto", icon: BedDouble },
-      { id: "cucina", label: "Cucina", icon: UtensilsCrossed },
+      { id: "living", labelKey: "living", icon: Sofa },
+      { id: "bath", labelKey: "bath", icon: Bath },
+      { id: "bedroom", labelKey: "bedroom", icon: BedDouble },
+      { id: "kitchen", labelKey: "kitchen", icon: UtensilsCrossed },
+      { id: "kids", labelKey: "kids" },
+      { id: "furniture", labelKey: "furniture" },
+      { id: "appliances", labelKey: "appliances" },
     ],
   },
   {
@@ -38,18 +41,12 @@ const FILTERS: {
     labelKey: "calendar",
     icon: CalendarDays,
     children: [
-      { id: "days", labelKey: "days", icon: CalendarDays },
-      { id: "months", labelKey: "months", icon: CalendarDays },
-      { id: "moments", labelKey: "moments", icon: Clock3 },
-    ],
-  },
-  {
-    id: "ordinals",
-    labelKey: "ordinals",
-    icon: Hash,
-    children: [
-      { id: "early", labelKey: "early" },
-      { id: "later", labelKey: "later" },
+      { id: "weekdays", labelKey: "weekdays", icon: CalendarDays },
+      { id: "months", labelKey: "months" },
+      { id: "seasons", labelKey: "seasons" },
+      { id: "cardinals", labelKey: "cardinals", icon: Hash },
+      { id: "ordinals", labelKey: "ordinals" },
+      { id: "time", labelKey: "time", icon: Clock3 },
     ],
   },
   {
@@ -57,16 +54,22 @@ const FILTERS: {
     labelKey: "verbs",
     icon: Zap,
     children: [
-      { id: "aux", labelKey: "aux" },
-      { id: "motion", labelKey: "motion" },
-      { id: "daily", labelKey: "daily" },
+      { id: "essere", labelKey: "essere" },
+      { id: "avere", labelKey: "avere" },
+      { id: "andare", labelKey: "andare" },
+      { id: "fare", labelKey: "fare" },
+      { id: "potere", labelKey: "potere" },
+      { id: "volere", labelKey: "volere" },
+      { id: "dovere", labelKey: "dovere" },
     ],
   },
+  { id: "nouns", labelKey: "nouns", icon: Hash, children: [] },
+  { id: "adjectives", labelKey: "adjectives", icon: Sparkles, children: [] },
+  { id: "idioms", labelKey: "idioms", icon: Zap, children: [] },
 ];
 
 function childLabel(child: Child, tongue: MotherTongue) {
-  if (child.label) return child.label;
-  return child.labelKey ? t(tongue, child.labelKey) : "";
+  return t(tongue, child.labelKey);
 }
 
 type CategoryBarProps = {

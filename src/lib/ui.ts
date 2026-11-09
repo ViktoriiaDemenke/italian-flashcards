@@ -24,19 +24,33 @@ export type UiKey =
   | "intermediate"
   | "advanced"
   | "quick"
-  | "household"
+  | "home"
   | "calendar"
-  | "ordinals"
   | "verbs"
+  | "nouns"
+  | "adjectives"
+  | "idioms"
   | "mixed"
-  | "days"
+  | "living"
+  | "bath"
+  | "bedroom"
+  | "kitchen"
+  | "kids"
+  | "furniture"
+  | "appliances"
+  | "weekdays"
   | "months"
-  | "moments"
-  | "early"
-  | "later"
-  | "aux"
-  | "motion"
-  | "daily"
+  | "seasons"
+  | "cardinals"
+  | "ordinals"
+  | "time"
+  | "essere"
+  | "avere"
+  | "andare"
+  | "fare"
+  | "potere"
+  | "volere"
+  | "dovere"
   | "flashcards"
   | "quiz"
   | "cardOf"
@@ -96,19 +110,33 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   intermediate: { en: "Intermediate", uk: "Середній", ru: "Средний", de: "Mittelstufe", pl: "Średni", es: "Intermedio", fr: "Intermédiaire", ro: "Intermediar" },
   advanced: { en: "Advanced", uk: "Просунутий", ru: "Продвинутый", de: "Fortgeschritten", pl: "Zaawansowany", es: "Avanzado", fr: "Avancé", ro: "Avansat" },
   quick: { en: "Quick Review", uk: "Швидке повторення", ru: "Быстрое повторение", de: "Schnellwiederholung", pl: "Szybka powtórka", es: "Repaso rápido", fr: "Révision rapide", ro: "Recapitulare rapidă" },
-  household: { en: "Casa & Household", uk: "Casa і дім", ru: "Casa и дом", de: "Casa & Haushalt", pl: "Casa i dom", es: "Casa y hogar", fr: "Casa et maison", ro: "Casa și casa" },
-  calendar: { en: "Calendar & Time", uk: "Календар і час", ru: "Календарь и время", de: "Kalender & Zeit", pl: "Kalendarz i czas", es: "Calendario y tiempo", fr: "Calendrier et temps", ro: "Calendar și timp" },
-  ordinals: { en: "Ordinal Numbers", uk: "Порядкові числівники", ru: "Порядковые числительные", de: "Ordnungszahlen", pl: "Liczebniki porządkowe", es: "Números ordinales", fr: "Nombres ordinaux", ro: "Numerale ordinale" },
-  verbs: { en: "Essential Verbs", uk: "Основні дієслова", ru: "Основные глаголы", de: "Wichtige Verben", pl: "Podstawowe czasowniki", es: "Verbos esenciales", fr: "Verbes essentiels", ro: "Verbe esențiale" },
+  home: { en: "Home and furniture", uk: "Дім та меблі", ru: "Дом и мебель", de: "Haus und Möbel", pl: "Dom i meble", es: "Casa y muebles", fr: "Maison et meubles", ro: "Casă și mobilă" },
+  calendar: { en: "Calendar and time", uk: "Календар і час", ru: "Календарь и время", de: "Kalender und Zeit", pl: "Kalendarz i czas", es: "Calendario y tiempo", fr: "Calendrier et temps", ro: "Calendar și timp" },
+  verbs: { en: "Verbs", uk: "Дієслова", ru: "Глаголы", de: "Verben", pl: "Czasowniki", es: "Verbos", fr: "Verbes", ro: "Verbe" },
+  nouns: { en: "Nouns", uk: "Іменники", ru: "Существительные", de: "Substantive", pl: "Rzeczowniki", es: "Sustantivos", fr: "Noms", ro: "Substantive" },
+  adjectives: { en: "Adjectives", uk: "Прикметники", ru: "Прилагательные", de: "Adjektive", pl: "Przymiotniki", es: "Adjetivos", fr: "Adjectifs", ro: "Adjective" },
+  idioms: { en: "Idioms", uk: "Ідіоми", ru: "Идиомы", de: "Redewendungen", pl: "Idiomy", es: "Modismos", fr: "Expressions", ro: "Expresii" },
   mixed: { en: "Mixed mode", uk: "Змішаний режим", ru: "Смешанный режим", de: "Gemischt", pl: "Tryb mieszany", es: "Modo mixto", fr: "Mode mixte", ro: "Mod mixt" },
-  days: { en: "Days", uk: "Дні", ru: "Дни", de: "Tage", pl: "Dni", es: "Días", fr: "Jours", ro: "Zile" },
-  months: { en: "Months & year", uk: "Місяці й рік", ru: "Месяцы и год", de: "Monate & Jahr", pl: "Miesiące i rok", es: "Meses y año", fr: "Mois et année", ro: "Luni și an" },
-  moments: { en: "Moments", uk: "Моменти", ru: "Моменты", de: "Zeitpunkte", pl: "Chwile", es: "Momentos", fr: "Moments", ro: "Momente" },
-  early: { en: "1st–5th", uk: "1-й–5-й", ru: "1-й–5-й", de: "1.–5.", pl: "1.–5.", es: "1.º–5.º", fr: "1er–5e", ro: "1–5" },
-  later: { en: "6th–10th", uk: "6-й–10-й", ru: "6-й–10-й", de: "6.–10.", pl: "6.–10.", es: "6.º–10.º", fr: "6e–10e", ro: "6–10" },
-  aux: { en: "Auxiliaries", uk: "Допоміжні", ru: "Вспомогательные", de: "Hilfsverben", pl: "Posiłkowe", es: "Auxiliares", fr: "Auxiliaires", ro: "Auxiliare" },
-  motion: { en: "Motion", uk: "Рух", ru: "Движение", de: "Bewegung", pl: "Ruch", es: "Movimiento", fr: "Mouvement", ro: "Mișcare" },
-  daily: { en: "Everyday", uk: "Щоденні", ru: "Повседневные", de: "Alltag", pl: "Codzienne", es: "Cotidiano", fr: "Quotidien", ro: "De zi cu zi" },
+  living: { en: "Living room", uk: "Вітальня", ru: "Гостиная", de: "Wohnzimmer", pl: "Salon", es: "Salón", fr: "Séjour", ro: "Sufragerie" },
+  bath: { en: "Bathroom", uk: "Ванна", ru: "Ванная", de: "Badezimmer", pl: "Łazienka", es: "Baño", fr: "Salle de bain", ro: "Baie" },
+  bedroom: { en: "Bedroom", uk: "Спальня", ru: "Спальня", de: "Schlafzimmer", pl: "Sypialnia", es: "Dormitorio", fr: "Chambre", ro: "Dormitor" },
+  kitchen: { en: "Kitchen", uk: "Кухня", ru: "Кухня", de: "Küche", pl: "Kuchnia", es: "Cocina", fr: "Cuisine", ro: "Bucătărie" },
+  kids: { en: "Child's room", uk: "Дитяча", ru: "Детская", de: "Kinderzimmer", pl: "Pokój dziecka", es: "Cuarto infantil", fr: "Chambre d'enfant", ro: "Camera copilului" },
+  furniture: { en: "Furniture", uk: "Меблі", ru: "Мебель", de: "Möbel", pl: "Meble", es: "Muebles", fr: "Meubles", ro: "Mobilă" },
+  appliances: { en: "Appliances", uk: "Побутова техніка", ru: "Бытовая техника", de: "Haushaltsgeräte", pl: "Sprzęt AGD", es: "Electrodomésticos", fr: "Électroménager", ro: "Aparate electrocasnice" },
+  weekdays: { en: "Weekdays", uk: "Дні тижня", ru: "Дни недели", de: "Wochentage", pl: "Dni tygodnia", es: "Días de la semana", fr: "Jours de la semaine", ro: "Zilele săptămânii" },
+  months: { en: "Months", uk: "Місяці", ru: "Месяцы", de: "Monate", pl: "Miesiące", es: "Meses", fr: "Mois", ro: "Luni" },
+  seasons: { en: "Seasons", uk: "Пори року", ru: "Времена года", de: "Jahreszeiten", pl: "Pory roku", es: "Estaciones", fr: "Saisons", ro: "Anotimpuri" },
+  cardinals: { en: "Cardinal numbers", uk: "Кількісні числівники", ru: "Количественные числительные", de: "Grundzahlen", pl: "Liczebniki główne", es: "Números cardinales", fr: "Nombres cardinaux", ro: "Numerale cardinale" },
+  ordinals: { en: "Ordinal numbers", uk: "Порядкові числівники", ru: "Порядковые числительные", de: "Ordnungszahlen", pl: "Liczebniki porządkowe", es: "Números ordinales", fr: "Nombres ordinaux", ro: "Numerale ordinale" },
+  time: { en: "Time expressions", uk: "Вирази часу", ru: "Выражения времени", de: "Zeitangaben", pl: "Wyrażenia czasu", es: "Expresiones de tiempo", fr: "Expressions de temps", ro: "Expresii de timp" },
+  essere: { en: "To be", uk: "Бути", ru: "Быть", de: "Sein", pl: "Być", es: "Ser", fr: "Être", ro: "A fi" },
+  avere: { en: "To have", uk: "Мати", ru: "Иметь", de: "Haben", pl: "Mieć", es: "Tener", fr: "Avoir", ro: "A avea" },
+  andare: { en: "To go", uk: "Йти", ru: "Идти", de: "Gehen", pl: "Iść", es: "Ir", fr: "Aller", ro: "A merge" },
+  fare: { en: "To do", uk: "Робити", ru: "Делать", de: "Machen", pl: "Robić", es: "Hacer", fr: "Faire", ro: "A face" },
+  potere: { en: "Can", uk: "Могти", ru: "Мочь", de: "Können", pl: "Móc", es: "Poder", fr: "Pouvoir", ro: "A putea" },
+  volere: { en: "To want", uk: "Хотіти", ru: "Хотеть", de: "Wollen", pl: "Chcieć", es: "Querer", fr: "Vouloir", ro: "A vrea" },
+  dovere: { en: "Must", uk: "Мусити", ru: "Должен", de: "Müssen", pl: "Musieć", es: "Deber", fr: "Devoir", ro: "A trebui" },
   flashcards: { en: "Flashcards", uk: "Картки", ru: "Карточки", de: "Karteikarten", pl: "Fiszki", es: "Tarjetas", fr: "Cartes", ro: "Carduri" },
   quiz: { en: "Quiz Mode", uk: "Режим тесту", ru: "Режим теста", de: "Quizmodus", pl: "Tryb quizu", es: "Modo quiz", fr: "Mode quiz", ro: "Mod quiz" },
   cardOf: { en: "CARD {n} OF {total}", uk: "КАРТКА {n} З {total}", ru: "КАРТОЧКА {n} ИЗ {total}", de: "KARTE {n} VON {total}", pl: "KARTA {n} Z {total}", es: "TARJETA {n} DE {total}", fr: "CARTE {n} SUR {total}", ro: "CARDUL {n} DIN {total}" },

@@ -1,22 +1,33 @@
 export type Level = "A1" | "A2" | "B1" | "B2";
 
-export type CategoryId = "household" | "calendar" | "ordinals" | "verbs";
+export type CategoryId = "home" | "calendar" | "verbs" | "nouns" | "adjectives" | "idioms";
 
 export type FilterId = "quick" | CategoryId;
 
 export type TopicId =
-  | "soggiorno"
-  | "bagno"
-  | "camera"
-  | "cucina"
-  | "days"
+  | "living"
+  | "bath"
+  | "bedroom"
+  | "kitchen"
+  | "kids"
+  | "furniture"
+  | "appliances"
+  | "weekdays"
   | "months"
-  | "moments"
-  | "early"
-  | "later"
-  | "aux"
-  | "motion"
-  | "daily";
+  | "seasons"
+  | "cardinals"
+  | "ordinals"
+  | "time"
+  | "essere"
+  | "avere"
+  | "andare"
+  | "fare"
+  | "potere"
+  | "volere"
+  | "dovere"
+  | "nouns"
+  | "adjectives"
+  | "idioms";
 
 export type StudyMode = "cards" | "quiz";
 
