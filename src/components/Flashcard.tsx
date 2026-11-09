@@ -44,28 +44,7 @@ export function Flashcard({
   const shownTense = multi ? activeTense : "presente";
   const forms = card.kind === "verb" && shownTense ? card.tenses?.[shownTense] : undefined;
   const exampleTranslation = exampleTranslationOf(card, tongue);
-  const { rate, setRate, speak } = useSpeech();
-
-  const rates = (
-    <div className="inline-flex rounded-full border border-slate-700 p-0.5" role="group" aria-label="Speech speed">
-      {([1, 0.75] as const).map((value) => (
-        <button
-          key={value}
-          type="button"
-          aria-pressed={rate === value}
-          onClick={(event) => {
-            event.stopPropagation();
-            setRate(value);
-          }}
-          className={`rounded-full px-2 py-1 text-[11px] font-medium ${
-            rate === value ? "bg-emerald-500 text-slate-950" : "text-slate-300"
-          }`}
-        >
-          {value === 1 ? "1.0x" : "0.75x"}
-        </button>
-      ))}
-    </div>
-  );
+  const { speak } = useSpeech();
 
   const wordSpeaker = (
     <button
@@ -151,7 +130,6 @@ export function Flashcard({
                 >
                   <RefreshCw className="h-4 w-4" />
                 </button>
-                {rates}
                 {wordSpeaker}
               </div>
             </div>
@@ -193,7 +171,6 @@ export function Flashcard({
               >
                 <RefreshCw className="h-4 w-4" />
               </button>
-              {rates}
               {wordSpeaker}
               {exampleSpeaker}
             </div>

@@ -30,7 +30,7 @@ function shuffle<T>(items: T[], seed: string) {
 
 export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer }: QuizCardProps) {
   const progress = total === 0 ? 0 : ((index + 1) / total) * 100;
-  const { rate, setRate, speak } = useSpeech();
+  const { speak } = useSpeech();
   const choices = useMemo(() => {
     const extras = [...pool, ...DECK].filter((item) => item.id !== card.id);
     const unique: StudyCard[] = [];
@@ -60,21 +60,6 @@ export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer 
         <div className="flex items-center justify-between gap-3">
           <p className="text-[11px] tracking-[0.22em] text-slate-500">{t(tongue, "means")}</p>
           <div className="flex items-center gap-2">
-            <div className="inline-flex rounded-full border border-slate-700 p-0.5" role="group" aria-label="Speech speed">
-              {([1, 0.75] as const).map((value) => (
-                <button
-                  key={value}
-                  type="button"
-                  aria-pressed={rate === value}
-                  onClick={() => setRate(value)}
-                  className={`rounded-full px-2 py-1 text-[11px] font-medium ${
-                    rate === value ? "bg-emerald-500 text-slate-950" : "text-slate-300"
-                  }`}
-                >
-                  {value === 1 ? "1.0x" : "0.75x"}
-                </button>
-              ))}
-            </div>
             <button
               type="button"
               aria-label={t(tongue, "speak")}
