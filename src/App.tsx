@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
 import { RotateCcw } from "lucide-react";
+import { CardNav } from "./components/CardNav";
 import { CategoryBar, filterLabel } from "./components/CategoryBar";
 import { Flashcard } from "./components/Flashcard";
-import { GradeBar } from "./components/GradeBar";
 import { Header } from "./components/Header";
 import { QuizCard } from "./components/QuizCard";
 import { StatsDrawer } from "./components/StatsDrawer";
@@ -25,6 +25,8 @@ export default function App() {
   const [statsOpen, setStatsOpen] = useState(true);
   const [cardsToday, setCardsToday] = useState(0);
   const [counts, setCounts] = useState({ again: 0, hard: 0, good: 0, easy: 0 });
+  const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [slide, setSlide] = useState<"next" | "prev">("next");
 
   const deck = useMemo(
     () =>
@@ -40,9 +42,10 @@ export default function App() {
 
   const card = deck[index];
   const mastered = counts.good + counts.easy;
-  const toRepeat = counts.again + counts.hard;
-  const graded = mastered + toRepeat;
+  const graded = mastered + counts.again + counts.hard;
   const accuracy = graded === 0 ? 0 : Math.round((mastered / graded) * 100);
+  const savedCount = savedIds.length;
+  const saved = card ? savedIds.includes(card.id) : false;
 
   function resetPosition() {
     setIndex(0);
@@ -64,9 +67,21 @@ export default function App() {
     setTense("presente");
   }
 
-  function grade(result: GradeId) {
-    if (!flipped || !card || mode !== "cards") return;
-    advance(result);
+  function step(delta: -1 | 1) {
+    const next = index + delta;
+    if (next < 0 || next >= deck.length) return;
+    setSlide(delta > 0 ? "next" : "prev");
+    setIndex(next);
+    setFlipped(false);
+    setTense("presente");
+    if (delta > 0) setCardsToday((current) => current + 1);
+  }
+
+  function toggleSaved() {
+    if (!card) return;
+    setSavedIds((current) =>
+      current.includes(card.id) ? current.filter((id) => id !== card.id) : [...current, card.id],
+    );
   }
 
   return (
@@ -148,8 +163,8 @@ export default function App() {
           </section>
         ) : (
           <>
-            {mode === "cards" ? (
-              <>
+            <div className={slide === "next" ? "card-slide-next" : "card-slide-prev"} key={`${card.id}-${slide}`}>
+              {mode === "cards" ? (
                 <Flashcard
                   card={card}
                   index={index}
@@ -161,19 +176,27 @@ export default function App() {
                   onFlip={() => setFlipped((current) => !current)}
                   onTense={setTense}
                 />
-                <GradeBar enabled={flipped} tongue={tongue} onGrade={grade} />
-              </>
-            ) : (
-              <QuizCard
-                card={card}
-                index={index}
-                total={deck.length}
-                subtitle={filterLabel(filter, topic, tongue)}
-                tongue={tongue}
-                pool={deck}
-                onAnswer={(correct) => advance(correct ? "good" : "again")}
-              />
-            )}
+              ) : (
+                <QuizCard
+                  card={card}
+                  index={index}
+                  total={deck.length}
+                  subtitle={filterLabel(filter, topic, tongue)}
+                  tongue={tongue}
+                  pool={deck}
+                  onAnswer={(correct) => advance(correct ? "good" : "again")}
+                />
+              )}
+            </div>
+            <CardNav
+              tongue={tongue}
+              canPrev={index > 0}
+              canNext={index + 1 < deck.length}
+              saved={saved}
+              onPrev={() => step(-1)}
+              onNext={() => step(1)}
+              onSave={toggleSaved}
+            />
           </>
         )}
 
@@ -181,9 +204,8 @@ export default function App() {
           <StatsDrawer
             open={statsOpen}
             onToggle={() => setStatsOpen((current) => !current)}
-            mastered={mastered}
-            toRepeat={toRepeat}
-            accuracy={accuracy}
+            saved={savedCount}
+            toRepeat={savedCount}
             tongue={tongue}
           />
         </div>

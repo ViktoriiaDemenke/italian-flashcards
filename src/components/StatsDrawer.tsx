@@ -5,18 +5,16 @@ import type { MotherTongue } from "../types";
 type StatsDrawerProps = {
   open: boolean;
   onToggle: () => void;
-  mastered: number;
+  saved: number;
   toRepeat: number;
-  accuracy: number;
   tongue: MotherTongue;
 };
 
 export function StatsDrawer({
   open,
   onToggle,
-  mastered,
+  saved,
   toRepeat,
-  accuracy,
   tongue,
 }: StatsDrawerProps) {
   return (
@@ -33,10 +31,9 @@ export function StatsDrawer({
         <ChevronDown className={`h-4 w-4 text-slate-500 transition ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
-        <div className="grid grid-cols-3 gap-3 border-t border-slate-800 px-4 py-4">
-          <Stat label={t(tongue, "mastered")} value={String(mastered)} />
+        <div className="grid grid-cols-2 gap-3 border-t border-slate-800 px-4 py-4">
+          <Stat label={t(tongue, "mastered")} value={String(saved)} />
           <Stat label={t(tongue, "repeat")} value={String(toRepeat)} />
-          <Stat label={t(tongue, "accuracy")} value={`${accuracy}%`} />
         </div>
       )}
     </section>

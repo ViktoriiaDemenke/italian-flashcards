@@ -1,4 +1,5 @@
-import { Volume2 } from "lucide-react";
+import type { MouseEvent } from "react";
+import { RefreshCw, Volume2 } from "lucide-react";
 import { TENSE_LABEL, TENSE_ORDER } from "../data/deck";
 import { exampleTranslationOf, translationOf } from "../lib/copy";
 import { speakItalian } from "../lib/speech";
@@ -45,6 +46,11 @@ export function Flashcard({
   const forms = card.kind === "verb" && shownTense ? card.tenses?.[shownTense] : undefined;
   const exampleTranslation = exampleTranslationOf(card, tongue);
 
+  function speak(event: MouseEvent) {
+    event.stopPropagation();
+    speakItalian(card.italian);
+  }
+
   return (
     <section className="space-y-3">
       <div>
@@ -60,7 +66,7 @@ export function Flashcard({
         />
       </div>
 
-      <div className="perspective">
+      <div className="perspective" key={card.id}>
         <div className={`card-inner ${flipped ? "is-flipped" : ""}`}>
           <article className="card-face relative rounded-xl border border-slate-800 bg-[#111827] p-6 shadow-[0_20px_60px_rgba(0,0,0,0.35)] sm:p-8">
             <div className="mb-4 flex items-start justify-between gap-3">
@@ -88,17 +94,27 @@ export function Flashcard({
                     ))
                   : null}
               </div>
-              <button
-                type="button"
-                aria-label={t(tongue, "speak")}
-                onClick={(event) => {
-                  event.stopPropagation();
-                  speakItalian(card.italian);
-                }}
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
-              >
-                <Volume2 className="h-4 w-4" />
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  aria-label={t(tongue, "flip")}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onFlip();
+                  }}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
+                >
+                  <RefreshCw className="h-4 w-4" />
+                </button>
+                <button
+                  type="button"
+                  aria-label={t(tongue, "speak")}
+                  onClick={speak}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
+                >
+                  <Volume2 className="h-4 w-4" />
+                </button>
+              </div>
             </div>
             <button type="button" onClick={onFlip} className="w-full cursor-pointer text-center">
               <p className="text-[11px] tracking-[0.22em] text-slate-500">ITALIANO</p>
@@ -123,6 +139,27 @@ export function Flashcard({
           </article>
 
           <article className="card-face card-back rounded-xl border border-emerald-400/30 bg-[#111827] p-6 shadow-[0_0_28px_rgba(16,185,129,0.12)] sm:p-8">
+            <div className="mb-4 flex justify-end gap-2">
+              <button
+                type="button"
+                aria-label={t(tongue, "flip")}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onFlip();
+                }}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-400/40 text-emerald-300 transition hover:bg-emerald-500/10"
+              >
+                <RefreshCw className="h-4 w-4" />
+              </button>
+              <button
+                type="button"
+                aria-label={t(tongue, "speak")}
+                onClick={speak}
+                className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-400/40 text-emerald-300 transition hover:bg-emerald-500/10"
+              >
+                <Volume2 className="h-4 w-4" />
+              </button>
+            </div>
             <button
               type="button"
               onClick={onFlip}

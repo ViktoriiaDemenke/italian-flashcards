@@ -42,6 +42,11 @@ export type UiKey =
   | "cardOf"
   | "reveal"
   | "hide"
+  | "back"
+  | "save"
+  | "saved"
+  | "next"
+  | "flip"
   | "again"
   | "hard"
   | "good"
@@ -109,6 +114,11 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   cardOf: { en: "CARD {n} OF {total}", uk: "КАРТКА {n} З {total}", ru: "КАРТОЧКА {n} ИЗ {total}", de: "KARTE {n} VON {total}", pl: "KARTA {n} Z {total}", es: "TARJETA {n} DE {total}", fr: "CARTE {n} SUR {total}", ro: "CARDUL {n} DIN {total}" },
   reveal: { en: "Click to reveal the translation", uk: "Натисніть, щоб побачити переклад", ru: "Нажмите, чтобы увидеть перевод", de: "Klicken, um die Übersetzung zu sehen", pl: "Kliknij, aby zobaczyć tłumaczenie", es: "Clic para ver la traducción", fr: "Cliquez pour voir la traduction", ro: "Clic pentru traducere" },
   hide: { en: "Click to return to Italian", uk: "Натисніть, щоб повернутись до італійської", ru: "Нажмите, чтобы вернуться к итальянскому", de: "Klicken, um zum Italienischen zurückzukehren", pl: "Kliknij, aby wrócić do włoskiego", es: "Clic para volver al italiano", fr: "Cliquez pour revenir à l'italien", ro: "Clic pentru a reveni la italiană" },
+  back: { en: "← Back", uk: "← Назад", ru: "← Назад", de: "← Zurück", pl: "← Wstecz", es: "← Atrás", fr: "← Retour", ro: "← Înapoi" },
+  save: { en: "Save / Review later", uk: "Зберегти / Повторити пізніше", ru: "Сохранить / Повторить позже", de: "Speichern / Später wiederholen", pl: "Zapisz / Powtórz później", es: "Guardar / Repetir luego", fr: "Enregistrer / Revoir plus tard", ro: "Salvează / Repetă mai târziu" },
+  saved: { en: "Saved / To repeat", uk: "Збережено / Повторити", ru: "Сохранено / Повторить", de: "Gespeichert / Wiederholen", pl: "Zapisane / Do powtórki", es: "Guardada / A repetir", fr: "Enregistrée / À revoir", ro: "Salvată / De repetat" },
+  next: { en: "Next →", uk: "Далі →", ru: "Дальше →", de: "Weiter →", pl: "Dalej →", es: "Siguiente →", fr: "Suivant →", ro: "Înainte →" },
+  flip: { en: "Flip card", uk: "Перевернути картку", ru: "Перевернуть карточку", de: "Karte drehen", pl: "Obróć kartę", es: "Voltear tarjeta", fr: "Retourner la carte", ro: "Întoarce cardul" },
   again: { en: "Again", uk: "Знову", ru: "Снова", de: "Nochmal", pl: "Znów", es: "Otra vez", fr: "Encore", ro: "Din nou" },
   hard: { en: "Hard", uk: "Важко", ru: "Трудно", de: "Schwer", pl: "Trudne", es: "Difícil", fr: "Difficile", ro: "Greu" },
   good: { en: "Good", uk: "Добре", ru: "Хорошо", de: "Gut", pl: "Dobrze", es: "Bien", fr: "Bien", ro: "Bine" },
@@ -125,7 +135,7 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   keep: { en: "Choose another level or category to keep studying.", uk: "Оберіть інший рівень або категорію.", ru: "Выберите другой уровень или категорию.", de: "Wähle eine andere Stufe oder Kategorie.", pl: "Wybierz inny poziom albo kategorię.", es: "Elige otro nivel o categoría.", fr: "Choisissez un autre niveau ou une autre catégorie.", ro: "Alege alt nivel sau altă categorie." },
   againBtn: { en: "Study again", uk: "Вчити знову", ru: "Учить снова", de: "Nochmal lernen", pl: "Ucz się znów", es: "Estudiar de nuevo", fr: "Étudier encore", ro: "Studiază din nou" },
   stats: { en: "SESSION STATS", uk: "СТАТИСТИКА СЕСІЇ", ru: "СТАТИСТИКА СЕССИИ", de: "SITZUNGSSTATISTIK", pl: "STATYSTYKI SESJI", es: "ESTADÍSTICAS", fr: "STATS DE SESSION", ro: "STATISTICI" },
-  mastered: { en: "Mastered", uk: "Вивчено", ru: "Выучено", de: "Gemeistert", pl: "Opanowane", es: "Dominadas", fr: "Maîtrisées", ro: "Învățate" },
+  mastered: { en: "Saved", uk: "Збережено", ru: "Сохранено", de: "Gespeichert", pl: "Zapisane", es: "Guardadas", fr: "Enregistrées", ro: "Salvate" },
   repeat: { en: "To repeat", uk: "Повторити", ru: "Повторить", de: "Wiederholen", pl: "Do powtórki", es: "A repetir", fr: "À revoir", ro: "De repetat" },
   accuracy: { en: "Accuracy", uk: "Точність", ru: "Точность", de: "Genauigkeit", pl: "Trafność", es: "Precisión", fr: "Précision", ro: "Acuratețe" },
   mother: { en: "Mother tongue", uk: "Рідна мова", ru: "Родной язык", de: "Muttersprache", pl: "Język ojczysty", es: "Lengua materna", fr: "Langue maternelle", ro: "Limbă maternă" },
