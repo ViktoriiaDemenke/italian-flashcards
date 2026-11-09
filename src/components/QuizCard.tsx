@@ -1,8 +1,8 @@
-import { useMemo, useState, type MouseEvent } from "react";
+import { useMemo } from "react";
 import { Volume2 } from "lucide-react";
 import { DECK } from "../data/deck";
+import { useSpeech } from "../hooks/useSpeech";
 import { translationOf } from "../lib/copy";
-import { speakText } from "../lib/speech";
 import { cardCount, t } from "../lib/ui";
 import type { MotherTongue, StudyCard } from "../types";
 
@@ -30,13 +30,7 @@ function shuffle<T>(items: T[], seed: string) {
 
 export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer }: QuizCardProps) {
   const progress = total === 0 ? 0 : ((index + 1) / total) * 100;
-  const [rate, setRate] = useState<1 | 0.75>(1);
-  const spoken = [card.italian, card.example].filter(Boolean).join(". ");
-
-  function speak(event: MouseEvent) {
-    event.stopPropagation();
-    speakText(spoken, rate);
-  }
+  const { rate, setRate, speak } = useSpeech();
   const choices = useMemo(() => {
     const extras = [...pool, ...DECK].filter((item) => item.id !== card.id);
     const unique: StudyCard[] = [];
@@ -84,7 +78,10 @@ export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer 
             <button
               type="button"
               aria-label={t(tongue, "speak")}
-              onClick={speak}
+              onClick={(e) => {
+                e.stopPropagation();
+                speak(card.italian);
+              }}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
             >
               <Volume2 className="h-4 w-4" />
@@ -94,6 +91,22 @@ export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer 
         <h2 className="mt-3 text-center text-3xl font-semibold tracking-tight text-white sm:text-4xl">
           {card.italian}
         </h2>
+        {card.example && (
+          <p className="mx-auto mt-4 flex max-w-md items-center justify-center gap-2 text-center text-sm italic text-slate-300">
+            <span>{card.example}</span>
+            <button
+              type="button"
+              aria-label={t(tongue, "speak")}
+              onClick={(e) => {
+                e.stopPropagation();
+                speak(card.example ?? "");
+              }}
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
+            >
+              <Volume2 className="h-3.5 w-3.5" />
+            </button>
+          </p>
+        )}
         <div className="mt-8 grid gap-2">
           {choices.map((choice) => (
             <button

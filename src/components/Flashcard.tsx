@@ -1,8 +1,7 @@
-import { useState, type MouseEvent } from "react";
 import { RefreshCw, Volume2 } from "lucide-react";
 import { TENSE_LABEL, TENSE_ORDER } from "../data/deck";
 import { exampleTranslationOf, translationOf } from "../lib/copy";
-import { speakText } from "../lib/speech";
+import { useSpeech } from "../hooks/useSpeech";
 import { cardCount, t } from "../lib/ui";
 import type { MotherTongue, StudyCard, TenseId } from "../types";
 
@@ -45,18 +44,7 @@ export function Flashcard({
   const shownTense = multi ? activeTense : "presente";
   const forms = card.kind === "verb" && shownTense ? card.tenses?.[shownTense] : undefined;
   const exampleTranslation = exampleTranslationOf(card, tongue);
-  const [rate, setRate] = useState<1 | 0.75>(1);
-  const spoken = [card.italian, card.example].filter(Boolean).join(". ");
-
-  function speak(event: MouseEvent) {
-    event.stopPropagation();
-    speakText(spoken, rate);
-  }
-
-  function chooseRate(event: MouseEvent, next: 1 | 0.75) {
-    event.stopPropagation();
-    setRate(next);
-  }
+  const { rate, setRate, speak } = useSpeech();
 
   const rates = (
     <div className="inline-flex rounded-full border border-slate-700 p-0.5" role="group" aria-label="Speech speed">
@@ -65,7 +53,10 @@ export function Flashcard({
           key={value}
           type="button"
           aria-pressed={rate === value}
-          onClick={(event) => chooseRate(event, value)}
+          onClick={(event) => {
+            event.stopPropagation();
+            setRate(value);
+          }}
           className={`rounded-full px-2 py-1 text-[11px] font-medium ${
             rate === value ? "bg-emerald-500 text-slate-950" : "text-slate-300"
           }`}
@@ -75,6 +66,34 @@ export function Flashcard({
       ))}
     </div>
   );
+
+  const wordSpeaker = (
+    <button
+      type="button"
+      aria-label={t(tongue, "speak")}
+      onClick={(e) => {
+        e.stopPropagation();
+        speak(card.italian);
+      }}
+      className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
+    >
+      <Volume2 className="h-4 w-4" />
+    </button>
+  );
+
+  const exampleSpeaker = card.example ? (
+    <button
+      type="button"
+      aria-label={t(tongue, "speak")}
+      onClick={(e) => {
+        e.stopPropagation();
+        speak(card.example ?? "");
+      }}
+      className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
+    >
+      <Volume2 className="h-3.5 w-3.5" />
+    </button>
+  ) : null;
 
   return (
     <section className="space-y-3">
@@ -132,14 +151,7 @@ export function Flashcard({
                   <RefreshCw className="h-4 w-4" />
                 </button>
                 {rates}
-                <button
-                  type="button"
-                  aria-label={t(tongue, "speak")}
-                  onClick={speak}
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
-                >
-                  <Volume2 className="h-4 w-4" />
-                </button>
+                {wordSpeaker}
               </div>
             </div>
             <button type="button" onClick={onFlip} className="w-full cursor-pointer text-center">
@@ -157,11 +169,14 @@ export function Flashcard({
                   ))}
                 </div>
               )}
-              {card.example && (
-                <p className="mx-auto mt-6 max-w-md text-sm italic text-slate-300">{card.example}</p>
-              )}
               <p className="mt-6 text-xs text-slate-500">{t(tongue, "reveal")}</p>
             </button>
+            {card.example && (
+              <p className="mx-auto mt-6 flex max-w-md items-center justify-center gap-2 text-center text-sm italic text-slate-300">
+                <span>{card.example}</span>
+                {exampleSpeaker}
+              </p>
+            )}
           </article>
 
           <article className="card-face card-back rounded-xl border border-emerald-400/30 bg-[#111827] p-6 shadow-[0_0_28px_rgba(16,185,129,0.12)] sm:p-8">
@@ -178,14 +193,8 @@ export function Flashcard({
                 <RefreshCw className="h-4 w-4" />
               </button>
               {rates}
-              <button
-                type="button"
-                aria-label={t(tongue, "speak")}
-                onClick={speak}
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-400/40 text-emerald-300 transition hover:bg-emerald-500/10"
-              >
-                <Volume2 className="h-4 w-4" />
-              </button>
+              {wordSpeaker}
+              {exampleSpeaker}
             </div>
             <button
               type="button"
