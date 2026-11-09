@@ -1,4 +1,4 @@
-import type { MouseEvent } from "react";
+import { useState, type MouseEvent } from "react";
 import { RefreshCw, Volume2 } from "lucide-react";
 import { TENSE_LABEL, TENSE_ORDER } from "../data/deck";
 import { exampleTranslationOf, translationOf } from "../lib/copy";
@@ -45,11 +45,36 @@ export function Flashcard({
   const shownTense = multi ? activeTense : "presente";
   const forms = card.kind === "verb" && shownTense ? card.tenses?.[shownTense] : undefined;
   const exampleTranslation = exampleTranslationOf(card, tongue);
+  const [rate, setRate] = useState<1 | 0.75>(1);
+  const spoken = [card.italian, card.example].filter(Boolean).join(". ");
 
   function speak(event: MouseEvent) {
     event.stopPropagation();
-    speakItalian(card.italian);
+    speakItalian(spoken, rate);
   }
+
+  function chooseRate(event: MouseEvent, next: 1 | 0.75) {
+    event.stopPropagation();
+    setRate(next);
+  }
+
+  const rates = (
+    <div className="inline-flex rounded-full border border-slate-700 p-0.5" role="group" aria-label="Speech speed">
+      {([1, 0.75] as const).map((value) => (
+        <button
+          key={value}
+          type="button"
+          aria-pressed={rate === value}
+          onClick={(event) => chooseRate(event, value)}
+          className={`rounded-full px-2 py-1 text-[11px] font-medium ${
+            rate === value ? "bg-emerald-500 text-slate-950" : "text-slate-300"
+          }`}
+        >
+          {value === 1 ? "1.0x" : "0.75x"}
+        </button>
+      ))}
+    </div>
+  );
 
   return (
     <section className="space-y-3">
@@ -106,6 +131,7 @@ export function Flashcard({
                 >
                   <RefreshCw className="h-4 w-4" />
                 </button>
+                {rates}
                 <button
                   type="button"
                   aria-label={t(tongue, "speak")}
@@ -151,6 +177,7 @@ export function Flashcard({
               >
                 <RefreshCw className="h-4 w-4" />
               </button>
+              {rates}
               <button
                 type="button"
                 aria-label={t(tongue, "speak")}
