@@ -20,16 +20,13 @@ export function useSpeech() {
     if (!phrase) return;
     const synthesis = window.speechSynthesis;
     const activeRate = rate === 0.75 ? 0.75 : 1.0;
-    synthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(phrase);
     utterance.lang = "it-IT";
     utterance.rate = activeRate;
     const voice = synthesis.getVoices().find((item) => item.lang.toLowerCase().startsWith("it"));
     if (voice) utterance.voice = voice;
-    window.setTimeout(() => {
-      synthesis.resume();
-      window.speechSynthesis.speak(utterance);
-    }, 0);
+    synthesis.cancel();
+    synthesis.speak(utterance);
   }
 
   return { rate, setRate, speak };
