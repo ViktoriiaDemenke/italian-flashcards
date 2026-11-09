@@ -99,7 +99,8 @@ export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer 
               aria-label={t(tongue, "speak")}
               onClick={(e) => {
                 e.stopPropagation();
-                speak(card.example ?? "");
+                if (!card.example) return;
+                speak(card.example);
               }}
               className="flex h-8 w-8 items-center justify-center rounded-full border border-slate-700 text-slate-300 transition hover:border-emerald-400/60 hover:text-emerald-300"
             >
