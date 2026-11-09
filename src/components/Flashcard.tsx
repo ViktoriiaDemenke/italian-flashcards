@@ -2,7 +2,7 @@ import { useState, type MouseEvent } from "react";
 import { RefreshCw, Volume2 } from "lucide-react";
 import { TENSE_LABEL, TENSE_ORDER } from "../data/deck";
 import { exampleTranslationOf, translationOf } from "../lib/copy";
-import { speakItalian } from "../lib/speech";
+import { speakText } from "../lib/speech";
 import { cardCount, t } from "../lib/ui";
 import type { MotherTongue, StudyCard, TenseId } from "../types";
 
@@ -50,7 +50,7 @@ export function Flashcard({
 
   function speak(event: MouseEvent) {
     event.stopPropagation();
-    speakItalian(spoken, rate);
+    speakText(spoken, rate);
   }
 
   function chooseRate(event: MouseEvent, next: 1 | 0.75) {

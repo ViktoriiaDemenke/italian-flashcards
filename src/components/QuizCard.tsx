@@ -2,7 +2,7 @@ import { useMemo, useState, type MouseEvent } from "react";
 import { Volume2 } from "lucide-react";
 import { DECK } from "../data/deck";
 import { translationOf } from "../lib/copy";
-import { speakItalian } from "../lib/speech";
+import { speakText } from "../lib/speech";
 import { cardCount, t } from "../lib/ui";
 import type { MotherTongue, StudyCard } from "../types";
 
@@ -35,7 +35,7 @@ export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer 
 
   function speak(event: MouseEvent) {
     event.stopPropagation();
-    speakItalian(spoken, rate);
+    speakText(spoken, rate);
   }
   const choices = useMemo(() => {
     const extras = [...pool, ...DECK].filter((item) => item.id !== card.id);
