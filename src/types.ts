@@ -4,6 +4,22 @@ export type CategoryId = "household" | "calendar" | "ordinals" | "verbs";
 
 export type FilterId = "quick" | CategoryId;
 
+export type TopicId =
+  | "soggiorno"
+  | "bagno"
+  | "camera"
+  | "cucina"
+  | "days"
+  | "months"
+  | "moments"
+  | "early"
+  | "later"
+  | "aux"
+  | "motion"
+  | "daily";
+
+export type StudyMode = "cards" | "quiz";
+
 export type SourceLang = "en-GB" | "en-US" | "es" | "fr" | "ro";
 
 export type TenseId = "presente" | "passato" | "futuro";
@@ -24,11 +40,13 @@ export type LangText = {
 export type StudyCard = {
   id: string;
   category: CategoryId;
+  topic: TopicId;
   level: Level;
   italian: string;
   kind: "verb" | "vocab";
   detail: string;
   example?: string;
+  exampleTranslation?: LangText;
   tenses?: Partial<Record<TenseId, Conjugation>>;
   translation: LangText;
   gloss: LangText;

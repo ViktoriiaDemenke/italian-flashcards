@@ -1,4 +1,6 @@
-import type { Conjugation, StudyCard, TenseId } from "../types";
+import type { Conjugation, StudyCard, TenseId, TopicId } from "../types";
+
+type DraftCard = Omit<StudyCard, "topic">;
 
 const presente = (
   io: string,
@@ -10,14 +12,12 @@ const presente = (
 ): Conjugation => ({ io, tu, lui, noi, voi, loro });
 
 function verb(
-  card: Omit<StudyCard, "kind" | "category"> & { category?: "verbs" },
-): StudyCard {
+  card: Omit<DraftCard, "kind" | "category"> & { category?: "verbs" },
+): DraftCard {
   return { ...card, kind: "verb", category: "verbs" };
 }
 
-function vocab(
-  card: Omit<StudyCard, "kind" | "tenses">,
-): StudyCard {
+function vocab(card: Omit<DraftCard, "kind" | "tenses">): DraftCard {
   return { ...card, kind: "vocab" };
 }
 
@@ -172,7 +172,7 @@ const prendereTenses: Record<TenseId, Conjugation> = {
   ),
 };
 
-export const DECK: StudyCard[] = [
+const RAW_DECK: DraftCard[] = [
   vocab({
     id: "casa",
     category: "household",
@@ -360,6 +360,90 @@ export const DECK: StudyCard[] = [
       es: "Una toalla. El artículo se elide.",
       fr: "Une serviette. L'article s'élide.",
       ro: "Un prosop. Articolul se elidează.",
+    },
+  }),
+  vocab({
+    id: "divano",
+    category: "household",
+    level: "A1",
+    italian: "Il divano",
+    detail: "Masculine · il divano",
+    example: "Il divano è in soggiorno.",
+    translation: { en: "the sofa", es: "el sofá", fr: "le canapé", ro: "canapeaua" },
+    gloss: {
+      en: "A sofa in the living room. Masculine: il divano.",
+      es: "Un sofá del salón. Masculino: il divano.",
+      fr: "Un canapé du séjour. Masculin : il divano.",
+      ro: "O canapea din sufragerie. Masculin: il divano.",
+    },
+    exampleTranslation: {
+      en: "The sofa is in the living room.",
+      es: "El sofá está en el salón.",
+      fr: "Le canapé est dans le séjour.",
+      ro: "Canapeaua este în sufragerie.",
+    },
+  }),
+  vocab({
+    id: "sapone",
+    category: "household",
+    level: "A1",
+    italian: "Il sapone",
+    detail: "Masculine · il sapone",
+    example: "Il sapone è nel bagno.",
+    translation: { en: "the soap", es: "el jabón", fr: "le savon", ro: "săpunul" },
+    gloss: {
+      en: "Soap. Masculine even though it ends in -e.",
+      es: "Jabón. Masculino aunque termina en -e.",
+      fr: "Savon. Masculin bien qu'il finisse par -e.",
+      ro: "Săpun. Masculin deși se termină în -e.",
+    },
+    exampleTranslation: {
+      en: "The soap is in the bathroom.",
+      es: "El jabón está en el baño.",
+      fr: "Le savon est dans la salle de bain.",
+      ro: "Săpunul este în baie.",
+    },
+  }),
+  vocab({
+    id: "cuscino",
+    category: "household",
+    level: "A1",
+    italian: "Il cuscino",
+    detail: "Masculine · il cuscino",
+    example: "Il cuscino è sul letto.",
+    translation: { en: "the pillow", es: "la almohada", fr: "l'oreiller", ro: "perna" },
+    gloss: {
+      en: "A pillow on the bed. Masculine: il cuscino, i cuscini.",
+      es: "Una almohada. Masculino: il cuscino.",
+      fr: "Un oreiller. Masculin : il cuscino.",
+      ro: "O pernă. Masculin: il cuscino.",
+    },
+    exampleTranslation: {
+      en: "The pillow is on the bed.",
+      es: "La almohada está sobre la cama.",
+      fr: "L'oreiller est sur le lit.",
+      ro: "Perna este pe pat.",
+    },
+  }),
+  vocab({
+    id: "piatto",
+    category: "household",
+    level: "A2",
+    italian: "Il piatto",
+    detail: "Masculine · il piatto",
+    example: "Metto il piatto in cucina.",
+    translation: { en: "the plate", es: "el plato", fr: "l'assiette", ro: "farfuria" },
+    gloss: {
+      en: "A plate. Plural i piatti also means dishes to wash.",
+      es: "Un plato. I piatti también son los platos sucios.",
+      fr: "Une assiette. I piatti désigne aussi la vaisselle.",
+      ro: "O farfurie. I piatti înseamnă și vasele de spălat.",
+    },
+    exampleTranslation: {
+      en: "I put the plate in the kitchen.",
+      es: "Pongo el plato en la cocina.",
+      fr: "Je mets l'assiette dans la cuisine.",
+      ro: "Pun farfuria în bucătărie.",
     },
   }),
 
@@ -853,6 +937,334 @@ export const DECK: StudyCard[] = [
     },
   }),
 ];
+
+const TOPICS: Record<string, TopicId> = {
+  casa: "soggiorno",
+  tavolo: "soggiorno",
+  sedia: "soggiorno",
+  libro: "soggiorno",
+  porta: "soggiorno",
+  finestra: "soggiorno",
+  lampada: "soggiorno",
+  divano: "soggiorno",
+  specchio: "bagno",
+  asciugamano: "bagno",
+  sapone: "bagno",
+  letto: "camera",
+  cuscino: "camera",
+  cucina: "cucina",
+  frigorifero: "cucina",
+  piatto: "cucina",
+  oggi: "moments",
+  domani: "moments",
+  ieri: "moments",
+  settimana: "moments",
+  ora: "moments",
+  mezzogiorno: "moments",
+  lunedi: "days",
+  sabato: "days",
+  domenica: "days",
+  gennaio: "months",
+  mese: "months",
+  anno: "months",
+  primo: "early",
+  secondo: "early",
+  terzo: "early",
+  quarto: "early",
+  quinto: "early",
+  sesto: "later",
+  settimo: "later",
+  ottavo: "later",
+  nono: "later",
+  decimo: "later",
+  essere: "aux",
+  avere: "aux",
+  andare: "motion",
+  venire: "motion",
+  fare: "daily",
+  vedere: "daily",
+  parlare: "daily",
+  dovere: "daily",
+  dire: "daily",
+  prendere: "daily",
+};
+
+const EXAMPLE_LINES: Record<string, { en: string; es: string; fr: string; ro: string }> = {
+  casa: {
+    en: "The house is near the sea.",
+    es: "La casa está cerca del mar.",
+    fr: "La maison est près de la mer.",
+    ro: "Casa este lângă mare.",
+  },
+  tavolo: {
+    en: "The table is in the kitchen.",
+    es: "La mesa está en la cocina.",
+    fr: "La table est dans la cuisine.",
+    ro: "Masa este în bucătărie.",
+  },
+  sedia: {
+    en: "The chair is comfortable.",
+    es: "La silla es cómoda.",
+    fr: "La chaise est confortable.",
+    ro: "Scaunul este comod.",
+  },
+  libro: {
+    en: "The book is on the table.",
+    es: "El libro está sobre la mesa.",
+    fr: "Le livre est sur la table.",
+    ro: "Cartea este pe masă.",
+  },
+  porta: {
+    en: "Close the door, please.",
+    es: "Cierra la puerta, por favor.",
+    fr: "Ferme la porte, s'il te plaît.",
+    ro: "Închide ușa, te rog.",
+  },
+  finestra: {
+    en: "I open the window in the morning.",
+    es: "Abro la ventana por la mañana.",
+    fr: "J'ouvre la fenêtre le matin.",
+    ro: "Deschid fereastra dimineața.",
+  },
+  cucina: {
+    en: "The kitchen is bright.",
+    es: "La cocina es luminosa.",
+    fr: "La cuisine est lumineuse.",
+    ro: "Bucătăria este luminoasă.",
+  },
+  letto: {
+    en: "The bed is my favourite place.",
+    es: "La cama es mi lugar favorito.",
+    fr: "Le lit est mon endroit préféré.",
+    ro: "Patul este locul meu preferat.",
+  },
+  specchio: {
+    en: "The mirror is in the entrance.",
+    es: "El espejo está en la entrada.",
+    fr: "Le miroir est à l'entrée.",
+    ro: "Oglinda este la intrare.",
+  },
+  lampada: {
+    en: "The lamp has a warm light.",
+    es: "La lámpara tiene una luz cálida.",
+    fr: "La lampe a une lumière chaude.",
+    ro: "Lampa are o lumină caldă.",
+  },
+  frigorifero: {
+    en: "The milk is in the refrigerator.",
+    es: "La leche está en el frigorífico.",
+    fr: "Le lait est dans le réfrigérateur.",
+    ro: "Laptele este în frigider.",
+  },
+  asciugamano: {
+    en: "I take a clean towel.",
+    es: "Cojo una toalla limpia.",
+    fr: "Je prends une serviette propre.",
+    ro: "Iau un prosop curat.",
+  },
+  oggi: {
+    en: "Today is Monday.",
+    es: "Hoy es lunes.",
+    fr: "Aujourd'hui, c'est lundi.",
+    ro: "Astăzi este luni.",
+  },
+  domani: {
+    en: "Tomorrow I work from home.",
+    es: "Mañana trabajo desde casa.",
+    fr: "Demain je travaille de la maison.",
+    ro: "Mâine lucrez de acasă.",
+  },
+  lunedi: {
+    en: "On Monday I start early.",
+    es: "El lunes empiezo temprano.",
+    fr: "Le lundi, je commence tôt.",
+    ro: "Lunea încep devreme.",
+  },
+  gennaio: {
+    en: "January is the first month.",
+    es: "Enero es el primer mes.",
+    fr: "Janvier est le premier mois.",
+    ro: "Ianuarie este prima lună.",
+  },
+  ieri: {
+    en: "Yesterday I studied the verbs.",
+    es: "Ayer estudié los verbos.",
+    fr: "Hier j'ai étudié les verbes.",
+    ro: "Ieri am studiat verbele.",
+  },
+  settimana: {
+    en: "This week I study every day.",
+    es: "Esta semana estudio cada día.",
+    fr: "Cette semaine j'étudie chaque jour.",
+    ro: "Săptămâna aceasta studiez în fiecare zi.",
+  },
+  ora: {
+    en: "What time is it?",
+    es: "¿Qué hora es?",
+    fr: "Quelle heure est-il ?",
+    ro: "Cât este ceasul?",
+  },
+  mese: {
+    en: "Next month I leave.",
+    es: "El mes que viene me voy.",
+    fr: "Le mois prochain, je pars.",
+    ro: "Luna viitoare plec.",
+  },
+  sabato: {
+    en: "On Saturday I sleep in.",
+    es: "El sábado duermo hasta tarde.",
+    fr: "Le samedi, je dors tard.",
+    ro: "Sâmbăta dorm până târziu.",
+  },
+  domenica: {
+    en: "On Sunday we have lunch together.",
+    es: "El domingo comemos juntos.",
+    fr: "Le dimanche, nous déjeunons ensemble.",
+    ro: "Duminica luăm prânzul împreună.",
+  },
+  mezzogiorno: {
+    en: "See you at noon.",
+    es: "Nos vemos al mediodía.",
+    fr: "On se voit à midi.",
+    ro: "Ne vedem la amiază.",
+  },
+  anno: {
+    en: "Last year I visited Rome.",
+    es: "El año pasado visité Roma.",
+    fr: "L'année dernière, j'ai visité Rome.",
+    ro: "Anul trecut am vizitat Roma.",
+  },
+  primo: {
+    en: "It is the first day of school.",
+    es: "Es el primer día de escuela.",
+    fr: "C'est le premier jour d'école.",
+    ro: "Este prima zi de școală.",
+  },
+  secondo: {
+    en: "I live on the second floor.",
+    es: "Vivo en el segundo piso.",
+    fr: "J'habite au deuxième étage.",
+    ro: "Locuiesc la etajul doi.",
+  },
+  terzo: {
+    en: "It is the third time.",
+    es: "Es la tercera vez.",
+    fr: "C'est la troisième fois.",
+    ro: "Este a treia oară.",
+  },
+  quarto: {
+    en: "A quarter of an hour is left.",
+    es: "Falta un cuarto de hora.",
+    fr: "Il reste un quart d'heure.",
+    ro: "Mai este un sfert de oră.",
+  },
+  quinto: {
+    en: "It is the fifth on the list.",
+    es: "Es el quinto de la lista.",
+    fr: "C'est le cinquième de la liste.",
+    ro: "Este al cincilea pe listă.",
+  },
+  sesto: {
+    en: "We are on the sixth chapter.",
+    es: "Estamos en el sexto capítulo.",
+    fr: "Nous en sommes au sixième chapitre.",
+    ro: "Suntem la capitolul șase.",
+  },
+  settimo: {
+    en: "On the seventh day we rest.",
+    es: "El séptimo día descansamos.",
+    fr: "Le septième jour, nous nous reposons.",
+    ro: "În a șaptea zi ne odihnim.",
+  },
+  ottavo: {
+    en: "It is the eighth attempt.",
+    es: "Es el octavo intento.",
+    fr: "C'est la huitième tentative.",
+    ro: "Este a opta încercare.",
+  },
+  nono: {
+    en: "The ninth month is September.",
+    es: "El noveno mes es septiembre.",
+    fr: "Le neuvième mois est septembre.",
+    ro: "A noua lună este septembrie.",
+  },
+  decimo: {
+    en: "It is the tenth anniversary.",
+    es: "Es el décimo aniversario.",
+    fr: "C'est le dixième anniversaire.",
+    ro: "Este a zecea aniversare.",
+  },
+  essere: {
+    en: "I am from Rome.",
+    es: "Soy de Roma.",
+    fr: "Je suis de Rome.",
+    ro: "Sunt din Roma.",
+  },
+  avere: {
+    en: "I have a new book.",
+    es: "Tengo un libro nuevo.",
+    fr: "J'ai un livre neuf.",
+    ro: "Am o carte nouă.",
+  },
+  andare: {
+    en: "I am going to the market.",
+    es: "Voy al mercado.",
+    fr: "Je vais au marché.",
+    ro: "Merg la piață.",
+  },
+  fare: {
+    en: "I have breakfast at eight.",
+    es: "Desayuno a las ocho.",
+    fr: "Je prends le petit-déjeuner à huit heures.",
+    ro: "Iau micul dejun la opt.",
+  },
+  vedere: {
+    en: "I see the sea from the window.",
+    es: "Veo el mar desde la ventana.",
+    fr: "Je vois la mer depuis la fenêtre.",
+    ro: "Văd marea de la fereastră.",
+  },
+  parlare: {
+    en: "We speak Italian every day.",
+    es: "Hablamos italiano cada día.",
+    fr: "Nous parlons italien chaque jour.",
+    ro: "Vorbim italiană în fiecare zi.",
+  },
+  dovere: {
+    en: "I have to study the verbs.",
+    es: "Debo estudiar los verbos.",
+    fr: "Je dois étudier les verbes.",
+    ro: "Trebuie să studiez verbele.",
+  },
+  dire: {
+    en: "I tell the truth.",
+    es: "Digo la verdad.",
+    fr: "Je dis la vérité.",
+    ro: "Spun adevărul.",
+  },
+  venire: {
+    en: "I come from Milan.",
+    es: "Vengo de Milán.",
+    fr: "Je viens de Milan.",
+    ro: "Vin din Milano.",
+  },
+  prendere: {
+    en: "I'll have a coffee.",
+    es: "Tomo un café.",
+    fr: "Je prends un café.",
+    ro: "Iau o cafea.",
+  },
+};
+
+export const DECK: StudyCard[] = RAW_DECK.map((card) => {
+  const topic = TOPICS[card.id];
+  if (!topic) throw new Error(`Missing topic for ${card.id}`);
+  return {
+    ...card,
+    topic,
+    exampleTranslation: card.exampleTranslation ?? EXAMPLE_LINES[card.id],
+  };
+});
 
 export const TENSE_ORDER: TenseId[] = ["presente", "passato", "futuro"];
 

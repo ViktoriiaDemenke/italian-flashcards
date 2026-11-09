@@ -15,13 +15,22 @@ export function glossOf(card: StudyCard, lang: SourceLang) {
   return card.gloss[langKey(lang)];
 }
 
-export const SOURCE_OPTIONS: { id: SourceLang; flag: string; label: string }[] = [
-  { id: "en-GB", flag: "🇬🇧", label: "English" },
-  { id: "en-US", flag: "🇺🇸", label: "EN (US)" },
-  { id: "es", flag: "🇪🇸", label: "ES" },
-  { id: "fr", flag: "🇫🇷", label: "FR" },
-  { id: "ro", flag: "🇷🇴", label: "RO" },
+export function exampleTranslationOf(card: StudyCard, lang: SourceLang) {
+  if (!card.exampleTranslation) return undefined;
+  return card.exampleTranslation[langKey(lang)];
+}
+
+export const SOURCE_OPTIONS: { id: SourceLang; code: string; label: string }[] = [
+  { id: "en-US", code: "EN", label: "English" },
+  { id: "en-GB", code: "UK", label: "English (UK)" },
+  { id: "es", code: "ES", label: "Español" },
+  { id: "fr", code: "FR", label: "Français" },
+  { id: "ro", code: "RO", label: "Română" },
 ];
+
+export function sourceName(lang: SourceLang) {
+  return SOURCE_OPTIONS.find((option) => option.id === lang)?.label ?? "English";
+}
 
 export const LEVELS = [
   { id: "A1" as const, name: "Beginner" },

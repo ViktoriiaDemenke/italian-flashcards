@@ -4,9 +4,10 @@ import { CategoryBar, filterLabel } from "./components/CategoryBar";
 import { Flashcard } from "./components/Flashcard";
 import { GradeBar } from "./components/GradeBar";
 import { Header } from "./components/Header";
+import { QuizCard } from "./components/QuizCard";
 import { StatsDrawer } from "./components/StatsDrawer";
 import { DECK } from "./data/deck";
-import type { FilterId, GradeId, Level, SourceLang, TenseId } from "./types";
+import type { FilterId, GradeId, Level, SourceLang, StudyMode, TenseId, TopicId } from "./types";
 
 const DAILY_GOAL = 20;
 
@@ -14,6 +15,8 @@ export default function App() {
   const [level, setLevel] = useState<Level>("A1");
   const [source, setSource] = useState<SourceLang>("en-GB");
   const [filter, setFilter] = useState<FilterId>("quick");
+  const [topic, setTopic] = useState<TopicId | null>(null);
+  const [mode, setMode] = useState<StudyMode>("cards");
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [tense, setTense] = useState<TenseId>("presente");
@@ -24,10 +27,14 @@ export default function App() {
 
   const deck = useMemo(
     () =>
-      DECK.filter(
-        (card) => card.level === level && (filter === "quick" || card.category === filter),
-      ),
-    [level, filter],
+      DECK.filter((card) => {
+        if (card.level !== level) return false;
+        if (filter === "quick") return true;
+        if (card.category !== filter) return false;
+        if (topic && card.topic !== topic) return false;
+        return true;
+      }),
+    [level, filter, topic],
   );
 
   const card = deck[index];
@@ -43,8 +50,7 @@ export default function App() {
     setTense("presente");
   }
 
-  function grade(result: GradeId) {
-    if (!flipped || !card) return;
+  function advance(result: GradeId) {
     setCounts((current) => ({ ...current, [result]: current[result] + 1 }));
     setCardsToday((current) => current + 1);
     if (index + 1 >= deck.length) {
@@ -57,8 +63,13 @@ export default function App() {
     setTense("presente");
   }
 
+  function grade(result: GradeId) {
+    if (!flipped || !card || mode !== "cards") return;
+    advance(result);
+  }
+
   return (
-    <main className="min-h-screen bg-[#0b0f19] text-white">
+    <main className="min-h-screen bg-[#0f172a] text-white">
       <div className="mx-auto flex min-h-screen max-w-3xl flex-col gap-6 px-4 py-8 sm:px-6">
         <Header
           streak={0}
@@ -74,11 +85,44 @@ export default function App() {
         />
         <CategoryBar
           value={filter}
-          onChange={(next) => {
+          topic={topic}
+          onChange={(next, nextTopic) => {
             setFilter(next);
+            setTopic(nextTopic);
             resetPosition();
           }}
         />
+
+        <div className="flex justify-end">
+          <div className="inline-flex rounded-full border border-slate-700 bg-[#111827] p-0.5" role="group" aria-label="Study mode">
+            <button
+              type="button"
+              aria-pressed={mode === "cards"}
+              onClick={() => {
+                setMode("cards");
+                setFlipped(false);
+              }}
+              className={`rounded-full px-3 py-1.5 text-sm ${
+                mode === "cards" ? "bg-emerald-500 text-slate-950" : "text-slate-300"
+              }`}
+            >
+              Flashcards
+            </button>
+            <button
+              type="button"
+              aria-pressed={mode === "quiz"}
+              onClick={() => {
+                setMode("quiz");
+                setFlipped(false);
+              }}
+              className={`rounded-full px-3 py-1.5 text-sm ${
+                mode === "quiz" ? "bg-emerald-500 text-slate-950" : "text-slate-300"
+              }`}
+            >
+              Quiz Mode
+            </button>
+          </div>
+        </div>
 
         {complete || !card ? (
           <section className="flex flex-1 flex-col items-center justify-center rounded-xl border border-slate-800 bg-[#111827] px-6 py-16 text-center">
@@ -104,18 +148,32 @@ export default function App() {
           </section>
         ) : (
           <>
-            <Flashcard
-              card={card}
-              index={index}
-              total={deck.length}
-              subtitle={filterLabel(filter)}
-              flipped={flipped}
-              tense={tense}
-              source={source}
-              onFlip={() => setFlipped((current) => !current)}
-              onTense={setTense}
-            />
-            <GradeBar enabled={flipped} onGrade={grade} />
+            {mode === "cards" ? (
+              <>
+                <Flashcard
+                  card={card}
+                  index={index}
+                  total={deck.length}
+                  subtitle={filterLabel(filter, topic)}
+                  flipped={flipped}
+                  tense={tense}
+                  source={source}
+                  onFlip={() => setFlipped((current) => !current)}
+                  onTense={setTense}
+                />
+                <GradeBar enabled={flipped} onGrade={grade} />
+              </>
+            ) : (
+              <QuizCard
+                card={card}
+                index={index}
+                total={deck.length}
+                subtitle={filterLabel(filter, topic)}
+                source={source}
+                pool={deck}
+                onAnswer={(correct) => advance(correct ? "good" : "again")}
+              />
+            )}
           </>
         )}
 

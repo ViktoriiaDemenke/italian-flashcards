@@ -24,7 +24,7 @@ export function StatsDrawer({
         aria-expanded={open}
       >
         <span className="text-xs font-medium tracking-[0.18em] text-slate-400">
-          QUICK REVIEW STATS
+          SESSION STATS
         </span>
         <ChevronDown className={`h-4 w-4 text-slate-500 transition ${open ? "rotate-180" : ""}`} />
       </button>
