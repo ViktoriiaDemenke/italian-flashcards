@@ -1,6 +1,13 @@
 import type { Conjugation, StudyCard, TenseId, TopicId } from "../types";
+import { widenCard } from "./tongues";
 
-type DraftCard = Omit<StudyCard, "topic">;
+type Quad = { en: string; es: string; fr: string; ro: string };
+
+type DraftCard = Omit<StudyCard, "topic" | "translation" | "gloss" | "exampleTranslation"> & {
+  translation: Quad;
+  gloss: Quad;
+  exampleTranslation?: Quad;
+};
 
 const presente = (
   io: string,
@@ -292,9 +299,6 @@ const RAW_DECK: DraftCard[] = [
       fr: "Un lit. L'endroit préféré pour se reposer.",
       ro: "Un pat. Locul preferat de odihnă.",
     },
-    enUS: {
-      gloss: "A bed. The favorite place to rest after a long day.",
-    },
   }),
   vocab({
     id: "specchio",
@@ -325,7 +329,6 @@ const RAW_DECK: DraftCard[] = [
       fr: "Une lampe à lumière chaude.",
       ro: "O lampă cu lumină caldă.",
     },
-    enUS: { gloss: "A lamp with a warm color of light." },
   }),
   vocab({
     id: "frigorifero",
@@ -506,9 +509,6 @@ const RAW_DECK: DraftCard[] = [
       fr: "Janvier. Les mois sont masculins.",
       ro: "Ianuarie. Lunile sunt masculine.",
     },
-    enUS: {
-      gloss: "January. Months are masculine and not capitalized mid-sentence.",
-    },
   }),
   vocab({
     id: "ieri",
@@ -569,7 +569,6 @@ const RAW_DECK: DraftCard[] = [
       fr: "Un mois, une unité de l'année.",
       ro: "O lună, o unitate a anului.",
     },
-    enUS: { gloss: "A month, an organized unit of the year." },
   }),
   vocab({
     id: "sabato",
@@ -871,9 +870,6 @@ const RAW_DECK: DraftCard[] = [
       es: "Hablar. Modelo de verbos en -are.",
       fr: "Parler. Modèle des verbes en -are.",
       ro: "A vorbi. Model pentru verbele în -are.",
-    },
-    enUS: {
-      gloss: "To speak. A model -are verb: practice the regular endings.",
     },
   }),
   verb({
@@ -1259,10 +1255,13 @@ const EXAMPLE_LINES: Record<string, { en: string; es: string; fr: string; ro: st
 export const DECK: StudyCard[] = RAW_DECK.map((card) => {
   const topic = TOPICS[card.id];
   if (!topic) throw new Error(`Missing topic for ${card.id}`);
+  const example = card.exampleTranslation ?? EXAMPLE_LINES[card.id];
   return {
     ...card,
     topic,
-    exampleTranslation: card.exampleTranslation ?? EXAMPLE_LINES[card.id],
+    translation: widenCard(card.id, card.translation, "word"),
+    gloss: widenCard(card.id, card.gloss, "gloss"),
+    exampleTranslation: example ? widenCard(card.id, example, "example") : undefined,
   };
 });
 

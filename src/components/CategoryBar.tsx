@@ -10,22 +10,21 @@ import {
   UtensilsCrossed,
   Zap,
 } from "lucide-react";
-import type { FilterId, TopicId } from "../types";
+import { t, type UiKey } from "../lib/ui";
+import type { FilterId, MotherTongue, TopicId } from "../types";
 
-type Child = { id: TopicId; label: string; icon?: typeof Sparkles };
+type Child = { id: TopicId; label?: string; labelKey?: UiKey; icon?: typeof Sparkles };
 
 const FILTERS: {
   id: FilterId;
-  label: string;
-  short: string;
+  labelKey: UiKey;
   icon: typeof Sparkles;
   children: Child[];
 }[] = [
-  { id: "quick", label: "Quick Review", short: "Quick Review • Mixed mode", icon: Sparkles, children: [] },
+  { id: "quick", labelKey: "quick", icon: Sparkles, children: [] },
   {
     id: "household",
-    label: "Casa & Household",
-    short: "Casa & Household",
+    labelKey: "household",
     icon: Home,
     children: [
       { id: "soggiorno", label: "Soggiorno", icon: Sofa },
@@ -36,45 +35,48 @@ const FILTERS: {
   },
   {
     id: "calendar",
-    label: "Calendar & Time",
-    short: "Calendar & Time",
+    labelKey: "calendar",
     icon: CalendarDays,
     children: [
-      { id: "days", label: "Days", icon: CalendarDays },
-      { id: "months", label: "Months & year", icon: CalendarDays },
-      { id: "moments", label: "Moments", icon: Clock3 },
+      { id: "days", labelKey: "days", icon: CalendarDays },
+      { id: "months", labelKey: "months", icon: CalendarDays },
+      { id: "moments", labelKey: "moments", icon: Clock3 },
     ],
   },
   {
     id: "ordinals",
-    label: "Ordinal Numbers",
-    short: "Ordinal Numbers",
+    labelKey: "ordinals",
     icon: Hash,
     children: [
-      { id: "early", label: "1st–5th" },
-      { id: "later", label: "6th–10th" },
+      { id: "early", labelKey: "early" },
+      { id: "later", labelKey: "later" },
     ],
   },
   {
     id: "verbs",
-    label: "Essential Verbs",
-    short: "Essential Verbs",
+    labelKey: "verbs",
     icon: Zap,
     children: [
-      { id: "aux", label: "Auxiliaries" },
-      { id: "motion", label: "Motion" },
-      { id: "daily", label: "Everyday" },
+      { id: "aux", labelKey: "aux" },
+      { id: "motion", labelKey: "motion" },
+      { id: "daily", labelKey: "daily" },
     ],
   },
 ];
 
+function childLabel(child: Child, tongue: MotherTongue) {
+  if (child.label) return child.label;
+  return child.labelKey ? t(tongue, child.labelKey) : "";
+}
+
 type CategoryBarProps = {
   value: FilterId;
   topic: TopicId | null;
+  tongue: MotherTongue;
   onChange: (value: FilterId, topic: TopicId | null) => void;
 };
 
-export function CategoryBar({ value, topic, onChange }: CategoryBarProps) {
+export function CategoryBar({ value, topic, tongue, onChange }: CategoryBarProps) {
   const active = FILTERS.find((filter) => filter.id === value);
 
   return (
@@ -95,14 +97,14 @@ export function CategoryBar({ value, topic, onChange }: CategoryBarProps) {
               }`}
             >
               <Icon className="h-3.5 w-3.5" />
-              {filter.label}
+              {t(tongue, filter.labelKey)}
             </button>
           );
         })}
       </div>
 
       {active && active.children.length > 0 && (
-        <div className="flex gap-2 overflow-x-auto pb-1 pl-1" aria-label={`${active.label} topics`}>
+        <div className="flex gap-2 overflow-x-auto pb-1 pl-1" aria-label={`${t(tongue, active.labelKey)} topics`}>
           {active.children.map((child) => {
             const Icon = child.icon;
             const selected = topic === child.id;
@@ -118,7 +120,7 @@ export function CategoryBar({ value, topic, onChange }: CategoryBarProps) {
                 }`}
               >
                 {Icon && <Icon className="h-3 w-3" />}
-                {child.label}
+                {childLabel(child, tongue)}
               </button>
             );
           })}
@@ -128,10 +130,12 @@ export function CategoryBar({ value, topic, onChange }: CategoryBarProps) {
   );
 }
 
-export function filterLabel(id: FilterId, topic: TopicId | null) {
+export function filterLabel(id: FilterId, topic: TopicId | null, tongue: MotherTongue) {
   const filter = FILTERS.find((item) => item.id === id);
   if (!filter) return "";
+  const parent = t(tongue, filter.labelKey);
   const child = filter.children.find((item) => item.id === topic);
-  if (child) return `${filter.short} • ${child.label}`;
-  return filter.short;
+  if (child) return `${parent} • ${childLabel(child, tongue)}`;
+  if (id === "quick") return `${parent} • ${t(tongue, "mixed")}`;
+  return parent;
 }

@@ -1,14 +1,15 @@
 import { useMemo } from "react";
 import { DECK } from "../data/deck";
 import { translationOf } from "../lib/copy";
-import type { SourceLang, StudyCard } from "../types";
+import { cardCount, t } from "../lib/ui";
+import type { MotherTongue, StudyCard } from "../types";
 
 type QuizCardProps = {
   card: StudyCard;
   index: number;
   total: number;
   subtitle: string;
-  source: SourceLang;
+  tongue: MotherTongue;
   pool: StudyCard[];
   onAnswer: (correct: boolean) => void;
 };
@@ -25,24 +26,24 @@ function shuffle<T>(items: T[], seed: string) {
   return copy;
 }
 
-export function QuizCard({ card, index, total, subtitle, source, pool, onAnswer }: QuizCardProps) {
+export function QuizCard({ card, index, total, subtitle, tongue, pool, onAnswer }: QuizCardProps) {
   const progress = total === 0 ? 0 : ((index + 1) / total) * 100;
   const choices = useMemo(() => {
     const extras = [...pool, ...DECK].filter((item) => item.id !== card.id);
     const unique: StudyCard[] = [];
     for (const item of extras) {
-      if (unique.some((picked) => picked.italian === item.italian)) continue;
+      if (unique.some((picked) => translationOf(picked, tongue) === translationOf(item, tongue))) continue;
       unique.push(item);
       if (unique.length === 3) break;
     }
     return shuffle([card, ...unique], `${card.id}-${index}`);
-  }, [card, index, pool]);
+  }, [card, index, pool, tongue]);
 
   return (
     <section className="space-y-3">
       <div>
         <p className="text-xs font-medium tracking-[0.18em] text-slate-400">
-          CARD {index + 1} OF {total}
+          {cardCount(tongue, index + 1, total)}
         </p>
         <p className="mt-1 text-sm text-slate-500">{subtitle}</p>
       </div>
@@ -53,9 +54,9 @@ export function QuizCard({ card, index, total, subtitle, source, pool, onAnswer 
         />
       </div>
       <article className="rounded-xl border border-slate-800 bg-[#111827] p-6 sm:p-8">
-        <p className="text-[11px] tracking-[0.22em] text-slate-500">WHICH ITALIAN WORD?</p>
-        <h2 className="text-center text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-          {translationOf(card, source)}
+        <p className="text-[11px] tracking-[0.22em] text-slate-500">{t(tongue, "means")}</p>
+        <h2 className="mt-3 text-center text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+          {card.italian}
         </h2>
         <div className="mt-8 grid gap-2">
           {choices.map((choice) => (
@@ -65,7 +66,7 @@ export function QuizCard({ card, index, total, subtitle, source, pool, onAnswer 
               onClick={() => onAnswer(choice.id === card.id)}
               className="rounded-xl border border-slate-700 bg-[#0f172a] px-4 py-3 text-left text-base text-slate-100 transition hover:border-emerald-400/60 hover:text-emerald-200"
             >
-              {choice.italian}
+              {translationOf(choice, tongue)}
             </button>
           ))}
         </div>

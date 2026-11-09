@@ -7,13 +7,14 @@ import { Header } from "./components/Header";
 import { QuizCard } from "./components/QuizCard";
 import { StatsDrawer } from "./components/StatsDrawer";
 import { DECK } from "./data/deck";
-import type { FilterId, GradeId, Level, SourceLang, StudyMode, TenseId, TopicId } from "./types";
+import { gradedLine, t } from "./lib/ui";
+import type { FilterId, GradeId, Level, MotherTongue, StudyMode, TenseId, TopicId } from "./types";
 
 const DAILY_GOAL = 20;
 
 export default function App() {
   const [level, setLevel] = useState<Level>("A1");
-  const [source, setSource] = useState<SourceLang>("en-GB");
+  const [tongue, setTongue] = useState<MotherTongue>("uk");
   const [filter, setFilter] = useState<FilterId>("quick");
   const [topic, setTopic] = useState<TopicId | null>(null);
   const [mode, setMode] = useState<StudyMode>("cards");
@@ -76,16 +77,17 @@ export default function App() {
           cardsToday={cardsToday}
           dailyGoal={DAILY_GOAL}
           level={level}
-          source={source}
+          tongue={tongue}
           onLevel={(next) => {
             setLevel(next);
             resetPosition();
           }}
-          onSource={setSource}
+          onTongue={setTongue}
         />
         <CategoryBar
           value={filter}
           topic={topic}
+          tongue={tongue}
           onChange={(next, nextTopic) => {
             setFilter(next);
             setTopic(nextTopic);
@@ -106,7 +108,7 @@ export default function App() {
                 mode === "cards" ? "bg-emerald-500 text-slate-950" : "text-slate-300"
               }`}
             >
-              Flashcards
+              {t(tongue, "flashcards")}
             </button>
             <button
               type="button"
@@ -119,21 +121,19 @@ export default function App() {
                 mode === "quiz" ? "bg-emerald-500 text-slate-950" : "text-slate-300"
               }`}
             >
-              Quiz Mode
+              {t(tongue, "quiz")}
             </button>
           </div>
         </div>
 
         {complete || !card ? (
           <section className="flex flex-1 flex-col items-center justify-center rounded-xl border border-slate-800 bg-[#111827] px-6 py-16 text-center">
-            <p className="text-xs tracking-[0.2em] text-emerald-400">SESSION</p>
+            <p className="text-xs tracking-[0.2em] text-emerald-400">{t(tongue, "session")}</p>
             <h2 className="mt-3 text-3xl font-semibold">
-              {card ? "Session complete" : "No cards at this level"}
+              {card ? t(tongue, "complete") : t(tongue, "empty")}
             </h2>
             <p className="mt-3 max-w-md text-sm text-slate-400">
-              {card
-                ? `You graded ${deck.length} cards in this pass. Accuracy is ${accuracy}%.`
-                : "Choose another level or category to keep studying."}
+              {card ? gradedLine(tongue, deck.length, accuracy) : t(tongue, "keep")}
             </p>
             {card && (
               <button
@@ -142,7 +142,7 @@ export default function App() {
                 className="mt-6 inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-medium text-slate-950"
               >
                 <RotateCcw className="h-4 w-4" />
-                Study again
+                {t(tongue, "againBtn")}
               </button>
             )}
           </section>
@@ -154,22 +154,22 @@ export default function App() {
                   card={card}
                   index={index}
                   total={deck.length}
-                  subtitle={filterLabel(filter, topic)}
+                  subtitle={filterLabel(filter, topic, tongue)}
                   flipped={flipped}
                   tense={tense}
-                  source={source}
+                  tongue={tongue}
                   onFlip={() => setFlipped((current) => !current)}
                   onTense={setTense}
                 />
-                <GradeBar enabled={flipped} onGrade={grade} />
+                <GradeBar enabled={flipped} tongue={tongue} onGrade={grade} />
               </>
             ) : (
               <QuizCard
                 card={card}
                 index={index}
                 total={deck.length}
-                subtitle={filterLabel(filter, topic)}
-                source={source}
+                subtitle={filterLabel(filter, topic, tongue)}
+                tongue={tongue}
                 pool={deck}
                 onAnswer={(correct) => advance(correct ? "good" : "again")}
               />
@@ -184,6 +184,7 @@ export default function App() {
             mastered={mastered}
             toRepeat={toRepeat}
             accuracy={accuracy}
+            tongue={tongue}
           />
         </div>
       </div>

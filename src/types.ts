@@ -20,7 +20,9 @@ export type TopicId =
 
 export type StudyMode = "cards" | "quiz";
 
-export type SourceLang = "en-GB" | "en-US" | "es" | "fr" | "ro";
+export type MotherTongue = "en" | "uk" | "ru" | "de" | "pl" | "es" | "fr" | "ro";
+
+export type SourceLang = MotherTongue;
 
 export type TenseId = "presente" | "passato" | "futuro";
 
@@ -30,12 +32,7 @@ export type Person = "io" | "tu" | "lui" | "noi" | "voi" | "loro";
 
 export type Conjugation = Record<Person, string>;
 
-export type LangText = {
-  en: string;
-  es: string;
-  fr: string;
-  ro: string;
-};
+export type LangText = Record<MotherTongue, string>;
 
 export type StudyCard = {
   id: string;
@@ -50,5 +47,4 @@ export type StudyCard = {
   tenses?: Partial<Record<TenseId, Conjugation>>;
   translation: LangText;
   gloss: LangText;
-  enUS?: { translation?: string; gloss?: string };
 };
