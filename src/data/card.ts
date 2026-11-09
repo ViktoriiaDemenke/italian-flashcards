@@ -1,4 +1,4 @@
-import type { CategoryId, Conjugation, StudyCard, TenseId, TopicId } from "../types";
+import type { CategoryId, Conjugation, Level, StudyCard, TenseId, TopicId } from "../types";
 
 export type Eight = [string, string, string, string, string, string, string, string];
 
@@ -15,12 +15,13 @@ export function vocab(
   example: string,
   word: Eight,
   ex: Eight,
+  level: Level = "A1",
 ): StudyCard {
   return {
     id,
     category,
     topic,
-    level: "A1",
+    level,
     italian,
     kind: "vocab",
     detail: italian,

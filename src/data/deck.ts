@@ -1,33 +1,80 @@
+import { ADVANCED_DECKS } from "./advancedDecks";
 import { CALENDAR_CARDS } from "./calendarCards";
 import { HOME_CARDS } from "./homeCards";
 import { LEXICON_CARDS } from "./lexiconCards";
+import { LEVEL_PACKS } from "./levelPacks";
 import { VERB_CARDS } from "./verbCards";
-import type { Level, StudyCard, TenseId } from "../types";
+import type { CategoryId, FilterId, Level, StudyCard, TenseId, TopicId } from "../types";
 
-const LEVELS: Level[] = ["A1", "A2", "B1", "B2"];
+const A1_ROOMS = new Set<TopicId>(["living", "bath", "bedroom", "kitchen", "kids"]);
+const A1_VERBS = new Set<TopicId>(["essere", "avere", "andare", "fare", "potere", "volere", "dovere"]);
 
-function tagLevels(cards: StudyCard[]): StudyCard[] {
-  const buckets = new Map<string, StudyCard[]>();
-  for (const card of cards) {
-    const key = `${card.category}:${card.topic}`;
-    buckets.set(key, [...(buckets.get(key) ?? []), card]);
-  }
-  const tagged: StudyCard[] = [];
-  for (const group of buckets.values()) {
-    group.forEach((card, index) => {
-      const level = LEVELS[Math.min(LEVELS.length - 1, Math.floor((index / group.length) * LEVELS.length))];
-      tagged.push({ ...card, level });
-    });
-  }
-  return tagged;
+const A1_DECK: StudyCard[] = [
+  ...HOME_CARDS.filter((card) => A1_ROOMS.has(card.topic)).map((card) => ({ ...card, level: "A1" as const })),
+  ...CALENDAR_CARDS.filter((card) => card.topic === "cardinals").map((card) => ({
+    ...card,
+    level: "A1" as const,
+    category: "numbers" as const,
+  })),
+  ...VERB_CARDS.filter((card) => A1_VERBS.has(card.topic)).map((card) => ({ ...card, level: "A1" as const })),
+];
+
+const A2_DECK = LEVEL_PACKS.filter((card) => card.level === "A2");
+
+const B2_IDIOMS = LEXICON_CARDS.filter((card) => card.category === "idioms").map((card) => ({
+  ...card,
+  level: "B2" as const,
+}));
+
+export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...ADVANCED_DECKS, ...B2_IDIOMS];
+
+const CATEGORY_ORDER: CategoryId[] = [
+  "home",
+  "numbers",
+  "verbs",
+  "city",
+  "transport",
+  "shopping",
+  "clothes",
+  "health",
+  "emotions",
+  "bureaucracy",
+  "rent",
+  "slang",
+  "society",
+  "social",
+  "finance",
+  "idioms",
+];
+
+export function cardsFor(level: Level, filter: FilterId, topic: TopicId | null): StudyCard[] {
+  return DECK.filter((card) => {
+    if (card.level !== level) return false;
+    if (filter === "quick") return true;
+    if (card.category !== filter) return false;
+    if (topic && card.topic !== topic) return false;
+    return true;
+  });
 }
 
-export const DECK: StudyCard[] = tagLevels([
-  ...HOME_CARDS,
-  ...CALENDAR_CARDS,
-  ...VERB_CARDS,
-  ...LEXICON_CARDS,
-]);
+export function topicsOnLevel(level: Level): { category: CategoryId; topic: TopicId }[] {
+  const seen = new Set<string>();
+  const topics: { category: CategoryId; topic: TopicId }[] = [];
+  for (const card of DECK) {
+    if (card.level !== level) continue;
+    const key = `${card.category}:${card.topic}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    topics.push({ category: card.category, topic: card.topic });
+  }
+  return topics.sort((a, b) => CATEGORY_ORDER.indexOf(a.category) - CATEGORY_ORDER.indexOf(b.category));
+}
+
+export function selectionForLevel(level: Level): { filter: FilterId; topic: TopicId | null } {
+  const first = topicsOnLevel(level)[0];
+  if (!first) return { filter: "quick", topic: null };
+  return { filter: first.category, topic: first.topic };
+}
 
 export const TENSE_ORDER: TenseId[] = ["presente", "passato", "futuro"];
 

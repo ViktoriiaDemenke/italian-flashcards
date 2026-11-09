@@ -6,7 +6,7 @@ import { Flashcard } from "./components/Flashcard";
 import { Header } from "./components/Header";
 import { QuizCard } from "./components/QuizCard";
 import { StatsDrawer } from "./components/StatsDrawer";
-import { DECK } from "./data/deck";
+import { cardsFor, selectionForLevel } from "./data/deck";
 import { gradedLine, t } from "./lib/ui";
 import type { FilterId, GradeId, Level, MotherTongue, StudyMode, TenseId, TopicId } from "./types";
 
@@ -15,8 +15,9 @@ const DAILY_GOAL = 20;
 export default function App() {
   const [level, setLevel] = useState<Level>("A1");
   const [tongue, setTongue] = useState<MotherTongue>("uk");
-  const [filter, setFilter] = useState<FilterId>("quick");
-  const [topic, setTopic] = useState<TopicId | null>(null);
+  const initial = selectionForLevel("A1");
+  const [filter, setFilter] = useState<FilterId>(initial.filter);
+  const [topic, setTopic] = useState<TopicId | null>(initial.topic);
   const [mode, setMode] = useState<StudyMode>("cards");
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -28,16 +29,7 @@ export default function App() {
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [slide, setSlide] = useState<"next" | "prev">("next");
 
-  const deck = useMemo(
-    () =>
-      DECK.filter((card) => {
-        if (filter === "quick") return true;
-        if (card.category !== filter) return false;
-        if (topic && card.topic !== topic) return false;
-        return true;
-      }),
-    [level, filter, topic],
-  );
+  const deck = useMemo(() => cardsFor(level, filter, topic), [level, filter, topic]);
 
   const card = deck[index];
   const mastered = counts.good + counts.easy;
@@ -93,12 +85,16 @@ export default function App() {
           level={level}
           tongue={tongue}
           onLevel={(next) => {
+            const nextSelection = selectionForLevel(next);
             setLevel(next);
+            setFilter(nextSelection.filter);
+            setTopic(nextSelection.topic);
             resetPosition();
           }}
           onTongue={setTongue}
         />
         <CategoryBar
+          level={level}
           value={filter}
           topic={topic}
           tongue={tongue}
@@ -168,7 +164,7 @@ export default function App() {
                   card={card}
                   index={index}
                   total={deck.length}
-                  subtitle={filterLabel(filter, topic, tongue)}
+                  subtitle={filterLabel(level, filter, topic, tongue)}
                   flipped={flipped}
                   tense={tense}
                   tongue={tongue}
@@ -180,7 +176,7 @@ export default function App() {
                   card={card}
                   index={index}
                   total={deck.length}
-                  subtitle={filterLabel(filter, topic, tongue)}
+                  subtitle={filterLabel(level, filter, topic, tongue)}
                   tongue={tongue}
                   pool={deck}
                   onAnswer={(correct) => advance(correct ? "good" : "again")}

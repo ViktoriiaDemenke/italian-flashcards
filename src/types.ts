@@ -1,6 +1,28 @@
 export type Level = "A1" | "A2" | "B1" | "B2";
 
-export type CategoryId = "home" | "calendar" | "verbs" | "nouns" | "adjectives" | "idioms";
+export type CategoryId =
+  | "home"
+  | "calendar"
+  | "numbers"
+  | "verbs"
+  | "city"
+  | "transport"
+  | "shopping"
+  | "clothes"
+  | "health"
+  | "bureaucracy"
+  | "work"
+  | "emotions"
+  | "environment"
+  | "technology"
+  | "rent"
+  | "slang"
+  | "society"
+  | "social"
+  | "finance"
+  | "nouns"
+  | "adjectives"
+  | "idioms";
 
 export type FilterId = "quick" | CategoryId;
 
@@ -25,6 +47,23 @@ export type TopicId =
   | "potere"
   | "volere"
   | "dovere"
+  | "city"
+  | "transport"
+  | "shopping"
+  | "clothes"
+  | "health"
+  | "bureaucracy"
+  | "work"
+  | "emotions"
+  | "environment"
+  | "technology"
+  | "character"
+  | "documents"
+  | "repairs"
+  | "slang"
+  | "society"
+  | "social"
+  | "finance"
   | "nouns"
   | "adjectives"
   | "idioms";

@@ -51,6 +51,25 @@ export type UiKey =
   | "potere"
   | "volere"
   | "dovere"
+  | "numbers"
+  | "city"
+  | "transport"
+  | "shopping"
+  | "clothes"
+  | "health"
+  | "bureaucracy"
+  | "work"
+  | "emotions"
+  | "environment"
+  | "technology"
+  | "character"
+  | "documents"
+  | "repairs"
+  | "rent"
+  | "slang"
+  | "society"
+  | "social"
+  | "finance"
   | "flashcards"
   | "quiz"
   | "cardOf"
@@ -137,6 +156,25 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   potere: { en: "Can", uk: "Могти", ru: "Мочь", de: "Können", pl: "Móc", es: "Poder", fr: "Pouvoir", ro: "A putea" },
   volere: { en: "To want", uk: "Хотіти", ru: "Хотеть", de: "Wollen", pl: "Chcieć", es: "Querer", fr: "Vouloir", ro: "A vrea" },
   dovere: { en: "Must", uk: "Мусити", ru: "Должен", de: "Müssen", pl: "Musieć", es: "Deber", fr: "Devoir", ro: "A trebui" },
+  numbers: { en: "Cardinal numbers", uk: "Кількісні числівники", ru: "Количественные числительные", de: "Grundzahlen", pl: "Liczebniki główne", es: "Números cardinales", fr: "Nombres cardinaux", ro: "Numerale cardinale" },
+  city: { en: "City", uk: "Місто", ru: "Город", de: "Stadt", pl: "Miasto", es: "Ciudad", fr: "Ville", ro: "Oraș" },
+  transport: { en: "Transport", uk: "Транспорт", ru: "Транспорт", de: "Verkehr", pl: "Transport", es: "Transporte", fr: "Transports", ro: "Transport" },
+  shopping: { en: "Shopping", uk: "Покупки", ru: "Покупки", de: "Einkaufen", pl: "Zakupy", es: "Compras", fr: "Courses", ro: "Cumpărături" },
+  clothes: { en: "Clothes", uk: "Одяг", ru: "Одежда", de: "Kleidung", pl: "Ubrania", es: "Ropa", fr: "Vêtements", ro: "Haine" },
+  health: { en: "Health", uk: "Здоров'я", ru: "Здоровье", de: "Gesundheit", pl: "Zdrowie", es: "Salud", fr: "Santé", ro: "Sănătate" },
+  bureaucracy: { en: "Bureaucracy", uk: "Бюрократія", ru: "Бюрократия", de: "Bürokratie", pl: "Biurokracja", es: "Burocracia", fr: "Bureaucratie", ro: "Birocrație" },
+  work: { en: "Work", uk: "Робота", ru: "Работа", de: "Arbeit", pl: "Praca", es: "Trabajo", fr: "Travail", ro: "Muncă" },
+  emotions: { en: "Emotions", uk: "Емоції", ru: "Эмоции", de: "Gefühle", pl: "Emocje", es: "Emociones", fr: "Émotions", ro: "Emoții" },
+  environment: { en: "Environment", uk: "Довкілля", ru: "Окружающая среда", de: "Umwelt", pl: "Środowisko", es: "Medio ambiente", fr: "Environnement", ro: "Mediu" },
+  technology: { en: "Technology", uk: "Технології", ru: "Технологии", de: "Technik", pl: "Technologia", es: "Tecnología", fr: "Technologie", ro: "Tehnologie" },
+  character: { en: "Emotions and character", uk: "Емоції та характер", ru: "Эмоции и характер", de: "Gefühle und Charakter", pl: "Emocje i charakter", es: "Emociones y carácter", fr: "Émotions et caractère", ro: "Emoții și caracter" },
+  documents: { en: "Documents and bureaucracy", uk: "Документи і бюрократія", ru: "Документы и бюрократия", de: "Dokumente und Bürokratie", pl: "Dokumenty i biurokracja", es: "Documentos y burocracia", fr: "Documents et bureaucratie", ro: "Documente și birocrație" },
+  repairs: { en: "Rent and repairs", uk: "Оренда та несправності", ru: "Аренда и поломки", de: "Miete und Schäden", pl: "Czynsz i usterki", es: "Alquiler y averías", fr: "Loyer et pannes", ro: "Chirie și defecțiuni" },
+  rent: { en: "Rent and repairs", uk: "Оренда та несправності", ru: "Аренда и поломки", de: "Miete und Schäden", pl: "Czynsz i usterki", es: "Alquiler y averías", fr: "Loyer et pannes", ro: "Chirie și defecțiuni" },
+  slang: { en: "Italian slang and sayings", uk: "Сленг і вирази", ru: "Сленг и выражения", de: "Umgangssprache und Redensarten", pl: "Slang i powiedzenia", es: "Jerga y expresiones", fr: "Argot et expressions", ro: "Argou și expresii" },
+  society: { en: "Society and news", uk: "Суспільство та новини", ru: "Общество и новости", de: "Gesellschaft und Aktuelles", pl: "Społeczeństwo i aktualności", es: "Sociedad y actualidad", fr: "Société et actualité", ro: "Societate și actualitate" },
+  social: { en: "Technology and social media", uk: "Технології та соцмережі", ru: "Технологии и соцсети", de: "Technik und soziale Medien", pl: "Technologia i media", es: "Tecnología y redes", fr: "Technologie et réseaux", ro: "Tehnologie și rețele" },
+  finance: { en: "Finance and banking", uk: "Фінанси та банк", ru: "Финансы и банк", de: "Finanzen und Bank", pl: "Finanse i bank", es: "Finanzas y banco", fr: "Finances et banque", ro: "Finanțe și bancă" },
   flashcards: { en: "Flashcards", uk: "Картки", ru: "Карточки", de: "Karteikarten", pl: "Fiszki", es: "Tarjetas", fr: "Cartes", ro: "Carduri" },
   quiz: { en: "Quiz Mode", uk: "Режим тесту", ru: "Режим теста", de: "Quizmodus", pl: "Tryb quizu", es: "Modo quiz", fr: "Mode quiz", ro: "Mod quiz" },
   cardOf: { en: "CARD {n} OF {total}", uk: "КАРТКА {n} З {total}", ru: "КАРТОЧКА {n} ИЗ {total}", de: "KARTE {n} VON {total}", pl: "KARTA {n} Z {total}", es: "TARJETA {n} DE {total}", fr: "CARTE {n} SUR {total}", ro: "CARDUL {n} DIN {total}" },
