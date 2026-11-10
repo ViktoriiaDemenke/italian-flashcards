@@ -41,7 +41,7 @@ type CategoryBarProps = {
 };
 
 const pill =
-  "inline-flex shrink-0 whitespace-nowrap rounded-full border px-3.5 py-2 text-sm transition";
+  "inline-flex max-w-full min-w-0 items-center justify-center whitespace-normal break-words rounded-full border px-3.5 py-2 text-center text-sm leading-snug transition";
 
 export function CategoryBar({ level, value, topic, tongue, onChange }: CategoryBarProps) {
   const filters = filtersForLevel(level);
@@ -49,8 +49,8 @@ export function CategoryBar({ level, value, topic, tongue, onChange }: CategoryB
   const showChildren = Boolean(active && active.children.length > 1);
 
   return (
-    <div className="space-y-2">
-      <div className="flex flex-nowrap gap-2 overflow-x-auto pb-1">
+    <div className="min-w-0 space-y-2">
+      <div className="flex min-w-0 flex-wrap gap-2">
         {filters.map((filter) => {
           const selected = filter.id === value;
           return (
@@ -72,7 +72,7 @@ export function CategoryBar({ level, value, topic, tongue, onChange }: CategoryB
 
       {showChildren && active && (
         <div
-          className="flex flex-nowrap gap-2 overflow-x-auto pb-1"
+          className="flex min-w-0 flex-wrap gap-2"
           aria-label={`${t(tongue, active.labelKey)} topics`}
         >
           {active.children.map((child) => {
