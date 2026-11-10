@@ -101,6 +101,11 @@ export type UiKey =
   | "society"
   | "social"
   | "finance"
+  | "media_opinione"
+  | "diritto_contratti"
+  | "economia_lavoro"
+  | "scienza_ricerca"
+  | "registro_formale"
   | "flashcards"
   | "quiz"
   | "cardOf"
@@ -237,6 +242,11 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   society: { en: "Society and news", uk: "Суспільство та новини", ru: "Общество и новости", de: "Gesellschaft und Aktuelles", pl: "Społeczeństwo i aktualności", es: "Sociedad y actualidad", fr: "Société et actualité", ro: "Societate și actualitate" },
   social: { en: "Technology and social media", uk: "Технології та соцмережі", ru: "Технологии и соцсети", de: "Technik und soziale Medien", pl: "Technologia i media", es: "Tecnología y redes", fr: "Technologie et réseaux", ro: "Tehnologie și rețele" },
   finance: { en: "Finance and banking", uk: "Фінанси та банк", ru: "Финансы и банк", de: "Finanzen und Bank", pl: "Finanse i bank", es: "Finanzas y banco", fr: "Finances et banque", ro: "Finanțe și bancă" },
+  media_opinione: { en: "Media and opinion", uk: "Медіа та думка", ru: "Медиа и мнение", de: "Medien und Meinung", pl: "Media i opinia", es: "Medios y opinión", fr: "Médias et opinion", ro: "Media și opinie" },
+  diritto_contratti: { en: "Law and contracts", uk: "Право та договори", ru: "Право и договоры", de: "Recht und Verträge", pl: "Prawo i umowy", es: "Derecho y contratos", fr: "Droit et contrats", ro: "Drept și contracte" },
+  economia_lavoro: { en: "Economy and the labour market", uk: "Економіка та ринок праці", ru: "Экономика и рынок труда", de: "Wirtschaft und Arbeitsmarkt", pl: "Ekonomia i rynek pracy", es: "Economía y mercado laboral", fr: "Économie et marché du travail", ro: "Economie și piața muncii" },
+  scienza_ricerca: { en: "Science and research", uk: "Наука та дослідження", ru: "Наука и исследования", de: "Wissenschaft und Forschung", pl: "Nauka i badania", es: "Ciencia e investigación", fr: "Science et recherche", ro: "Știință și cercetare" },
+  registro_formale: { en: "Formal register", uk: "Формальний регістр", ru: "Формальный регистр", de: "Formelles Register", pl: "Rejestr formalny", es: "Registro formal", fr: "Registre formel", ro: "Registru formal" },
   flashcards: { en: "Flashcards", uk: "Картки", ru: "Карточки", de: "Karteikarten", pl: "Fiszki", es: "Tarjetas", fr: "Cartes", ro: "Carduri" },
   quiz: { en: "Quiz Mode", uk: "Режим тесту", ru: "Режим теста", de: "Quizmodus", pl: "Tryb quizu", es: "Modo quiz", fr: "Mode quiz", ro: "Mod quiz" },
   cardOf: { en: "CARD {n} OF {total}", uk: "КАРТКА {n} З {total}", ru: "КАРТОЧКА {n} ИЗ {total}", de: "KARTE {n} VON {total}", pl: "KARTA {n} Z {total}", es: "TARJETA {n} DE {total}", fr: "CARTE {n} SUR {total}", ro: "CARDUL {n} DIN {total}" },

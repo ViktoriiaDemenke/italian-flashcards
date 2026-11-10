@@ -1,4 +1,5 @@
 import { B1_CARDS } from "./b1Cards";
+import { B2_EXTRA } from "./b2Cards";
 import { A2_CARDS } from "./a2Cards";
 import { A1_EXTRA } from "./a1Sets";
 import { ADVANCED_DECKS } from "./advancedDecks";
@@ -44,7 +45,7 @@ const B2_IDIOMS = LEXICON_CARDS.filter((card) => card.category === "idioms").map
   level: "B2" as const,
 }));
 
-export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...B1_DECK, ...B2_DECK, ...B2_IDIOMS];
+export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...B1_DECK, ...B2_DECK, ...B2_IDIOMS, ...B2_EXTRA];
 
 const CATEGORY_ORDER: CategoryId[] = [
   "tempo",
@@ -93,6 +94,11 @@ const CATEGORY_ORDER: CategoryId[] = [
   "social",
   "finance",
   "idioms",
+  "media_opinione",
+  "diritto_contratti",
+  "economia_lavoro",
+  "scienza_ricerca",
+  "registro_formale",
 ];
 
 export function cardsFor(level: Level, filter: FilterId, topic: TopicId | null): StudyCard[] {

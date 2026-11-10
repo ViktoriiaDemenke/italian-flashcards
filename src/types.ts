@@ -53,7 +53,12 @@ export type CategoryId =
   | "problemi_riparazioni"
   | "nouns"
   | "adjectives"
-  | "idioms";
+  | "idioms"
+  | "media_opinione"
+  | "diritto_contratti"
+  | "economia_lavoro"
+  | "scienza_ricerca"
+  | "registro_formale";
 
 export type FilterId = "quick" | CategoryId;
 
@@ -128,7 +133,12 @@ export type TopicId =
   | "problemi_riparazioni"
   | "nouns"
   | "adjectives"
-  | "idioms";
+  | "idioms"
+  | "media_opinione"
+  | "diritto_contratti"
+  | "economia_lavoro"
+  | "scienza_ricerca"
+  | "registro_formale";
 
 export type StudyMode = "cards" | "quiz";
 
