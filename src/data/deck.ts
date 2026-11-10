@@ -3,6 +3,7 @@ import { CALENDAR_CARDS } from "./calendarCards";
 import { HOME_CARDS } from "./homeCards";
 import { LEXICON_CARDS } from "./lexiconCards";
 import { LEVEL_PACKS } from "./levelPacks";
+import { TEMPO_CARDS } from "./tempoCards";
 import { VERB_CARDS } from "./verbCards";
 import type { CategoryId, FilterId, Level, StudyCard, TenseId, TopicId } from "../types";
 
@@ -17,6 +18,7 @@ const A1_DECK: StudyCard[] = [
     category: "numbers" as const,
   })),
   ...VERB_CARDS.filter((card) => A1_VERBS.has(card.topic)).map((card) => ({ ...card, level: "A1" as const })),
+  ...TEMPO_CARDS,
 ];
 
 const A2_DECK = LEVEL_PACKS.filter((card) => card.level === "A2");
@@ -31,6 +33,7 @@ export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...ADVANCED_DECKS, ...
 const CATEGORY_ORDER: CategoryId[] = [
   "home",
   "numbers",
+  "tempo_calendario",
   "verbs",
   "city",
   "transport",

@@ -52,6 +52,7 @@ export type UiKey =
   | "volere"
   | "dovere"
   | "numbers"
+  | "tempo_calendario"
   | "city"
   | "transport"
   | "shopping"
@@ -157,6 +158,7 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   volere: { en: "To want", uk: "Хотіти", ru: "Хотеть", de: "Wollen", pl: "Chcieć", es: "Querer", fr: "Vouloir", ro: "A vrea" },
   dovere: { en: "Must", uk: "Мусити", ru: "Должен", de: "Müssen", pl: "Musieć", es: "Deber", fr: "Devoir", ro: "A trebui" },
   numbers: { en: "Cardinal numbers", uk: "Кількісні числівники", ru: "Количественные числительные", de: "Grundzahlen", pl: "Liczebniki główne", es: "Números cardinales", fr: "Nombres cardinaux", ro: "Numerale cardinale" },
+  tempo_calendario: { en: "Calendar and time", uk: "Календар і час", ru: "Календарь и время", de: "Kalender und Zeit", pl: "Kalendarz i czas", es: "Calendario y tiempo", fr: "Calendrier et temps", ro: "Calendar și timp" },
   city: { en: "City", uk: "Місто", ru: "Город", de: "Stadt", pl: "Miasto", es: "Ciudad", fr: "Ville", ro: "Oraș" },
   transport: { en: "Transport", uk: "Транспорт", ru: "Транспорт", de: "Verkehr", pl: "Transport", es: "Transporte", fr: "Transports", ro: "Transport" },
   shopping: { en: "Shopping", uk: "Покупки", ru: "Покупки", de: "Einkaufen", pl: "Zakupy", es: "Compras", fr: "Courses", ro: "Cumpărături" },
