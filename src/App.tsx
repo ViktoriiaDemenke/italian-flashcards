@@ -1,21 +1,72 @@
-import { useMemo, useState } from "react";
-import { RotateCcw } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
+import { AudioLines, RotateCcw } from "lucide-react";
 import { CardNav } from "./components/CardNav";
 import { CategoryBar, filterLabel } from "./components/CategoryBar";
 import { Flashcard } from "./components/Flashcard";
 import { Header } from "./components/Header";
 import { QuizCard } from "./components/QuizCard";
 import { StatsDrawer } from "./components/StatsDrawer";
-import { cardsFor, selectionForLevel } from "./data/deck";
+import { cardsFor, DECK, selectionForLevel } from "./data/deck";
+import { loadSession, nextStudy, saveSession, streakOnView } from "./lib/session";
 import { gradedLine, t } from "./lib/ui";
 import type { FilterId, GradeId, Level, MotherTongue, StudyMode, TenseId, TopicId } from "./types";
 
 const DAILY_GOAL = 20;
+const LEVEL_IDS: Level[] = ["A1", "A2", "B1", "B2"];
+
+const SPLASH_COUNT = 26;
+
+function splashSlots(count: number) {
+  const cells: { top: number; left: number }[] = [];
+  const cols = 6;
+  const rows = 6;
+  for (let row = 0; row < rows; row += 1) {
+    for (let col = 0; col < cols; col += 1) {
+      const top = 5 + ((row + 0.5) * 90) / rows;
+      const left = 4 + ((col + 0.5) * 92) / cols;
+      const coversTitle = top > 36 && top < 64 && left > 30 && left < 70;
+      if (!coversTitle) cells.push({ top, left });
+    }
+  }
+  for (let i = cells.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const swap = cells[i];
+    cells[i] = cells[j];
+    cells[j] = swap;
+  }
+  return cells.slice(0, count).map((cell, index) => ({
+    top: `${cell.top}%`,
+    left: `${cell.left}%`,
+    x: `${Math.round((Math.random() - 0.5) * 36)}px`,
+    y: `${Math.round((Math.random() - 0.5) * 40)}px`,
+    delay: `${(index % 8) * 0.12}s`,
+    peak: (0.28 + Math.random() * 0.45).toFixed(2),
+    scale: (0.52 + Math.random() * 0.18).toFixed(2),
+  }));
+}
+
+function splashCards(tongue: MotherTongue) {
+  const pool = [...DECK];
+  for (let i = pool.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const swap = pool[i];
+    pool[i] = pool[j];
+    pool[j] = swap;
+  }
+  const slots = splashSlots(Math.min(SPLASH_COUNT, pool.length));
+  return pool.slice(0, slots.length).map((card, index) => ({
+    id: card.id,
+    italian: card.italian,
+    translation: card.translation[tongue],
+    slot: slots[index],
+  }));
+}
 
 export default function App() {
-  const [level, setLevel] = useState<Level>("A1");
-  const [tongue, setTongue] = useState<MotherTongue>("uk");
-  const initial = selectionForLevel("A1");
+  const stored = loadSession();
+  const [level, setLevel] = useState<Level>(stored.level);
+  const [tongue, setTongue] = useState<MotherTongue>(stored.tongue);
+  const initial = selectionForLevel(stored.level);
   const [filter, setFilter] = useState<FilterId>(initial.filter);
   const [topic, setTopic] = useState<TopicId | null>(initial.topic);
   const [mode, setMode] = useState<StudyMode>("cards");
@@ -24,10 +75,27 @@ export default function App() {
   const [tense, setTense] = useState<TenseId>("presente");
   const [complete, setComplete] = useState(false);
   const [statsOpen, setStatsOpen] = useState(true);
-  const [cardsToday, setCardsToday] = useState(0);
+  const [cardsToday, setCardsToday] = useState(stored.cardsToday);
+  const [streak, setStreak] = useState(stored.streak);
+  const [lastStudyDay, setLastStudyDay] = useState<string | null>(stored.lastStudyDay);
   const [counts, setCounts] = useState({ again: 0, hard: 0, good: 0, easy: 0 });
-  const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [savedIds, setSavedIds] = useState<string[]>(stored.savedIds);
   const [slide, setSlide] = useState<"next" | "prev">("next");
+  const [splash, setSplash] = useState<"hold" | "fade" | "done">("hold");
+  const [floating] = useState(() => splashCards(stored.tongue));
+
+  useEffect(() => {
+    const fadeTimer = window.setTimeout(() => setSplash("fade"), 3600);
+    const doneTimer = window.setTimeout(() => setSplash("done"), 4300);
+    return () => {
+      window.clearTimeout(fadeTimer);
+      window.clearTimeout(doneTimer);
+    };
+  }, []);
+
+  useEffect(() => {
+    saveSession({ level, tongue, savedIds, streak, lastStudyDay, cardsToday });
+  }, [level, tongue, savedIds, streak, lastStudyDay, cardsToday]);
 
   const deck = useMemo(() => cardsFor(level, filter, topic), [level, filter, topic]);
 
@@ -45,9 +113,16 @@ export default function App() {
     setTense("presente");
   }
 
+  function markStudied() {
+    const next = nextStudy({ streak, lastStudyDay, cardsToday });
+    setStreak(next.streak);
+    setLastStudyDay(next.lastStudyDay);
+    setCardsToday(next.cardsToday);
+  }
+
   function advance(result: GradeId) {
     setCounts((current) => ({ ...current, [result]: current[result] + 1 }));
-    setCardsToday((current) => current + 1);
+    markStudied();
     if (index + 1 >= deck.length) {
       setComplete(true);
       setFlipped(false);
@@ -65,8 +140,22 @@ export default function App() {
     setIndex(next);
     setFlipped(false);
     setTense("presente");
-    if (delta > 0) setCardsToday((current) => current + 1);
+    if (delta > 0) markStudied();
   }
+
+  const levelProgress = useMemo(() => {
+    const totals = { A1: 0, A2: 0, B1: 0, B2: 0 };
+    for (const item of DECK) totals[item.level] += 1;
+    const saved = { A1: 0, A2: 0, B1: 0, B2: 0 };
+    const savedSet = new Set(savedIds);
+    for (const item of DECK) {
+      if (savedSet.has(item.id)) saved[item.level] += 1;
+    }
+    return Object.fromEntries(LEVEL_IDS.map((id) => [id, { total: totals[id], saved: saved[id] }])) as Record<
+      Level,
+      { total: number; saved: number }
+    >;
+  }, [savedIds]);
 
   function toggleSaved() {
     if (!card) return;
@@ -77,11 +166,39 @@ export default function App() {
 
   return (
     <main className="min-h-screen bg-[#0f172a] text-white">
+      {splash !== "done" && (
+        <div className={`launch-splash ${splash === "fade" ? "is-fading" : ""}`} aria-hidden={splash === "fade"}>
+          {floating.map((item) => (
+            <div
+              key={item.id}
+              className="launch-float"
+              style={{
+                top: item.slot.top,
+                left: item.slot.left,
+                animationDelay: item.slot.delay,
+                ["--drift-x" as string]: item.slot.x,
+                ["--drift-y" as string]: item.slot.y,
+                ["--peak" as string]: item.slot.peak,
+                ["--scale" as string]: item.slot.scale,
+              }}
+            >
+              <strong>{item.italian}</strong>
+              <span>{item.translation}</span>
+            </div>
+          ))}
+          <div className="launch-mark">
+            <AudioLines className="launch-wave" strokeWidth={1.5} aria-hidden />
+            <p className="launch-word">Parliamo</p>
+          </div>
+        </div>
+      )}
       <div className="mx-auto flex min-h-screen max-w-3xl flex-col gap-6 px-4 py-8 sm:px-6">
         <Header
-          streak={0}
+          streak={streakOnView({ streak, lastStudyDay })}
           cardsToday={cardsToday}
           dailyGoal={DAILY_GOAL}
+          saved={savedCount}
+          progress={levelProgress}
           level={level}
           tongue={tongue}
           onLevel={(next) => {

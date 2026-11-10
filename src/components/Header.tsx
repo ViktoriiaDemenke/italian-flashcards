@@ -1,15 +1,29 @@
 import { useEffect, useRef, useState } from "react";
-import { Flame, Languages, Target } from "lucide-react";
+import { AudioLines, Flame, Target } from "lucide-react";
 import { LEVELS } from "../lib/copy";
 import { t, TONGUES } from "../lib/ui";
 import type { Level, MotherTongue } from "../types";
+
+const LEVEL_TITLES: Record<Level, string> = {
+  A1: "Elementare",
+  A2: "Pre-intermedio",
+  B1: "Intermedio",
+  B2: "Avanzato",
+};
+
+type LevelProgress = {
+  total: number;
+  saved: number;
+};
 
 type HeaderProps = {
   streak: number;
   cardsToday: number;
   dailyGoal: number;
+  saved: number;
   level: Level;
   tongue: MotherTongue;
+  progress: Record<Level, LevelProgress>;
   onLevel: (level: Level) => void;
   onTongue: (tongue: MotherTongue) => void;
 };
@@ -18,8 +32,10 @@ export function Header({
   streak,
   cardsToday,
   dailyGoal,
+  saved,
   level,
   tongue,
+  progress,
   onLevel,
   onTongue,
 }: HeaderProps) {
@@ -49,19 +65,22 @@ export function Header({
       <div className="flex flex-wrap items-center gap-3">
         <div className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-400/40 bg-emerald-500/10 text-emerald-400 shadow-[0_0_22px_rgba(16,185,129,0.28)]">
-            <Languages className="h-5 w-5" strokeWidth={1.75} />
+            <AudioLines className="h-6 w-6 drop-shadow-[0_0_10px_rgba(16,185,129,0.95)]" strokeWidth={1.5} />
           </div>
           <h1 className="text-2xl font-semibold tracking-tight text-white">Parliamo</h1>
         </div>
 
         <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/50 bg-amber-500/10 px-3 py-1.5 text-sm text-amber-200 shadow-[0_0_18px_rgba(251,191,36,0.28)]">
-            <Flame className="h-3.5 w-3.5 text-orange-300" />
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/50 bg-emerald-500/10 px-3 py-1.5 text-sm text-emerald-200 shadow-[0_0_18px_rgba(16,185,129,0.28)]">
+            <Flame className="h-3.5 w-3.5 text-emerald-300" />
             {streak} {t(tongue, "streak")}
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/50 bg-emerald-500/10 px-3 py-1.5 text-sm text-emerald-200 shadow-[0_0_18px_rgba(16,185,129,0.28)]">
             <Target className="h-3.5 w-3.5" />
             {t(tongue, "cardsToday")}: {shown}/{dailyGoal}
+          </span>
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/40 bg-[#111827] px-3 py-1.5 text-sm text-slate-200">
+            {t(tongue, "mastered")}: {saved}
           </span>
           <div className="relative" ref={popover}>
             <button
@@ -111,11 +130,7 @@ export function Header({
         </div>
       </div>
 
-      <div
-        className="grid grid-cols-2 gap-1 rounded-full border border-slate-700 bg-[#111827] p-1 sm:grid-cols-4"
-        role="group"
-        aria-label="Study level"
-      >
+      <div className="flex flex-col gap-2.5" role="group" aria-label="Study level">
         {LEVELS.map((item) => {
           const active = item.id === level;
           return (
@@ -124,15 +139,36 @@ export function Header({
               type="button"
               aria-pressed={active}
               onClick={() => onLevel(item.id)}
-              className={`rounded-full px-2 py-1.5 text-center text-sm transition ${
+              className={`rounded-2xl border px-4 py-3.5 text-left transition ${
                 active
-                  ? "bg-emerald-500 text-slate-950 shadow-[0_0_20px_rgba(16,185,129,0.45)]"
-                  : "text-slate-300 hover:bg-slate-800"
+                  ? "border-[#10b981] bg-[#111827] text-white shadow-[0_0_22px_rgba(16,185,129,0.38)]"
+                  : "border-slate-700 bg-[#111827] text-slate-300 hover:border-slate-600"
               }`}
             >
-              <span className="font-semibold">{item.id}</span>{" "}
-              <span className={active ? "text-slate-900/80" : "text-slate-400"}>
-                {t(tongue, item.nameKey)}
+              <span className={`text-xs font-semibold tracking-[0.16em] ${active ? "text-emerald-400" : "text-slate-500"}`}>
+                {item.id}
+              </span>
+              <span className="mt-0.5 block text-base font-medium text-white">{LEVEL_TITLES[item.id]}</span>
+              <span className="mt-2 flex items-center justify-between gap-3 text-xs text-slate-400">
+                <span>
+                  {progress[item.id].saved}/{progress[item.id].total}
+                </span>
+                <span className={active ? "text-emerald-300" : "text-slate-500"}>
+                  {progress[item.id].total === 0
+                    ? "0%"
+                    : `${Math.round((progress[item.id].saved / progress[item.id].total) * 100)}%`}
+                </span>
+              </span>
+              <span className="mt-1.5 block h-1 overflow-hidden rounded-full bg-slate-800">
+                <span
+                  className="block h-full rounded-full bg-[#10b981]"
+                  style={{
+                    width:
+                      progress[item.id].total === 0
+                        ? "0%"
+                        : `${Math.min(100, Math.round((progress[item.id].saved / progress[item.id].total) * 100))}%`,
+                  }}
+                />
               </span>
             </button>
           );

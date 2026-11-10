@@ -54,6 +54,98 @@ body {
   animation-name: card-slide-back;
 }
 
+.launch-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 55% 42% at 28% 22%, rgba(16, 185, 129, 0.2), transparent 62%),
+    radial-gradient(ellipse 48% 40% at 78% 72%, rgba(16, 185, 129, 0.12), transparent 64%),
+    radial-gradient(ellipse 30% 24% at 62% 28%, rgba(52, 211, 153, 0.08), transparent 70%),
+    #0f172a;
+  opacity: 1;
+  transition: opacity 0.7s ease;
+}
+
+.launch-splash.is-fading {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.launch-mark {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.launch-wave {
+  width: 4.5rem;
+  height: 4.5rem;
+  color: #10b981;
+  filter: drop-shadow(0 0 16px rgba(16, 185, 129, 0.95)) drop-shadow(0 0 36px rgba(16, 185, 129, 0.45));
+}
+
+.launch-float {
+  position: absolute;
+  z-index: 1;
+  max-width: 6.4rem;
+  padding: 0.28rem 0.4rem;
+  border: 1px solid rgba(16, 185, 129, 0.22);
+  border-radius: 0.55rem;
+  background: rgba(15, 23, 42, 0.55);
+  color: white;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.12);
+  opacity: 0;
+  animation: launch-drift 3.4s ease-in-out both;
+}
+
+.launch-float strong {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.launch-float span {
+  display: block;
+  margin-top: 0.08rem;
+  color: #a7f3d0;
+  font-size: 0.5rem;
+  line-height: 1.2;
+}
+
+@keyframes launch-drift {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0) scale(var(--scale, 0.6));
+  }
+  28% {
+    opacity: var(--peak, 0.45);
+  }
+  70% {
+    opacity: var(--peak, 0.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift-x), var(--drift-y), 0) scale(var(--scale, 0.6));
+  }
+}
+
+.launch-word {
+  margin: 0;
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
 @keyframes card-slide {
   from {
     opacity: 0;
