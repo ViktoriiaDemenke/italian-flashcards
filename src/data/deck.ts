@@ -32,8 +32,8 @@ export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...ADVANCED_DECKS, ...
 
 const CATEGORY_ORDER: CategoryId[] = [
   "home",
-  "numbers",
   "tempo_calendario",
+  "numbers",
   "verbs",
   "city",
   "transport",
