@@ -23,8 +23,8 @@ export const TEMPO_CARDS: StudyCard[] = rows.map((row) => {
   );
   return {
     id: row.id,
-    category: "tempo_calendario",
-    topic: "tempo_calendario",
+    category: "tempo",
+    topic: "tempo",
     level: "A1",
     italian: row.word,
     kind: "vocab",

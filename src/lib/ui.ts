@@ -53,6 +53,16 @@ export type UiKey =
   | "dovere"
   | "numbers"
   | "tempo_calendario"
+  | "tempo"
+  | "casa"
+  | "numeri"
+  | "corpo"
+  | "famiglia"
+  | "direzione"
+  | "cibo"
+  | "vestiti"
+  | "trasporti"
+  | "verbi"
   | "city"
   | "transport"
   | "shopping"
@@ -159,6 +169,16 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   dovere: { en: "Must", uk: "Мусити", ru: "Должен", de: "Müssen", pl: "Musieć", es: "Deber", fr: "Devoir", ro: "A trebui" },
   numbers: { en: "Numbers", uk: "Числівники", ru: "Числительные", de: "Zahlen", pl: "Liczebniki", es: "Números", fr: "Nombres", ro: "Numerale" },
   tempo_calendario: { en: "Calendar and time", uk: "Календар і час", ru: "Календарь и время", de: "Kalender und Zeit", pl: "Kalendarz i czas", es: "Calendario y tiempo", fr: "Calendrier et temps", ro: "Calendar și timp" },
+  tempo: { en: "Time and calendar", uk: "Час і календар", ru: "Время и календарь", de: "Zeit und Kalender", pl: "Czas i kalendarz", es: "Tiempo y calendario", fr: "Temps et calendrier", ro: "Timp și calendar" },
+  casa: { en: "Home and kitchen", uk: "Дім і кухня", ru: "Дом и кухня", de: "Haus und Küche", pl: "Dom i kuchnia", es: "Casa y cocina", fr: "Maison et cuisine", ro: "Casă și bucătărie" },
+  numeri: { en: "Numbers and prices", uk: "Числівники та ціни", ru: "Числительные и цены", de: "Zahlen und Preise", pl: "Liczebniki i ceny", es: "Números y precios", fr: "Nombres et prix", ro: "Numerale și prețuri" },
+  corpo: { en: "The human body", uk: "Тіло людини", ru: "Тело человека", de: "Der menschliche Körper", pl: "Ciało człowieka", es: "El cuerpo humano", fr: "Le corps humain", ro: "Corpul omenesc" },
+  famiglia: { en: "Family and people", uk: "Сім'я та люди", ru: "Семья и люди", de: "Familie und Menschen", pl: "Rodzina i ludzie", es: "Familia y personas", fr: "Famille et personnes", ro: "Familie și oameni" },
+  direzione: { en: "Direction and movement", uk: "Напрямок і рух", ru: "Направление и движение", de: "Richtung und Bewegung", pl: "Kierunek i ruch", es: "Dirección y movimiento", fr: "Direction et mouvement", ro: "Direcție și mișcare" },
+  cibo: { en: "Food and the restaurant", uk: "Їжа та ресторан", ru: "Еда и ресторан", de: "Essen und Restaurant", pl: "Jedzenie i restauracja", es: "Comida y restaurante", fr: "Nourriture et restaurant", ro: "Mâncare și restaurant" },
+  vestiti: { en: "Clothes and shopping", uk: "Одяг та покупки", ru: "Одежда и покупки", de: "Kleidung und Einkaufen", pl: "Ubrania i zakupy", es: "Ropa y compras", fr: "Vêtements et courses", ro: "Haine și cumpărături" },
+  trasporti: { en: "Transport and the city", uk: "Транспорт і місто", ru: "Транспорт и город", de: "Verkehr und Stadt", pl: "Transport i miasto", es: "Transporte y ciudad", fr: "Transports et ville", ro: "Transport și oraș" },
+  verbi: { en: "Basic verbs", uk: "Базові дієслова", ru: "Базовые глаголы", de: "Grundverben", pl: "Podstawowe czasowniki", es: "Verbos básicos", fr: "Verbes de base", ro: "Verbe de bază" },
   city: { en: "City", uk: "Місто", ru: "Город", de: "Stadt", pl: "Miasto", es: "Ciudad", fr: "Ville", ro: "Oraș" },
   transport: { en: "Transport", uk: "Транспорт", ru: "Транспорт", de: "Verkehr", pl: "Transport", es: "Transporte", fr: "Transports", ro: "Transport" },
   shopping: { en: "Shopping", uk: "Покупки", ru: "Покупки", de: "Einkaufen", pl: "Zakupy", es: "Compras", fr: "Courses", ro: "Cumpărături" },

@@ -1,3 +1,4 @@
+import { A1_EXTRA } from "./a1Sets";
 import { ADVANCED_DECKS } from "./advancedDecks";
 import { CALENDAR_CARDS } from "./calendarCards";
 import { HOME_CARDS } from "./homeCards";
@@ -7,18 +8,30 @@ import { TEMPO_CARDS } from "./tempoCards";
 import { VERB_CARDS } from "./verbCards";
 import type { CategoryId, FilterId, Level, StudyCard, TenseId, TopicId } from "../types";
 
-const A1_ROOMS = new Set<TopicId>(["living", "bath", "bedroom", "kitchen", "kids"]);
+const A1_HOME = new Set<TopicId>(["living", "bath", "bedroom", "kitchen", "kids", "furniture"]);
 const A1_VERBS = new Set<TopicId>(["essere", "avere", "andare", "fare", "potere", "volere", "dovere"]);
 
 const A1_DECK: StudyCard[] = [
-  ...HOME_CARDS.filter((card) => A1_ROOMS.has(card.topic)).map((card) => ({ ...card, level: "A1" as const })),
+  ...TEMPO_CARDS,
+  ...A1_EXTRA.filter((card) => card.category === "tempo"),
+  ...HOME_CARDS.filter((card) => A1_HOME.has(card.topic)).map((card) => ({
+    ...card,
+    level: "A1" as const,
+    category: "casa" as const,
+    topic: "casa" as const,
+  })),
   ...CALENDAR_CARDS.filter((card) => card.topic === "cardinals").map((card) => ({
     ...card,
     level: "A1" as const,
-    category: "numbers" as const,
+    category: "numeri" as const,
+    topic: "numeri" as const,
   })),
-  ...VERB_CARDS.filter((card) => A1_VERBS.has(card.topic)).map((card) => ({ ...card, level: "A1" as const })),
-  ...TEMPO_CARDS,
+  ...A1_EXTRA.filter((card) => card.category !== "tempo"),
+  ...VERB_CARDS.filter((card) => A1_VERBS.has(card.topic)).map((card) => ({
+    ...card,
+    level: "A1" as const,
+    category: "verbi" as const,
+  })),
 ];
 
 const A2_DECK = LEVEL_PACKS.filter((card) => card.level === "A2");
@@ -31,8 +44,17 @@ const B2_IDIOMS = LEXICON_CARDS.filter((card) => card.category === "idioms").map
 export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...ADVANCED_DECKS, ...B2_IDIOMS];
 
 const CATEGORY_ORDER: CategoryId[] = [
+  "tempo",
+  "casa",
+  "numeri",
+  "corpo",
+  "famiglia",
+  "direzione",
+  "cibo",
+  "vestiti",
+  "trasporti",
+  "verbi",
   "home",
-  "tempo_calendario",
   "numbers",
   "verbs",
   "city",
