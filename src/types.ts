@@ -46,6 +46,11 @@ export type CategoryId =
   | "salute_mentale"
   | "viaggi_imprevisti"
   | "tecnologia_social"
+  | "cultura_spettacolo"
+  | "banca_servizi"
+  | "ambiente_natura"
+  | "relazioni_conflitti"
+  | "problemi_riparazioni"
   | "nouns"
   | "adjectives"
   | "idioms";
@@ -116,6 +121,11 @@ export type TopicId =
   | "salute_mentale"
   | "viaggi_imprevisti"
   | "tecnologia_social"
+  | "cultura_spettacolo"
+  | "banca_servizi"
+  | "ambiente_natura"
+  | "relazioni_conflitti"
+  | "problemi_riparazioni"
   | "nouns"
   | "adjectives"
   | "idioms";

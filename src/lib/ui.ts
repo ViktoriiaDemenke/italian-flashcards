@@ -78,6 +78,11 @@ export type UiKey =
   | "salute_mentale"
   | "viaggi_imprevisti"
   | "tecnologia_social"
+  | "cultura_spettacolo"
+  | "banca_servizi"
+  | "ambiente_natura"
+  | "relazioni_conflitti"
+  | "problemi_riparazioni"
   | "city"
   | "transport"
   | "shopping"
@@ -209,6 +214,11 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   salute_mentale: { en: "Mental health and wellbeing", uk: "Психічне здоров'я та самопочуття", ru: "Психическое здоровье и самочувствие", de: "Psychische Gesundheit und Wohlbefinden", pl: "Zdrowie psychiczne i samopoczucie", es: "Salud mental y bienestar", fr: "Santé mentale et bien-être", ro: "Sănătate mintală și stare de bine" },
   viaggi_imprevisti: { en: "Travel and unexpected situations", uk: "Подорожі та непередбачувані ситуації", ru: "Путешествия и непредвиденные ситуации", de: "Reisen und unvorhergesehene Situationen", pl: "Podróże i nieprzewidziane sytuacje", es: "Viajes y imprevistos", fr: "Voyages et imprévus", ro: "Călătorii și situații neprevăzute" },
   tecnologia_social: { en: "Technology and social media", uk: "Технології та соцмережі", ru: "Технологии и соцсети", de: "Technik und soziale Medien", pl: "Technologia i media społecznościowe", es: "Tecnología y redes", fr: "Technologie et réseaux", ro: "Tehnologie și rețele sociale" },
+  cultura_spettacolo: { en: "Culture and entertainment", uk: "Культура та розваги", ru: "Культура и развлечения", de: "Kultur und Unterhaltung", pl: "Kultura i rozrywka", es: "Cultura y ocio", fr: "Culture et loisirs", ro: "Cultură și distracție" },
+  banca_servizi: { en: "Bank and services", uk: "Банк та послуги", ru: "Банк и услуги", de: "Bank und Dienste", pl: "Bank i usługi", es: "Banco y servicios", fr: "Banque et services", ro: "Bancă și servicii" },
+  ambiente_natura: { en: "Environment and nature", uk: "Довкілля та природа", ru: "Окружающая среда и природа", de: "Umwelt und Natur", pl: "Środowisko i natura", es: "Medio ambiente y naturaleza", fr: "Environnement et nature", ro: "Mediu și natură" },
+  relazioni_conflitti: { en: "Relationships and conflicts", uk: "Стосунки та конфлікти", ru: "Отношения и конфликты", de: "Beziehungen und Konflikte", pl: "Relacje i konflikty", es: "Relaciones y conflictos", fr: "Relations et conflits", ro: "Relații și conflicte" },
+  problemi_riparazioni: { en: "Household problems and repairs", uk: "Побутові проблеми та ремонт", ru: "Бытовые проблемы и ремонт", de: "Alltagsprobleme und Reparaturen", pl: "Problemy domowe i naprawy", es: "Problemas del hogar y reparaciones", fr: "Problèmes du quotidien et réparations", ro: "Probleme casnice și reparații" },
   city: { en: "City", uk: "Місто", ru: "Город", de: "Stadt", pl: "Miasto", es: "Ciudad", fr: "Ville", ro: "Oraș" },
   transport: { en: "Transport", uk: "Транспорт", ru: "Транспорт", de: "Verkehr", pl: "Transport", es: "Transporte", fr: "Transports", ro: "Transport" },
   shopping: { en: "Shopping", uk: "Покупки", ru: "Покупки", de: "Einkaufen", pl: "Zakupy", es: "Compras", fr: "Courses", ro: "Cumpărături" },
