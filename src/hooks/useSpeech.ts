@@ -13,7 +13,6 @@ export function useSpeech() {
 
   function speak(text: string) {
     const rate = 0.7;
-    console.log("Speaking:", text, rate);
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     const phrase = text.trim();
     if (!phrase) return;

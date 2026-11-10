@@ -1,5 +1,6 @@
 import first from "./b1-cards-1-5.json" with { type: "json" };
 import second from "./b1-cards-6-10.json" with { type: "json" };
+import extra from "./b1-extra.json" with { type: "json" };
 import type { CategoryId, LangText, MotherTongue, StudyCard, TopicId } from "../types";
 
 const TONGUES: MotherTongue[] = ["en", "uk", "ru", "de", "pl", "es", "fr", "ro"];
@@ -17,7 +18,7 @@ function langText(source: Record<string, string>): LangText {
   };
 }
 
-export const B1_CARDS: StudyCard[] = [...first, ...second].map((row) => {
+export const B1_CARDS: StudyCard[] = [...first, ...second, ...extra].map((row) => {
   const translation = langText(row.translations);
   const exampleTranslation = langText(
     Object.fromEntries(TONGUES.map((tongue) => [tongue, row.examples[tongue].translation])),

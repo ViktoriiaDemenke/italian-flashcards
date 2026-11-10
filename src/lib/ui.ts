@@ -132,6 +132,7 @@ export type UiKey =
   | "keep"
   | "againBtn"
   | "stats"
+  | "studied"
   | "mastered"
   | "repeat"
   | "accuracy"
@@ -273,6 +274,7 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   keep: { en: "Choose another level or category to keep studying.", uk: "Оберіть інший рівень або категорію.", ru: "Выберите другой уровень или категорию.", de: "Wähle eine andere Stufe oder Kategorie.", pl: "Wybierz inny poziom albo kategorię.", es: "Elige otro nivel o categoría.", fr: "Choisissez un autre niveau ou une autre catégorie.", ro: "Alege alt nivel sau altă categorie." },
   againBtn: { en: "Study again", uk: "Вчити знову", ru: "Учить снова", de: "Nochmal lernen", pl: "Ucz się znów", es: "Estudiar de nuevo", fr: "Étudier encore", ro: "Studiază din nou" },
   stats: { en: "SESSION STATS", uk: "СТАТИСТИКА СЕСІЇ", ru: "СТАТИСТИКА СЕССИИ", de: "SITZUNGSSTATISTIK", pl: "STATYSTYKI SESJI", es: "ESTADÍSTICAS", fr: "STATS DE SESSION", ro: "STATISTICI" },
+  studied: { en: "Studied", uk: "Вивчено", ru: "Изучено", de: "Gelernt", pl: "Przerobione", es: "Estudiadas", fr: "Étudiées", ro: "Studiate" },
   mastered: { en: "Saved", uk: "Збережено", ru: "Сохранено", de: "Gespeichert", pl: "Zapisane", es: "Guardadas", fr: "Enregistrées", ro: "Salvate" },
   repeat: { en: "To repeat", uk: "Повторити", ru: "Повторить", de: "Wiederholen", pl: "Do powtórki", es: "A repetir", fr: "À revoir", ro: "De repetat" },
   accuracy: { en: "Accuracy", uk: "Точність", ru: "Точность", de: "Genauigkeit", pl: "Trafność", es: "Precisión", fr: "Précision", ro: "Acuratețe" },

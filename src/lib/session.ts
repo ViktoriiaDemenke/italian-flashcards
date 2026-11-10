@@ -9,6 +9,8 @@ export type Session = {
   level: Level;
   tongue: MotherTongue;
   savedIds: string[];
+  repeatIds: string[];
+  studiedIds: string[];
   streak: number;
   lastStudyDay: string | null;
   cardsToday: number;
@@ -32,6 +34,8 @@ export function emptySession(): Session {
     level: "A1",
     tongue: "uk",
     savedIds: [],
+    repeatIds: [],
+    studiedIds: [],
     streak: 0,
     lastStudyDay: null,
     cardsToday: 0,
@@ -44,6 +48,10 @@ function isLevel(value: unknown): value is Level {
 
 function isTongue(value: unknown): value is MotherTongue {
   return typeof value === "string" && TONGUES.includes(value as MotherTongue);
+}
+
+function ids(value: unknown) {
+  return Array.isArray(value) ? value.filter((id) => typeof id === "string") : [];
 }
 
 export function loadSession(): Session {
@@ -59,7 +67,9 @@ export function loadSession(): Session {
     return {
       level: isLevel(parsed.level) ? parsed.level : base.level,
       tongue: isTongue(parsed.tongue) ? parsed.tongue : base.tongue,
-      savedIds: Array.isArray(parsed.savedIds) ? parsed.savedIds.filter((id) => typeof id === "string") : [],
+      savedIds: ids(parsed.savedIds),
+      repeatIds: ids(parsed.repeatIds),
+      studiedIds: ids(parsed.studiedIds),
       streak: typeof parsed.streak === "number" && parsed.streak >= 0 ? parsed.streak : 0,
       lastStudyDay: last,
       cardsToday: last === today ? storedToday : 0,

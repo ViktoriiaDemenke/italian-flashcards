@@ -68,6 +68,8 @@ export default function App() {
   const [lastStudyDay, setLastStudyDay] = useState<string | null>(stored.lastStudyDay);
   const [counts, setCounts] = useState({ again: 0, hard: 0, good: 0, easy: 0 });
   const [savedIds, setSavedIds] = useState<string[]>(stored.savedIds);
+  const [repeatIds, setRepeatIds] = useState<string[]>(stored.repeatIds);
+  const [studiedIds, setStudiedIds] = useState<string[]>(stored.studiedIds);
   const [slide, setSlide] = useState<"next" | "prev">("next");
   const [splash, setSplash] = useState<"hold" | "fade" | "done">("hold");
   const [floating] = useState(() => splashCards(stored.tongue));
@@ -82,8 +84,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    saveSession({ level, tongue, savedIds, streak, lastStudyDay, cardsToday });
-  }, [level, tongue, savedIds, streak, lastStudyDay, cardsToday]);
+    saveSession({ level, tongue, savedIds, repeatIds, studiedIds, streak, lastStudyDay, cardsToday });
+  }, [level, tongue, savedIds, repeatIds, studiedIds, streak, lastStudyDay, cardsToday]);
 
   const deck = useMemo(() => cardsFor(level, filter, topic), [level, filter, topic]);
 
@@ -108,7 +110,16 @@ export default function App() {
     setCardsToday(next.cardsToday);
   }
 
+  function remember(id: string, again: boolean) {
+    setStudiedIds((current) => (current.includes(id) ? current : [...current, id]));
+    setRepeatIds((current) => {
+      if (again) return current.includes(id) ? current : [...current, id];
+      return current.filter((item) => item !== id);
+    });
+  }
+
   function advance(result: GradeId) {
+    if (card) remember(card.id, result === "again");
     setCounts((current) => ({ ...current, [result]: current[result] + 1 }));
     markStudied();
     if (index + 1 >= deck.length) {
@@ -128,7 +139,10 @@ export default function App() {
     setIndex(next);
     setFlipped(false);
     setTense("presente");
-    if (delta > 0) markStudied();
+    if (delta > 0 && card) {
+      remember(card.id, false);
+      markStudied();
+    }
   }
 
   const levelProgress = useMemo(() => {
@@ -304,8 +318,8 @@ export default function App() {
           <StatsDrawer
             open={statsOpen}
             onToggle={() => setStatsOpen((current) => !current)}
-            saved={savedCount}
-            toRepeat={savedCount}
+            studied={studiedIds.length}
+            toRepeat={repeatIds.length}
             tongue={tongue}
           />
         </div>

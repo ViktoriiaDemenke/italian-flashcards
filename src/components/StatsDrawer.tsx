@@ -5,7 +5,7 @@ import type { MotherTongue } from "../types";
 type StatsDrawerProps = {
   open: boolean;
   onToggle: () => void;
-  saved: number;
+  studied: number;
   toRepeat: number;
   tongue: MotherTongue;
 };
@@ -13,7 +13,7 @@ type StatsDrawerProps = {
 export function StatsDrawer({
   open,
   onToggle,
-  saved,
+  studied,
   toRepeat,
   tongue,
 }: StatsDrawerProps) {
@@ -32,7 +32,7 @@ export function StatsDrawer({
       </button>
       {open && (
         <div className="grid grid-cols-2 gap-3 border-t border-slate-800 px-4 py-4">
-          <Stat label={t(tongue, "mastered")} value={String(saved)} />
+          <Stat label={t(tongue, "studied")} value={String(studied)} />
           <Stat label={t(tongue, "repeat")} value={String(toRepeat)} />
         </div>
       )}
