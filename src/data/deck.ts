@@ -1,3 +1,4 @@
+import { B1_CARDS } from "./b1Cards";
 import { A2_CARDS } from "./a2Cards";
 import { A1_EXTRA } from "./a1Sets";
 import { ADVANCED_DECKS } from "./advancedDecks";
@@ -35,13 +36,15 @@ const A1_DECK: StudyCard[] = [
 ];
 
 const A2_DECK = A2_CARDS;
+const B1_DECK = B1_CARDS;
+const B2_DECK = ADVANCED_DECKS.filter((card) => card.level === "B2");
 
 const B2_IDIOMS = LEXICON_CARDS.filter((card) => card.category === "idioms").map((card) => ({
   ...card,
   level: "B2" as const,
 }));
 
-export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...ADVANCED_DECKS, ...B2_IDIOMS];
+export const DECK: StudyCard[] = [...A1_DECK, ...A2_DECK, ...B1_DECK, ...B2_DECK, ...B2_IDIOMS];
 
 const CATEGORY_ORDER: CategoryId[] = [
   "tempo",
@@ -64,6 +67,11 @@ const CATEGORY_ORDER: CategoryId[] = [
   "shopping_taglie",
   "professioni_lavoro",
   "viaggi_hotel",
+  "sentimenti_emozioni",
+  "lavoro_colloquio",
+  "salute_mentale",
+  "viaggi_imprevisti",
+  "tecnologia_social",
   "home",
   "numbers",
   "verbs",

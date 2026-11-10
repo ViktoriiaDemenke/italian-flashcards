@@ -41,6 +41,11 @@ export type CategoryId =
   | "shopping_taglie"
   | "professioni_lavoro"
   | "viaggi_hotel"
+  | "sentimenti_emozioni"
+  | "lavoro_colloquio"
+  | "salute_mentale"
+  | "viaggi_imprevisti"
+  | "tecnologia_social"
   | "nouns"
   | "adjectives"
   | "idioms";
@@ -106,6 +111,11 @@ export type TopicId =
   | "shopping_taglie"
   | "professioni_lavoro"
   | "viaggi_hotel"
+  | "sentimenti_emozioni"
+  | "lavoro_colloquio"
+  | "salute_mentale"
+  | "viaggi_imprevisti"
+  | "tecnologia_social"
   | "nouns"
   | "adjectives"
   | "idioms";

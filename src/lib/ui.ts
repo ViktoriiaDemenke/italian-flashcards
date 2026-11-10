@@ -73,6 +73,11 @@ export type UiKey =
   | "shopping_taglie"
   | "professioni_lavoro"
   | "viaggi_hotel"
+  | "sentimenti_emozioni"
+  | "lavoro_colloquio"
+  | "salute_mentale"
+  | "viaggi_imprevisti"
+  | "tecnologia_social"
   | "city"
   | "transport"
   | "shopping"
@@ -199,6 +204,11 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   shopping_taglie: { en: "Shopping, sizes, and fitting", uk: "Покупки, розміри та примірка", ru: "Покупки, размеры и примерка", de: "Einkaufen, Größen und Anprobe", pl: "Zakupy, rozmiary i przymiarka", es: "Compras, tallas y prueba", fr: "Courses, tailles et essayage", ro: "Cumpărături, mărimi și probă" },
   professioni_lavoro: { en: "Jobs and the work schedule", uk: "Професії та робочий розклад", ru: "Профессии и рабочий график", de: "Berufe und Arbeitsplan", pl: "Zawody i grafik pracy", es: "Profesiones y horario", fr: "Métiers et horaires", ro: "Meserii și program de lucru" },
   viaggi_hotel: { en: "Travel, hotel, and airport", uk: "Подорожі, готель та аеропорт", ru: "Путешествия, отель и аэропорт", de: "Reisen, Hotel und Flughafen", pl: "Podróże, hotel i lotnisko", es: "Viajes, hotel y aeropuerto", fr: "Voyages, hôtel et aéroport", ro: "Călătorii, hotel și aeroport" },
+  sentimenti_emozioni: { en: "Feelings and emotions", uk: "Почуття та емоції", ru: "Чувства и эмоции", de: "Gefühle und Emotionen", pl: "Uczucia i emocje", es: "Sentimientos y emociones", fr: "Sentiments et émotions", ro: "Sentimente și emoții" },
+  lavoro_colloquio: { en: "Work and the interview", uk: "Робота та співбесіда", ru: "Работа и собеседование", de: "Arbeit und Vorstellungsgespräch", pl: "Praca i rozmowa", es: "Trabajo y entrevista", fr: "Travail et entretien", ro: "Muncă și interviu" },
+  salute_mentale: { en: "Mental health and wellbeing", uk: "Психічне здоров'я та самопочуття", ru: "Психическое здоровье и самочувствие", de: "Psychische Gesundheit und Wohlbefinden", pl: "Zdrowie psychiczne i samopoczucie", es: "Salud mental y bienestar", fr: "Santé mentale et bien-être", ro: "Sănătate mintală și stare de bine" },
+  viaggi_imprevisti: { en: "Travel and unexpected situations", uk: "Подорожі та непередбачувані ситуації", ru: "Путешествия и непредвиденные ситуации", de: "Reisen und unvorhergesehene Situationen", pl: "Podróże i nieprzewidziane sytuacje", es: "Viajes y imprevistos", fr: "Voyages et imprévus", ro: "Călătorii și situații neprevăzute" },
+  tecnologia_social: { en: "Technology and social media", uk: "Технології та соцмережі", ru: "Технологии и соцсети", de: "Technik und soziale Medien", pl: "Technologia i media społecznościowe", es: "Tecnología y redes", fr: "Technologie et réseaux", ro: "Tehnologie și rețele sociale" },
   city: { en: "City", uk: "Місто", ru: "Город", de: "Stadt", pl: "Miasto", es: "Ciudad", fr: "Ville", ro: "Oraș" },
   transport: { en: "Transport", uk: "Транспорт", ru: "Транспорт", de: "Verkehr", pl: "Transport", es: "Transporte", fr: "Transports", ro: "Transport" },
   shopping: { en: "Shopping", uk: "Покупки", ru: "Покупки", de: "Einkaufen", pl: "Zakupy", es: "Compras", fr: "Courses", ro: "Cumpărături" },

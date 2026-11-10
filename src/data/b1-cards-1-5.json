@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "b1_sentimenti_emozioni_1",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "La nostalgia",
+    "translations": {
+      "uk": "ностальгія",
+      "en": "nostalgia",
+      "de": "die Nostalgie",
+      "pl": "nostalgia",
+      "es": "la nostalgia",
+      "fr": "la nostalgie",
+      "ro": "nostalgia",
+      "ru": "ностальгия"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Коли я знову дивлюся фото села, відчуваю ностальгію, яку не можу пояснити."
+      },
+      "en": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "When I look at the village photos again I feel a nostalgia I cannot explain."
+      },
+      "de": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Wenn ich die Fotos aus dem Dorf wiedersehe, spüre ich eine Nostalgie, die ich nicht erklären kann."
+      },
+      "pl": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Gdy znów oglądam zdjęcia wsi, czuję nostalgię, której nie umiem wyjaśnić."
+      },
+      "es": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Cuando vuelvo a ver las fotos del pueblo siento una nostalgia que no puedo explicar."
+      },
+      "fr": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Quand je revois les photos du village, je ressens une nostalgie que je n'arrive pas à expliquer."
+      },
+      "ro": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Când revăd fotografiile din sat simt o nostalgie pe care nu o pot explica."
+      },
+      "ru": {
+        "sentence": "Quando rivedo le foto del paese provo una nostalgia che non riesco a spiegare.",
+        "translation": "Когда я снова смотрю фото деревни, я чувствую ностальгию, которую не могу объяснить."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_2",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "La delusione",
+    "translations": {
+      "uk": "розчарування",
+      "en": "disappointment",
+      "de": "die Enttäuschung",
+      "pl": "rozczarowanie",
+      "es": "la decepción",
+      "fr": "la déception",
+      "ro": "dezamăgirea",
+      "ru": "разочарование"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "Розчарування було великим, бо нам обіцяли інший результат."
+      },
+      "en": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "The disappointment was great because they had promised a different result."
+      },
+      "de": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "Die Enttäuschung war groß, weil man uns ein anderes Ergebnis versprochen hatte."
+      },
+      "pl": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "Rozczarowanie było duże, bo obiecano nam inny wynik."
+      },
+      "es": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "La decepción fue grande porque nos habían prometido otro resultado."
+      },
+      "fr": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "La déception a été grande parce qu'on nous avait promis un autre résultat."
+      },
+      "ro": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "Dezamăgirea a fost mare pentru că ni se promisese alt rezultat."
+      },
+      "ru": {
+        "sentence": "La delusione è stata grande perché ci avevano promesso un risultato diverso.",
+        "translation": "Разочарование было большим, потому что нам обещали другой результат."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_3",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "Il sollievo",
+    "translations": {
+      "uk": "полегшення",
+      "en": "relief",
+      "de": "die Erleichterung",
+      "pl": "ulga",
+      "es": "el alivio",
+      "fr": "le soulagement",
+      "ro": "ușurarea",
+      "ru": "облегчение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "Я відчув величезне полегшення, коли дізнався, що іспит пройшов добре."
+      },
+      "en": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "I felt enormous relief when I heard the exam had gone well."
+      },
+      "de": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "Ich empfand enorme Erleichterung, als ich hörte, dass die Prüfung gut gelaufen war."
+      },
+      "pl": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "Poczułem ogromną ulgę, gdy dowiedziałem się, że egzamin poszedł dobrze."
+      },
+      "es": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "Sentí un enorme alivio cuando supe que el examen había ido bien."
+      },
+      "fr": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "J'ai ressenti un énorme soulagement en apprenant que l'examen s'était bien passé."
+      },
+      "ro": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "Am simțit o ușurare enormă când am aflat că examenul a mers bine."
+      },
+      "ru": {
+        "sentence": "Ho provato un enorme sollievo quando ho saputo che l'esame era andato bene.",
+        "translation": "Я почувствовал огромное облегчение, когда узнал, что экзамен прошёл хорошо."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_4",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "La gelosia",
+    "translations": {
+      "uk": "ревнощі",
+      "en": "jealousy",
+      "de": "die Eifersucht",
+      "pl": "zazdrość",
+      "es": "los celos",
+      "fr": "la jalousie",
+      "ro": "gelozia",
+      "ru": "ревность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Ревнощі можуть зіпсувати стосунки навіть без реальної причини."
+      },
+      "en": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Jealousy can ruin a relationship even when there is no real reason."
+      },
+      "de": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Eifersucht kann eine Beziehung zerstören, auch wenn es keinen echten Grund gibt."
+      },
+      "pl": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Zazdrość może zniszczyć związek nawet bez prawdziwego powodu."
+      },
+      "es": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Los celos pueden arruinar una relación aunque no haya un motivo real."
+      },
+      "fr": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "La jalousie peut gâcher une relation même sans raison réelle."
+      },
+      "ro": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Gelozia poate strica o relație chiar și fără un motiv real."
+      },
+      "ru": {
+        "sentence": "La gelosia può rovinare un rapporto anche quando non c'è un motivo reale.",
+        "translation": "Ревность может испортить отношения даже без реальной причины."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_5",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "L'orgoglio",
+    "translations": {
+      "uk": "гордість",
+      "en": "pride",
+      "de": "der Stolz",
+      "pl": "duma",
+      "es": "el orgullo",
+      "fr": "la fierté",
+      "ro": "mândria",
+      "ru": "гордость"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Я відчуваю гордість, коли бачу, скільки ти вивчив за кілька місяців."
+      },
+      "en": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "I feel pride when I see how much you have learned in a few months."
+      },
+      "de": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Ich bin stolz, wenn ich sehe, wie viel du in wenigen Monaten gelernt hast."
+      },
+      "pl": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Czuję dumę, gdy widzę, ile nauczyłeś się w kilka miesięcy."
+      },
+      "es": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Siento orgullo cuando veo cuánto has aprendido en pocos meses."
+      },
+      "fr": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Je ressens de la fierté en voyant tout ce que tu as appris en quelques mois."
+      },
+      "ro": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Simt mândrie când văd cât ai învățat în câteva luni."
+      },
+      "ru": {
+        "sentence": "Provo orgoglio quando vedo quanto hai imparato in pochi mesi.",
+        "translation": "Я испытываю гордость, когда вижу, сколько ты выучил за несколько месяцев."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_6",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "L'ansia",
+    "translations": {
+      "uk": "тривога",
+      "en": "anxiety",
+      "de": "die Angst",
+      "pl": "niepokój",
+      "es": "la ansiedad",
+      "fr": "l'anxiété",
+      "ro": "anxietatea",
+      "ru": "тревога"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "Тривога перед співбесідою не давала мені нормально спати."
+      },
+      "en": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "Anxiety before the interview kept me from sleeping well."
+      },
+      "de": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "Die Angst vor dem Gespräch ließ mich nicht gut schlafen."
+      },
+      "pl": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "Niepokój przed rozmową nie pozwalał mi dobrze spać."
+      },
+      "es": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "La ansiedad antes de la entrevista me impedía dormir bien."
+      },
+      "fr": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "L'anxiété avant l'entretien m'empêchait de bien dormir."
+      },
+      "ro": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "Anxietatea dinaintea interviului nu mă lăsa să dorm bine."
+      },
+      "ru": {
+        "sentence": "L'ansia prima del colloquio mi impediva di dormire bene.",
+        "translation": "Тревога перед собеседованием не давала мне нормально спать."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_7",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "Arrabbiarsi",
+    "translations": {
+      "uk": "злитися",
+      "en": "to get angry",
+      "de": "sich ärgern",
+      "pl": "złościć się",
+      "es": "enfadarse",
+      "fr": "se fâcher",
+      "ro": "a se enerva",
+      "ru": "злиться"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "Не варто злитися через запізнення на п'ять хвилин."
+      },
+      "en": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "It is not worth getting angry over a five-minute delay."
+      },
+      "de": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "Es lohnt sich nicht, sich über fünf Minuten Verspätung zu ärgern."
+      },
+      "pl": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "Nie warto się złościć o pięć minut spóźnienia."
+      },
+      "es": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "No merece la pena enfadarse por un retraso de cinco minutos."
+      },
+      "fr": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "Ça ne vaut pas la peine de se fâcher pour cinq minutes de retard."
+      },
+      "ro": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "Nu merită să te enervezi pentru o întârziere de cinci minute."
+      },
+      "ru": {
+        "sentence": "Non vale la pena arrabbiarsi per un ritardo di cinque minuti.",
+        "translation": "Не стоит злиться из-за опоздания на пять минут."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_8",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "Sfogarsi",
+    "translations": {
+      "uk": "виговоритися",
+      "en": "to vent",
+      "de": "sich Luft machen",
+      "pl": "wygadać się",
+      "es": "desahogarse",
+      "fr": "se défouler",
+      "ro": "a se descărca",
+      "ru": "выговориться"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "Мені треба було виговоритися комусь, хто слухав би без осуду."
+      },
+      "en": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "I needed to vent to someone who would listen without judging."
+      },
+      "de": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "Ich musste mich bei jemandem Luft machen, der zuhört, ohne zu urteilen."
+      },
+      "pl": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "Musiałem się wygadać komuś, kto słucha bez oceniania."
+      },
+      "es": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "Necesitaba desahogarme con alguien que escuchara sin juzgar."
+      },
+      "fr": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "J'avais besoin de me défouler avec quelqu'un qui écoute sans juger."
+      },
+      "ro": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "Aveam nevoie să mă descarc la cineva care ascultă fără să judece."
+      },
+      "ru": {
+        "sentence": "Avevo bisogno di sfogarmi con qualcuno che mi ascoltasse senza giudicare.",
+        "translation": "Мне нужно было выговориться кому-то, кто слушает без осуждения."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_9",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "Commuoversi",
+    "translations": {
+      "uk": "розчулитися",
+      "en": "to be moved",
+      "de": "gerührt sein",
+      "pl": "wzruszyć się",
+      "es": "emocionarse",
+      "fr": "s'émouvoir",
+      "ro": "a se emoționa",
+      "ru": "растрогаться"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "Я розчулився, коли вони прочитали листа перед усіма."
+      },
+      "en": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "I was moved when they read the letter in front of everyone."
+      },
+      "de": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "Ich war gerührt, als sie den Brief vor allen vorlasen."
+      },
+      "pl": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "Wzruszyłem się, gdy przeczytali list przy wszystkich."
+      },
+      "es": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "Me emocioné cuando leyeron la carta delante de todos."
+      },
+      "fr": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "Je me suis ému quand ils ont lu la lettre devant tout le monde."
+      },
+      "ro": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "M-am emoționat când au citit scrisoarea în fața tuturor."
+      },
+      "ru": {
+        "sentence": "Mi sono commosso quando hanno letto la lettera davanti a tutti.",
+        "translation": "Я растрогался, когда они прочитали письмо перед всеми."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_10",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "La vergogna",
+    "translations": {
+      "uk": "сором",
+      "en": "shame",
+      "de": "die Scham",
+      "pl": "wstyd",
+      "es": "la vergüenza",
+      "fr": "la honte",
+      "ro": "rușinea",
+      "ru": "стыд"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "Сором не дав мені попросити допомогу вчасно."
+      },
+      "en": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "Shame kept me from asking for help at the right moment."
+      },
+      "de": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "Die Scham hat mich davon abgehalten, im richtigen Moment um Hilfe zu bitten."
+      },
+      "pl": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "Wstyd nie pozwolił mi poprosić o pomoc w odpowiedniej chwili."
+      },
+      "es": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "La vergüenza me impidió pedir ayuda en el momento justo."
+      },
+      "fr": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "La honte m'a empêché de demander de l'aide au bon moment."
+      },
+      "ro": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "Rușinea m-a împiedicat să cer ajutor la momentul potrivit."
+      },
+      "ru": {
+        "sentence": "La vergogna mi ha impedito di chiedere aiuto al momento giusto.",
+        "translation": "Стыд не дал мне вовремя попросить о помощи."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_11",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "Entusiasta",
+    "translations": {
+      "uk": "захоплений",
+      "en": "enthusiastic",
+      "de": "begeistert",
+      "pl": "entuzjastyczny",
+      "es": "entusiasta",
+      "fr": "enthousiaste",
+      "ro": "entuziast",
+      "ru": "восторженный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "Вона лишилася захопленою проєктом навіть після перших труднощів."
+      },
+      "en": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "She stayed enthusiastic about the project even after the first difficulties."
+      },
+      "de": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "Sie blieb vom Projekt begeistert, auch nach den ersten Schwierigkeiten."
+      },
+      "pl": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "Została entuzjastycznie nastawiona do projektu nawet po pierwszych trudnościach."
+      },
+      "es": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "Siguió entusiasmada con el proyecto incluso tras las primeras dificultades."
+      },
+      "fr": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "Elle est restée enthousiaste pour le projet même après les premières difficultés."
+      },
+      "ro": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "A rămas entuziastă față de proiect chiar și după primele dificultăți."
+      },
+      "ru": {
+        "sentence": "È rimasta entusiasta del progetto anche dopo le prime difficoltà.",
+        "translation": "Она осталась в восторге от проекта даже после первых трудностей."
+      }
+    }
+  },
+  {
+    "id": "b1_sentimenti_emozioni_12",
+    "level": "B1",
+    "topic": "sentimenti_emozioni",
+    "word": "Il rimpianto",
+    "translations": {
+      "uk": "жаль",
+      "en": "regret",
+      "de": "das Bedauern",
+      "pl": "żal",
+      "es": "el pesar",
+      "fr": "le regret",
+      "ro": "regretul",
+      "ru": "сожаление"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Найбільший жаль — що я не сказав те, що думав."
+      },
+      "en": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "My greatest regret is not having said what I thought."
+      },
+      "de": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Mein größtes Bedauern ist, nicht gesagt zu haben, was ich dachte."
+      },
+      "pl": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Największy żal to to, że nie powiedziałem, co myślałem."
+      },
+      "es": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Mi mayor pesar es no haber dicho lo que pensaba."
+      },
+      "fr": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Mon plus grand regret est de ne pas avoir dit ce que je pensais."
+      },
+      "ro": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Cel mai mare regret este că nu am spus ce gândeam."
+      },
+      "ru": {
+        "sentence": "Il rimpianto più grande è non aver detto quello che pensavo.",
+        "translation": "Самое большое сожаление — что я не сказал то, что думал."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_1",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Il curriculum",
+    "translations": {
+      "uk": "резюме",
+      "en": "the CV",
+      "de": "der Lebenslauf",
+      "pl": "CV",
+      "es": "el currículum",
+      "fr": "le CV",
+      "ro": "CV-ul",
+      "ru": "резюме"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "Я оновив резюме останнім досвідом перед тим, як надіслати заявку."
+      },
+      "en": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "I updated my CV with my latest experience before sending the application."
+      },
+      "de": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "Ich habe den Lebenslauf mit der letzten Erfahrung aktualisiert, bevor ich die Bewerbung schickte."
+      },
+      "pl": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "Zaktualizowałem CV o ostatnie doświadczenie, zanim wysłałem aplikację."
+      },
+      "es": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "Actualicé el currículum con la última experiencia antes de enviar la candidatura."
+      },
+      "fr": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "J'ai mis à jour mon CV avec la dernière expérience avant d'envoyer la candidature."
+      },
+      "ro": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "Mi-am actualizat CV-ul cu ultima experiență înainte să trimit candidatura."
+      },
+      "ru": {
+        "sentence": "Ho aggiornato il curriculum con l'ultima esperienza prima di inviare la candidatura.",
+        "translation": "Я обновил резюме последним опытом перед отправкой заявки."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_2",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "La candidatura",
+    "translations": {
+      "uk": "заявка",
+      "en": "the application",
+      "de": "die Bewerbung",
+      "pl": "aplikacja",
+      "es": "la candidatura",
+      "fr": "la candidature",
+      "ro": "candidatura",
+      "ru": "заявка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "Я надіслав заявку до строку, вказаного в оголошенні."
+      },
+      "en": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "I sent the application before the deadline in the ad."
+      },
+      "de": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "Ich habe die Bewerbung vor der Frist in der Anzeige geschickt."
+      },
+      "pl": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "Wysłałem aplikację przed terminem z ogłoszenia."
+      },
+      "es": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "Envié la candidatura antes del plazo del anuncio."
+      },
+      "fr": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "J'ai envoyé la candidature avant la date limite de l'annonce."
+      },
+      "ro": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "Am trimis candidatura înainte de termenul din anunț."
+      },
+      "ru": {
+        "sentence": "Ho inviato la candidatura entro la scadenza indicata nell'annuncio.",
+        "translation": "Я отправил заявку до срока из объявления."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_3",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Il colloquio",
+    "translations": {
+      "uk": "співбесіда",
+      "en": "the interview",
+      "de": "das Vorstellungsgespräch",
+      "pl": "rozmowa kwalifikacyjna",
+      "es": "la entrevista",
+      "fr": "l'entretien",
+      "ro": "interviul",
+      "ru": "собеседование"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "На співбесіді мене попросили розповісти про проблему, яку я розв'язав у команді."
+      },
+      "en": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "During the interview they asked me to describe a problem I solved in a team."
+      },
+      "de": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "Im Gespräch baten sie mich, ein Problem zu schildern, das ich im Team gelöst habe."
+      },
+      "pl": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "Na rozmowie poprosili, żebym opisał problem, który rozwiązałem w zespole."
+      },
+      "es": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "En la entrevista me pidieron contar un problema que resolví en equipo."
+      },
+      "fr": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "Pendant l'entretien on m'a demandé de raconter un problème que j'ai résolu en équipe."
+      },
+      "ro": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "La interviu mi-au cerut să povestesc o problemă pe care am rezolvat-o în echipă."
+      },
+      "ru": {
+        "sentence": "Durante il colloquio mi hanno chiesto di raccontare un problema che ho risolto in team.",
+        "translation": "На собеседовании меня попросили рассказать о проблеме, которую я решил в команде."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_4",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Lo stipendio",
+    "translations": {
+      "uk": "зарплата",
+      "en": "the salary",
+      "de": "das Gehalt",
+      "pl": "pensja",
+      "es": "el sueldo",
+      "fr": "le salaire",
+      "ro": "salariul",
+      "ru": "зарплата"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "Про зарплату ми говорили лише наприкінці другої співбесіди."
+      },
+      "en": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "We talked about salary only at the end of the second interview."
+      },
+      "de": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "Über das Gehalt sprachen wir erst am Ende des zweiten Gesprächs."
+      },
+      "pl": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "O pensji rozmawialiśmy dopiero pod koniec drugiej rozmowy."
+      },
+      "es": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "Hablamos del sueldo solo al final de la segunda entrevista."
+      },
+      "fr": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "Nous n'avons parlé du salaire qu'à la fin du deuxième entretien."
+      },
+      "ro": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "Am vorbit despre salariu abia la sfârșitul celui de-al doilea interviu."
+      },
+      "ru": {
+        "sentence": "Abbiamo parlato dello stipendio solo alla fine del secondo colloquio.",
+        "translation": "О зарплате мы говорили только в конце второго собеседования."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_5",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Il benefit",
+    "translations": {
+      "uk": "пільга",
+      "en": "the benefit",
+      "de": "die Zusatzleistung",
+      "pl": "benefit",
+      "es": "el beneficio",
+      "fr": "l'avantage",
+      "ro": "beneficiul",
+      "ru": "льгота"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Серед пільг є можливість працювати з дому два дні на тиждень."
+      },
+      "en": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Among the benefits is the chance to work from home two days a week."
+      },
+      "de": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Zu den Zusatzleistungen gehört die Möglichkeit, zwei Tage pro Woche von zu Hause zu arbeiten."
+      },
+      "pl": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Wśród benefitów jest możliwość pracy z domu dwa dni w tygodniu."
+      },
+      "es": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Entre los beneficios está poder trabajar desde casa dos días por semana."
+      },
+      "fr": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Parmi les avantages, on peut travailler de chez soi deux jours par semaine."
+      },
+      "ro": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Printre beneficii este posibilitatea de a lucra de acasă două zile pe săptămână."
+      },
+      "ru": {
+        "sentence": "Tra i benefit c'è la possibilità di lavorare da casa due giorni a settimana.",
+        "translation": "Среди льгот есть возможность работать из дома два дня в неделю."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_6",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "La scadenza",
+    "translations": {
+      "uk": "строк",
+      "en": "the deadline",
+      "de": "die Frist",
+      "pl": "termin",
+      "es": "la fecha límite",
+      "fr": "la date limite",
+      "ro": "termenul",
+      "ru": "срок"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "Строк здачі проєкту перенесли на тиждень раніше."
+      },
+      "en": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "The deadline for the project was moved up by a week."
+      },
+      "de": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "Die Frist für das Projekt wurde um eine Woche vorgezogen."
+      },
+      "pl": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "Termin oddania projektu przesunięto o tydzień wcześniej."
+      },
+      "es": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "La fecha límite del proyecto se adelantó una semana."
+      },
+      "fr": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "La date limite du projet a été avancée d'une semaine."
+      },
+      "ro": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "Termenul pentru proiect a fost devansat cu o săptămână."
+      },
+      "ru": {
+        "sentence": "La scadenza per consegnare il progetto è stata anticipata di una settimana.",
+        "translation": "Срок сдачи проекта перенесли на неделю раньше."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_7",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Il carico di lavoro",
+    "translations": {
+      "uk": "навантаження",
+      "en": "the workload",
+      "de": "die Arbeitsbelastung",
+      "pl": "obciążenie pracą",
+      "es": "la carga de trabajo",
+      "fr": "la charge de travail",
+      "ro": "volumul de muncă",
+      "ru": "нагрузка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "Навантаження зросло, відколи двоє колег у відпустці."
+      },
+      "en": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "The workload has grown since two colleagues went on leave."
+      },
+      "de": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "Die Arbeitsbelastung ist gestiegen, seit zwei Kollegen im Urlaub sind."
+      },
+      "pl": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "Obciążenie wzrosło, odkąd dwóch kolegów jest na urlopie."
+      },
+      "es": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "La carga de trabajo aumentó desde que dos compañeros están de vacaciones."
+      },
+      "fr": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "La charge de travail a augmenté depuis que deux collègues sont en congé."
+      },
+      "ro": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "Volumul de muncă a crescut de când doi colegi sunt în concediu."
+      },
+      "ru": {
+        "sentence": "Il carico di lavoro è aumentato da quando due colleghi sono in ferie.",
+        "translation": "Нагрузка выросла с тех пор, как двое коллег в отпуске."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_8",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "La promozione",
+    "translations": {
+      "uk": "підвищення",
+      "en": "the promotion",
+      "de": "die Beförderung",
+      "pl": "awans",
+      "es": "el ascenso",
+      "fr": "la promotion",
+      "ro": "promovarea",
+      "ru": "повышение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "Після двох років на тій самій посаді я попросив підвищення."
+      },
+      "en": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "After two years in the same role I asked for a promotion."
+      },
+      "de": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "Nach zwei Jahren in derselben Stelle habe ich um eine Beförderung gebeten."
+      },
+      "pl": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "Po dwóch latach na tym samym stanowisku poprosiłem o awans."
+      },
+      "es": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "Tras dos años en el mismo puesto pedí un ascenso."
+      },
+      "fr": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "Après deux ans au même poste, j'ai demandé une promotion."
+      },
+      "ro": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "După doi ani pe același post am cerut o promovare."
+      },
+      "ru": {
+        "sentence": "Dopo due anni nella stessa posizione ho chiesto una promozione.",
+        "translation": "После двух лет на той же должности я попросил повышение."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_9",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Il preavviso",
+    "translations": {
+      "uk": "попередження про звільнення",
+      "en": "the notice period",
+      "de": "die Kündigungsfrist",
+      "pl": "okres wypowiedzenia",
+      "es": "el preaviso",
+      "fr": "le préavis",
+      "ro": "preavizul",
+      "ru": "срок уведомления"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "За договором попередження — тридцять днів."
+      },
+      "en": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "According to the contract the notice period is thirty days."
+      },
+      "de": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "Laut Vertrag beträgt die Kündigungsfrist dreißig Tage."
+      },
+      "pl": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "Według umowy okres wypowiedzenia wynosi trzydzieści dni."
+      },
+      "es": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "Según el contrato el preaviso es de treinta días."
+      },
+      "fr": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "Selon le contrat, le préavis est de trente jours."
+      },
+      "ro": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "Conform contractului preavizul este de treizeci de zile."
+      },
+      "ru": {
+        "sentence": "Secondo il contratto il preavviso è di trenta giorni.",
+        "translation": "По договору срок уведомления — тридцать дней."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_10",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Delegare",
+    "translations": {
+      "uk": "делегувати",
+      "en": "to delegate",
+      "de": "delegieren",
+      "pl": "delegować",
+      "es": "delegar",
+      "fr": "déléguer",
+      "ro": "a delega",
+      "ru": "делегировать"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "Я навчився делегувати завдання замість того, щоб самому перевіряти кожну деталь."
+      },
+      "en": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "I learned to delegate tasks instead of checking every detail myself."
+      },
+      "de": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "Ich habe gelernt, Aufgaben zu delegieren, statt jedes Detail selbst zu prüfen."
+      },
+      "pl": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "Nauczyłem się delegować zadania zamiast samemu sprawdzać każdy szczegół."
+      },
+      "es": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "Aprendí a delegar las tareas en lugar de controlar cada detalle yo solo."
+      },
+      "fr": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "J'ai appris à déléguer les tâches au lieu de contrôler chaque détail moi-même."
+      },
+      "ro": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "Am învățat să deleg sarcini în loc să controlez singur fiecare detaliu."
+      },
+      "ru": {
+        "sentence": "Ho imparato a delegare i compiti invece di controllare ogni dettaglio da solo.",
+        "translation": "Я научился делегировать задачи вместо того, чтобы самому проверять каждую деталь."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_11",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "Il feedback",
+    "translations": {
+      "uk": "відгук",
+      "en": "the feedback",
+      "de": "die Rückmeldung",
+      "pl": "informacja zwrotna",
+      "es": "la retroalimentación",
+      "fr": "le retour",
+      "ro": "feedbackul",
+      "ru": "обратная связь"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "Відгук керівника допоміг мені зрозуміти, що покращити."
+      },
+      "en": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "My manager's feedback helped me see where to improve."
+      },
+      "de": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "Die Rückmeldung der Leitung half mir zu verstehen, wo ich mich verbessern kann."
+      },
+      "pl": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "Informacja od przełożonego pomogła mi zrozumieć, co poprawić."
+      },
+      "es": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "La retroalimentación del responsable me ayudó a ver qué mejorar."
+      },
+      "fr": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "Le retour du responsable m'a aidé à voir où progresser."
+      },
+      "ro": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "Feedbackul șefului m-a ajutat să înțeleg ce să îmbunătățesc."
+      },
+      "ru": {
+        "sentence": "Il feedback del responsabile mi ha aiutato a capire dove migliorare.",
+        "translation": "Обратная связь руководителя помогла мне понять, что улучшить."
+      }
+    }
+  },
+  {
+    "id": "b1_lavoro_colloquio_12",
+    "level": "B1",
+    "topic": "lavoro_colloquio",
+    "word": "La riunione",
+    "translations": {
+      "uk": "нарада",
+      "en": "the meeting",
+      "de": "die Besprechung",
+      "pl": "spotkanie",
+      "es": "la reunión",
+      "fr": "la réunion",
+      "ro": "ședința",
+      "ru": "совещание"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "Нарада тривала довше, ніж планували, бо не було чіткого порядку денного."
+      },
+      "en": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "The meeting lasted longer than planned because there was no clear agenda."
+      },
+      "de": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "Die Besprechung dauerte länger als geplant, weil es keine klare Tagesordnung gab."
+      },
+      "pl": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "Spotkanie trwało dłużej, bo nie było jasnego porządku obrad."
+      },
+      "es": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "La reunión duró más de lo previsto porque no había un orden del día claro."
+      },
+      "fr": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "La réunion a duré plus longtemps que prévu faute d'ordre du jour clair."
+      },
+      "ro": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "Ședința a durat mai mult decât era prevăzut pentru că nu exista o ordine de zi clară."
+      },
+      "ru": {
+        "sentence": "La riunione è durata più del previsto perché non c'era un ordine del giorno chiaro.",
+        "translation": "Совещание длилось дольше, чем планировали, потому что не было чёткой повестки."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_1",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Lo stress",
+    "translations": {
+      "uk": "стрес",
+      "en": "stress",
+      "de": "der Stress",
+      "pl": "stres",
+      "es": "el estrés",
+      "fr": "le stress",
+      "ro": "stresul",
+      "ru": "стресс"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "Накопичений на роботі стрес почав впливати і на сон."
+      },
+      "en": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "The stress built up at work started to affect my sleep as well."
+      },
+      "de": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "Der Stress aus dem Büro begann auch den Schlaf zu beeinflussen."
+      },
+      "pl": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "Stres z pracy zaczął wpływać także na sen."
+      },
+      "es": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "El estrés acumulado en la oficina empezó a afectar también el sueño."
+      },
+      "fr": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "Le stress accumulé au bureau a commencé à affecter aussi le sommeil."
+      },
+      "ro": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "Stresul acumulat la birou a început să influențeze și somnul."
+      },
+      "ru": {
+        "sentence": "Lo stress accumulato in ufficio ha cominciato a influenzare anche il sonno.",
+        "translation": "Накопившийся на работе стресс начал влиять и на сон."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_2",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Il burnout",
+    "translations": {
+      "uk": "вигорання",
+      "en": "burnout",
+      "de": "das Burnout",
+      "pl": "wypalenie",
+      "es": "el burnout",
+      "fr": "le burn-out",
+      "ro": "epuizarea",
+      "ru": "выгорание"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "Лікар побачив ознаки вигорання і порадив паузу."
+      },
+      "en": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "The doctor recognized signs of burnout and advised a break."
+      },
+      "de": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "Der Arzt erkannte Anzeichen eines Burnouts und riet zu einer Pause."
+      },
+      "pl": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "Lekarz rozpoznał objawy wypalenia i zalecił przerwę."
+      },
+      "es": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "El médico reconoció signos de burnout y me aconsejó una pausa."
+      },
+      "fr": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "Le médecin a reconnu des signes de burn-out et m'a conseillé une pause."
+      },
+      "ro": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "Medicul a recunoscut semnele de epuizare și mi-a recomandat o pauză."
+      },
+      "ru": {
+        "sentence": "Il medico ha riconosciuto i segni di un burnout e mi ha consigliato una pausa.",
+        "translation": "Врач увидел признаки выгорания и посоветовал паузу."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_3",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "L'autostima",
+    "translations": {
+      "uk": "самооцінка",
+      "en": "self-esteem",
+      "de": "das Selbstwertgefühl",
+      "pl": "samoocena",
+      "es": "la autoestima",
+      "fr": "l'estime de soi",
+      "ro": "stima de sine",
+      "ru": "самооценка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Працювати над самооцінкою потрібно довго, це не вирішується однією розмовою."
+      },
+      "en": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Working on self-esteem takes time and is not solved in one conversation."
+      },
+      "de": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Am Selbstwertgefühl zu arbeiten braucht Zeit und gelingt nicht in einem Gespräch."
+      },
+      "pl": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Praca nad samooceną wymaga czasu i nie kończy się jedną rozmową."
+      },
+      "es": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Trabajar la autoestima lleva tiempo y no se resuelve en una sola conversación."
+      },
+      "fr": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Travailler l'estime de soi prend du temps et ne se règle pas en une conversation."
+      },
+      "ro": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Lucrul la stima de sine cere timp și nu se rezolvă într-o singură conversație."
+      },
+      "ru": {
+        "sentence": "Lavorare sull'autostima richiede tempo e non si risolve in una sola conversazione.",
+        "translation": "Работа над самооценкой требует времени и не решается одним разговором."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_4",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Il benessere",
+    "translations": {
+      "uk": "добробут",
+      "en": "wellbeing",
+      "de": "das Wohlbefinden",
+      "pl": "dobre samopoczucie",
+      "es": "el bienestar",
+      "fr": "le bien-être",
+      "ro": "starea de bine",
+      "ru": "благополучие"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "Я почав берегти самопочуття, вимикаючи сповіщення після вечері."
+      },
+      "en": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "I started protecting my wellbeing by turning off notifications after dinner."
+      },
+      "de": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "Ich habe angefangen, mein Wohlbefinden zu schützen, indem ich nach dem Abendessen die Benachrichtigungen ausschalte."
+      },
+      "pl": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "Zacząłem chronić samopoczucie, wyłączając powiadomienia po kolacji."
+      },
+      "es": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "Empecé a cuidar mi bienestar apagando las notificaciones después de cenar."
+      },
+      "fr": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "J'ai commencé à protéger mon bien-être en coupant les notifications après le dîner."
+      },
+      "ro": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "Am început să-mi protejez starea de bine oprind notificările după cină."
+      },
+      "ru": {
+        "sentence": "Ho iniziato a proteggere il mio benessere spegnendo le notifiche dopo cena.",
+        "translation": "Я начал беречь самочувствие, отключая уведомления после ужина."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_5",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "La terapia",
+    "translations": {
+      "uk": "терапія",
+      "en": "therapy",
+      "de": "die Therapie",
+      "pl": "terapia",
+      "es": "la terapia",
+      "fr": "la thérapie",
+      "ro": "terapia",
+      "ru": "терапия"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "Після кількох місяців терапії я раніше помічаю ознаки тривоги."
+      },
+      "en": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "After a few months of therapy I notice signs of anxiety earlier."
+      },
+      "de": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "Nach einigen Monaten Therapie erkenne ich Anzeichen von Angst früher."
+      },
+      "pl": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "Po kilku miesiącach terapii wcześniej zauważam objawy niepokoju."
+      },
+      "es": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "Tras unos meses de terapia reconozco antes las señales de ansiedad."
+      },
+      "fr": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "Après quelques mois de thérapie, je repère plus tôt les signes d'anxiété."
+      },
+      "ro": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "După câteva luni de terapie recunosc mai devreme semnele de anxietate."
+      },
+      "ru": {
+        "sentence": "Dopo qualche mese di terapia riesco a riconoscere prima i segnali di ansia.",
+        "translation": "После нескольких месяцев терапии я раньше замечаю признаки тревоги."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_6",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Rilassarsi",
+    "translations": {
+      "uk": "розслаблятися",
+      "en": "to relax",
+      "de": "sich entspannen",
+      "pl": "relaksować się",
+      "es": "relajarse",
+      "fr": "se détendre",
+      "ro": "a se relaxa",
+      "ru": "расслабляться"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "Я навчився розслаблятися без провини за час, який не віддаю роботі."
+      },
+      "en": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "I learned to relax without feeling guilty about time I do not give to work."
+      },
+      "de": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "Ich habe gelernt, mich zu entspannen, ohne mich schuldig zu fühlen für die Zeit ohne Arbeit."
+      },
+      "pl": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "Nauczyłem się relaksować bez poczucia winy za czas, którego nie poświęcam pracy."
+      },
+      "es": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "Aprendí a relajarme sin sentirme culpable por el tiempo que no dedico al trabajo."
+      },
+      "fr": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "J'ai appris à me détendre sans culpabiliser pour le temps que je ne donne pas au travail."
+      },
+      "ro": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "Am învățat să mă relaxez fără vinovăție pentru timpul pe care nu îl dau muncii."
+      },
+      "ru": {
+        "sentence": "Ho imparato a rilassarmi senza sentirmi in colpa per il tempo che non dedico al lavoro.",
+        "translation": "Я научился расслабляться без чувства вины за время, которое не отдаю работе."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_7",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "L'insonnia",
+    "translations": {
+      "uk": "безсоння",
+      "en": "insomnia",
+      "de": "die Schlaflosigkeit",
+      "pl": "bezsenność",
+      "es": "el insomnio",
+      "fr": "l'insomnie",
+      "ro": "insomnie",
+      "ru": "бессонница"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "Безсоння тривало кілька тижнів, і врешті я звернувся до лікаря."
+      },
+      "en": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "The insomnia lasted several weeks and in the end I asked a doctor for advice."
+      },
+      "de": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "Die Schlaflosigkeit dauerte mehrere Wochen, und schließlich habe ich einen Arzt gefragt."
+      },
+      "pl": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "Bezsenność trwała kilka tygodni i w końcu poprosiłem lekarza o radę."
+      },
+      "es": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "El insomnio duró varias semanas y al final pedí consejo médico."
+      },
+      "fr": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "L'insomnie a duré plusieurs semaines et j'ai fini par demander un avis médical."
+      },
+      "ro": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "Insomnia a durat câteva săptămâni și până la urmă am cerut sfatul medicului."
+      },
+      "ru": {
+        "sentence": "L'insonnia è durata diverse settimane e alla fine ho chiesto un consiglio medico.",
+        "translation": "Бессонница длилась несколько недель, и в конце я обратился к врачу."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_8",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Il confine",
+    "translations": {
+      "uk": "межа",
+      "en": "the boundary",
+      "de": "die Grenze",
+      "pl": "granica",
+      "es": "el límite",
+      "fr": "la limite",
+      "ro": "limita",
+      "ru": "граница"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "Я поставив чітку межу: після сьомої не відповідаю на робочі листи."
+      },
+      "en": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "I set a clear boundary: after seven I do not answer work emails."
+      },
+      "de": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "Ich habe eine klare Grenze gesetzt: nach sieben beantworte ich keine Arbeitsmails."
+      },
+      "pl": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "Postawiłem jasną granicę: po siódmej nie odpisuję na maile służbowe."
+      },
+      "es": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "Puse un límite claro: después de las siete no respondo correos de trabajo."
+      },
+      "fr": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "J'ai posé une limite claire : après dix-neuf heures je ne réponds plus aux mails du travail."
+      },
+      "ro": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "Am pus o limită clară: după ora șapte nu răspund la mailurile de serviciu."
+      },
+      "ru": {
+        "sentence": "Ho messo un confine chiaro: dopo le sette non rispondo alle mail di lavoro.",
+        "translation": "Я поставил чёткую границу: после семи не отвечаю на рабочие письма."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_9",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Sopraffatto",
+    "translations": {
+      "uk": "перевантажений",
+      "en": "overwhelmed",
+      "de": "überfordert",
+      "pl": "przytłoczony",
+      "es": "abrumado",
+      "fr": "débordé",
+      "ro": "copleșit",
+      "ru": "перегруженный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "Я відчув перевантаження, коли три строки припали на один тиждень."
+      },
+      "en": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "I felt overwhelmed when three deadlines fell in the same week."
+      },
+      "de": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "Ich fühlte mich überfordert, als drei Fristen in dieselbe Woche fielen."
+      },
+      "pl": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "Czułem się przytłoczony, gdy trzy terminy wypadły w tym samym tygodniu."
+      },
+      "es": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "Me sentí abrumado cuando tres plazos cayeron en la misma semana."
+      },
+      "fr": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "Je me suis senti débordé quand trois échéances sont tombées la même semaine."
+      },
+      "ro": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "M-am simțit copleșit când trei termene au căzut în aceeași săptămână."
+      },
+      "ru": {
+        "sentence": "Mi sono sentito sopraffatto quando tre scadenze sono cadute nella stessa settimana.",
+        "translation": "Я почувствовал перегруз, когда три срока выпали на одну неделю."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_10",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "La mindfulness",
+    "translations": {
+      "uk": "усвідомленість",
+      "en": "mindfulness",
+      "de": "die Achtsamkeit",
+      "pl": "uważność",
+      "es": "la atención plena",
+      "fr": "la pleine conscience",
+      "ro": "mindfulness",
+      "ru": "осознанность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Десять хвилин усвідомленості вранці допомагають почати день спокійніше."
+      },
+      "en": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Ten minutes of mindfulness in the morning help me start the day more calmly."
+      },
+      "de": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Zehn Minuten Achtsamkeit am Morgen helfen mir, den Tag ruhiger zu beginnen."
+      },
+      "pl": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Dziesięć minut uważności rano pomaga mi spokojniej zacząć dzień."
+      },
+      "es": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Diez minutos de atención plena por la mañana me ayudan a empezar el día con más calma."
+      },
+      "fr": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Dix minutes de pleine conscience le matin m'aident à commencer la journée plus calmement."
+      },
+      "ro": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Zece minute de mindfulness dimineața mă ajută să încep ziua mai calm."
+      },
+      "ru": {
+        "sentence": "Dieci minuti di mindfulness al mattino mi aiutano a iniziare la giornata con più calma.",
+        "translation": "Десять минут осознанности утром помогают мне спокойнее начать день."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_11",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Il supporto",
+    "translations": {
+      "uk": "підтримка",
+      "en": "support",
+      "de": "die Unterstützung",
+      "pl": "wsparcie",
+      "es": "el apoyo",
+      "fr": "le soutien",
+      "ro": "sprijinul",
+      "ru": "поддержка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Підтримка друзів була вирішальною в найважчі місяці."
+      },
+      "en": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Friends' support was decisive in the hardest months."
+      },
+      "de": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Die Unterstützung der Freunde war in den schwersten Monaten entscheidend."
+      },
+      "pl": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Wsparcie przyjaciół było decydujące w najtrudniejszych miesiącach."
+      },
+      "es": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "El apoyo de los amigos fue decisivo en los meses más difíciles."
+      },
+      "fr": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Le soutien des amis a été décisif pendant les mois les plus difficiles."
+      },
+      "ro": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Sprijinul prietenilor a fost decisiv în lunile cele mai grele."
+      },
+      "ru": {
+        "sentence": "Il supporto degli amici è stato decisivo nei mesi più difficili.",
+        "translation": "Поддержка друзей была решающей в самые трудные месяцы."
+      }
+    }
+  },
+  {
+    "id": "b1_salute_mentale_12",
+    "level": "B1",
+    "topic": "salute_mentale",
+    "word": "Equilibrato",
+    "translations": {
+      "uk": "врівноважений",
+      "en": "balanced",
+      "de": "ausgeglichen",
+      "pl": "zrównoważony",
+      "es": "equilibrado",
+      "fr": "équilibré",
+      "ro": "echilibrat",
+      "ru": "уравновешенный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Я шукаю більш врівноважений спосіб життя, з часом на роботу і на відпочинок."
+      },
+      "en": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "I am looking for a more balanced lifestyle, with time for work and rest."
+      },
+      "de": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Ich suche einen ausgeglicheneren Lebensstil, mit Zeit für Arbeit und Ruhe."
+      },
+      "pl": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Szukam bardziej zrównoważonego stylu życia, z czasem na pracę i odpoczynek."
+      },
+      "es": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Busco un estilo de vida más equilibrado, con tiempo para el trabajo y el descanso."
+      },
+      "fr": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Je cherche un mode de vie plus équilibré, avec du temps pour le travail et le repos."
+      },
+      "ro": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Caut un stil de viață mai echilibrat, cu timp pentru muncă și odihnă."
+      },
+      "ru": {
+        "sentence": "Cerco uno stile di vita più equilibrato, con tempo per il lavoro e per il riposo.",
+        "translation": "Я ищу более уравновешенный образ жизни, со временем на работу и на отдых."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_1",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Il ritardo",
+    "translations": {
+      "uk": "затримка",
+      "en": "the delay",
+      "de": "die Verspätung",
+      "pl": "opóźnienie",
+      "es": "el retraso",
+      "fr": "le retard",
+      "ro": "întârzierea",
+      "ru": "задержка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Через затримку рейсу ми пропустили стикування до міста."
+      },
+      "en": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Because of the flight delay we missed the connection to the city."
+      },
+      "de": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Wegen der Verspätung des Fluges haben wir den Anschluss in die Stadt verpasst."
+      },
+      "pl": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Przez opóźnienie lotu straciliśmy przesiadkę do miasta."
+      },
+      "es": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Por el retraso del vuelo perdimos el enlace a la ciudad."
+      },
+      "fr": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "À cause du retard du vol, nous avons raté la correspondance pour la ville."
+      },
+      "ro": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Din cauza întârzierii zborului am pierdut legătura spre oraș."
+      },
+      "ru": {
+        "sentence": "A causa del ritardo del volo abbiamo perso la coincidenza per la città.",
+        "translation": "Из-за задержки рейса мы пропустили пересадку в город."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_2",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Lo sciopero",
+    "translations": {
+      "uk": "страйк",
+      "en": "the strike",
+      "de": "der Streik",
+      "pl": "strajk",
+      "es": "la huelga",
+      "fr": "la grève",
+      "ro": "greva",
+      "ru": "забастовка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "Страйк поїздів змусив нас змінити плани в останню мить."
+      },
+      "en": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "The train strike forced us to change plans at the last moment."
+      },
+      "de": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "Der Bahnstreik zwang uns, die Pläne in letzter Minute zu ändern."
+      },
+      "pl": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "Strajk kolejarzy zmusił nas do zmiany planów w ostatniej chwili."
+      },
+      "es": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "La huelga de trenes nos obligó a cambiar los planes en el último momento."
+      },
+      "fr": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "La grève des trains nous a forcés à changer nos plans au dernier moment."
+      },
+      "ro": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "Greva trenurilor ne-a obligat să schimbăm planurile în ultimul moment."
+      },
+      "ru": {
+        "sentence": "Lo sciopero dei treni ci ha costretti a cambiare i piani all'ultimo momento.",
+        "translation": "Забастовка поездов заставила нас изменить планы в последний момент."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_3",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Lo smarrimento",
+    "translations": {
+      "uk": "втрата",
+      "en": "the loss",
+      "de": "der Verlust",
+      "pl": "zgubienie",
+      "es": "la pérdida",
+      "fr": "la perte",
+      "ro": "pierderea",
+      "ru": "потеря"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "Втрату багажу одразу заявили на стійці в аеропорту."
+      },
+      "en": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "The loss of the luggage was reported at once at the airport desk."
+      },
+      "de": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "Der Verlust des Gepäcks wurde sofort am Schalter gemeldet."
+      },
+      "pl": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "Zgubienie bagażu zgłoszono od razu przy stanowisku na lotnisku."
+      },
+      "es": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "La pérdida del equipaje se denunció enseguida en el mostrador del aeropuerto."
+      },
+      "fr": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "La perte des bagages a été signalée tout de suite au comptoir de l'aéroport."
+      },
+      "ro": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "Pierderea bagajului a fost anunțată imediat la ghișeul aeroportului."
+      },
+      "ru": {
+        "sentence": "Lo smarrimento del bagaglio è stato segnalato subito allo sportello dell'aeroporto.",
+        "translation": "Потерю багажа сразу заявили на стойке в аэропорту."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_4",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Il rimborso",
+    "translations": {
+      "uk": "відшкодування",
+      "en": "the refund",
+      "de": "die Erstattung",
+      "pl": "zwrot kosztów",
+      "es": "el reembolso",
+      "fr": "le remboursement",
+      "ro": "rambursarea",
+      "ru": "возврат денег"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "Компанія обіцяла відшкодування квитка протягом десяти робочих днів."
+      },
+      "en": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "The company promised a ticket refund within ten working days."
+      },
+      "de": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "Die Gesellschaft versprach die Erstattung des Tickets innerhalb von zehn Werktagen."
+      },
+      "pl": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "Firma obiecała zwrot biletu w ciągu dziesięciu dni roboczych."
+      },
+      "es": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "La compañía prometió el reembolso del billete en diez días laborables."
+      },
+      "fr": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "La compagnie a promis le remboursement du billet sous dix jours ouvrés."
+      },
+      "ro": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "Compania a promis rambursarea biletului în zece zile lucrătoare."
+      },
+      "ru": {
+        "sentence": "La compagnia ha promesso il rimborso del biglietto entro dieci giorni lavorativi.",
+        "translation": "Компания обещала возврат билета в течение десяти рабочих дней."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_5",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "La coincidenza",
+    "translations": {
+      "uk": "стикування",
+      "en": "the connection",
+      "de": "der Anschluss",
+      "pl": "przesiadka",
+      "es": "el enlace",
+      "fr": "la correspondance",
+      "ro": "legătura",
+      "ru": "пересадка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "Стикування було занадто коротким, і ми не встигли змінити колію."
+      },
+      "en": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "The connection was too tight and we could not change platforms in time."
+      },
+      "de": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "Der Anschluss war zu knapp und wir konnten nicht rechtzeitig das Gleis wechseln."
+      },
+      "pl": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "Przesiadka była za krótka i nie zdążyliśmy zmienić peronu."
+      },
+      "es": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "El enlace era demasiado justo y no pudimos cambiar de andén a tiempo."
+      },
+      "fr": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "La correspondance était trop courte et nous n'avons pas pu changer de quai à temps."
+      },
+      "ro": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "Legătura era prea strânsă și nu am reușit să schimbăm peronul la timp."
+      },
+      "ru": {
+        "sentence": "La coincidenza era troppo stretta e non siamo riusciti a cambiare binario in tempo.",
+        "translation": "Пересадка была слишком короткой, и мы не успели сменить путь."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_6",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Il disguido",
+    "translations": {
+      "uk": "непорозуміння",
+      "en": "the mix-up",
+      "de": "das Missgeschick",
+      "pl": "nieporozumienie",
+      "es": "el contratiempo",
+      "fr": "le contretemps",
+      "ro": "neînțelegerea",
+      "ru": "недоразумение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "Сталося непорозуміння з бронюванням, і номер уже був недоступний."
+      },
+      "en": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "There was a mix-up with the booking and the room was no longer available."
+      },
+      "de": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "Es gab ein Missgeschick mit der Buchung und das Zimmer war nicht mehr frei."
+      },
+      "pl": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "Doszło do nieporozumienia z rezerwacją i pokój nie był już dostępny."
+      },
+      "es": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "Hubo un contratiempo con la reserva y la habitación ya no estaba disponible."
+      },
+      "fr": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "Il y a eu un contretemps avec la réservation et la chambre n'était plus disponible."
+      },
+      "ro": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "A fost o neînțelegere cu rezervarea și camera nu mai era disponibilă."
+      },
+      "ru": {
+        "sentence": "C'è stato un disguido con la prenotazione e la camera non era più disponibile.",
+        "translation": "Произошло недоразумение с бронированием, и номер уже был недоступен."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_7",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "L'assicurazione",
+    "translations": {
+      "uk": "страховка",
+      "en": "the insurance",
+      "de": "die Versicherung",
+      "pl": "ubezpieczenie",
+      "es": "el seguro",
+      "fr": "l'assurance",
+      "ro": "asigurarea",
+      "ru": "страховка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "Туристична страховка покриває медичні витрати, але не затримку рейсу."
+      },
+      "en": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "The travel insurance covers medical costs but not the flight delay."
+      },
+      "de": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "Die Reiseversicherung deckt die Arztkosten, aber nicht die Verspätung des Fluges."
+      },
+      "pl": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "Ubezpieczenie podróży pokrywa koszty leczenia, ale nie opóźnienie lotu."
+      },
+      "es": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "El seguro de viaje cubre los gastos médicos, pero no el retraso del vuelo."
+      },
+      "fr": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "L'assurance voyage couvre les frais médicaux mais pas le retard du vol."
+      },
+      "ro": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "Asigurarea de călătorie acoperă cheltuielile medicale, dar nu întârzierea zborului."
+      },
+      "ru": {
+        "sentence": "L'assicurazione di viaggio copre le spese mediche ma non il ritardo del volo.",
+        "translation": "Туристическая страховка покрывает медицинские расходы, но не задержку рейса."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_8",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Il sovrapprezzo",
+    "translations": {
+      "uk": "доплата",
+      "en": "the surcharge",
+      "de": "der Aufpreis",
+      "pl": "dopłata",
+      "es": "el recargo",
+      "fr": "le supplément",
+      "ro": "suprataxa",
+      "ru": "доплата"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "З нас взяли доплату, бо багаж перевищив дозволену вагу."
+      },
+      "en": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "They charged a surcharge because the luggage was over the allowed weight."
+      },
+      "de": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "Man verlangte einen Aufpreis, weil das Gepäck das erlaubte Gewicht überschritt."
+      },
+      "pl": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "Doliczono dopłatę, bo bagaż przekraczał dozwoloną wagę."
+      },
+      "es": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "Nos cobraron un recargo porque el equipaje superaba el peso permitido."
+      },
+      "fr": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "On nous a demandé un supplément parce que le bagage dépassait le poids autorisé."
+      },
+      "ro": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "Ne-au cerut o suprataxă pentru că bagajul depășea greutatea permisă."
+      },
+      "ru": {
+        "sentence": "Ci hanno chiesto un sovrapprezzo perché il bagaglio superava il peso consentito.",
+        "translation": "С нас взяли доплату, потому что багаж превысил разрешённый вес."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_9",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Dirottare",
+    "translations": {
+      "uk": "перенаправляти",
+      "en": "to divert",
+      "de": "umleiten",
+      "pl": "przekierować",
+      "es": "desviar",
+      "fr": "dérouter",
+      "ro": "a redirecționa",
+      "ru": "перенаправлять"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Рейс довелося перенаправити в інший аеропорт через негоду."
+      },
+      "en": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "They had to divert the flight to another airport because of bad weather."
+      },
+      "de": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Der Flug musste wegen schlechten Wetters auf einen anderen Flughafen umgeleitet werden."
+      },
+      "pl": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Lot trzeba było przekierować na inne lotnisko z powodu złej pogody."
+      },
+      "es": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Tuvieron que desviar el vuelo a otro aeropuerto por el mal tiempo."
+      },
+      "fr": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Ils ont dû dérouter le vol vers un autre aéroport à cause du mauvais temps."
+      },
+      "ro": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Au trebuit să redirecționeze zborul spre alt aeroport din cauza vremii."
+      },
+      "ru": {
+        "sentence": "Hanno dovuto dirottare il volo su un altro aeroporto per il maltempo.",
+        "translation": "Рейс пришлось перенаправить в другой аэропорт из-за непогоды."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_10",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Il reclamo",
+    "translations": {
+      "uk": "скарга",
+      "en": "the complaint",
+      "de": "die Beschwerde",
+      "pl": "reklamacja",
+      "es": "la reclamación",
+      "fr": "la réclamation",
+      "ro": "reclamația",
+      "ru": "жалоба"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "Я подав письмову скаргу і зберіг номер справи."
+      },
+      "en": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "I filed a written complaint and kept the case number."
+      },
+      "de": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "Ich habe eine schriftliche Beschwerde eingereicht und die Vorgangsnummer behalten."
+      },
+      "pl": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "Złożyłem pisemną reklamację i zachowałem numer sprawy."
+      },
+      "es": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "Presenté una reclamación por escrito y guardé el número de expediente."
+      },
+      "fr": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "J'ai déposé une réclamation écrite et j'ai gardé le numéro de dossier."
+      },
+      "ro": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "Am depus o reclamație scrisă și am păstrat numărul dosarului."
+      },
+      "ru": {
+        "sentence": "Ho presentato un reclamo scritto e ho conservato il numero di pratica.",
+        "translation": "Я подал письменную жалобу и сохранил номер дела."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_11",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "Bloccato",
+    "translations": {
+      "uk": "застряглий",
+      "en": "stuck",
+      "de": "feststeckend",
+      "pl": "zablokowany",
+      "es": "bloqueado",
+      "fr": "bloqué",
+      "ro": "blocat",
+      "ru": "застрявший"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Ми застрягли на станції на три години без чіткої інформації."
+      },
+      "en": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "We were stuck at the station for three hours without clear information."
+      },
+      "de": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Wir saßen drei Stunden am Bahnhof fest, ohne klare Informationen."
+      },
+      "pl": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Utknęliśmy na stacji na trzy godziny bez jasnych informacji."
+      },
+      "es": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Nos quedamos bloqueados en la estación tres horas sin información clara."
+      },
+      "fr": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Nous sommes restés bloqués en gare pendant trois heures sans information claire."
+      },
+      "ro": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Am rămas blocați în gară trei ore fără informații clare."
+      },
+      "ru": {
+        "sentence": "Siamo rimasti bloccati in stazione per tre ore senza informazioni chiare.",
+        "translation": "Мы застряли на станции на три часа без ясной информации."
+      }
+    }
+  },
+  {
+    "id": "b1_viaggi_imprevisti_12",
+    "level": "B1",
+    "topic": "viaggi_imprevisti",
+    "word": "L'imprevisto",
+    "translations": {
+      "uk": "непередбачена ситуація",
+      "en": "the unexpected event",
+      "de": "das Unvorhergesehene",
+      "pl": "nieprzewidziana sytuacja",
+      "es": "el imprevisto",
+      "fr": "l'imprévu",
+      "ro": "imprevizibilul",
+      "ru": "непредвиденная ситуация"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "Непередбачена ситуація навчила нас завжди мати запасний план."
+      },
+      "en": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "The unexpected event taught us to always leave with a backup plan."
+      },
+      "de": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "Das Unvorhergesehene hat uns gelehrt, immer einen Alternativplan zu haben."
+      },
+      "pl": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "Nieprzewidziana sytuacja nauczyła nas zawsze mieć plan awaryjny."
+      },
+      "es": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "El imprevisto nos enseñó a salir siempre con un plan alternativo."
+      },
+      "fr": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "L'imprévu nous a appris à partir toujours avec un plan de rechange."
+      },
+      "ro": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "Imprevizibilul ne-a învățat să plecăm mereu cu un plan alternativ."
+      },
+      "ru": {
+        "sentence": "L'imprevisto ci ha insegnato a partire sempre con un piano alternativo.",
+        "translation": "Непредвиденная ситуация научила нас всегда иметь запасной план."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_1",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Il feed",
+    "translations": {
+      "uk": "стрічка",
+      "en": "the feed",
+      "de": "der Feed",
+      "pl": "kanał",
+      "es": "el feed",
+      "fr": "le fil",
+      "ro": "fluxul",
+      "ru": "лента"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "Я перестав відкривати стрічку щойно прокидаюсь, бо вона забирала першу годину дня."
+      },
+      "en": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "I stopped opening the feed as soon as I wake up, because it took the first hour of the day."
+      },
+      "de": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "Ich habe aufgehört, den Feed gleich nach dem Aufwachen zu öffnen, weil er die erste Stunde des Tages nahm."
+      },
+      "pl": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "Przestałem otwierać kanał zaraz po przebudzeniu, bo zabierał pierwszą godzinę dnia."
+      },
+      "es": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "Dejé de abrir el feed al despertarme, porque me quitaba la primera hora del día."
+      },
+      "fr": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "J'ai arrêté d'ouvrir le fil dès le réveil, parce qu'il me prenait la première heure de la journée."
+      },
+      "ro": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "Am încetat să deschid fluxul imediat ce mă trezesc, pentru că îmi lua prima oră a zilei."
+      },
+      "ru": {
+        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
+        "translation": "Я перестал открывать ленту сразу после пробуждения, потому что она забирала первый час дня."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_2",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "La notifica",
+    "translations": {
+      "uk": "сповіщення",
+      "en": "the notification",
+      "de": "die Benachrichtigung",
+      "pl": "powiadomienie",
+      "es": "la notificación",
+      "fr": "la notification",
+      "ro": "notificarea",
+      "ru": "уведомление"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "Я вимкнув сповіщення груп, бо вони переривали роботу кожні кілька хвилин."
+      },
+      "en": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "I turned off group notifications because they interrupted work every few minutes."
+      },
+      "de": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "Ich habe die Gruppenbenachrichtigungen ausgeschaltet, weil sie die Arbeit alle paar Minuten unterbrachen."
+      },
+      "pl": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "Wyłączyłem powiadomienia grup, bo przerywały pracę co kilka minut."
+      },
+      "es": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "Desactivé las notificaciones de los grupos porque interrumpían el trabajo cada pocos minutos."
+      },
+      "fr": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "J'ai désactivé les notifications des groupes parce qu'elles interrompaient le travail toutes les quelques minutes."
+      },
+      "ro": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "Am dezactivat notificările grupurilor pentru că întrerupeau munca la câteva minute."
+      },
+      "ru": {
+        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
+        "translation": "Я отключил уведомления групп, потому что они прерывали работу каждые несколько минут."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_3",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "L'algoritmo",
+    "translations": {
+      "uk": "алгоритм",
+      "en": "the algorithm",
+      "de": "der Algorithmus",
+      "pl": "algorytm",
+      "es": "el algoritmo",
+      "fr": "l'algorithme",
+      "ro": "algoritmul",
+      "ru": "алгоритм"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "Алгоритм і далі пропонує матеріали, схожі на ті, що я дивився вчора ввечері."
+      },
+      "en": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "The algorithm keeps suggesting content similar to what I watched last night."
+      },
+      "de": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "Der Algorithmus schlägt mir weiter Inhalte vor, die denen von gestern Abend ähneln."
+      },
+      "pl": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "Algorytm wciąż podsuwa treści podobne do tych, które oglądałem wczoraj wieczorem."
+      },
+      "es": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "El algoritmo sigue proponiéndome contenidos parecidos a los que vi anoche."
+      },
+      "fr": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "L'algorithme continue de me proposer des contenus semblables à ceux d'hier soir."
+      },
+      "ro": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "Algoritmul continuă să-mi propună conținut asemănător cu cel de aseară."
+      },
+      "ru": {
+        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
+        "translation": "Алгоритм продолжает предлагать материалы, похожие на те, что я смотрел вчера вечером."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_4",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Il profilo",
+    "translations": {
+      "uk": "профіль",
+      "en": "the profile",
+      "de": "das Profil",
+      "pl": "profil",
+      "es": "el perfil",
+      "fr": "le profil",
+      "ro": "profilul",
+      "ru": "профиль"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "Я зробив профіль приватним після повідомлень від незнайомців."
+      },
+      "en": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "I made the profile private after receiving messages from strangers."
+      },
+      "de": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "Ich habe das Profil privat gestellt, nachdem ich Nachrichten von Fremden bekommen hatte."
+      },
+      "pl": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "Ustawiłem profil jako prywatny po wiadomościach od nieznajomych."
+      },
+      "es": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "Puse el perfil en privado tras recibir mensajes de desconocidos."
+      },
+      "fr": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "J'ai rendu le profil privé après avoir reçu des messages d'inconnus."
+      },
+      "ro": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "Am făcut profilul privat după mesaje de la necunoscuți."
+      },
+      "ru": {
+        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
+        "translation": "Я сделал профиль закрытым после сообщений от незнакомцев."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_5",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "La disinformazione",
+    "translations": {
+      "uk": "дезінформація",
+      "en": "disinformation",
+      "de": "die Desinformation",
+      "pl": "dezinformacja",
+      "es": "la desinformación",
+      "fr": "la désinformation",
+      "ro": "dezinformarea",
+      "ru": "дезинформация"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Перш ніж поширити новину, я перевіряю джерело, щоб не розносити дезінформацію."
+      },
+      "en": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Before sharing a story I check the source, so I do not spread disinformation."
+      },
+      "de": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Bevor ich eine Nachricht teile, prüfe ich die Quelle, um keine Desinformation zu verbreiten."
+      },
+      "pl": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Zanim udostępnię wiadomość, sprawdzam źródło, żeby nie szerzyć dezinformacji."
+      },
+      "es": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Antes de compartir una noticia compruebo la fuente para no difundir desinformación."
+      },
+      "fr": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Avant de partager une info, je vérifie la source pour ne pas diffuser de désinformation."
+      },
+      "ro": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Înainte să distribui o știre verific sursa, ca să nu răspândesc dezinformare."
+      },
+      "ru": {
+        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
+        "translation": "Прежде чем распространить новость, я проверяю источник, чтобы не разносить дезинформацию."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_6",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Il commento",
+    "translations": {
+      "uk": "коментар",
+      "en": "the comment",
+      "de": "der Kommentar",
+      "pl": "komentarz",
+      "es": "el comentario",
+      "fr": "le commentaire",
+      "ro": "comentariul",
+      "ru": "комментарий"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "Я видалив надто агресивний коментар під дописом друга."
+      },
+      "en": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "I deleted an overly aggressive comment under a friend's post."
+      },
+      "de": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "Ich habe einen zu aggressiven Kommentar unter dem Beitrag eines Freundes gelöscht."
+      },
+      "pl": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "Usunąłem zbyt agresywny komentarz pod postem przyjaciela."
+      },
+      "es": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "Borré un comentario demasiado agresivo bajo la publicación de un amigo."
+      },
+      "fr": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "J'ai supprimé un commentaire trop agressif sous le post d'un ami."
+      },
+      "ro": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "Am șters un comentariu prea agresiv sub postarea unui prieten."
+      },
+      "ru": {
+        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
+        "translation": "Я удалил слишком агрессивный комментарий под постом друга."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_7",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "La privacy",
+    "translations": {
+      "uk": "приватність",
+      "en": "privacy",
+      "de": "die Privatsphäre",
+      "pl": "prywatność",
+      "es": "la privacidad",
+      "fr": "la vie privée",
+      "ro": "confidențialitatea",
+      "ru": "приватность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "Я прочитав налаштування приватності перед тим, як прийняти нові умови застосунку."
+      },
+      "en": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "I read the privacy settings before accepting the app's new terms."
+      },
+      "de": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "Ich habe die Privatsphäre-Einstellungen gelesen, bevor ich die neuen Bedingungen der App akzeptierte."
+      },
+      "pl": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "Przeczytałem ustawienia prywatności, zanim zaakceptowałem nowe warunki aplikacji."
+      },
+      "es": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "Leí los ajustes de privacidad antes de aceptar las nuevas condiciones de la app."
+      },
+      "fr": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "J'ai lu les réglages de confidentialité avant d'accepter les nouvelles conditions de l'appli."
+      },
+      "ro": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "Am citit setările de confidențialitate înainte să accept noile condiții ale aplicației."
+      },
+      "ru": {
+        "sentence": "Ho letto le impostazioni sulla privacy prima di accettare le nuove condizioni dell'app.",
+        "translation": "Я прочитал настройки приватности, прежде чем принять новые условия приложения."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_8",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Lo screenshot",
+    "translations": {
+      "uk": "знімок екрана",
+      "en": "the screenshot",
+      "de": "der Screenshot",
+      "pl": "zrzut ekranu",
+      "es": "la captura",
+      "fr": "la capture d'écran",
+      "ro": "captura de ecran",
+      "ru": "скриншот"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "Я зберіг знімок екрана розмови на випадок, якщо знадобиться як доказ."
+      },
+      "en": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "I saved a screenshot of the conversation in case it was needed as proof."
+      },
+      "de": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "Ich habe einen Screenshot des Gesprächs gespeichert, falls er als Beweis nötig wäre."
+      },
+      "pl": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "Zapisałem zrzut rozmowy na wypadek, gdyby był potrzebny jako dowód."
+      },
+      "es": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "Guardé una captura de la conversación por si hacía falta como prueba."
+      },
+      "fr": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "J'ai enregistré une capture de la conversation au cas où elle servirait de preuve."
+      },
+      "ro": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "Am salvat o captură a conversației în caz că ar fi nevoie de dovadă."
+      },
+      "ru": {
+        "sentence": "Ho salvato uno screenshot della conversazione nel caso servisse come prova.",
+        "translation": "Я сохранил скриншот разговора на случай, если он понадобится как доказательство."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_9",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Virale",
+    "translations": {
+      "uk": "вірусний",
+      "en": "viral",
+      "de": "viral",
+      "pl": "viralny",
+      "es": "viral",
+      "fr": "viral",
+      "ro": "viral",
+      "ru": "вирусный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "Відео стало вірусним за кілька годин, і коментарі стало неможливо встигати читати."
+      },
+      "en": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "The video went viral within a few hours and the comments became unmanageable."
+      },
+      "de": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "Das Video wurde innerhalb weniger Stunden viral und die Kommentare waren nicht mehr zu bewältigen."
+      },
+      "pl": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "Film stał się viralem w kilka godzin, a komentarzy nie dało się ogarnąć."
+      },
+      "es": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "El vídeo se hizo viral en pocas horas y los comentarios se volvieron inmanejables."
+      },
+      "fr": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "La vidéo est devenue virale en quelques heures et les commentaires sont devenus ingérables."
+      },
+      "ro": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "Videoclipul a devenit viral în câteva ore, iar comentariile au devenit de necontrolat."
+      },
+      "ru": {
+        "sentence": "Il video è diventato virale nel giro di poche ore e i commenti sono diventati ingestibili.",
+        "translation": "Видео стало вирусным за несколько часов, и комментарии стало невозможно успевать читать."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_10",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Il follower",
+    "translations": {
+      "uk": "підписник",
+      "en": "the follower",
+      "de": "der Follower",
+      "pl": "obserwujący",
+      "es": "el seguidor",
+      "fr": "l'abonné",
+      "ro": "urmăritorul",
+      "ru": "подписчик"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "Вона втратила багатьох підписників після нечіткої думки на цю тему."
+      },
+      "en": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "She lost many followers after posting an unclear opinion on the topic."
+      },
+      "de": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "Sie verlor viele Follower, nachdem sie eine unklare Meinung zum Thema veröffentlicht hatte."
+      },
+      "pl": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "Straciła wielu obserwujących po niejasnej opinii na ten temat."
+      },
+      "es": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "Perdió muchos seguidores tras publicar una opinión poco clara sobre el tema."
+      },
+      "fr": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "Elle a perdu beaucoup d'abonnés après avoir publié un avis peu clair sur le sujet."
+      },
+      "ro": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "A pierdut mulți urmăritori după ce a publicat o opinie neclară despre subiect."
+      },
+      "ru": {
+        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
+        "translation": "Она потеряла много подписчиков после неясного мнения по теме."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_11",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "Bloccare",
+    "translations": {
+      "uk": "блокувати",
+      "en": "to block",
+      "de": "blockieren",
+      "pl": "zablokować",
+      "es": "bloquear",
+      "fr": "bloquer",
+      "ro": "a bloca",
+      "ru": "блокировать"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "Я вирішив заблокувати акаунт, який писав образи під кожним дописом."
+      },
+      "en": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "I decided to block the account that kept writing insults under every post."
+      },
+      "de": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "Ich habe beschlossen, das Konto zu blockieren, das unter jedem Beitrag Beleidigungen schrieb."
+      },
+      "pl": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "Postanowiłem zablokować konto, które pod każdym postem pisało obelgi."
+      },
+      "es": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "Decidí bloquear la cuenta que seguía escribiendo insultos bajo cada publicación."
+      },
+      "fr": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "J'ai décidé de bloquer le compte qui écrivait des insultes sous chaque post."
+      },
+      "ro": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "Am decis să blochez contul care scria insulte sub fiecare postare."
+      },
+      "ru": {
+        "sentence": "Ho deciso di bloccare l'account che continuava a scrivere insulti sotto ogni post.",
+        "translation": "Я решил заблокировать аккаунт, который писал оскорбления под каждым постом."
+      }
+    }
+  },
+  {
+    "id": "b1_tecnologia_social_12",
+    "level": "B1",
+    "topic": "tecnologia_social",
+    "word": "L'aggiornamento",
+    "translations": {
+      "uk": "оновлення",
+      "en": "the update",
+      "de": "das Update",
+      "pl": "aktualizacja",
+      "es": "la actualización",
+      "fr": "la mise à jour",
+      "ro": "actualizarea",
+      "ru": "обновление"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "Після оновлення застосунок змінив спосіб показу історій."
+      },
+      "en": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "After the update the app changed how stories are shown."
+      },
+      "de": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "Nach dem Update hat die App geändert, wie die Stories angezeigt werden."
+      },
+      "pl": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "Po aktualizacji aplikacja zmieniła sposób pokazywania relacji."
+      },
+      "es": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "Tras la actualización la app cambió cómo se muestran las historias."
+      },
+      "fr": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "Après la mise à jour, l'appli a changé la façon d'afficher les stories."
+      },
+      "ro": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "După actualizare aplicația a schimbat modul în care sunt afișate story-urile."
+      },
+      "ru": {
+        "sentence": "Dopo l'aggiornamento l'app ha cambiato il modo in cui vengono mostrate le storie.",
+        "translation": "После обновления приложение изменило способ показа историй."
+      }
+    }
+  }
+]
