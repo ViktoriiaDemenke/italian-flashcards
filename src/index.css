@@ -95,46 +95,49 @@ body {
 .launch-float {
   position: absolute;
   z-index: 1;
-  max-width: 6.4rem;
-  padding: 0.28rem 0.4rem;
-  border: 1px solid rgba(16, 185, 129, 0.22);
-  border-radius: 0.55rem;
-  background: rgba(15, 23, 42, 0.55);
+  width: max-content;
+  max-width: 8.5rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid rgba(16, 185, 129, 0.28);
+  border-radius: 0.7rem;
+  background: rgba(15, 23, 42, 0.72);
   color: white;
-  box-shadow: 0 0 12px rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 14px rgba(16, 185, 129, 0.14);
+  text-align: center;
+  overflow-wrap: anywhere;
   opacity: 0;
   animation: launch-drift 3.4s ease-in-out both;
 }
 
 .launch-float strong {
   display: block;
-  font-size: 0.62rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .launch-float span {
   display: block;
-  margin-top: 0.08rem;
+  margin-top: 0.12rem;
   color: #a7f3d0;
-  font-size: 0.5rem;
-  line-height: 1.2;
+  font-size: 0.68rem;
+  line-height: 1.25;
 }
 
 @keyframes launch-drift {
   0% {
     opacity: 0;
-    transform: translate3d(0, 8px, 0) scale(var(--scale, 0.6));
+    transform: translate3d(-50%, -50%, 0) scale(var(--scale, 0.94));
   }
   28% {
-    opacity: var(--peak, 0.45);
+    opacity: var(--peak, 0.86);
   }
   70% {
-    opacity: var(--peak, 0.4);
+    opacity: var(--peak, 0.8);
   }
   100% {
     opacity: 0;
-    transform: translate3d(var(--drift-x), var(--drift-y), 0) scale(var(--scale, 0.6));
+    transform: translate3d(calc(-50% + var(--drift-x)), calc(-50% + var(--drift-y)), 0) scale(var(--scale, 0.94));
   }
 }
 

@@ -14,35 +14,23 @@ import type { FilterId, GradeId, Level, MotherTongue, StudyMode, TenseId, TopicI
 const DAILY_GOAL = 20;
 const LEVEL_IDS: Level[] = ["A1", "A2", "B1", "B2"];
 
-const SPLASH_COUNT = 26;
+const SPLASH_COUNT = 12;
 
 function splashSlots(count: number) {
-  const cells: { top: number; left: number }[] = [];
-  const cols = 6;
-  const rows = 6;
-  for (let row = 0; row < rows; row += 1) {
-    for (let col = 0; col < cols; col += 1) {
-      const top = 5 + ((row + 0.5) * 90) / rows;
-      const left = 4 + ((col + 0.5) * 92) / cols;
-      const coversTitle = top > 36 && top < 64 && left > 30 && left < 70;
-      if (!coversTitle) cells.push({ top, left });
-    }
-  }
-  for (let i = cells.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const swap = cells[i];
-    cells[i] = cells[j];
-    cells[j] = swap;
-  }
-  return cells.slice(0, count).map((cell, index) => ({
-    top: `${cell.top}%`,
-    left: `${cell.left}%`,
-    x: `${Math.round((Math.random() - 0.5) * 36)}px`,
-    y: `${Math.round((Math.random() - 0.5) * 40)}px`,
-    delay: `${(index % 8) * 0.12}s`,
-    peak: (0.28 + Math.random() * 0.45).toFixed(2),
-    scale: (0.52 + Math.random() * 0.18).toFixed(2),
-  }));
+  return Array.from({ length: count }, (_, index) => {
+    const angle = -Math.PI / 2 + (index * 2 * Math.PI) / count;
+    const left = 50 + Math.cos(angle) * 40;
+    const top = 50 + Math.sin(angle) * 36;
+    return {
+      top: `${top}%`,
+      left: `${left}%`,
+      x: `${Math.round(Math.cos(angle) * 12)}px`,
+      y: `${Math.round(Math.sin(angle) * 12)}px`,
+      delay: `${(index * 0.1).toFixed(2)}s`,
+      peak: (0.72 + (index % 4) * 0.07).toFixed(2),
+      scale: (0.92 + (index % 3) * 0.04).toFixed(2),
+    };
+  });
 }
 
 function splashCards(tongue: MotherTongue) {
