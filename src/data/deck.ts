@@ -1,9 +1,9 @@
+import { A2_CARDS } from "./a2Cards";
 import { A1_EXTRA } from "./a1Sets";
 import { ADVANCED_DECKS } from "./advancedDecks";
 import { CALENDAR_CARDS } from "./calendarCards";
 import { HOME_CARDS } from "./homeCards";
 import { LEXICON_CARDS } from "./lexiconCards";
-import { LEVEL_PACKS } from "./levelPacks";
 import { TEMPO_CARDS } from "./tempoCards";
 import { VERB_CARDS } from "./verbCards";
 import type { CategoryId, FilterId, Level, StudyCard, TenseId, TopicId } from "../types";
@@ -34,7 +34,7 @@ const A1_DECK: StudyCard[] = [
   })),
 ];
 
-const A2_DECK = LEVEL_PACKS.filter((card) => card.level === "A2");
+const A2_DECK = A2_CARDS;
 
 const B2_IDIOMS = LEXICON_CARDS.filter((card) => card.category === "idioms").map((card) => ({
   ...card,
@@ -54,6 +54,16 @@ const CATEGORY_ORDER: CategoryId[] = [
   "vestiti",
   "trasporti",
   "verbi",
+  "mobili_pulizia",
+  "meteo_stagioni",
+  "numeri_ordinali",
+  "salute_farmacia",
+  "relazioni_carattere",
+  "mobilita_urbana",
+  "ristorante_cucina",
+  "shopping_taglie",
+  "professioni_lavoro",
+  "viaggi_hotel",
   "home",
   "numbers",
   "verbs",

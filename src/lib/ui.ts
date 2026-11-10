@@ -63,6 +63,16 @@ export type UiKey =
   | "vestiti"
   | "trasporti"
   | "verbi"
+  | "mobili_pulizia"
+  | "meteo_stagioni"
+  | "numeri_ordinali"
+  | "salute_farmacia"
+  | "relazioni_carattere"
+  | "mobilita_urbana"
+  | "ristorante_cucina"
+  | "shopping_taglie"
+  | "professioni_lavoro"
+  | "viaggi_hotel"
   | "city"
   | "transport"
   | "shopping"
@@ -179,6 +189,16 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   vestiti: { en: "Clothes and shopping", uk: "Одяг та покупки", ru: "Одежда и покупки", de: "Kleidung und Einkaufen", pl: "Ubrania i zakupy", es: "Ropa y compras", fr: "Vêtements et courses", ro: "Haine și cumpărături" },
   trasporti: { en: "Transport and the city", uk: "Транспорт і місто", ru: "Транспорт и город", de: "Verkehr und Stadt", pl: "Transport i miasto", es: "Transporte y ciudad", fr: "Transports et ville", ro: "Transport și oraș" },
   verbi: { en: "Basic verbs", uk: "Базові дієслова", ru: "Базовые глаголы", de: "Grundverben", pl: "Podstawowe czasowniki", es: "Verbos básicos", fr: "Verbes de base", ro: "Verbe de bază" },
+  mobili_pulizia: { en: "Furniture and cleaning", uk: "Меблі та прибирання", ru: "Мебель и уборка", de: "Möbel und Putzen", pl: "Meble i sprzątanie", es: "Muebles y limpieza", fr: "Meubles et ménage", ro: "Mobilă și curățenie" },
+  meteo_stagioni: { en: "Weather and seasons", uk: "Погода та пори року", ru: "Погода и времена года", de: "Wetter und Jahreszeiten", pl: "Pogoda i pory roku", es: "Tiempo y estaciones", fr: "Météo et saisons", ro: "Vreme și anotimpuri" },
+  numeri_ordinali: { en: "Ordinals and calculations", uk: "Порядкові числівники та розрахунки", ru: "Порядковые числительные и расчёты", de: "Ordnungszahlen und Rechnen", pl: "Liczebniki porządkowe i obliczenia", es: "Ordinales y cálculos", fr: "Ordinaux et calculs", ro: "Ordinale și calcule" },
+  salute_farmacia: { en: "Health, symptoms, and the pharmacy", uk: "Здоров'я, симптоми та аптека", ru: "Здоровье, симптомы и аптека", de: "Gesundheit, Symptome und Apotheke", pl: "Zdrowie, objawy i apteka", es: "Salud, síntomas y farmacia", fr: "Santé, symptômes et pharmacie", ro: "Sănătate, simptome și farmacie" },
+  relazioni_carattere: { en: "Relationships, character, and people", uk: "Стосунки, характер та опис людей", ru: "Отношения, характер и описание людей", de: "Beziehungen, Charakter und Menschen", pl: "Relacje, charakter i opis ludzi", es: "Relaciones, carácter y personas", fr: "Relations, caractère et personnes", ro: "Relații, caracter și oameni" },
+  mobilita_urbana: { en: "City navigation and routes", uk: "Міська навігація та маршрути", ru: "Городская навигация и маршруты", de: "Stadtnavigation und Routen", pl: "Nawigacja miejska i trasy", es: "Navegación urbana y rutas", fr: "Navigation urbaine et itinéraires", ro: "Navigație urbană și rute" },
+  ristorante_cucina: { en: "At the restaurant and cooking", uk: "У ресторані та кулінарія", ru: "В ресторане и кулинария", de: "Im Restaurant und Kochen", pl: "W restauracji i kuchnia", es: "En el restaurante y cocina", fr: "Au restaurant et cuisine", ro: "La restaurant și bucătărie" },
+  shopping_taglie: { en: "Shopping, sizes, and fitting", uk: "Покупки, розміри та примірка", ru: "Покупки, размеры и примерка", de: "Einkaufen, Größen und Anprobe", pl: "Zakupy, rozmiary i przymiarka", es: "Compras, tallas y prueba", fr: "Courses, tailles et essayage", ro: "Cumpărături, mărimi și probă" },
+  professioni_lavoro: { en: "Jobs and the work schedule", uk: "Професії та робочий розклад", ru: "Профессии и рабочий график", de: "Berufe und Arbeitsplan", pl: "Zawody i grafik pracy", es: "Profesiones y horario", fr: "Métiers et horaires", ro: "Meserii și program de lucru" },
+  viaggi_hotel: { en: "Travel, hotel, and airport", uk: "Подорожі, готель та аеропорт", ru: "Путешествия, отель и аэропорт", de: "Reisen, Hotel und Flughafen", pl: "Podróże, hotel i lotnisko", es: "Viajes, hotel y aeropuerto", fr: "Voyages, hôtel et aéroport", ro: "Călătorii, hotel și aeroport" },
   city: { en: "City", uk: "Місто", ru: "Город", de: "Stadt", pl: "Miasto", es: "Ciudad", fr: "Ville", ro: "Oraș" },
   transport: { en: "Transport", uk: "Транспорт", ru: "Транспорт", de: "Verkehr", pl: "Transport", es: "Transporte", fr: "Transports", ro: "Transport" },
   shopping: { en: "Shopping", uk: "Покупки", ru: "Покупки", de: "Einkaufen", pl: "Zakupy", es: "Compras", fr: "Courses", ro: "Cumpărături" },
