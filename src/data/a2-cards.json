@@ -2503,49 +2503,49 @@
     "id": "a2_ristorante_cucina_2",
     "level": "A2",
     "topic": "ristorante_cucina",
-    "word": "Il primo",
+    "word": "Il risotto",
     "translations": {
-      "uk": "перша страва",
-      "en": "the first course",
-      "de": "der erste Gang",
-      "pl": "pierwsze danie",
-      "es": "el primer plato",
-      "fr": "le premier plat",
-      "ro": "felul întâi",
-      "ru": "первое блюдо"
+      "en": "the risotto",
+      "uk": "ризото",
+      "ru": "ризотто",
+      "de": "das Risotto",
+      "pl": "risotto",
+      "es": "el risotto",
+      "fr": "le risotto",
+      "ro": "risotto-ul"
     },
     "examples": {
-      "uk": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "На перше я візьму пасту."
-      },
       "en": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "For the first course I take pasta."
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "The mushroom risotto is creamy."
       },
-      "de": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "Als ersten Gang nehme ich Nudeln."
-      },
-      "pl": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "Na pierwsze biorę makaron."
-      },
-      "es": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "De primero tomo pasta."
-      },
-      "fr": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "En premier plat je prends des pâtes."
-      },
-      "ro": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "Ca felul întâi iau paste."
+      "uk": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Ризото з грибами кремове."
       },
       "ru": {
-        "sentence": "Come primo prendo la pasta.",
-        "translation": "На первое я возьму пасту."
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Ризотто с грибами кремовое."
+      },
+      "de": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Das Pilzrisotto ist cremig."
+      },
+      "pl": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Risotto z grzybami jest kremowe."
+      },
+      "es": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "El risotto de setas es cremoso."
+      },
+      "fr": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Le risotto aux champignons est crémeux."
+      },
+      "ro": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Risotto-ul cu ciuperci este cremos."
       }
     }
   },
@@ -2553,49 +2553,49 @@
     "id": "a2_ristorante_cucina_3",
     "level": "A2",
     "topic": "ristorante_cucina",
-    "word": "Il secondo",
+    "word": "La bistecca",
     "translations": {
-      "uk": "друга страва",
-      "en": "the main course",
-      "de": "der Hauptgang",
-      "pl": "drugie danie",
-      "es": "el segundo",
-      "fr": "le plat principal",
-      "ro": "felul doi",
-      "ru": "второе блюдо"
+      "en": "the steak",
+      "uk": "стейк",
+      "ru": "стейк",
+      "de": "das Steak",
+      "pl": "stek",
+      "es": "el filete",
+      "fr": "le steak",
+      "ro": "friptura"
     },
     "examples": {
-      "uk": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "На друге я хотів би рибу."
-      },
       "en": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "For the main course I would like fish."
+        "sentence": "La bistecca è al sangue.",
+        "translation": "The steak is rare."
       },
-      "de": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "Als Hauptgang hätte ich gern Fisch."
-      },
-      "pl": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "Na drugie poproszę rybę."
-      },
-      "es": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "De segundo querría pescado."
-      },
-      "fr": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "En plat principal je voudrais du poisson."
-      },
-      "ro": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "Ca felul doi aș vrea pește."
+      "uk": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Стейк з кров'ю."
       },
       "ru": {
-        "sentence": "Come secondo vorrei il pesce.",
-        "translation": "На второе я хотел бы рыбу."
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Стейк с кровью."
+      },
+      "de": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Das Steak ist blutig."
+      },
+      "pl": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Stek jest krwisty."
+      },
+      "es": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "El filete está poco hecho."
+      },
+      "fr": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Le steak est saignant."
+      },
+      "ro": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Friptura este în sânge."
       }
     }
   },
@@ -3403,49 +3403,49 @@
     "id": "a2_professioni_lavoro_4",
     "level": "A2",
     "topic": "professioni_lavoro",
-    "word": "Lo straordinario",
+    "word": "Le ferie",
     "translations": {
-      "uk": "понаднормова",
-      "en": "the overtime",
-      "de": "die Überstunde",
-      "pl": "nadgodziny",
-      "es": "las horas extra",
-      "fr": "les heures supplémentaires",
-      "ro": "ora suplimentară",
-      "ru": "сверхурочная"
+      "en": "the leave",
+      "uk": "відпустка",
+      "ru": "отпуск",
+      "de": "der Urlaub",
+      "pl": "urlop",
+      "es": "las vacaciones",
+      "fr": "les congés",
+      "ro": "concediul"
     },
     "examples": {
-      "uk": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Сьогодні я працюю понаднормово."
-      },
       "en": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Today I do overtime."
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Leave starts in August."
       },
-      "de": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Heute mache ich eine Überstunde."
-      },
-      "pl": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Dziś robię nadgodziny."
-      },
-      "es": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Hoy hago horas extra."
-      },
-      "fr": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Aujourd'hui je fais des heures supplémentaires."
-      },
-      "ro": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Azi fac o oră suplimentară."
+      "uk": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Відпустка починається в серпні."
       },
       "ru": {
-        "sentence": "Oggi faccio uno straordinario.",
-        "translation": "Сегодня я работаю сверхурочно."
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Отпуск начинается в августе."
+      },
+      "de": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Der Urlaub beginnt im August."
+      },
+      "pl": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Urlop zaczyna się w sierpniu."
+      },
+      "es": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Las vacaciones empiezan en agosto."
+      },
+      "fr": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Les congés commencent en août."
+      },
+      "ro": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Concediul începe în august."
       }
     }
   },
@@ -3503,49 +3503,49 @@
     "id": "a2_professioni_lavoro_6",
     "level": "A2",
     "topic": "professioni_lavoro",
-    "word": "Il contratto",
+    "word": "Il datore di lavoro",
     "translations": {
-      "uk": "договір",
-      "en": "the contract",
-      "de": "der Vertrag",
-      "pl": "umowa",
-      "es": "el contrato",
-      "fr": "le contrat",
-      "ro": "contractul",
-      "ru": "договор"
+      "en": "the employer",
+      "uk": "роботодавець",
+      "ru": "работодатель",
+      "de": "der Arbeitgeber",
+      "pl": "pracodawca",
+      "es": "el empleador",
+      "fr": "l'employeur",
+      "ro": "angajatorul"
     },
     "examples": {
-      "uk": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Я підписую договір у понеділок."
-      },
       "en": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "I sign the contract on Monday."
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "The employer signs the contract."
       },
-      "de": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Ich unterschreibe den Vertrag am Montag."
-      },
-      "pl": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Podpisuję umowę w poniedziałek."
-      },
-      "es": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Firmo el contrato el lunes."
-      },
-      "fr": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Je signe le contrat lundi."
-      },
-      "ro": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Semnez contractul luni."
+      "uk": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Роботодавець підписує договір."
       },
       "ru": {
-        "sentence": "Firmo il contratto lunedì.",
-        "translation": "Я подписываю договор в понедельник."
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Работодатель подписывает договор."
+      },
+      "de": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Der Arbeitgeber unterschreibt den Vertrag."
+      },
+      "pl": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Pracodawca podpisuje umowę."
+      },
+      "es": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "El empleador firma el contrato."
+      },
+      "fr": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "L'employeur signe le contrat."
+      },
+      "ro": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Angajatorul semnează contractul."
       }
     }
   },
@@ -3553,49 +3553,49 @@
     "id": "a2_professioni_lavoro_7",
     "level": "A2",
     "topic": "professioni_lavoro",
-    "word": "Il colloquio",
+    "word": "Il candidato",
     "translations": {
-      "uk": "співбесіда",
-      "en": "the interview",
-      "de": "das Vorstellungsgespräch",
-      "pl": "rozmowa kwalifikacyjna",
-      "es": "la entrevista",
-      "fr": "l'entretien",
-      "ro": "interviul",
-      "ru": "собеседование"
+      "en": "the candidate",
+      "uk": "кандидат",
+      "ru": "кандидат",
+      "de": "der Bewerber",
+      "pl": "kandydat",
+      "es": "el candidato",
+      "fr": "le candidat",
+      "ro": "candidatul"
     },
     "examples": {
-      "uk": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "Співбесіда о десятій."
-      },
       "en": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "The interview is at ten."
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "The candidate arrives early."
       },
-      "de": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "Das Gespräch ist um zehn."
-      },
-      "pl": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "Rozmowa jest o dziesiątej."
-      },
-      "es": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "La entrevista es a las diez."
-      },
-      "fr": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "L'entretien est à dix heures."
-      },
-      "ro": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "Interviul este la zece."
+      "uk": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Кандидат приходить завчасно."
       },
       "ru": {
-        "sentence": "Il colloquio è alle dieci.",
-        "translation": "Собеседование в десять."
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Кандидат приходит заранее."
+      },
+      "de": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Der Bewerber kommt früher."
+      },
+      "pl": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Kandydat przychodzi wcześniej."
+      },
+      "es": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "El candidato llega antes."
+      },
+      "fr": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Le candidat arrive en avance."
+      },
+      "ro": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Candidatul ajunge mai devreme."
       }
     }
   },
@@ -4003,49 +4003,49 @@
     "id": "a2_viaggi_hotel_8",
     "level": "A2",
     "topic": "viaggi_hotel",
-    "word": "Il ritardo",
+    "word": "Lo scalo",
     "translations": {
-      "uk": "затримка",
-      "en": "the delay",
-      "de": "die Verspätung",
-      "pl": "opóźnienie",
-      "es": "el retraso",
-      "fr": "le retard",
-      "ro": "întârzierea",
-      "ru": "задержка"
+      "en": "the layover",
+      "uk": "пересадка",
+      "ru": "пересадка",
+      "de": "der Zwischenstopp",
+      "pl": "przesiadka",
+      "es": "la escala",
+      "fr": "l'escale",
+      "ro": "escala"
     },
     "examples": {
-      "uk": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "Затримка сорок хвилин."
-      },
       "en": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "The delay is forty minutes."
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "The layover in Rome lasts two hours."
       },
-      "de": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "Die Verspätung beträgt vierzig Minuten."
-      },
-      "pl": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "Opóźnienie wynosi czterdzieści minut."
-      },
-      "es": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "El retraso es de cuarenta minutos."
-      },
-      "fr": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "Le retard est de quarante minutes."
-      },
-      "ro": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "Întârzierea este de patruzeci de minute."
+      "uk": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Пересадка в Римі триває дві години."
       },
       "ru": {
-        "sentence": "Il ritardo è di quaranta minuti.",
-        "translation": "Задержка сорок минут."
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Пересадка в Риме длится два часа."
+      },
+      "de": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Der Zwischenstopp in Rom dauert zwei Stunden."
+      },
+      "pl": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Przesiadka w Rzymie trwa dwie godziny."
+      },
+      "es": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "La escala en Roma dura dos horas."
+      },
+      "fr": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "L'escale à Rome dure deux heures."
+      },
+      "ro": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Escala la Roma durează două ore."
       }
     }
   }
