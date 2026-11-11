@@ -5,6 +5,9 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import "./index.css";
 import App from "./App";
+import { initStatusBar } from "./lib/statusBar";
+
+initStatusBar();
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
