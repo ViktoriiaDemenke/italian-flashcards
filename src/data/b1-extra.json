@@ -3902,600 +3902,600 @@
   {
     "id": "b1e_079",
     "level": "B1",
-    "topic": "relazioni_conflitti",
-    "word": "Confrontarsi",
+    "topic": "verbi",
+    "word": "Scegliere",
     "translations": {
-      "en": "to talk it through",
-      "uk": "обговорити",
-      "ru": "обсудить напрямую",
-      "de": "sich auseinandersetzen",
-      "pl": "skonfrontować się",
-      "es": "hablarlo",
-      "fr": "se confronter",
-      "ro": "a discuta deschis"
+      "en": "to choose",
+      "uk": "обирати",
+      "ru": "выбирать",
+      "de": "wählen",
+      "pl": "wybierać",
+      "es": "elegir",
+      "fr": "choisir",
+      "ro": "a alege"
     },
     "examples": {
       "en": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Better to talk it through calmly."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "I have to choose a course."
       },
       "uk": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Краще спокійно обговорити."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Мені треба обрати курс."
       },
       "ru": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Лучше спокойно обсудить."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Мне надо выбрать курс."
       },
       "de": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Besser sich in Ruhe auseinandersetzen."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Ich muss einen Kurs wählen."
       },
       "pl": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Lepiej spokojnie to omówić."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Muszę wybrać kurs."
       },
       "es": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Mejor hablarlo con calma."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Debo elegir un curso."
       },
       "fr": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Mieux vaut se confronter calmement."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Je dois choisir un cours."
       },
       "ro": {
-        "sentence": "Meglio confrontarsi con calma.",
-        "translation": "Mai bine discutați deschis și calm."
+        "sentence": "Devo scegliere un corso.",
+        "translation": "Trebuie să aleg un curs."
       }
     }
   },
   {
     "id": "b1e_080",
     "level": "B1",
-    "topic": "relazioni_conflitti",
-    "word": "L'equivoco",
+    "topic": "verbi",
+    "word": "Decidere",
     "translations": {
-      "en": "the mix-up",
-      "uk": "плутанина",
-      "ru": "путаница",
-      "de": "das Missverständnis",
-      "pl": "pomyłka",
-      "es": "el equívoco",
-      "fr": "le quiproquo",
-      "ro": "echivocul"
+      "en": "to decide",
+      "uk": "вирішувати",
+      "ru": "решать",
+      "de": "entscheiden",
+      "pl": "decydować",
+      "es": "decidir",
+      "fr": "décider",
+      "ro": "a decide"
     },
     "examples": {
       "en": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "The mix-up comes from one word."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Let's decide together."
       },
       "uk": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "Плутанина з одного слова."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Вирішимо разом."
       },
       "ru": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "Путаница из одного слова."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Решим вместе."
       },
       "de": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "Das Missverständnis kommt von einem Wort."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Wir entscheiden zusammen."
       },
       "pl": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "Pomyłka bierze się z jednego słowa."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Zdecydujmy razem."
       },
       "es": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "El equívoco nace de una palabra."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Decidimos juntos."
       },
       "fr": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "Le quiproquo vient d'un mot."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Nous décidons ensemble."
       },
       "ro": {
-        "sentence": "L'equivoco nasce da una parola.",
-        "translation": "Echivocul vine dintr-un cuvânt."
+        "sentence": "Decidiamo insieme.",
+        "translation": "Decidem împreună."
       }
     }
   },
   {
     "id": "b1e_081",
     "level": "B1",
-    "topic": "relazioni_conflitti",
-    "word": "Fare pace",
+    "topic": "verbi",
+    "word": "Riuscire",
     "translations": {
-      "en": "to make peace",
-      "uk": "помиритися",
-      "ru": "помириться",
-      "de": "sich versöhnen",
-      "pl": "pogodzić się",
-      "es": "hacer las paces",
-      "fr": "faire la paix",
-      "ro": "a se împăca"
+      "en": "to manage",
+      "uk": "вдаватися",
+      "ru": "удаваться",
+      "de": "gelingen",
+      "pl": "udawać się",
+      "es": "conseguir",
+      "fr": "réussir",
+      "ro": "a reuși"
     },
     "examples": {
       "en": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "After the argument we make peace."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "I cannot manage to open the door."
       },
       "uk": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "Після сварки миримося."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "Мені не вдається відчинити двері."
       },
       "ru": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "После ссоры миримся."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "Мне не удаётся открыть дверь."
       },
       "de": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "Nach dem Streit versöhnen wir uns."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "Es gelingt mir nicht, die Tür zu öffnen."
       },
       "pl": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "Po kłótni się godzimy."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "Nie udaje mi się otworzyć drzwi."
       },
       "es": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "Después de la discusión hacemos las paces."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "No consigo abrir la puerta."
       },
       "fr": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "Après la dispute nous faisons la paix."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "Je n'arrive pas à ouvrir la porte."
       },
       "ro": {
-        "sentence": "Dopo la discussione facciamo pace.",
-        "translation": "După ceartă ne împăcăm."
+        "sentence": "Non riesco ad aprire la porta.",
+        "translation": "Nu reușesc să deschid ușa."
       }
     }
   },
   {
     "id": "b1e_082",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "Il gocciolio",
+    "topic": "verbi",
+    "word": "Sembrare",
     "translations": {
-      "en": "the dripping",
-      "uk": "капання",
-      "ru": "капание",
-      "de": "das Tropfen",
-      "pl": "kapanie",
-      "es": "el goteo",
-      "fr": "le goutte-à-goutte",
-      "ro": "picuratul"
+      "en": "to seem",
+      "uk": "здаватися",
+      "ru": "казаться",
+      "de": "scheinen",
+      "pl": "wydawać się",
+      "es": "parecer",
+      "fr": "sembler",
+      "ro": "a părea"
     },
     "examples": {
       "en": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "The dripping keeps us awake."
+        "sentence": "Sembra una buona idea.",
+        "translation": "It seems like a good idea."
       },
       "uk": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "Капання не дає спати."
+        "sentence": "Sembra una buona idea.",
+        "translation": "Здається, це гарна ідея."
       },
       "ru": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "Капание не даёт спать."
+        "sentence": "Sembra una buona idea.",
+        "translation": "Кажется, это хорошая идея."
       },
       "de": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "Das Tropfen hält uns wach."
+        "sentence": "Sembra una buona idea.",
+        "translation": "Das scheint eine gute Idee."
       },
       "pl": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "Kapanie nie daje spać."
+        "sentence": "Sembra una buona idea.",
+        "translation": "To wydaje się dobrym pomysłem."
       },
       "es": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "El goteo no deja dormir."
+        "sentence": "Sembra una buona idea.",
+        "translation": "Parece una buena idea."
       },
       "fr": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "Le goutte-à-goutte empêche de dormir."
+        "sentence": "Sembra una buona idea.",
+        "translation": "Ça semble une bonne idée."
       },
       "ro": {
-        "sentence": "Il gocciolio tiene svegli.",
-        "translation": "Picuratul nu lasă să dormim."
+        "sentence": "Sembra una buona idea.",
+        "translation": "Pare o idee bună."
       }
     }
   },
   {
     "id": "b1e_083",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "Il rubinetto",
+    "topic": "verbi",
+    "word": "Diventare",
     "translations": {
-      "en": "the tap",
-      "uk": "кран",
-      "ru": "кран",
-      "de": "der Wasserhahn",
-      "pl": "kran",
-      "es": "el grifo",
-      "fr": "le robinet",
-      "ro": "robinetul"
+      "en": "to become",
+      "uk": "ставати",
+      "ru": "становиться",
+      "de": "werden",
+      "pl": "stawać się",
+      "es": "volverse",
+      "fr": "devenir",
+      "ro": "a deveni"
     },
     "examples": {
       "en": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "The kitchen tap drips."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "It becomes easier with practice."
       },
       "uk": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "Кухонний кран капає."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "З практикою стає легше."
       },
       "ru": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "Кухонный кран капает."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "С практикой становится легче."
       },
       "de": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "Der Wasserhahn in der Küche tropft."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "Mit Übung wird es leichter."
       },
       "pl": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "Kran w kuchni kapie."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "Z praktyką staje się łatwiej."
       },
       "es": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "El grifo de la cocina gotea."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "Se vuelve más fácil con la práctica."
       },
       "fr": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "Le robinet de la cuisine goutte."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "Ça devient plus facile avec la pratique."
       },
       "ro": {
-        "sentence": "Il rubinetto della cucina gocciola.",
-        "translation": "Robinetul din bucătărie picură."
+        "sentence": "Diventa più facile con la pratica.",
+        "translation": "Devine mai ușor cu practica."
       }
     }
   },
   {
     "id": "b1e_084",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "Il tecnico",
+    "topic": "verbi",
+    "word": "Credere",
     "translations": {
-      "en": "the technician",
-      "uk": "майстер",
-      "ru": "мастер",
-      "de": "der Techniker",
-      "pl": "technik",
-      "es": "el técnico",
-      "fr": "le technicien",
-      "ro": "tehnicianul"
+      "en": "to believe",
+      "uk": "вірити",
+      "ru": "верить",
+      "de": "glauben",
+      "pl": "wierzyć",
+      "es": "creer",
+      "fr": "croire",
+      "ro": "a crede"
     },
     "examples": {
       "en": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "The technician comes in the afternoon."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "I only half believe it."
       },
       "uk": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "Майстер прийде по обіді."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Я вірю в це лише наполовину."
       },
       "ru": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "Мастер придёт после обеда."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Я верю в это лишь наполовину."
       },
       "de": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "Der Techniker kommt am Nachmittag."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Ich glaube es nur halb."
       },
       "pl": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "Technik przyjdzie po południu."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Wierzę w to tylko w połowie."
       },
       "es": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "El técnico viene por la tarde."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Solo lo creo a medias."
       },
       "fr": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "Le technicien vient l'après-midi."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Je n'y crois qu'à moitié."
       },
       "ro": {
-        "sentence": "Il tecnico arriva nel pomeriggio.",
-        "translation": "Tehnicianul vine după-amiaza."
+        "sentence": "Ci credo solo a metà.",
+        "translation": "Cred doar pe jumătate."
       }
     }
   },
   {
     "id": "b1e_085",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "Il sollecito",
+    "topic": "verbi",
+    "word": "Sperare",
     "translations": {
-      "en": "the reminder notice",
-      "uk": "нагадування про оплату",
-      "ru": "напоминание об оплате",
-      "de": "die Mahnung",
-      "pl": "wezwanie",
-      "es": "el aviso de pago",
-      "fr": "la relance",
-      "ro": "somația"
+      "en": "to hope",
+      "uk": "сподіватися",
+      "ru": "надеяться",
+      "de": "hoffen",
+      "pl": "mieć nadzieję",
+      "es": "esperar",
+      "fr": "espérer",
+      "ro": "a spera"
     },
     "examples": {
       "en": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "The reminder comes after the bill."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "I hope to finish on time."
       },
       "uk": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "Нагадування приходить після рахунку."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "Сподіваюся закінчити вчасно."
       },
       "ru": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "Напоминание приходит после счёта."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "Надеюсь закончить вовремя."
       },
       "de": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "Die Mahnung kommt nach der Rechnung."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "Ich hoffe, rechtzeitig fertig zu werden."
       },
       "pl": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "Wezwanie przychodzi po rachunku."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "Mam nadzieję skończyć na czas."
       },
       "es": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "El aviso llega después de la factura."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "Espero terminar a tiempo."
       },
       "fr": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "La relance arrive après la facture."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "J'espère finir à temps."
       },
       "ro": {
-        "sentence": "Il sollecito arriva dopo la bolletta.",
-        "translation": "Somația vine după factură."
+        "sentence": "Spero di finire in tempo.",
+        "translation": "Sper să termin la timp."
       }
     }
   },
   {
     "id": "b1e_086",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "Il corto circuito",
+    "topic": "verbi",
+    "word": "Offrire",
     "translations": {
-      "en": "the short circuit",
-      "uk": "коротке замикання",
-      "ru": "короткое замыкание",
-      "de": "der Kurzschluss",
-      "pl": "zwarcie",
-      "es": "el cortocircuito",
-      "fr": "le court-circuit",
-      "ro": "scurtcircuitul"
+      "en": "to offer",
+      "uk": "пропонувати",
+      "ru": "предлагать",
+      "de": "anbieten",
+      "pl": "oferować",
+      "es": "ofrecer",
+      "fr": "offrir",
+      "ro": "a oferi"
     },
     "examples": {
       "en": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "The short circuit cuts the lights."
+        "sentence": "Ti offro un caffè.",
+        "translation": "I'll offer you a coffee."
       },
       "uk": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "Коротке замикання вимикає світло."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Пригощаю тебе кавою."
       },
       "ru": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "Короткое замыкание выключает свет."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Угощаю тебя кофе."
       },
       "de": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "Der Kurzschluss schaltet das Licht aus."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Ich biete dir einen Kaffee an."
       },
       "pl": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "Zwarcie gasi światło."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Stawiam ci kawę."
       },
       "es": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "El cortocircuito apaga la luz."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Te ofrezco un café."
       },
       "fr": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "Le court-circuit coupe la lumière."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Je t'offre un café."
       },
       "ro": {
-        "sentence": "Il corto circuito spegne la luce.",
-        "translation": "Scurtcircuitul stinge lumina."
+        "sentence": "Ti offro un caffè.",
+        "translation": "Îți ofer o cafea."
       }
     }
   },
   {
     "id": "b1e_087",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "La muffa",
+    "topic": "verbi",
+    "word": "Ricevere",
     "translations": {
-      "en": "the mould",
-      "uk": "цвіль",
-      "ru": "плесень",
-      "de": "der Schimmel",
-      "pl": "pleśń",
-      "es": "el moho",
-      "fr": "la moisissure",
-      "ro": "mucegaiul"
+      "en": "to receive",
+      "uk": "отримувати",
+      "ru": "получать",
+      "de": "erhalten",
+      "pl": "otrzymywać",
+      "es": "recibir",
+      "fr": "recevoir",
+      "ro": "a primi"
     },
     "examples": {
       "en": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "Mould is in the bathroom corner."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "I received your email."
       },
       "uk": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "Цвіль у кутку ванної."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "Я отримав твій лист."
       },
       "ru": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "Плесень в углу ванной."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "Я получил твоё письмо."
       },
       "de": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "Schimmel ist in der Badezimmerecke."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "Ich habe deine Mail erhalten."
       },
       "pl": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "Pleśń jest w rogu łazienki."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "Dostałem twojego maila."
       },
       "es": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "El moho está en la esquina del baño."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "He recibido tu correo."
       },
       "fr": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "La moisissure est dans le coin de la salle de bain."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "J'ai reçu ton mail."
       },
       "ro": {
-        "sentence": "La muffa è nell'angolo del bagno.",
-        "translation": "Mucegaiul este în colțul băii."
+        "sentence": "Ho ricevuto la tua mail.",
+        "translation": "Am primit mailul tău."
       }
     }
   },
   {
     "id": "b1e_088",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "La presa",
+    "topic": "verbi",
+    "word": "Rispondere",
     "translations": {
-      "en": "the socket",
-      "uk": "розетка",
-      "ru": "розетка",
-      "de": "die Steckdose",
-      "pl": "gniazdko",
-      "es": "el enchufe",
-      "fr": "la prise",
-      "ro": "priza"
+      "en": "to answer",
+      "uk": "відповідати",
+      "ru": "отвечать",
+      "de": "antworten",
+      "pl": "odpowiadać",
+      "es": "responder",
+      "fr": "répondre",
+      "ro": "a răspunde"
     },
     "examples": {
       "en": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "The socket in the kitchen does not work."
+        "sentence": "Rispondo appena posso.",
+        "translation": "I answer as soon as I can."
       },
       "uk": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "Розетка на кухні не працює."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Відповім, щойно зможу."
       },
       "ru": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "Розетка на кухне не работает."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Отвечу, как только смогу."
       },
       "de": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "Die Steckdose in der Küche funktioniert nicht."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Ich antworte, sobald ich kann."
       },
       "pl": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "Gniazdko w kuchni nie działa."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Odpowiadam, gdy tylko mogę."
       },
       "es": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "El enchufe de la cocina no funciona."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Respondo en cuanto puedo."
       },
       "fr": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "La prise de la cuisine ne marche pas."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Je réponds dès que je peux."
       },
       "ro": {
-        "sentence": "La presa in cucina non funziona.",
-        "translation": "Priza din bucătărie nu funcționează."
+        "sentence": "Rispondo appena posso.",
+        "translation": "Răspund imediat ce pot."
       }
     }
   },
   {
     "id": "b1e_089",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "L'amministratore",
+    "topic": "verbi",
+    "word": "Chiedere",
     "translations": {
-      "en": "the building manager",
-      "uk": "керуючий будинком",
-      "ru": "управляющий",
-      "de": "der Hausverwalter",
-      "pl": "zarządca",
-      "es": "el administrador",
-      "fr": "le syndic",
-      "ro": "administratorul"
+      "en": "to ask",
+      "uk": "питати",
+      "ru": "спрашивать",
+      "de": "fragen",
+      "pl": "pytać",
+      "es": "pedir",
+      "fr": "demander",
+      "ro": "a cere"
     },
     "examples": {
       "en": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "The manager calls the meeting."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "I ask for some information."
       },
       "uk": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "Керуючий скликає збори."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Я питаю інформацію."
       },
       "ru": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "Управляющий созывает собрание."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Я спрашиваю информацию."
       },
       "de": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "Der Hausverwalter beruft die Versammlung ein."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Ich frage nach einer Auskunft."
       },
       "pl": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "Zarządca zwołuje zebranie."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Pytam o informację."
       },
       "es": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "El administrador convoca la junta."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Pido una información."
       },
       "fr": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "Le syndic convoque l'assemblée."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Je demande un renseignement."
       },
       "ro": {
-        "sentence": "L'amministratore convoca l'assemblea.",
-        "translation": "Administratorul convoacă adunarea."
+        "sentence": "Chiedo un'informazione.",
+        "translation": "Cer o informație."
       }
     }
   },
   {
     "id": "b1e_090",
     "level": "B1",
-    "topic": "problemi_riparazioni",
-    "word": "L'intervento",
+    "topic": "verbi",
+    "word": "Spiegare",
     "translations": {
-      "en": "the repair visit",
-      "uk": "виїзд майстра",
-      "ru": "выезд мастера",
-      "de": "der Einsatz",
-      "pl": "interwencja",
-      "es": "la intervención",
-      "fr": "l'intervention",
-      "ro": "intervenția"
+      "en": "to explain",
+      "uk": "пояснювати",
+      "ru": "объяснять",
+      "de": "erklären",
+      "pl": "wyjaśniać",
+      "es": "explicar",
+      "fr": "expliquer",
+      "ro": "a explica"
     },
     "examples": {
       "en": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "The repair visit is set for Friday."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Can you explain again?"
       },
       "uk": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "Виїзд майстра призначено на п'ятницю."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Можеш пояснити ще раз?"
       },
       "ru": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "Выезд мастера назначен на пятницу."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Можешь объяснить ещё раз?"
       },
       "de": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "Der Einsatz ist für Freitag geplant."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Kannst du es noch einmal erklären?"
       },
       "pl": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "Interwencja jest umówiona na piątek."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Możesz wyjaśnić jeszcze raz?"
       },
       "es": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "La intervención está fijada para el viernes."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "¿Puedes explicar otra vez?"
       },
       "fr": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "L'intervention est fixée à vendredi."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Tu peux expliquer encore ?"
       },
       "ro": {
-        "sentence": "L'intervento è fissato per venerdì.",
-        "translation": "Intervenția este fixată pentru vineri."
+        "sentence": "Puoi spiegare di nuovo?",
+        "translation": "Poți explica din nou?"
       }
     }
   }

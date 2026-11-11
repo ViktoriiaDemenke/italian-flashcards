@@ -5902,600 +5902,600 @@
   {
     "id": "a2e_119",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "La chiave",
+    "topic": "verbi",
+    "word": "Dire",
     "translations": {
-      "en": "the key",
-      "uk": "ключ",
-      "ru": "ключ",
-      "de": "der Schlüssel",
-      "pl": "klucz",
-      "es": "la llave",
-      "fr": "la clé",
-      "ro": "cheia"
+      "en": "to say",
+      "uk": "сказати",
+      "ru": "сказать",
+      "de": "sagen",
+      "pl": "powiedzieć",
+      "es": "decir",
+      "fr": "dire",
+      "ro": "a spune"
     },
     "examples": {
       "en": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "The room key is electronic."
+        "sentence": "Posso dire una cosa?",
+        "translation": "May I say something?"
       },
       "uk": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "Ключ від номера електронний."
+        "sentence": "Posso dire una cosa?",
+        "translation": "Можу сказати одну річ?"
       },
       "ru": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "Ключ от номера электронный."
+        "sentence": "Posso dire una cosa?",
+        "translation": "Можно сказать одну вещь?"
       },
       "de": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "Der Zimmerschlüssel ist elektronisch."
+        "sentence": "Posso dire una cosa?",
+        "translation": "Darf ich etwas sagen?"
       },
       "pl": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "Klucz do pokoju jest elektroniczny."
+        "sentence": "Posso dire una cosa?",
+        "translation": "Mogę coś powiedzieć?"
       },
       "es": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "La llave de la habitación es electrónica."
+        "sentence": "Posso dire una cosa?",
+        "translation": "¿Puedo decir una cosa?"
       },
       "fr": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "La clé de la chambre est électronique."
+        "sentence": "Posso dire una cosa?",
+        "translation": "Je peux dire une chose ?"
       },
       "ro": {
-        "sentence": "La chiave della camera è elettronica.",
-        "translation": "Cheia camerei este electronică."
+        "sentence": "Posso dire una cosa?",
+        "translation": "Pot să spun un lucru?"
       }
     }
   },
   {
     "id": "a2e_120",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "La camera singola",
+    "topic": "verbi",
+    "word": "Venire",
     "translations": {
-      "en": "the single room",
-      "uk": "одномісний номер",
-      "ru": "одноместный номер",
-      "de": "das Einzelzimmer",
-      "pl": "pokój jednoosobowy",
-      "es": "la habitación individual",
-      "fr": "la chambre simple",
-      "ro": "camera single"
+      "en": "to come",
+      "uk": "приходити",
+      "ru": "приходить",
+      "de": "kommen",
+      "pl": "przyjść",
+      "es": "venir",
+      "fr": "venir",
+      "ro": "a veni"
     },
     "examples": {
       "en": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "The single room looks onto the courtyard."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Are you coming with us tonight?"
       },
       "uk": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "Одномісний номер виходить у двір."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Підеш з нами сьогодні ввечері?"
       },
       "ru": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "Одноместный номер выходит во двор."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Пойдёшь с нами сегодня вечером?"
       },
       "de": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "Das Einzelzimmer geht zum Hof."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Kommst du heute Abend mit uns?"
       },
       "pl": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "Pokój jednoosobowy wychodzi na dziedziniec."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Przyjdziecie z nami dziś wieczorem?"
       },
       "es": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "La habitación individual da al patio."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "¿Vienes con nosotros esta noche?"
       },
       "fr": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "La chambre simple donne sur la cour."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Tu viens avec nous ce soir ?"
       },
       "ro": {
-        "sentence": "La camera singola dà sul cortile.",
-        "translation": "Camera single dă spre curte."
+        "sentence": "Vieni con noi stasera?",
+        "translation": "Vii cu noi diseară?"
       }
     }
   },
   {
     "id": "a2e_121",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "Il buffet",
+    "topic": "verbi",
+    "word": "Vedere",
     "translations": {
-      "en": "the buffet",
-      "uk": "шведський стіл",
-      "ru": "шведский стол",
-      "de": "das Büfett",
-      "pl": "bufet",
-      "es": "el bufé",
-      "fr": "le buffet",
-      "ro": "bufetul"
+      "en": "to see",
+      "uk": "бачити",
+      "ru": "видеть",
+      "de": "sehen",
+      "pl": "widzieć",
+      "es": "ver",
+      "fr": "voir",
+      "ro": "a vedea"
     },
     "examples": {
       "en": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "The breakfast buffet opens at seven."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "I see the sea from the window."
       },
       "uk": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "Шведський стіл на сніданок відчиняється о сьомій."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Я бачу море з вікна."
       },
       "ru": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "Шведский стол на завтрак открывается в семь."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Я вижу море из окна."
       },
       "de": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "Das Frühstücksbüfett öffnet um sieben."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Ich sehe das Meer vom Fenster."
       },
       "pl": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "Bufet śniadaniowy otwiera się o siódmej."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Widzę morze z okna."
       },
       "es": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "El bufé del desayuno abre a las siete."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Veo el mar desde la ventana."
       },
       "fr": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "Le buffet du petit-déjeuner ouvre à sept heures."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Je vois la mer depuis la fenêtre."
       },
       "ro": {
-        "sentence": "Il buffet della colazione apre alle sette.",
-        "translation": "Bufetul de mic dejun se deschide la șapte."
+        "sentence": "Vedo il mare dalla finestra.",
+        "translation": "Văd marea de la fereastră."
       }
     }
   },
   {
     "id": "a2e_122",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "Il visto",
+    "topic": "verbi",
+    "word": "Sapere",
     "translations": {
-      "en": "the visa",
-      "uk": "віза",
-      "ru": "виза",
-      "de": "das Visum",
-      "pl": "wiza",
-      "es": "el visado",
-      "fr": "le visa",
-      "ro": "viza"
+      "en": "to know",
+      "uk": "знати",
+      "ru": "знать",
+      "de": "wissen",
+      "pl": "wiedzieć",
+      "es": "saber",
+      "fr": "savoir",
+      "ro": "a ști"
     },
     "examples": {
       "en": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "The visa is in the passport."
+        "sentence": "Non so la risposta.",
+        "translation": "I do not know the answer."
       },
       "uk": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "Віза в паспорті."
+        "sentence": "Non so la risposta.",
+        "translation": "Я не знаю відповіді."
       },
       "ru": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "Виза в паспорте."
+        "sentence": "Non so la risposta.",
+        "translation": "Я не знаю ответа."
       },
       "de": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "Das Visum ist im Reisepass."
+        "sentence": "Non so la risposta.",
+        "translation": "Ich weiß die Antwort nicht."
       },
       "pl": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "Wiza jest w paszporcie."
+        "sentence": "Non so la risposta.",
+        "translation": "Nie znam odpowiedzi."
       },
       "es": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "El visado está en el pasaporte."
+        "sentence": "Non so la risposta.",
+        "translation": "No sé la respuesta."
       },
       "fr": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "Le visa est dans le passeport."
+        "sentence": "Non so la risposta.",
+        "translation": "Je ne sais pas la réponse."
       },
       "ro": {
-        "sentence": "Il visto è nel passaporto.",
-        "translation": "Viza este în pașaport."
+        "sentence": "Non so la risposta.",
+        "translation": "Nu știu răspunsul."
       }
     }
   },
   {
     "id": "a2e_123",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "Il ritiro bagagli",
+    "topic": "verbi",
+    "word": "Dare",
     "translations": {
-      "en": "baggage claim",
-      "uk": "видача багажу",
-      "ru": "выдача багажа",
-      "de": "die Gepäckausgabe",
-      "pl": "odbiór bagażu",
-      "es": "la recogida de equipajes",
-      "fr": "le retrait des bagages",
-      "ro": "ridicarea bagajelor"
+      "en": "to give",
+      "uk": "давати",
+      "ru": "давать",
+      "de": "geben",
+      "pl": "dawać",
+      "es": "dar",
+      "fr": "donner",
+      "ro": "a da"
     },
     "examples": {
       "en": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Baggage claim is on the ground floor."
+        "sentence": "Ti do una mano.",
+        "translation": "I'll give you a hand."
       },
       "uk": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Видача багажу на першому поверсі."
+        "sentence": "Ti do una mano.",
+        "translation": "Я тобі допоможу."
       },
       "ru": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Выдача багажа на первом этаже."
+        "sentence": "Ti do una mano.",
+        "translation": "Я тебе помогу."
       },
       "de": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Die Gepäckausgabe ist im Erdgeschoss."
+        "sentence": "Ti do una mano.",
+        "translation": "Ich gebe dir eine Hand."
       },
       "pl": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Odbiór bagażu jest na parterze."
+        "sentence": "Ti do una mano.",
+        "translation": "Pomogę ci."
       },
       "es": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "La recogida de equipajes está en la planta baja."
+        "sentence": "Ti do una mano.",
+        "translation": "Te echo una mano."
       },
       "fr": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Le retrait des bagages est au rez-de-chaussée."
+        "sentence": "Ti do una mano.",
+        "translation": "Je te donne un coup de main."
       },
       "ro": {
-        "sentence": "Il ritiro bagagli è al piano terra.",
-        "translation": "Ridicarea bagajelor este la parter."
+        "sentence": "Ti do una mano.",
+        "translation": "Îți dau o mână de ajutor."
       }
     }
   },
   {
     "id": "a2e_124",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "La valigia",
+    "topic": "verbi",
+    "word": "Stare",
     "translations": {
-      "en": "the suitcase",
-      "uk": "валіза",
-      "ru": "чемодан",
-      "de": "der Koffer",
-      "pl": "walizka",
-      "es": "la maleta",
-      "fr": "la valise",
-      "ro": "valiza"
+      "en": "to stay",
+      "uk": "бути в стані",
+      "ru": "находиться",
+      "de": "bleiben",
+      "pl": "zostać",
+      "es": "estar",
+      "fr": "rester",
+      "ro": "a sta"
     },
     "examples": {
       "en": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "The suitcase is too heavy."
+        "sentence": "Sto bene, grazie.",
+        "translation": "I am well, thank you."
       },
       "uk": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "Валіза занадто важка."
+        "sentence": "Sto bene, grazie.",
+        "translation": "У мене все добре, дякую."
       },
       "ru": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "Чемодан слишком тяжёлый."
+        "sentence": "Sto bene, grazie.",
+        "translation": "У меня всё хорошо, спасибо."
       },
       "de": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "Der Koffer ist zu schwer."
+        "sentence": "Sto bene, grazie.",
+        "translation": "Mir geht es gut, danke."
       },
       "pl": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "Walizka jest za ciężka."
+        "sentence": "Sto bene, grazie.",
+        "translation": "Mam się dobrze, dziękuję."
       },
       "es": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "La maleta pesa demasiado."
+        "sentence": "Sto bene, grazie.",
+        "translation": "Estoy bien, gracias."
       },
       "fr": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "La valise est trop lourde."
+        "sentence": "Sto bene, grazie.",
+        "translation": "Je vais bien, merci."
       },
       "ro": {
-        "sentence": "La valigia è troppo pesante.",
-        "translation": "Valiza este prea grea."
+        "sentence": "Sto bene, grazie.",
+        "translation": "Sunt bine, mulțumesc."
       }
     }
   },
   {
     "id": "a2e_125",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "L'ascensore",
+    "topic": "verbi",
+    "word": "Parlare",
     "translations": {
-      "en": "the lift",
-      "uk": "ліфт",
-      "ru": "лифт",
-      "de": "der Aufzug",
-      "pl": "winda",
-      "es": "el ascensor",
-      "fr": "l'ascenseur",
-      "ro": "liftul"
+      "en": "to speak",
+      "uk": "говорити",
+      "ru": "говорить",
+      "de": "sprechen",
+      "pl": "mówić",
+      "es": "hablar",
+      "fr": "parler",
+      "ro": "a vorbi"
     },
     "examples": {
       "en": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "The lift is at the end of the corridor."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "We speak Italian every day."
       },
       "uk": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "Ліфт у кінці коридору."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Ми говоримо італійською щодня."
       },
       "ru": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "Лифт в конце коридора."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Мы говорим по-итальянски каждый день."
       },
       "de": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "Der Aufzug ist am Ende des Flurs."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Wir sprechen jeden Tag Italienisch."
       },
       "pl": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "Winda jest na końcu korytarza."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Mówimy po włosku codziennie."
       },
       "es": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "El ascensor está al final del pasillo."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Hablamos italiano cada día."
       },
       "fr": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "L'ascenseur est au bout du couloir."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Nous parlons italien tous les jours."
       },
       "ro": {
-        "sentence": "L'ascensore è in fondo al corridoio.",
-        "translation": "Liftul este la capătul coridorului."
+        "sentence": "Parliamo italiano ogni giorno.",
+        "translation": "Vorbim italiana în fiecare zi."
       }
     }
   },
   {
     "id": "a2e_126",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "Il piano",
+    "topic": "verbi",
+    "word": "Prendere",
     "translations": {
-      "en": "the floor",
-      "uk": "поверх",
-      "ru": "этаж",
-      "de": "die Etage",
-      "pl": "piętro",
-      "es": "la planta",
-      "fr": "l'étage",
-      "ro": "etajul"
+      "en": "to take",
+      "uk": "брати",
+      "ru": "брать",
+      "de": "nehmen",
+      "pl": "brać",
+      "es": "tomar",
+      "fr": "prendre",
+      "ro": "a lua"
     },
     "examples": {
       "en": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "The room is on the fourth floor."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "I take the eight o'clock train."
       },
       "uk": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "Номер на четвертому поверсі."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Я сідаю на поїзд о восьмій."
       },
       "ru": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "Номер на четвёртом этаже."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Я сажусь на поезд в восемь."
       },
       "de": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "Das Zimmer ist im vierten Stock."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Ich nehme den Zug um acht."
       },
       "pl": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "Pokój jest na czwartym piętrze."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Jadę pociągiem o ósmej."
       },
       "es": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "La habitación está en la cuarta planta."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Tomo el tren de las ocho."
       },
       "fr": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "La chambre est au quatrième étage."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Je prends le train de huit heures."
       },
       "ro": {
-        "sentence": "La camera è al quarto piano.",
-        "translation": "Camera este la etajul patru."
+        "sentence": "Prendo il treno delle otto.",
+        "translation": "Iau trenul de la opt."
       }
     }
   },
   {
     "id": "a2e_127",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "Il banco",
+    "topic": "verbi",
+    "word": "Mettere",
     "translations": {
-      "en": "the desk",
-      "uk": "стійка",
-      "ru": "стойка",
-      "de": "der Schalter",
-      "pl": "stanowisko",
-      "es": "el mostrador",
-      "fr": "le comptoir",
-      "ro": "ghișeul"
+      "en": "to put",
+      "uk": "класти",
+      "ru": "класть",
+      "de": "legen",
+      "pl": "kłaść",
+      "es": "poner",
+      "fr": "mettre",
+      "ro": "a pune"
     },
     "examples": {
       "en": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "The check-in desk is on the left."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "I put the book on the table."
       },
       "uk": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "Стійка реєстрації ліворуч."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Я кладу книгу на стіл."
       },
       "ru": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "Стойка регистрации слева."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Я кладу книгу на стол."
       },
       "de": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "Der Check-in-Schalter ist links."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Ich lege das Buch auf den Tisch."
       },
       "pl": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "Stanowisko odprawy jest po lewej."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Kładę książkę na stole."
       },
       "es": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "El mostrador de facturación está a la izquierda."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Pongo el libro sobre la mesa."
       },
       "fr": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "Le comptoir d'enregistrement est à gauche."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Je mets le livre sur la table."
       },
       "ro": {
-        "sentence": "Il banco del check-in è a sinistra.",
-        "translation": "Ghișeul de înregistrare este la stânga."
+        "sentence": "Metto il libro sul tavolo.",
+        "translation": "Pun cartea pe masă."
       }
     }
   },
   {
     "id": "a2e_128",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "La navetta",
+    "topic": "verbi",
+    "word": "Trovare",
     "translations": {
-      "en": "the shuttle",
-      "uk": "шатл",
-      "ru": "шаттл",
-      "de": "der Shuttle",
-      "pl": "bus transferowy",
-      "es": "la lanzadera",
-      "fr": "la navette",
-      "ro": "naveta"
+      "en": "to find",
+      "uk": "знаходити",
+      "ru": "находить",
+      "de": "finden",
+      "pl": "znajdować",
+      "es": "encontrar",
+      "fr": "trouver",
+      "ro": "a găsi"
     },
     "examples": {
       "en": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "The airport shuttle leaves every hour."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "I cannot find the keys."
       },
       "uk": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "Шатл в аеропорт їде щогодини."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "Я не знаходжу ключів."
       },
       "ru": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "Шаттл в аэропорт ходит каждый час."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "Я не нахожу ключи."
       },
       "de": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "Der Shuttle zum Flughafen fährt stündlich."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "Ich finde die Schlüssel nicht."
       },
       "pl": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "Bus na lotnisko odjeżdża co godzinę."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "Nie znajduję kluczy."
       },
       "es": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "La lanzadera al aeropuerto sale cada hora."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "No encuentro las llaves."
       },
       "fr": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "La navette pour l'aéroport part toutes les heures."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "Je ne trouve pas les clés."
       },
       "ro": {
-        "sentence": "La navetta per l'aeroporto parte ogni ora.",
-        "translation": "Naveta spre aeroport pleacă în fiecare oră."
+        "sentence": "Non trovo le chiavi.",
+        "translation": "Nu găsesc cheile."
       }
     }
   },
   {
     "id": "a2e_129",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "Il ritardo del volo",
+    "topic": "verbi",
+    "word": "Uscire",
     "translations": {
-      "en": "the flight delay",
-      "uk": "затримка рейсу",
-      "ru": "задержка рейса",
-      "de": "die Flugverspätung",
-      "pl": "opóźnienie lotu",
-      "es": "el retraso del vuelo",
-      "fr": "le retard du vol",
-      "ro": "întârzierea zborului"
+      "en": "to go out",
+      "uk": "виходити",
+      "ru": "выходить",
+      "de": "ausgehen",
+      "pl": "wychodzić",
+      "es": "salir",
+      "fr": "sortir",
+      "ro": "a ieși"
     },
     "examples": {
       "en": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "The flight delay is two hours."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "We go out after dinner."
       },
       "uk": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "Затримка рейсу — дві години."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Ми виходимо після вечері."
       },
       "ru": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "Задержка рейса — два часа."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Мы выходим после ужина."
       },
       "de": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "Die Flugverspätung beträgt zwei Stunden."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Wir gehen nach dem Abendessen aus."
       },
       "pl": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "Opóźnienie lotu wynosi dwie godziny."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Wychodzimy po kolacji."
       },
       "es": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "El retraso del vuelo es de dos horas."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Salimos después de cenar."
       },
       "fr": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "Le retard du vol est de deux heures."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Nous sortons après le dîner."
       },
       "ro": {
-        "sentence": "Il ritardo del volo è di due ore.",
-        "translation": "Întârzierea zborului este de două ore."
+        "sentence": "Usciamo dopo cena.",
+        "translation": "Ieșim după cină."
       }
     }
   },
   {
     "id": "a2e_130",
     "level": "A2",
-    "topic": "viaggi_hotel",
-    "word": "La carta d'imbarco",
+    "topic": "verbi",
+    "word": "Tornare",
     "translations": {
-      "en": "the boarding pass",
-      "uk": "посадковий талон",
-      "ru": "посадочный талон",
-      "de": "die Bordkarte",
-      "pl": "karta pokładowa",
-      "es": "la tarjeta de embarque",
-      "fr": "la carte d'embarquement",
-      "ro": "talonul de îmbarcare"
+      "en": "to return",
+      "uk": "повертатися",
+      "ru": "возвращаться",
+      "de": "zurückkommen",
+      "pl": "wracać",
+      "es": "volver",
+      "fr": "rentrer",
+      "ro": "a se întoarce"
     },
     "examples": {
       "en": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "I print the boarding pass at the kiosk."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "I return home at seven."
       },
       "uk": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "Друкую посадковий талон у кіоску."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Я повертаюся додому о сьомій."
       },
       "ru": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "Печатаю посадочный в киоске."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Я возвращаюсь домой в семь."
       },
       "de": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "Ich drucke die Bordkarte am Automaten."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Ich komme um sieben nach Hause."
       },
       "pl": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "Drukuję kartę pokładową w kiosku."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Wracam do domu o siódmej."
       },
       "es": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "Imprimo la tarjeta de embarque en el quiosco."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Vuelvo a casa a las siete."
       },
       "fr": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "J'imprime la carte d'embarquement à la borne."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Je rentre à la maison à sept heures."
       },
       "ro": {
-        "sentence": "Stampo la carta d'imbarco al chiosco.",
-        "translation": "Printez talonul de îmbarcare la chioșc."
+        "sentence": "Torno a casa alle sette.",
+        "translation": "Mă întorc acasă la șapte."
       }
     }
   }

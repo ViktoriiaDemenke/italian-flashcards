@@ -52,6 +52,7 @@ function splashCards(tongue: MotherTongue) {
 export default function App() {
   const stored = loadSession();
   const [level, setLevel] = useState<Level>(stored.level);
+  const [studying, setStudying] = useState(false);
   const [tongue, setTongue] = useState<MotherTongue>(stored.tongue);
   const initial = selectionForLevel(stored.level);
   const [filter, setFilter] = useState<FilterId>(initial.filter);
@@ -206,7 +207,7 @@ export default function App() {
           studied={studiedIds.length}
           toRepeat={repeatIds.length}
           progress={levelProgress}
-          level={level}
+          level={studying ? level : null}
           tongue={tongue}
           topics={
             <CategoryBar
@@ -223,7 +224,9 @@ export default function App() {
           }
           onLevel={(next) => {
             const nextSelection = selectionForLevel(next);
+            setStudying(true);
             setLevel(next);
+            setMode("cards");
             setFilter(nextSelection.filter);
             setTopic(nextSelection.topic);
             resetPosition();
@@ -231,7 +234,7 @@ export default function App() {
           onTongue={setTongue}
         />
 
-        <div className="flex justify-end">
+        {studying && <div className="flex justify-end">
           <div className="inline-flex rounded-full border border-slate-700 bg-[#111827] p-0.5" role="group" aria-label="Study mode">
             <button
               type="button"
@@ -260,9 +263,9 @@ export default function App() {
               {t(tongue, "quiz")}
             </button>
           </div>
-        </div>
+        </div>}
 
-        {complete || !card ? (
+        {studying && (complete || !card ? (
           <section className="flex flex-1 flex-col items-center justify-center rounded-xl border border-slate-800 bg-[#111827] px-6 py-16 text-center">
             <p className="text-xs tracking-[0.2em] text-emerald-400">{t(tongue, "session")}</p>
             <h2 className="mt-3 text-3xl font-semibold">
@@ -321,7 +324,7 @@ export default function App() {
               onSave={toggleSaved}
             />
           </>
-        )}
+        ))}
 
       </div>
     </main>

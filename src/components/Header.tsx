@@ -23,7 +23,7 @@ type HeaderProps = {
   dailyGoal: number;
   studied: number;
   toRepeat: number;
-  level: Level;
+  level: Level | null;
   tongue: MotherTongue;
   progress: Record<Level, LevelProgress>;
   topics: ReactNode;

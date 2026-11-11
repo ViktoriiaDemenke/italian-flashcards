@@ -4102,600 +4102,600 @@
   {
     "id": "b2e_083",
     "level": "B2",
-    "topic": "scienza_ricerca",
-    "word": "Il referaggio",
+    "topic": "verbi",
+    "word": "Sostenere",
     "translations": {
-      "en": "peer refereeing",
-      "uk": "рецензування",
-      "ru": "рецензирование",
-      "de": "das Gutachtenverfahren",
-      "pl": "recenzja naukowa",
-      "es": "la revisión por pares",
-      "fr": "l'évaluation par les pairs",
-      "ro": "evaluarea inter pares"
+      "en": "to maintain",
+      "uk": "стверджувати",
+      "ru": "утверждать",
+      "de": "vertreten",
+      "pl": "twierdzić",
+      "es": "sostener",
+      "fr": "soutenir",
+      "ro": "a susține"
     },
     "examples": {
       "en": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "Peer refereeing lasts three months."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "He supports his thesis with data."
       },
       "uk": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "Рецензування триває три місяці."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Він підкріплює тезу даними."
       },
       "ru": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "Рецензирование длится три месяца."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Он подкрепляет тезис данными."
       },
       "de": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "Das Gutachtenverfahren dauert drei Monate."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Er stützt seine These mit Daten."
       },
       "pl": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "Recenzja naukowa trwa trzy miesiące."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Podpiera tezę danymi."
       },
       "es": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "La revisión por pares dura tres meses."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Sostiene su tesis con datos."
       },
       "fr": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "L'évaluation par les pairs dure trois mois."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Il soutient sa thèse avec des données."
       },
       "ro": {
-        "sentence": "Il referaggio dura tre mesi.",
-        "translation": "Evaluarea inter pares durează trei luni."
+        "sentence": "Sostiene la sua tesi con dati.",
+        "translation": "Își susține teza cu date."
       }
     }
   },
   {
     "id": "b2e_084",
     "level": "B2",
-    "topic": "scienza_ricerca",
-    "word": "L'intervallo di confidenza",
+    "topic": "verbi",
+    "word": "Ottenere",
     "translations": {
-      "en": "the confidence interval",
-      "uk": "довірчий інтервал",
-      "ru": "доверительный интервал",
-      "de": "das Konfidenzintervall",
-      "pl": "przedział ufności",
-      "es": "el intervalo de confianza",
-      "fr": "l'intervalle de confiance",
-      "ro": "intervalul de încredere"
+      "en": "to obtain",
+      "uk": "отримати",
+      "ru": "получить",
+      "de": "erlangen",
+      "pl": "uzyskać",
+      "es": "obtener",
+      "fr": "obtenir",
+      "ro": "a obține"
     },
     "examples": {
       "en": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "The confidence interval is narrow."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "She obtained the permit."
       },
       "uk": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "Довірчий інтервал вузький."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "Вона отримала дозвіл."
       },
       "ru": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "Доверительный интервал узкий."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "Она получила разрешение."
       },
       "de": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "Das Konfidenzintervall ist eng."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "Sie hat die Genehmigung erhalten."
       },
       "pl": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "Przedział ufności jest wąski."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "Uzyskała pozwolenie."
       },
       "es": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "El intervalo de confianza es estrecho."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "Ha obtenido el permiso."
       },
       "fr": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "L'intervalle de confiance est étroit."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "Elle a obtenu l'autorisation."
       },
       "ro": {
-        "sentence": "L'intervallo di confidenza è stretto.",
-        "translation": "Intervalul de încredere este îngust."
+        "sentence": "Ha ottenuto il permesso.",
+        "translation": "A obținut permisul."
       }
     }
   },
   {
     "id": "b2e_085",
     "level": "B2",
-    "topic": "scienza_ricerca",
-    "word": "La replica",
+    "topic": "verbi",
+    "word": "Raggiungere",
     "translations": {
-      "en": "replication",
-      "uk": "відтворення",
-      "ru": "воспроизведение",
-      "de": "die Replikation",
-      "pl": "replikacja",
-      "es": "la réplica",
-      "fr": "la réplication",
-      "ro": "replicarea"
+      "en": "to reach",
+      "uk": "досягати",
+      "ru": "достигать",
+      "de": "erreichen",
+      "pl": "osiągać",
+      "es": "alcanzar",
+      "fr": "atteindre",
+      "ro": "a atinge"
     },
     "examples": {
       "en": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "Replication of the study is necessary."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "We reach an agreement."
       },
       "uk": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "Відтворення дослідження необхідне."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Ми досягаємо згоди."
       },
       "ru": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "Воспроизведение исследования необходимо."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Мы достигаем согласия."
       },
       "de": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "Die Replikation der Studie ist nötig."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Wir erreichen eine Einigung."
       },
       "pl": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "Replikacja badania jest konieczna."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Osiągamy porozumienie."
       },
       "es": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "La réplica del estudio es necesaria."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Alcanzamos un acuerdo."
       },
       "fr": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "La réplication de l'étude est nécessaire."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Nous parvenons à un accord."
       },
       "ro": {
-        "sentence": "La replica dello studio è necessaria.",
-        "translation": "Replicarea studiului este necesară."
+        "sentence": "Raggiungiamo un accordo.",
+        "translation": "Ajungem la un acord."
       }
     }
   },
   {
     "id": "b2e_086",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "Con la presente",
+    "topic": "verbi",
+    "word": "Affrontare",
     "translations": {
-      "en": "hereby",
-      "uk": "цим листом",
-      "ru": "настоящим",
-      "de": "hiermit",
-      "pl": "niniejszym",
-      "es": "por la presente",
-      "fr": "par la présente",
-      "ro": "prin prezenta"
+      "en": "to face",
+      "uk": "стикатись",
+      "ru": "сталкиваться",
+      "de": "sich stellen",
+      "pl": "stawiać czoła",
+      "es": "afrontar",
+      "fr": "affronter",
+      "ro": "a înfrunta"
     },
     "examples": {
       "en": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "I hereby confirm receipt."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "We face the problem calmly."
       },
       "uk": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Цим листом підтверджую отримання."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Ми спокійно стикаємось із проблемою."
       },
       "ru": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Настоящим подтверждаю получение."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Мы спокойно сталкиваемся с проблемой."
       },
       "de": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Hiermit bestätige ich den Erhalt."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Wir stellen uns dem Problem ruhig."
       },
       "pl": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Niniejszym potwierdzam odbiór."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Stawiamy czoła problemowi spokojnie."
       },
       "es": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Por la presente confirmo la recepción."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Afrontamos el problema con calma."
       },
       "fr": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Par la présente je confirme la réception."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Nous affrontons le problème calmement."
       },
       "ro": {
-        "sentence": "Con la presente confermo la ricezione.",
-        "translation": "Prin prezenta confirm primirea."
+        "sentence": "Affrontiamo il problema con calma.",
+        "translation": "Înfruntăm problema cu calm."
       }
     }
   },
   {
     "id": "b2e_087",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "La preghiamo di",
+    "topic": "verbi",
+    "word": "Considerare",
     "translations": {
-      "en": "we kindly ask you to",
-      "uk": "просимо вас",
-      "ru": "просим вас",
-      "de": "wir bitten Sie",
-      "pl": "uprzejmie prosimy",
-      "es": "le rogamos",
-      "fr": "nous vous prions de",
-      "ro": "vă rugăm să"
+      "en": "to consider",
+      "uk": "розглядати",
+      "ru": "рассматривать",
+      "de": "betrachten",
+      "pl": "rozważać",
+      "es": "considerar",
+      "fr": "considérer",
+      "ro": "a considera"
     },
     "examples": {
       "en": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "We kindly ask you to send the documents."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "I consider every option."
       },
       "uk": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Просимо надіслати документи."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Я розглядаю всі варіанти."
       },
       "ru": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Просим прислать документы."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Я рассматриваю все варианты."
       },
       "de": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Wir bitten Sie, die Unterlagen zu senden."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Ich betrachte alle Optionen."
       },
       "pl": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Uprzejmie prosimy o przesłanie dokumentów."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Rozważam wszystkie opcje."
       },
       "es": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Le rogamos que envíe los documentos."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Considero todas las opciones."
       },
       "fr": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Nous vous prions d'envoyer les documents."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Je considère toutes les options."
       },
       "ro": {
-        "sentence": "La preghiamo di inviare i documenti.",
-        "translation": "Vă rugăm să trimiteți documentele."
+        "sentence": "Considero tutte le opzioni.",
+        "translation": "Iau în considerare toate opțiunile."
       }
     }
   },
   {
     "id": "b2e_088",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "In attesa di un Suo riscontro",
+    "topic": "verbi",
+    "word": "Dimostrare",
     "translations": {
-      "en": "awaiting your reply",
-      "uk": "чекаємо на вашу відповідь",
-      "ru": "ожидаем вашего ответа",
-      "de": "in Erwartung Ihrer Rückmeldung",
-      "pl": "w oczekiwaniu na odpowiedź",
-      "es": "a la espera de su respuesta",
-      "fr": "dans l'attente de votre retour",
-      "ro": "în așteptarea răspunsului"
+      "en": "to demonstrate",
+      "uk": "доводити",
+      "ru": "доказывать",
+      "de": "nachweisen",
+      "pl": "wykazywać",
+      "es": "demostrar",
+      "fr": "démontrer",
+      "ro": "a demonstra"
     },
     "examples": {
       "en": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "We remain awaiting your reply."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "The numbers demonstrate the opposite."
       },
       "uk": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Чекаємо на вашу відповідь."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Цифри доводять протилежне."
       },
       "ru": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Ожидаем вашего ответа."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Цифры доказывают обратное."
       },
       "de": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Wir bleiben in Erwartung Ihrer Rückmeldung."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Die Zahlen weisen das Gegenteil nach."
       },
       "pl": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Pozostajemy w oczekiwaniu na odpowiedź."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Liczby wykazują coś przeciwnego."
       },
       "es": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Quedamos a la espera de su respuesta."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Los números demuestran lo contrario."
       },
       "fr": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Nous restons dans l'attente de votre retour."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Les chiffres démontrent le contraire."
       },
       "ro": {
-        "sentence": "Restiamo in attesa di un Suo riscontro.",
-        "translation": "Rămânem în așteptarea răspunsului."
+        "sentence": "I numeri dimostrano il contrario.",
+        "translation": "Cifrele demonstrează contrariul."
       }
     }
   },
   {
     "id": "b2e_089",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "Con ossequio",
+    "topic": "verbi",
+    "word": "Appartenere",
     "translations": {
-      "en": "with respect",
-      "uk": "з повагою",
-      "ru": "с почтением",
-      "de": "mit vorzüglicher Hochachtung",
-      "pl": "z poważaniem",
-      "es": "con respeto",
-      "fr": "avec respect",
-      "ro": "cu respect"
+      "en": "to belong",
+      "uk": "належати",
+      "ru": "принадлежать",
+      "de": "gehören",
+      "pl": "należeć",
+      "es": "pertenecer",
+      "fr": "appartenir",
+      "ro": "a aparține"
     },
     "examples": {
       "en": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "He closes the letter with respect."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "This document belongs to the archive."
       },
       "uk": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Він завершує листа з повагою."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Цей документ належить архіву."
       },
       "ru": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Он заканчивает письмо с почтением."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Этот документ принадлежит архиву."
       },
       "de": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Er schließt den Brief mit Hochachtung."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Dieses Dokument gehört zum Archiv."
       },
       "pl": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Kończy list z poważaniem."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Ten dokument należy do archiwum."
       },
       "es": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Cierra la carta con respeto."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Este documento pertenece al archivo."
       },
       "fr": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Il termine la lettre avec respect."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Ce document appartient aux archives."
       },
       "ro": {
-        "sentence": "Chiude la lettera con ossequio.",
-        "translation": "Închide scrisoarea cu respect."
+        "sentence": "Questo documento appartiene all'archivio.",
+        "translation": "Acest document aparține arhivei."
       }
     }
   },
   {
     "id": "b2e_090",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "Si richiede di",
+    "topic": "verbi",
+    "word": "Consentire",
     "translations": {
-      "en": "you are requested to",
-      "uk": "просять",
-      "ru": "просим",
-      "de": "es wird gebeten",
-      "pl": "uprzejmie prosi się",
-      "es": "se solicita",
-      "fr": "il est demandé de",
-      "ro": "se solicită"
+      "en": "to allow",
+      "uk": "дозволяти",
+      "ru": "позволять",
+      "de": "erlauben",
+      "pl": "pozwalać",
+      "es": "permitir",
+      "fr": "permettre",
+      "ro": "a permite"
     },
     "examples": {
       "en": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "You are requested to confirm in writing."
+        "sentence": "La legge non lo consente.",
+        "translation": "The law does not allow it."
       },
       "uk": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Просять підтвердити письмово."
+        "sentence": "La legge non lo consente.",
+        "translation": "Закон цього не дозволяє."
       },
       "ru": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Просим подтвердить письменно."
+        "sentence": "La legge non lo consente.",
+        "translation": "Закон этого не позволяет."
       },
       "de": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Es wird gebeten, schriftlich zu bestätigen."
+        "sentence": "La legge non lo consente.",
+        "translation": "Das Gesetz erlaubt es nicht."
       },
       "pl": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Uprzejmie prosi się o potwierdzenie na piśmie."
+        "sentence": "La legge non lo consente.",
+        "translation": "Prawo na to nie pozwala."
       },
       "es": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Se solicita confirmar por escrito."
+        "sentence": "La legge non lo consente.",
+        "translation": "La ley no lo permite."
       },
       "fr": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Il est demandé de confirmer par écrit."
+        "sentence": "La legge non lo consente.",
+        "translation": "La loi ne le permet pas."
       },
       "ro": {
-        "sentence": "Si richiede di confermare per iscritto.",
-        "translation": "Se solicită confirmarea în scris."
+        "sentence": "La legge non lo consente.",
+        "translation": "Legea nu permite asta."
       }
     }
   },
   {
     "id": "b2e_091",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "Il dichiarante",
+    "topic": "verbi",
+    "word": "Impedire",
     "translations": {
-      "en": "the declarant",
-      "uk": "заявник",
-      "ru": "заявитель",
-      "de": "der Erklärende",
-      "pl": "osoba składająca oświadczenie",
-      "es": "el declarante",
-      "fr": "le déclarant",
-      "ro": "declarantul"
+      "en": "to prevent",
+      "uk": "перешкоджати",
+      "ru": "препятствовать",
+      "de": "verhindern",
+      "pl": "uniemożliwiać",
+      "es": "impedir",
+      "fr": "empêcher",
+      "ro": "a împiedica"
     },
     "examples": {
       "en": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "The declarant signs at the bottom."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "The delay prevents the signing."
       },
       "uk": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "Заявник підписує внизу."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "Затримка перешкоджає підпису."
       },
       "ru": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "Заявитель подписывает внизу."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "Задержка препятствует подписи."
       },
       "de": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "Der Erklärende unterschreibt unten."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "Die Verspätung verhindert die Unterschrift."
       },
       "pl": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "Osoba składająca oświadczenie podpisuje na dole."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "Opóźnienie uniemożliwia podpis."
       },
       "es": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "El declarante firma al pie."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "El retraso impide la firma."
       },
       "fr": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "Le déclarant signe en bas."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "Le retard empêche la signature."
       },
       "ro": {
-        "sentence": "Il dichiarante firma in calce.",
-        "translation": "Declarantul semnează jos."
+        "sentence": "Il ritardo impedisce la firma.",
+        "translation": "Întârzierea împiedică semnătura."
       }
     }
   },
   {
     "id": "b2e_092",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "A decorrere dal",
+    "topic": "verbi",
+    "word": "Ridurre",
     "translations": {
-      "en": "starting from",
-      "uk": "починаючи з",
-      "ru": "начиная с",
-      "de": "ab dem",
-      "pl": "począwszy od",
-      "es": "a partir del",
-      "fr": "à compter du",
-      "ro": "începând cu"
+      "en": "to reduce",
+      "uk": "скорочувати",
+      "ru": "сокращать",
+      "de": "reduzieren",
+      "pl": "ograniczać",
+      "es": "reducir",
+      "fr": "réduire",
+      "ro": "a reduce"
     },
     "examples": {
       "en": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "The contract applies starting from the first of May."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "We want to reduce the costs."
       },
       "uk": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "Договір діє з першого травня."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Ми хочемо скоротити витрати."
       },
       "ru": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "Договор действует с первого мая."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Мы хотим сократить расходы."
       },
       "de": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "Der Vertrag gilt ab dem ersten Mai."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Wir wollen die Kosten reduzieren."
       },
       "pl": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "Umowa obowiązuje począwszy od pierwszego maja."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Chcemy ograniczyć koszty."
       },
       "es": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "El contrato vale a partir del primero de mayo."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Queremos reducir los costes."
       },
       "fr": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "Le contrat vaut à compter du premier mai."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Nous voulons réduire les coûts."
       },
       "ro": {
-        "sentence": "Il contratto vale a decorrere dal primo maggio.",
-        "translation": "Contractul este valabil începând cu întâi mai."
+        "sentence": "Vogliamo ridurre i costi.",
+        "translation": "Vrem să reducem costurile."
       }
     }
   },
   {
     "id": "b2e_093",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "In ordine a",
+    "topic": "verbi",
+    "word": "Stabilire",
     "translations": {
-      "en": "with regard to",
-      "uk": "стосовно",
-      "ru": "относительно",
-      "de": "hinsichtlich",
-      "pl": "w odniesieniu do",
-      "es": "en relación con",
-      "fr": "au sujet de",
-      "ro": "cu privire la"
+      "en": "to establish",
+      "uk": "встановлювати",
+      "ru": "устанавливать",
+      "de": "festlegen",
+      "pl": "ustalać",
+      "es": "establecer",
+      "fr": "établir",
+      "ro": "a stabili"
     },
     "examples": {
       "en": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "With regard to what was requested, I attach the file."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Let's set a clear deadline."
       },
       "uk": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "Стосовно запиту додаю файл."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Встановимо чіткий строк."
       },
       "ru": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "Относительно запроса прилагаю файл."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Установим чёткий срок."
       },
       "de": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "Hinsichtlich der Anfrage lege ich die Datei bei."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Wir legen eine klare Frist fest."
       },
       "pl": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "W odniesieniu do prośby załączam plik."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Ustalmy jasny termin."
       },
       "es": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "En relación con lo solicitado, adjunto el archivo."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Establezcamos un plazo claro."
       },
       "fr": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "Au sujet de la demande, je joins le fichier."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Établissons une échéance claire."
       },
       "ro": {
-        "sentence": "In ordine a quanto richiesto, allego il file.",
-        "translation": "Cu privire la solicitare, atașez fișierul."
+        "sentence": "Stabiliamo una scadenza chiara.",
+        "translation": "Stabilim un termen clar."
       }
     }
   },
   {
     "id": "b2e_094",
     "level": "B2",
-    "topic": "registro_formale",
-    "word": "Resto a disposizione",
+    "topic": "verbi",
+    "word": "Garantire",
     "translations": {
-      "en": "I remain available",
-      "uk": "залишаюся на зв'язку",
-      "ru": "остаюсь на связи",
-      "de": "ich stehe zur Verfügung",
-      "pl": "pozostaję do dyspozycji",
-      "es": "quedo a su disposición",
-      "fr": "je reste à votre disposition",
-      "ro": "rămân la dispoziție"
+      "en": "to guarantee",
+      "uk": "гарантувати",
+      "ru": "гарантировать",
+      "de": "garantieren",
+      "pl": "gwarantować",
+      "es": "garantizar",
+      "fr": "garantir",
+      "ro": "a garanta"
     },
     "examples": {
       "en": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "For clarification I remain available."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "The contract guarantees the refund."
       },
       "uk": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "Для пояснень залишаюся на зв'язку."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "Договір гарантує повернення."
       },
       "ru": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "Для пояснений остаюсь на связи."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "Договор гарантирует возврат."
       },
       "de": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "Für Rückfragen stehe ich zur Verfügung."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "Der Vertrag garantiert die Erstattung."
       },
       "pl": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "W razie pytań pozostaję do dyspozycji."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "Umowa gwarantuje zwrot."
       },
       "es": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "Para aclaraciones quedo a su disposición."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "El contrato garantiza el reembolso."
       },
       "fr": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "Pour toute précision je reste à votre disposition."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "Le contrat garantit le remboursement."
       },
       "ro": {
-        "sentence": "Per chiarimenti resto a disposizione.",
-        "translation": "Pentru clarificări rămân la dispoziție."
+        "sentence": "Il contratto garantisce il rimborso.",
+        "translation": "Contractul garantează rambursarea."
       }
     }
   }
