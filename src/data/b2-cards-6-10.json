@@ -303,49 +303,49 @@
     "id": "b2_media_opinione_7",
     "level": "B2",
     "topic": "media_opinione",
-    "word": "L'opinione pubblica",
+    "word": "Il sentire comune",
     "translations": {
-      "uk": "громадська думка",
-      "en": "public opinion",
-      "de": "die öffentliche Meinung",
-      "pl": "opinia publiczna",
-      "es": "la opinión pública",
-      "fr": "l'opinion publique",
-      "ro": "opinia publică",
-      "ru": "общественное мнение"
+      "en": "the common feeling",
+      "uk": "спільне відчуття",
+      "ru": "общее чувство",
+      "de": "das allgemeine Empfinden",
+      "pl": "wspólne odczucie",
+      "es": "el sentir común",
+      "fr": "le sentiment commun",
+      "ro": "simțul comun"
     },
     "examples": {
       "uk": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "Громадська думка зрушилася лише після того, як дані опублікували повністю."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Спільне відчуття змінюється повільно."
       },
       "en": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "Public opinion shifted only after the data were published in full."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "The common feeling changes slowly."
       },
       "de": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "Die öffentliche Meinung verschob sich erst, nachdem die Daten vollständig veröffentlicht wurden."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Das allgemeine Empfinden ändert sich langsam."
       },
       "pl": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "Opinia publiczna przesunęła się dopiero gdy dane opublikowano w całości."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Wspólne odczucie zmienia się powoli."
       },
       "es": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "La opinión pública se movió solo después de que los datos se publicaran enteros."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "El sentir común cambia despacio."
       },
       "fr": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "L'opinion publique n'a bougé qu'après la publication intégrale des données."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Le sentiment commun change lentement."
       },
       "ro": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "Opinia publică s-a mutat abia după ce datele au fost publicate integral."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Simțul comun se schimbă încet."
       },
       "ru": {
-        "sentence": "L'opinione pubblica si è spostata solo dopo che i dati sono stati pubblicati per intero.",
-        "translation": "Общественное мнение сдвинулось только после того, как данные опубликовали целиком."
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Общее чувство меняется медленно."
       }
     }
   },

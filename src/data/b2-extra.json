@@ -53,49 +53,49 @@
     "id": "b2e_002",
     "level": "B2",
     "topic": "slang",
-    "word": "Non mi va",
+    "word": "Non fa per me",
     "translations": {
-      "en": "I don't feel like it",
-      "uk": "мені не хочеться",
-      "ru": "мне не хочется",
-      "de": "ich habe keine Lust",
-      "pl": "nie mam ochoty",
-      "es": "no me apetece",
-      "fr": "je n'ai pas envie",
-      "ro": "nu am chef"
+      "en": "not my thing",
+      "uk": "не моє",
+      "ru": "не моё",
+      "de": "nicht meins",
+      "pl": "nie dla mnie",
+      "es": "no es lo mío",
+      "fr": "ce n'est pas mon truc",
+      "ro": "nu e de mine"
     },
     "examples": {
       "en": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Today I don't feel like going out."
+        "sentence": "Questo film non fa per me.",
+        "translation": "This film is not my thing."
       },
       "uk": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Сьогодні мені не хочеться виходити."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Цей фільм не моє."
       },
       "ru": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Сегодня мне не хочется выходить."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Этот фильм не моё."
       },
       "de": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Heute habe ich keine Lust auszugehen."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Dieser Film ist nicht meins."
       },
       "pl": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Dziś nie mam ochoty wychodzić."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Ten film nie jest dla mnie."
       },
       "es": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Hoy no me apetece salir."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Esta película no es lo mío."
       },
       "fr": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Aujourd'hui je n'ai pas envie de sortir."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Ce film, ce n'est pas mon truc."
       },
       "ro": {
-        "sentence": "Oggi non mi va di uscire.",
-        "translation": "Azi nu am chef să ies."
+        "sentence": "Questo film non fa per me.",
+        "translation": "Filmul ăsta nu e de mine."
       }
     }
   },
@@ -153,49 +153,49 @@
     "id": "b2e_004",
     "level": "B2",
     "topic": "slang",
-    "word": "In gamba",
+    "word": "Sul pezzo",
     "translations": {
-      "en": "capable",
-      "uk": "тямущий",
-      "ru": "толковый",
-      "de": "tüchtig",
-      "pl": "ogarnięty",
-      "es": "espabilado",
-      "fr": "débrouillard",
-      "ro": "descurcăreț"
+      "en": "on the ball",
+      "uk": "у темі",
+      "ru": "в теме",
+      "de": "voll dabei",
+      "pl": "na bieżąco",
+      "es": "al tanto",
+      "fr": "au taquet",
+      "ro": "pe fază"
     },
     "examples": {
       "en": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "The new colleague is capable."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "She is always on the ball."
       },
       "uk": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "Нова колега тямуща."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "Вона завжди в темі."
       },
       "ru": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "Новая коллега толковая."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "Она всегда в теме."
       },
       "de": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "Die neue Kollegin ist tüchtig."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "Sie ist immer voll dabei."
       },
       "pl": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "Nowa koleżanka jest ogarnięta."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "Zawsze jest na bieżąco."
       },
       "es": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "La nueva compañera es espabilada."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "Siempre está al tanto."
       },
       "fr": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "La nouvelle collègue est débrouillarde."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "Elle est toujours au taquet."
       },
       "ro": {
-        "sentence": "La nuova collega è in gamba.",
-        "translation": "Noua colegă este descurcăreață."
+        "sentence": "È sempre sul pezzo.",
+        "translation": "E mereu pe fază."
       }
     }
   },
@@ -503,49 +503,49 @@
     "id": "b2e_011",
     "level": "B2",
     "topic": "society",
-    "word": "L'opinione pubblica",
+    "word": "La vulgata",
     "translations": {
-      "en": "public opinion",
-      "uk": "громадська думка",
-      "ru": "общественное мнение",
-      "de": "die öffentliche Meinung",
-      "pl": "opinia publiczna",
-      "es": "la opinión pública",
-      "fr": "l'opinion publique",
-      "ro": "opinia publică"
+      "en": "the received version",
+      "uk": "загальноприйнята версія",
+      "ru": "общепринятая версия",
+      "de": "die gängige Version",
+      "pl": "obiegowa wersja",
+      "es": "la versión corriente",
+      "fr": "la version reçue",
+      "ro": "versiunea curentă"
     },
     "examples": {
       "en": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "Public opinion changes quickly."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "The received version ignores the data."
       },
       "uk": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "Громадська думка швидко змінюється."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "Загальноприйнята версія ігнорує дані."
       },
       "ru": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "Общественное мнение быстро меняется."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "Общепринятая версия игнорирует данные."
       },
       "de": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "Die öffentliche Meinung ändert sich schnell."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "Die gängige Version ignoriert die Daten."
       },
       "pl": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "Opinia publiczna zmienia się szybko."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "Obiegowa wersja ignoruje dane."
       },
       "es": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "La opinión pública cambia deprisa."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "La versión corriente ignora los datos."
       },
       "fr": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "L'opinion publique change vite."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "La version reçue ignore les données."
       },
       "ro": {
-        "sentence": "L'opinione pubblica cambia in fretta.",
-        "translation": "Opinia publică se schimbă repede."
+        "sentence": "La vulgata ignora i dati.",
+        "translation": "Versiunea curentă ignoră datele."
       }
     }
   },
@@ -603,49 +603,49 @@
     "id": "b2e_013",
     "level": "B2",
     "topic": "society",
-    "word": "La disuguaglianza",
+    "word": "La sperequazione",
     "translations": {
-      "en": "inequality",
-      "uk": "нерівність",
-      "ru": "неравенство",
-      "de": "die Ungleichheit",
-      "pl": "nierówność",
-      "es": "la desigualdad",
-      "fr": "l'inégalité",
-      "ro": "inegalitatea"
+      "en": "the imbalance",
+      "uk": "диспропорція",
+      "ru": "диспропорция",
+      "de": "das Ungleichgewicht",
+      "pl": "nierównowaga",
+      "es": "el desequilibrio",
+      "fr": "le déséquilibre",
+      "ro": "dezechilibrul"
     },
     "examples": {
       "en": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "Inequality grows in the cities."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "The tax imbalance weighs on families."
       },
       "uk": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "Нерівність зростає в містах."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "Податкова диспропорція тисне на родини."
       },
       "ru": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "Неравенство растёт в городах."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "Налоговая диспропорция давит на семьи."
       },
       "de": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "Die Ungleichheit wächst in den Städten."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "Das steuerliche Ungleichgewicht lastet auf den Familien."
       },
       "pl": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "Nierówność rośnie w miastach."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "Nierównowaga podatkowa obciąża rodziny."
       },
       "es": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "La desigualdad crece en las ciudades."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "El desequilibrio fiscal pesa sobre las familias."
       },
       "fr": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "L'inégalité grandit dans les villes."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "Le déséquilibre fiscal pèse sur les familles."
       },
       "ro": {
-        "sentence": "La disuguaglianza cresce nelle città.",
-        "translation": "Inegalitatea crește în orașe."
+        "sentence": "La sperequazione fiscale pesa sulle famiglie.",
+        "translation": "Dezechilibrul fiscal apasă familiile."
       }
     }
   },
@@ -753,49 +753,49 @@
     "id": "b2e_016",
     "level": "B2",
     "topic": "society",
-    "word": "Il pregiudizio",
+    "word": "Lo stereotipo",
     "translations": {
-      "en": "prejudice",
-      "uk": "упередження",
-      "ru": "предубеждение",
-      "de": "das Vorurteil",
-      "pl": "uprzedzenie",
-      "es": "el prejuicio",
-      "fr": "le préjugé",
-      "ro": "prejudecata"
+      "en": "the stereotype",
+      "uk": "стереотип",
+      "ru": "стереотип",
+      "de": "das Stereotyp",
+      "pl": "stereotyp",
+      "es": "el estereotipo",
+      "fr": "le stéréotype",
+      "ro": "stereotipul"
     },
     "examples": {
       "en": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Prejudice closes the dialogue."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "The stereotype oversimplifies."
       },
       "uk": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Упередження закриває діалог."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "Стереотип надто спрощує."
       },
       "ru": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Предубеждение закрывает диалог."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "Стереотип слишком упрощает."
       },
       "de": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Das Vorurteil schließt den Dialog."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "Das Stereotyp vereinfacht zu sehr."
       },
       "pl": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Uprzedzenie zamyka dialog."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "Stereotyp za bardzo upraszcza."
       },
       "es": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "El prejuicio cierra el diálogo."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "El estereotipo simplifica demasiado."
       },
       "fr": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Le préjugé ferme le dialogue."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "Le stéréotype simplifie trop."
       },
       "ro": {
-        "sentence": "Il pregiudizio chiude il dialogo.",
-        "translation": "Prejudecata închide dialogul."
+        "sentence": "Lo stereotipo semplifica troppo.",
+        "translation": "Stereotipul simplifică prea mult."
       }
     }
   },
@@ -953,49 +953,49 @@
     "id": "b2e_020",
     "level": "B2",
     "topic": "social",
-    "word": "Il feed",
+    "word": "La timeline",
     "translations": {
-      "en": "the feed",
+      "en": "the timeline",
       "uk": "стрічка",
       "ru": "лента",
-      "de": "der Feed",
-      "pl": "kanał",
-      "es": "el feed",
-      "fr": "le fil",
-      "ro": "fluxul"
+      "de": "die Timeline",
+      "pl": "oś czasu",
+      "es": "la cronología",
+      "fr": "la timeline",
+      "ro": "cronologia"
     },
     "examples": {
       "en": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "The feed is full of ads."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "The timeline updates on its own."
       },
       "uk": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "Стрічка повна реклами."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "Стрічка оновлюється сама."
       },
       "ru": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "Лента полна рекламы."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "Лента обновляется сама."
       },
       "de": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "Der Feed ist voller Werbung."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "Die Timeline aktualisiert sich von allein."
       },
       "pl": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "Kanał jest pełen reklam."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "Oś czasu odświeża się sama."
       },
       "es": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "El feed está lleno de anuncios."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "La cronología se actualiza sola."
       },
       "fr": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "Le fil est plein de publicités."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "La timeline se met à jour toute seule."
       },
       "ro": {
-        "sentence": "Il feed è pieno di pubblicità.",
-        "translation": "Fluxul este plin de reclame."
+        "sentence": "La timeline si aggiorna da sola.",
+        "translation": "Cronologia se actualizează singură."
       }
     }
   },
@@ -1403,49 +1403,49 @@
     "id": "b2e_029",
     "level": "B2",
     "topic": "finance",
-    "word": "Il mutuo",
+    "word": "Il piano di ammortamento",
     "translations": {
-      "en": "the mortgage",
-      "uk": "іпотека",
-      "ru": "ипотека",
-      "de": "die Hypothek",
-      "pl": "kredyt hipoteczny",
-      "es": "la hipoteca",
-      "fr": "le prêt immobilier",
-      "ro": "ipoteca"
+      "en": "the repayment schedule",
+      "uk": "графік погашення",
+      "ru": "график погашения",
+      "de": "der Tilgungsplan",
+      "pl": "harmonogram spłaty",
+      "es": "el plan de amortización",
+      "fr": "le tableau d'amortissement",
+      "ro": "planul de amortizare"
     },
     "examples": {
       "en": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "The mortgage lasts twenty-five years."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "The repayment schedule lasts twenty years."
       },
       "uk": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "Іпотека триває двадцять п'ять років."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "Графік погашення на двадцять років."
       },
       "ru": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "Ипотека длится двадцать пять лет."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "График погашения на двадцать лет."
       },
       "de": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "Die Hypothek läuft fünfundzwanzig Jahre."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "Der Tilgungsplan läuft über zwanzig Jahre."
       },
       "pl": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "Kredyt hipoteczny trwa dwadzieścia pięć lat."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "Harmonogram spłaty trwa dwadzieścia lat."
       },
       "es": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "La hipoteca dura veinticinco años."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "El plan de amortización dura veinte años."
       },
       "fr": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "Le prêt immobilier dure vingt-cinq ans."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "Le tableau d'amortissement dure vingt ans."
       },
       "ro": {
-        "sentence": "Il mutuo dura venticinque anni.",
-        "translation": "Ipoteca durează douăzeci și cinci de ani."
+        "sentence": "Il piano di ammortamento dura vent'anni.",
+        "translation": "Planul de amortizare durează douăzeci de ani."
       }
     }
   },
@@ -1453,49 +1453,49 @@
     "id": "b2e_030",
     "level": "B2",
     "topic": "finance",
-    "word": "L'inflazione",
+    "word": "Il carovita",
     "translations": {
-      "en": "inflation",
-      "uk": "інфляція",
-      "ru": "инфляция",
-      "de": "die Inflation",
-      "pl": "inflacja",
-      "es": "la inflación",
-      "fr": "l'inflation",
-      "ro": "inflația"
+      "en": "the rising cost of living",
+      "uk": "подорожчання життя",
+      "ru": "дороговизна",
+      "de": "die Teuerung",
+      "pl": "drożyzna",
+      "es": "el encarecimiento",
+      "fr": "la vie chère",
+      "ro": "scumpirea vieții"
     },
     "examples": {
       "en": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "Inflation reduces purchasing power."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "The rising cost of living eats the salary."
       },
       "uk": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "Інфляція зменшує купівельну спроможність."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "Подорожчання життя з'їдає зарплату."
       },
       "ru": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "Инфляция снижает покупательную способность."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "Дороговизна съедает зарплату."
       },
       "de": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "Die Inflation senkt die Kaufkraft."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "Die Teuerung frisst das Gehalt."
       },
       "pl": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "Inflacja obniża siłę nabywczą."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "Drożyzna zjada pensję."
       },
       "es": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "La inflación reduce el poder adquisitivo."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "El encarecimiento se come el sueldo."
       },
       "fr": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "L'inflation réduit le pouvoir d'achat."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "La vie chère mange le salaire."
       },
       "ro": {
-        "sentence": "L'inflazione riduce il potere d'acquisto.",
-        "translation": "Inflația reduce puterea de cumpărare."
+        "sentence": "Il carovita mangia lo stipendio.",
+        "translation": "Scumpirea vieții mănâncă salariul."
       }
     }
   },
@@ -1703,49 +1703,49 @@
     "id": "b2e_035",
     "level": "B2",
     "topic": "finance",
-    "word": "Il fido",
+    "word": "La linea di credito",
     "translations": {
-      "en": "the overdraft",
-      "uk": "овердрафт",
-      "ru": "овердрафт",
-      "de": "der Dispositionskredit",
-      "pl": "debet",
-      "es": "el descubierto",
-      "fr": "le découvert",
-      "ro": "descoperitul de cont"
+      "en": "the credit line",
+      "uk": "кредитна лінія",
+      "ru": "кредитная линия",
+      "de": "die Kreditlinie",
+      "pl": "linia kredytowa",
+      "es": "la línea de crédito",
+      "fr": "la ligne de crédit",
+      "ro": "linia de credit"
     },
     "examples": {
       "en": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "The bank overdraft has a cost."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "The bank opened a credit line."
       },
       "uk": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "Овердрафт у банку має ціну."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "Банк відкрив кредитну лінію."
       },
       "ru": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "Овердрафт в банке стоит денег."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "Банк открыл кредитную линию."
       },
       "de": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "Der Dispositionskredit kostet etwas."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "Die Bank hat eine Kreditlinie eröffnet."
       },
       "pl": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "Debet w banku ma koszt."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "Bank otworzył linię kredytową."
       },
       "es": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "El descubierto del banco tiene un coste."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "El banco abrió una línea de crédito."
       },
       "fr": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "Le découvert bancaire a un coût."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "La banque a ouvert une ligne de crédit."
       },
       "ro": {
-        "sentence": "Il fido in banca ha un costo.",
-        "translation": "Descoperitul de cont are un cost."
+        "sentence": "La banca ha aperto una linea di credito.",
+        "translation": "Banca a deschis o linie de credit."
       }
     }
   },
@@ -1953,49 +1953,49 @@
     "id": "b2e_040",
     "level": "B2",
     "topic": "idioms",
-    "word": "Acqua in bocca",
+    "word": "Bocca cucita",
     "translations": {
-      "en": "keep it quiet",
-      "uk": "ні слова",
+      "en": "lips sealed",
+      "uk": "ані слова",
       "ru": "ни слова",
       "de": "kein Wort",
-      "pl": "ani słowa",
+      "pl": "ani mru-mru",
       "es": "boca cerrada",
-      "fr": "motus",
-      "ro": "nici o vorbă"
+      "fr": "motus et bouche cousue",
+      "ro": "gură cusută"
     },
     "examples": {
       "en": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "About this, keep it quiet."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Lips sealed on this deal."
       },
       "uk": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "Про це ні слова."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Ані слова про цю справу."
       },
       "ru": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "Об этом ни слова."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Ни слова об этом деле."
       },
       "de": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "Dazu kein Wort."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Kein Wort über dieses Geschäft."
       },
       "pl": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "O tym ani słowa."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Ani mru-mru o tej sprawie."
       },
       "es": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "Sobre esto, boca cerrada."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Boca cerrada sobre este asunto."
       },
       "fr": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "Là-dessus, motus."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Motus et bouche cousue sur cette affaire."
       },
       "ro": {
-        "sentence": "Su questo, acqua in bocca.",
-        "translation": "Despre asta, nici o vorbă."
+        "sentence": "Bocca cucita su questo affare.",
+        "translation": "Gură cusută despre afacerea asta."
       }
     }
   },
@@ -2253,49 +2253,49 @@
     "id": "b2e_046",
     "level": "B2",
     "topic": "media_opinione",
-    "word": "Il titolo",
+    "word": "L'occhiello",
     "translations": {
-      "en": "the headline",
-      "uk": "заголовок",
-      "ru": "заголовок",
-      "de": "die Schlagzeile",
-      "pl": "nagłówek",
-      "es": "el titular",
-      "fr": "le titre",
-      "ro": "titlul"
+      "en": "the kicker",
+      "uk": "надзаголовок",
+      "ru": "надзаголовок",
+      "de": "der Dachzeile",
+      "pl": "nadtytuł",
+      "es": "el antetítulo",
+      "fr": "le surtitre",
+      "ro": "supratitlul"
     },
     "examples": {
       "en": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "The headline exaggerates the news."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "The kicker sits above the headline."
       },
       "uk": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "Заголовок перебільшує новину."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "Надзаголовок стоїть над заголовком."
       },
       "ru": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "Заголовок преувеличивает новость."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "Надзаголовок стоит над заголовком."
       },
       "de": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "Die Schlagzeile übertreibt die Nachricht."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "Die Dachzeile steht über der Schlagzeile."
       },
       "pl": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "Nagłówek wyolbrzymia wiadomość."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "Nadtytuł jest nad tytułem."
       },
       "es": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "El titular exagera la noticia."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "El antetítulo está sobre el titular."
       },
       "fr": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "Le titre exagère la nouvelle."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "Le surtitre est au-dessus du titre."
       },
       "ro": {
-        "sentence": "Il titolo esagera la notizia.",
-        "translation": "Titlul exagerează știrea."
+        "sentence": "L'occhiello sta sopra il titolo.",
+        "translation": "Supratitlul stă deasupra titlului."
       }
     }
   },
@@ -2303,49 +2303,49 @@
     "id": "b2e_047",
     "level": "B2",
     "topic": "media_opinione",
-    "word": "La fonte",
+    "word": "L'agenzia di stampa",
     "translations": {
-      "en": "the source",
-      "uk": "джерело",
-      "ru": "источник",
-      "de": "die Quelle",
-      "pl": "źródło",
-      "es": "la fuente",
-      "fr": "la source",
-      "ro": "sursa"
+      "en": "the news agency",
+      "uk": "інформагентство",
+      "ru": "информагентство",
+      "de": "die Nachrichtenagentur",
+      "pl": "agencja prasowa",
+      "es": "la agencia de noticias",
+      "fr": "l'agence de presse",
+      "ro": "agenția de presă"
     },
     "examples": {
       "en": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "I cite the source of the article."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "The news agency confirms the story."
       },
       "uk": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Цитую джерело статті."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "Інформагентство підтверджує новину."
       },
       "ru": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Цитирую источник статьи."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "Информагентство подтверждает новость."
       },
       "de": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Ich nenne die Quelle des Artikels."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "Die Nachrichtenagentur bestätigt die Meldung."
       },
       "pl": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Podaję źródło artykułu."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "Agencja prasowa potwierdza wiadomość."
       },
       "es": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Cito la fuente del artículo."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "La agencia de noticias confirma la noticia."
       },
       "fr": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Je cite la source de l'article."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "L'agence de presse confirme l'information."
       },
       "ro": {
-        "sentence": "Cito la fonte dell'articolo.",
-        "translation": "Citez sursa articolului."
+        "sentence": "L'agenzia di stampa conferma la notizia.",
+        "translation": "Agenția de presă confirmă știrea."
       }
     }
   },
@@ -2353,49 +2353,49 @@
     "id": "b2e_048",
     "level": "B2",
     "topic": "media_opinione",
-    "word": "L'editoriale",
+    "word": "Il fondo",
     "translations": {
-      "en": "the editorial",
-      "uk": "редакційна стаття",
+      "en": "the editorial column",
+      "uk": "передовиця",
       "ru": "передовица",
       "de": "der Leitartikel",
-      "pl": "artykuł wstępny",
+      "pl": "felieton redakcyjny",
       "es": "el editorial",
       "fr": "l'éditorial",
       "ro": "editorialul"
     },
     "examples": {
       "en": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "The editorial takes a clear stance."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "Today's editorial is harsh."
       },
       "uk": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "Редакційна стаття займає чітку позицію."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "Сьогоднішня передовиця різка."
       },
       "ru": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "Передовица занимает чёткую позицию."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "Сегодняшняя передовица жёсткая."
       },
       "de": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "Der Leitartikel bezieht klar Stellung."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "Der heutige Leitartikel ist hart."
       },
       "pl": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "Artykuł wstępny zajmuje jasne stanowisko."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "Dzisiejszy felieton jest ostry."
       },
       "es": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "El editorial toma una postura clara."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "El editorial de hoy es duro."
       },
       "fr": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "L'éditorial prend une position nette."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "L'éditorial d'aujourd'hui est dur."
       },
       "ro": {
-        "sentence": "L'editoriale prende una posizione netta.",
-        "translation": "Editorialul ia o poziție clară."
+        "sentence": "Il fondo di oggi è duro.",
+        "translation": "Editorialul de azi este dur."
       }
     }
   },
@@ -2553,49 +2553,49 @@
     "id": "b2e_052",
     "level": "B2",
     "topic": "media_opinione",
-    "word": "La censura",
+    "word": "L'oscuramento",
     "translations": {
-      "en": "censorship",
-      "uk": "цензура",
-      "ru": "цензура",
-      "de": "die Zensur",
-      "pl": "cenzura",
-      "es": "la censura",
-      "fr": "la censure",
-      "ro": "cenzura"
+      "en": "the blackout",
+      "uk": "затемнення",
+      "ru": "затемнение",
+      "de": "die Verdunkelung",
+      "pl": "zaciemnienie",
+      "es": "el oscurecimiento",
+      "fr": "le black-out",
+      "ro": "obscurarea"
     },
     "examples": {
       "en": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "Censorship limits the debate."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "The site blackout lasts for hours."
       },
       "uk": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "Цензура обмежує дискусію."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "Затемнення сайту триває годинами."
       },
       "ru": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "Цензура ограничивает дебаты."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "Затемнение сайта длится часами."
       },
       "de": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "Zensur begrenzt die Debatte."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "Die Verdunkelung der Seite dauert Stunden."
       },
       "pl": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "Cenzura ogranicza debatę."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "Zaciemnienie strony trwa godzinami."
       },
       "es": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "La censura limita el debate."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "El oscurecimiento del sitio dura horas."
       },
       "fr": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "La censure limite le débat."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "Le black-out du site dure des heures."
       },
       "ro": {
-        "sentence": "La censura limita il dibattito.",
-        "translation": "Cenzura limitează dezbaterea."
+        "sentence": "L'oscuramento del sito dura ore.",
+        "translation": "Obscurarea site-ului durează ore."
       }
     }
   },
@@ -2853,49 +2853,49 @@
     "id": "b2e_058",
     "level": "B2",
     "topic": "media_opinione",
-    "word": "Il contesto",
+    "word": "Il retroscena",
     "translations": {
-      "en": "the context",
-      "uk": "контекст",
-      "ru": "контекст",
-      "de": "der Kontext",
-      "pl": "kontekst",
-      "es": "el contexto",
-      "fr": "le contexte",
-      "ro": "contextul"
+      "en": "the background story",
+      "uk": "закулісся",
+      "ru": "закулисье",
+      "de": "der Hintergrund",
+      "pl": "kulisy",
+      "es": "el trasfondo",
+      "fr": "les coulisses",
+      "ro": "culisele"
     },
     "examples": {
       "en": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Without context the sentence misleads."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "The background story explains the decision."
       },
       "uk": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Без контексту фраза оманлива."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "Закулісся пояснює рішення."
       },
       "ru": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Без контекста фраза обманывает."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "Закулисье объясняет решение."
       },
       "de": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Ohne Kontext täuscht der Satz."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "Der Hintergrund erklärt die Entscheidung."
       },
       "pl": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Bez kontekstu zdanie myli."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "Kulisy wyjaśniają decyzję."
       },
       "es": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Sin el contexto la frase engaña."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "El trasfondo explica la decisión."
       },
       "fr": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Sans le contexte la phrase trompe."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "Les coulisses expliquent la décision."
       },
       "ro": {
-        "sentence": "Senza il contesto la frase inganna.",
-        "translation": "Fără context fraza înșală."
+        "sentence": "Il retroscena spiega la decisione.",
+        "translation": "Culisele explică decizia."
       }
     }
   },
@@ -2903,49 +2903,49 @@
     "id": "b2e_059",
     "level": "B2",
     "topic": "diritto_contratti",
-    "word": "La clausola",
+    "word": "La condizione",
     "translations": {
-      "en": "the clause",
-      "uk": "пункт договору",
-      "ru": "пункт договора",
-      "de": "die Klausel",
-      "pl": "klauzula",
-      "es": "la cláusula",
-      "fr": "la clause",
-      "ro": "clauza"
+      "en": "the condition",
+      "uk": "умова",
+      "ru": "условие",
+      "de": "die Bedingung",
+      "pl": "warunek",
+      "es": "la condición",
+      "fr": "la condition",
+      "ro": "condiția"
     },
     "examples": {
       "en": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "The withdrawal clause is clear."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "The condition is written in small print."
       },
       "uk": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "Пункт про відмову зрозумілий."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "Умова написана дрібним шрифтом."
       },
       "ru": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "Пункт об отказе ясен."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "Условие написано мелким шрифтом."
       },
       "de": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "Die Klausel zum Rücktritt ist klar."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "Die Bedingung steht klein gedruckt."
       },
       "pl": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "Klauzula o odstąpieniu jest jasna."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "Warunek jest napisany drobnym drukiem."
       },
       "es": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "La cláusula de desistimiento es clara."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "La condición está escrita en letra pequeña."
       },
       "fr": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "La clause de rétractation est claire."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "La condition est écrite en petits caractères."
       },
       "ro": {
-        "sentence": "La clausola sul recesso è chiara.",
-        "translation": "Clauza de retragere este clară."
+        "sentence": "La condizione è scritta in piccolo.",
+        "translation": "Condiția este scrisă mărunt."
       }
     }
   },
@@ -2953,49 +2953,49 @@
     "id": "b2e_060",
     "level": "B2",
     "topic": "diritto_contratti",
-    "word": "Il recesso",
+    "word": "La disdetta",
     "translations": {
-      "en": "withdrawal",
-      "uk": "відмова від договору",
-      "ru": "отказ от договора",
-      "de": "der Rücktritt",
-      "pl": "odstąpienie",
-      "es": "el desistimiento",
-      "fr": "la rétractation",
-      "ro": "retragerea"
+      "en": "the cancellation notice",
+      "uk": "відмова",
+      "ru": "отказ",
+      "de": "die Kündigung",
+      "pl": "wypowiedzenie",
+      "es": "la cancelación",
+      "fr": "la résiliation",
+      "ro": "denunțarea"
     },
     "examples": {
       "en": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "Withdrawal is possible within fourteen days."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "The cancellation must be sent in writing."
       },
       "uk": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "Відмова можлива протягом чотирнадцяти днів."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "Відмову треба надіслати письмово."
       },
       "ru": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "Отказ возможен в течение четырнадцати дней."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "Отказ надо отправить письменно."
       },
       "de": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "Der Rücktritt ist binnen vierzehn Tagen möglich."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "Die Kündigung muss schriftlich erfolgen."
       },
       "pl": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "Odstąpienie jest możliwe w ciągu czternastu dni."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "Wypowiedzenie trzeba wysłać na piśmie."
       },
       "es": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "El desistimiento es posible en catorce días."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "La cancelación debe enviarse por escrito."
       },
       "fr": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "La rétractation est possible sous quatorze jours."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "La résiliation doit être envoyée par écrit."
       },
       "ro": {
-        "sentence": "Il recesso è possibile entro quattordici giorni.",
-        "translation": "Retragerea este posibilă în paisprezece zile."
+        "sentence": "La disdetta va inviata per iscritto.",
+        "translation": "Denunțarea trebuie trimisă în scris."
       }
     }
   },
@@ -3153,49 +3153,49 @@
     "id": "b2e_064",
     "level": "B2",
     "topic": "diritto_contratti",
-    "word": "La penale",
+    "word": "La mora",
     "translations": {
-      "en": "the penalty",
-      "uk": "штрафна санкція",
-      "ru": "неустойка",
-      "de": "die Vertragsstrafe",
-      "pl": "kara umowna",
-      "es": "la penalización",
-      "fr": "la pénalité",
-      "ro": "penalitatea"
+      "en": "the late fee",
+      "uk": "пеня",
+      "ru": "пеня",
+      "de": "der Verzug",
+      "pl": "kara za zwłokę",
+      "es": "la mora",
+      "fr": "les intérêts de retard",
+      "ro": "penalitatea de întârziere"
     },
     "examples": {
       "en": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "The penalty applies if you are late."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "The late fee starts after ten days."
       },
       "uk": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "Штраф настає, якщо запізнюєшся."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "Пеня починається через десять днів."
       },
       "ru": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "Неустойка наступает, если опаздываешь."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "Пеня начинается через десять дней."
       },
       "de": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "Die Vertragsstrafe greift bei Verspätung."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "Der Verzug beginnt nach zehn Tagen."
       },
       "pl": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "Kara umowna wchodzi przy opóźnieniu."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "Kara za zwłokę startuje po dziesięciu dniach."
       },
       "es": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "La penalización se aplica si te retrasas."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "La mora empieza tras diez días."
       },
       "fr": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "La pénalité s'applique en cas de retard."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "Les intérêts de retard commencent après dix jours."
       },
       "ro": {
-        "sentence": "La penale scatta se ritardi.",
-        "translation": "Penalitatea se aplică dacă întârzii."
+        "sentence": "La mora scatta dopo dieci giorni.",
+        "translation": "Penalitatea de întârziere pornește după zece zile."
       }
     }
   },
@@ -3253,49 +3253,49 @@
     "id": "b2e_066",
     "level": "B2",
     "topic": "diritto_contratti",
-    "word": "Il foro competente",
+    "word": "La competenza territoriale",
     "translations": {
-      "en": "the competent court",
-      "uk": "підсудний суд",
-      "ru": "подсудный суд",
-      "de": "das zuständige Gericht",
-      "pl": "sąd właściwy",
-      "es": "el fuero competente",
-      "fr": "la juridiction compétente",
-      "ro": "instanța competentă"
+      "en": "territorial jurisdiction",
+      "uk": "територіальна підсудність",
+      "ru": "территориальная подсудность",
+      "de": "die örtliche Zuständigkeit",
+      "pl": "właściwość miejscowa",
+      "es": "la competencia territorial",
+      "fr": "la compétence territoriale",
+      "ro": "competența teritorială"
     },
     "examples": {
       "en": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "The competent court is the one in Milan."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "Territorial jurisdiction is Milan's."
       },
       "uk": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "Підсудний суд — міланський."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "Територіальна підсудність у Мілана."
       },
       "ru": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "Подсудный суд — миланский."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "Территориальная подсудность у Милана."
       },
       "de": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "Das zuständige Gericht ist das in Mailand."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "Die örtliche Zuständigkeit liegt bei Mailand."
       },
       "pl": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "Sądem właściwym jest sąd w Mediolanie."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "Właściwość miejscowa należy do Mediolanu."
       },
       "es": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "El fuero competente es el de Milán."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "La competencia territorial es de Milán."
       },
       "fr": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "La juridiction compétente est celle de Milan."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "La compétence territoriale est celle de Milan."
       },
       "ro": {
-        "sentence": "Il foro competente è quello di Milano.",
-        "translation": "Instanța competentă este cea din Milano."
+        "sentence": "La competenza territoriale è di Milano.",
+        "translation": "Competența teritorială este a Milanului."
       }
     }
   },
@@ -3303,49 +3303,49 @@
     "id": "b2e_067",
     "level": "B2",
     "topic": "diritto_contratti",
-    "word": "La risoluzione",
+    "word": "Lo scioglimento",
     "translations": {
-      "en": "termination",
+      "en": "the dissolution",
       "uk": "розірвання",
       "ru": "расторжение",
       "de": "die Auflösung",
-      "pl": "rozwiązanie umowy",
-      "es": "la resolución",
-      "fr": "la résolution",
-      "ro": "rezoluțiunea"
+      "pl": "rozwiązanie",
+      "es": "la disolución",
+      "fr": "la dissolution",
+      "ro": "desfacerea"
     },
     "examples": {
       "en": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "Termination of the contract is immediate."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "Dissolution ends the relationship."
       },
       "uk": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "Розірвання договору негайне."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "Розірвання закриває відносини."
       },
       "ru": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "Расторжение договора немедленное."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "Расторжение закрывает отношения."
       },
       "de": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "Die Auflösung des Vertrags ist sofort."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "Die Auflösung beendet das Verhältnis."
       },
       "pl": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "Rozwiązanie umowy jest natychmiastowe."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "Rozwiązanie kończy stosunek."
       },
       "es": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "La resolución del contrato es inmediata."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "La disolución cierra la relación."
       },
       "fr": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "La résolution du contrat est immédiate."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "La dissolution met fin au rapport."
       },
       "ro": {
-        "sentence": "La risoluzione del contratto è immediata.",
-        "translation": "Rezoluțiunea contractului este imediată."
+        "sentence": "Lo scioglimento chiude il rapporto.",
+        "translation": "Desfacerea închide raportul."
       }
     }
   },
@@ -3353,49 +3353,49 @@
     "id": "b2e_068",
     "level": "B2",
     "topic": "economia_lavoro",
-    "word": "Il mercato del lavoro",
+    "word": "L'occupazione",
     "translations": {
-      "en": "the labour market",
-      "uk": "ринок праці",
-      "ru": "рынок труда",
-      "de": "der Arbeitsmarkt",
-      "pl": "rynek pracy",
-      "es": "el mercado laboral",
-      "fr": "le marché du travail",
-      "ro": "piața muncii"
+      "en": "employment",
+      "uk": "зайнятість",
+      "ru": "занятость",
+      "de": "die Beschäftigung",
+      "pl": "zatrudnienie",
+      "es": "el empleo",
+      "fr": "l'emploi",
+      "ro": "ocuparea"
     },
     "examples": {
       "en": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "The labour market is more open."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "Employment grows in services."
       },
       "uk": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "Ринок праці відкритіший."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "Зайнятість росте у сфері послуг."
       },
       "ru": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "Рынок труда более открыт."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "Занятость растёт в сфере услуг."
       },
       "de": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "Der Arbeitsmarkt ist offener."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "Die Beschäftigung wächst im Dienstleistungssektor."
       },
       "pl": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "Rynek pracy jest bardziej otwarty."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "Zatrudnienie rośnie w usługach."
       },
       "es": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "El mercado laboral está más abierto."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "El empleo crece en los servicios."
       },
       "fr": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "Le marché du travail est plus ouvert."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "L'emploi croît dans le tertiaire."
       },
       "ro": {
-        "sentence": "Il mercato del lavoro è più aperto.",
-        "translation": "Piața muncii este mai deschisă."
+        "sentence": "L'occupazione cresce nel terziario.",
+        "translation": "Ocuparea crește în servicii."
       }
     }
   },
@@ -3403,49 +3403,49 @@
     "id": "b2e_069",
     "level": "B2",
     "topic": "economia_lavoro",
-    "word": "La disoccupazione",
+    "word": "L'inoccupazione",
     "translations": {
-      "en": "unemployment",
-      "uk": "безробіття",
-      "ru": "безработица",
-      "de": "die Arbeitslosigkeit",
-      "pl": "bezrobocie",
-      "es": "el desempleo",
-      "fr": "le chômage",
-      "ro": "șomajul"
+      "en": "joblessness",
+      "uk": "незайнятість",
+      "ru": "незанятость",
+      "de": "die Erwerbslosigkeit",
+      "pl": "brak zatrudnienia",
+      "es": "la desocupación",
+      "fr": "le chômage structurel",
+      "ro": "neocuparea"
     },
     "examples": {
       "en": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Youth unemployment stays high."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Joblessness hits young people."
       },
       "uk": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Молодіжне безробіття лишається високим."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Незайнятість б'є по молоді."
       },
       "ru": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Молодёжная безработица остаётся высокой."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Незанятость бьёт по молодёжи."
       },
       "de": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Die Jugendarbeitslosigkeit bleibt hoch."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Erwerbslosigkeit trifft die Jungen."
       },
       "pl": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Bezrobocie młodzieży pozostaje wysokie."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Brak zatrudnienia dotyka młodych."
       },
       "es": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "El desempleo juvenil sigue alto."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "La desocupación golpea a los jóvenes."
       },
       "fr": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Le chômage des jeunes reste élevé."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Le chômage structurel frappe les jeunes."
       },
       "ro": {
-        "sentence": "La disoccupazione giovanile resta alta.",
-        "translation": "Șomajul tinerilor rămâne ridicat."
+        "sentence": "L'inoccupazione colpisce i giovani.",
+        "translation": "Neocuparea lovește tinerii."
       }
     }
   },
@@ -3453,49 +3453,49 @@
     "id": "b2e_070",
     "level": "B2",
     "topic": "economia_lavoro",
-    "word": "Il salario minimo",
+    "word": "Il minimo tabellare",
     "translations": {
-      "en": "the minimum wage",
-      "uk": "мінімальна зарплата",
-      "ru": "минимальная зарплата",
-      "de": "der Mindestlohn",
-      "pl": "płaca minimalna",
-      "es": "el salario mínimo",
-      "fr": "le salaire minimum",
-      "ro": "salariul minim"
+      "en": "the scale minimum",
+      "uk": "мінімум за шкалою",
+      "ru": "минимум по шкале",
+      "de": "der Tarifsockel",
+      "pl": "minimum tabelaryczne",
+      "es": "el mínimo de convenio",
+      "fr": "le minimum conventionnel",
+      "ro": "minimul din grilă"
     },
     "examples": {
       "en": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "The minimum wage rises in January."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "The scale minimum rises in January."
       },
       "uk": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "Мінімальна зарплата зростає в січні."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "Мінімум за шкалою зростає в січні."
       },
       "ru": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "Минимальная зарплата растёт в январе."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "Минимум по шкале растёт в январе."
       },
       "de": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "Der Mindestlohn steigt im Januar."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "Der Tarifsockel steigt im Januar."
       },
       "pl": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "Płaca minimalna rośnie w styczniu."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "Minimum tabelaryczne rośnie w styczniu."
       },
       "es": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "El salario mínimo sube en enero."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "El mínimo de convenio sube en enero."
       },
       "fr": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "Le salaire minimum augmente en janvier."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "Le minimum conventionnel augmente en janvier."
       },
       "ro": {
-        "sentence": "Il salario minimo aumenta a gennaio.",
-        "translation": "Salariul minim crește în ianuarie."
+        "sentence": "Il minimo tabellare sale a gennaio.",
+        "translation": "Minimul din grilă crește în ianuarie."
       }
     }
   },
@@ -3503,49 +3503,49 @@
     "id": "b2e_071",
     "level": "B2",
     "topic": "economia_lavoro",
-    "word": "La produttività",
+    "word": "Il rendimento",
     "translations": {
-      "en": "productivity",
-      "uk": "продуктивність",
-      "ru": "производительность",
-      "de": "die Produktivität",
-      "pl": "produktywność",
-      "es": "la productividad",
-      "fr": "la productivité",
-      "ro": "productivitatea"
+      "en": "output",
+      "uk": "віддача",
+      "ru": "отдача",
+      "de": "die Leistung",
+      "pl": "wydajność",
+      "es": "el rendimiento",
+      "fr": "le rendement",
+      "ro": "randamentul"
     },
     "examples": {
       "en": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "Productivity grows with better tools."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Output per hour is high."
       },
       "uk": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "Продуктивність зростає з кращими інструментами."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Віддача за годину висока."
       },
       "ru": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "Производительность растёт с лучшими инструментами."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Отдача за час высокая."
       },
       "de": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "Die Produktivität steigt mit besseren Werkzeugen."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Die Leistung pro Stunde ist hoch."
       },
       "pl": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "Produktywność rośnie z lepszymi narzędziami."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Wydajność na godzinę jest wysoka."
       },
       "es": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "La productividad crece con mejores herramientas."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "El rendimiento por hora es alto."
       },
       "fr": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "La productivité augmente avec de meilleurs outils."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Le rendement à l'heure est élevé."
       },
       "ro": {
-        "sentence": "La produttività cresce con strumenti migliori.",
-        "translation": "Productivitatea crește cu unelte mai bune."
+        "sentence": "Il rendimento per ora è alto.",
+        "translation": "Randamentul pe oră este mare."
       }
     }
   },
@@ -3753,49 +3753,49 @@
     "id": "b2e_076",
     "level": "B2",
     "topic": "economia_lavoro",
-    "word": "Il sindacato",
+    "word": "La confederazione",
     "translations": {
-      "en": "the trade union",
-      "uk": "профспілка",
-      "ru": "профсоюз",
-      "de": "die Gewerkschaft",
-      "pl": "związek zawodowy",
-      "es": "el sindicato",
-      "fr": "le syndicat",
-      "ro": "sindicatul"
+      "en": "the confederation",
+      "uk": "конфедерація",
+      "ru": "конфедерация",
+      "de": "der Dachverband",
+      "pl": "konfederacja",
+      "es": "la confederación",
+      "fr": "la confédération",
+      "ro": "confederația"
     },
     "examples": {
       "en": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "The union negotiates the conditions."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "The confederation signs the deal."
       },
       "uk": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "Профспілка веде переговори про умови."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "Конфедерація підписує угоду."
       },
       "ru": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "Профсоюз ведёт переговоры об условиях."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "Конфедерация подписывает соглашение."
       },
       "de": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "Die Gewerkschaft verhandelt die Bedingungen."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "Der Dachverband unterzeichnet die Vereinbarung."
       },
       "pl": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "Związek negocjuje warunki."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "Konfederacja podpisuje porozumienie."
       },
       "es": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "El sindicato negocia las condiciones."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "La confederación firma el acuerdo."
       },
       "fr": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "Le syndicat négocie les conditions."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "La confédération signe l'accord."
       },
       "ro": {
-        "sentence": "Il sindacato negozia le condizioni.",
-        "translation": "Sindicatul negociază condițiile."
+        "sentence": "La confederazione firma l'accordo.",
+        "translation": "Confederația semnează acordul."
       }
     }
   },
@@ -3803,49 +3803,49 @@
     "id": "b2e_077",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "L'ipotesi",
+    "word": "La congettura",
     "translations": {
-      "en": "the hypothesis",
-      "uk": "гіпотеза",
-      "ru": "гипотеза",
-      "de": "die Hypothese",
-      "pl": "hipoteza",
-      "es": "la hipótesis",
-      "fr": "l'hypothèse",
-      "ro": "ipoteza"
+      "en": "the conjecture",
+      "uk": "припущення",
+      "ru": "предположение",
+      "de": "die Vermutung",
+      "pl": "przypuszczenie",
+      "es": "la conjetura",
+      "fr": "la conjecture",
+      "ro": "conjectura"
     },
     "examples": {
       "en": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "The hypothesis must be checked with data."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "The conjecture still needs checking."
       },
       "uk": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "Гіпотезу треба перевірити даними."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "Припущення ще треба перевірити."
       },
       "ru": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "Гипотезу надо проверить данными."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "Предположение ещё надо проверить."
       },
       "de": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "Die Hypothese muss mit Daten geprüft werden."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "Die Vermutung muss noch geprüft werden."
       },
       "pl": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "Hipotezę trzeba sprawdzić danymi."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "Przypuszczenie trzeba jeszcze sprawdzić."
       },
       "es": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "La hipótesis hay que verificarla con datos."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "La conjetura aún debe verificarse."
       },
       "fr": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "L'hypothèse doit être vérifiée avec des données."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "La conjecture doit encore être vérifiée."
       },
       "ro": {
-        "sentence": "L'ipotesi va verificata con i dati.",
-        "translation": "Ipoteza trebuie verificată cu date."
+        "sentence": "La congettura va ancora verificata.",
+        "translation": "Conjectura trebuie încă verificată."
       }
     }
   },
@@ -3853,49 +3853,49 @@
     "id": "b2e_078",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "Il campione",
+    "word": "La coorte",
     "translations": {
-      "en": "the sample",
-      "uk": "вибірка",
-      "ru": "выборка",
-      "de": "die Stichprobe",
-      "pl": "próba",
-      "es": "la muestra",
-      "fr": "l'échantillon",
-      "ro": "eșantionul"
+      "en": "the cohort",
+      "uk": "когорта",
+      "ru": "когорта",
+      "de": "die Kohorte",
+      "pl": "kohorta",
+      "es": "la cohorte",
+      "fr": "la cohorte",
+      "ro": "cohorta"
     },
     "examples": {
       "en": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "The sample is too small."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "The cohort follows the same subjects."
       },
       "uk": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "Вибірка занадто мала."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "Когорта стежить за тими самими людьми."
       },
       "ru": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "Выборка слишком мала."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "Когорта следит за теми же людьми."
       },
       "de": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "Die Stichprobe ist zu klein."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "Die Kohorte verfolgt dieselben Personen."
       },
       "pl": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "Próba jest za mała."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "Kohorta śledzi te same osoby."
       },
       "es": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "La muestra es demasiado pequeña."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "La cohorte sigue a los mismos sujetos."
       },
       "fr": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "L'échantillon est trop petit."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "La cohorte suit les mêmes sujets."
       },
       "ro": {
-        "sentence": "Il campione è troppo piccolo.",
-        "translation": "Eșantionul este prea mic."
+        "sentence": "La coorte segue gli stessi soggetti.",
+        "translation": "Cohorta urmărește aceiași subiecți."
       }
     }
   },
@@ -3903,49 +3903,49 @@
     "id": "b2e_079",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "La variabile",
+    "word": "La covariata",
     "translations": {
-      "en": "the variable",
-      "uk": "змінна",
-      "ru": "переменная",
-      "de": "die Variable",
-      "pl": "zmienna",
-      "es": "la variable",
-      "fr": "la variable",
-      "ro": "variabila"
+      "en": "the covariate",
+      "uk": "коваріата",
+      "ru": "ковариата",
+      "de": "die Kovariate",
+      "pl": "kowarianta",
+      "es": "la covariable",
+      "fr": "la covariable",
+      "ro": "covariata"
     },
     "examples": {
       "en": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "We change only one variable."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "The covariate enters the model."
       },
       "uk": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Змінюємо лише одну змінну."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "Коваріата входить у модель."
       },
       "ru": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Меняем только одну переменную."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "Ковариата входит в модель."
       },
       "de": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Wir ändern nur eine Variable."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "Die Kovariate geht ins Modell ein."
       },
       "pl": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Zmieniamy tylko jedną zmienną."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "Kowarianta wchodzi do modelu."
       },
       "es": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Cambiamos una sola variable."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "La covariable entra en el modelo."
       },
       "fr": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Nous ne changeons qu'une variable."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "La covariable entre dans le modèle."
       },
       "ro": {
-        "sentence": "Cambiamo una sola variabile.",
-        "translation": "Schimbăm o singură variabilă."
+        "sentence": "La covariata entra nel modello.",
+        "translation": "Covariata intră în model."
       }
     }
   },
@@ -4003,49 +4003,49 @@
     "id": "b2e_081",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "La pubblicazione",
+    "word": "Il preprint",
     "translations": {
-      "en": "the publication",
-      "uk": "публікація",
-      "ru": "публикация",
-      "de": "die Veröffentlichung",
-      "pl": "publikacja",
-      "es": "la publicación",
-      "fr": "la publication",
-      "ro": "publicația"
+      "en": "the preprint",
+      "uk": "препринт",
+      "ru": "препринт",
+      "de": "das Preprint",
+      "pl": "preprint",
+      "es": "el preprint",
+      "fr": "la prépublication",
+      "ro": "prepublicarea"
     },
     "examples": {
       "en": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "The publication appears in the journal."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "The preprint comes out before the journal."
       },
       "uk": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "Публікація виходить у журналі."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "Препринт виходить раніше за журнал."
       },
       "ru": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "Публикация выходит в журнале."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "Препринт выходит раньше журнала."
       },
       "de": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "Die Veröffentlichung erscheint in der Zeitschrift."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "Das Preprint erscheint vor der Zeitschrift."
       },
       "pl": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "Publikacja ukazuje się w czasopiśmie."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "Preprint wychodzi przed czasopismem."
       },
       "es": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "La publicación sale en la revista."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "El preprint sale antes que la revista."
       },
       "fr": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "La publication paraît dans la revue."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "La prépublication sort avant la revue."
       },
       "ro": {
-        "sentence": "La pubblicazione esce sulla rivista.",
-        "translation": "Publicația apare în revistă."
+        "sentence": "Il preprint esce prima della rivista.",
+        "translation": "Prepublicarea apare înainte de revistă."
       }
     }
   },
@@ -4053,49 +4053,49 @@
     "id": "b2e_082",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "Il laboratorio",
+    "word": "Il centro di ricerca",
     "translations": {
-      "en": "the laboratory",
-      "uk": "лабораторія",
-      "ru": "лаборатория",
-      "de": "das Labor",
-      "pl": "laboratorium",
-      "es": "el laboratorio",
-      "fr": "le laboratoire",
-      "ro": "laboratorul"
+      "en": "the research centre",
+      "uk": "дослідницький центр",
+      "ru": "исследовательский центр",
+      "de": "das Forschungszentrum",
+      "pl": "ośrodek badawczy",
+      "es": "el centro de investigación",
+      "fr": "le centre de recherche",
+      "ro": "centrul de cercetare"
     },
     "examples": {
       "en": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "The laboratory is closed on Saturday."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "The research centre is in Padua."
       },
       "uk": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "Лабораторія зачинена в суботу."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "Дослідницький центр у Падуї."
       },
       "ru": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "Лаборатория закрыта в субботу."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "Исследовательский центр в Падуе."
       },
       "de": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "Das Labor ist samstags geschlossen."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "Das Forschungszentrum ist in Padua."
       },
       "pl": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "Laboratorium jest zamknięte w sobotę."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "Ośrodek badawczy jest w Padwie."
       },
       "es": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "El laboratorio está cerrado el sábado."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "El centro de investigación está en Padua."
       },
       "fr": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "Le laboratoire est fermé le samedi."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "Le centre de recherche est à Padoue."
       },
       "ro": {
-        "sentence": "Il laboratorio è chiuso il sabato.",
-        "translation": "Laboratorul este închis sâmbăta."
+        "sentence": "Il centro di ricerca è a Padova.",
+        "translation": "Centrul de cercetare este la Padova."
       }
     }
   },
@@ -4103,12 +4103,12 @@
     "id": "b2e_083",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "La peer review",
+    "word": "Il referaggio",
     "translations": {
-      "en": "peer review",
+      "en": "peer refereeing",
       "uk": "рецензування",
       "ru": "рецензирование",
-      "de": "die Begutachtung",
+      "de": "das Gutachtenverfahren",
       "pl": "recenzja naukowa",
       "es": "la revisión por pares",
       "fr": "l'évaluation par les pairs",
@@ -4116,36 +4116,36 @@
     },
     "examples": {
       "en": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "Peer review takes two months."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "Peer refereeing lasts three months."
       },
       "uk": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "Рецензування триває два місяці."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "Рецензування триває три місяці."
       },
       "ru": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "Рецензирование занимает два месяца."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "Рецензирование длится три месяца."
       },
       "de": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "Die Begutachtung dauert zwei Monate."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "Das Gutachtenverfahren dauert drei Monate."
       },
       "pl": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "Recenzja naukowa trwa dwa miesiące."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "Recenzja naukowa trwa trzy miesiące."
       },
       "es": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "La revisión por pares tarda dos meses."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "La revisión por pares dura tres meses."
       },
       "fr": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "L'évaluation par les pairs prend deux mois."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "L'évaluation par les pairs dure trois mois."
       },
       "ro": {
-        "sentence": "La peer review richiede due mesi.",
-        "translation": "Evaluarea inter pares durează două luni."
+        "sentence": "Il referaggio dura tre mesi.",
+        "translation": "Evaluarea inter pares durează trei luni."
       }
     }
   },
@@ -4153,49 +4153,49 @@
     "id": "b2e_084",
     "level": "B2",
     "topic": "scienza_ricerca",
-    "word": "Il margine di errore",
+    "word": "L'intervallo di confidenza",
     "translations": {
-      "en": "the margin of error",
-      "uk": "похибка",
-      "ru": "погрешность",
-      "de": "die Fehlerspanne",
-      "pl": "margines błędu",
-      "es": "el margen de error",
-      "fr": "la marge d'erreur",
-      "ro": "marja de eroare"
+      "en": "the confidence interval",
+      "uk": "довірчий інтервал",
+      "ru": "доверительный интервал",
+      "de": "das Konfidenzintervall",
+      "pl": "przedział ufności",
+      "es": "el intervalo de confianza",
+      "fr": "l'intervalle de confiance",
+      "ro": "intervalul de încredere"
     },
     "examples": {
       "en": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "The margin of error is three percent."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "The confidence interval is narrow."
       },
       "uk": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "Похибка — три відсотки."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "Довірчий інтервал вузький."
       },
       "ru": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "Погрешность — три процента."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "Доверительный интервал узкий."
       },
       "de": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "Die Fehlerspanne beträgt drei Prozent."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "Das Konfidenzintervall ist eng."
       },
       "pl": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "Margines błędu wynosi trzy procent."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "Przedział ufności jest wąski."
       },
       "es": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "El margen de error es del tres por ciento."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "El intervalo de confianza es estrecho."
       },
       "fr": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "La marge d'erreur est de trois pour cent."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "L'intervalle de confiance est étroit."
       },
       "ro": {
-        "sentence": "Il margine di errore è del tre per cento.",
-        "translation": "Marja de eroare este de trei la sută."
+        "sentence": "L'intervallo di confidenza è stretto.",
+        "translation": "Intervalul de încredere este îngust."
       }
     }
   },
@@ -4403,49 +4403,49 @@
     "id": "b2e_089",
     "level": "B2",
     "topic": "registro_formale",
-    "word": "Distinti saluti",
+    "word": "Con ossequio",
     "translations": {
-      "en": "yours faithfully",
+      "en": "with respect",
       "uk": "з повагою",
-      "ru": "с уважением",
-      "de": "mit freundlichen Grüßen",
+      "ru": "с почтением",
+      "de": "mit vorzüglicher Hochachtung",
       "pl": "z poważaniem",
-      "es": "atentamente",
-      "fr": "cordialement",
-      "ro": "cu stimă"
+      "es": "con respeto",
+      "fr": "avec respect",
+      "ro": "cu respect"
     },
     "examples": {
       "en": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "I close the letter with yours faithfully."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "He closes the letter with respect."
       },
       "uk": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Закриваю лист словами «з повагою»."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Він завершує листа з повагою."
       },
       "ru": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Закрываю письмо словами «с уважением»."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Он заканчивает письмо с почтением."
       },
       "de": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Ich schließe den Brief mit freundlichen Grüßen."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Er schließt den Brief mit Hochachtung."
       },
       "pl": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Kończę list zwrotem z poważaniem."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Kończy list z poważaniem."
       },
       "es": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Cierro la carta con un atentamente."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Cierra la carta con respeto."
       },
       "fr": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Je clos la lettre par cordialement."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Il termine la lettre avec respect."
       },
       "ro": {
-        "sentence": "Chiudo la lettera con distinti saluti.",
-        "translation": "Închei scrisoarea cu cu stimă."
+        "sentence": "Chiude la lettera con ossequio.",
+        "translation": "Închide scrisoarea cu respect."
       }
     }
   },
@@ -4453,49 +4453,49 @@
     "id": "b2e_090",
     "level": "B2",
     "topic": "registro_formale",
-    "word": "Si prega di",
+    "word": "Si richiede di",
     "translations": {
-      "en": "please",
-      "uk": "прохання",
-      "ru": "просьба",
-      "de": "bitte",
-      "pl": "uprzejmie prosimy",
-      "es": "se ruega",
-      "fr": "prière de",
-      "ro": "se roagă"
+      "en": "you are requested to",
+      "uk": "просять",
+      "ru": "просим",
+      "de": "es wird gebeten",
+      "pl": "uprzejmie prosi się",
+      "es": "se solicita",
+      "fr": "il est demandé de",
+      "ro": "se solicită"
     },
     "examples": {
       "en": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Please do not smoke."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "You are requested to confirm in writing."
       },
       "uk": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Прохання не палити."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Просять підтвердити письмово."
       },
       "ru": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Просьба не курить."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Просим подтвердить письменно."
       },
       "de": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Bitte nicht rauchen."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Es wird gebeten, schriftlich zu bestätigen."
       },
       "pl": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Uprzejmie prosimy nie palić."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Uprzejmie prosi się o potwierdzenie na piśmie."
       },
       "es": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Se ruega no fumar."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Se solicita confirmar por escrito."
       },
       "fr": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Prière de ne pas fumer."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Il est demandé de confirmer par écrit."
       },
       "ro": {
-        "sentence": "Si prega di non fumare.",
-        "translation": "Se roagă nu fumați."
+        "sentence": "Si richiede di confermare per iscritto.",
+        "translation": "Se solicită confirmarea în scris."
       }
     }
   },
@@ -4503,49 +4503,49 @@
     "id": "b2e_091",
     "level": "B2",
     "topic": "registro_formale",
-    "word": "Il sottoscritto",
+    "word": "Il dichiarante",
     "translations": {
-      "en": "the undersigned",
-      "uk": "нижчепідписаний",
-      "ru": "нижеподписавшийся",
-      "de": "der Unterzeichnete",
-      "pl": "niżej podpisany",
-      "es": "el abajo firmante",
-      "fr": "le soussigné",
-      "ro": "subsemnatul"
+      "en": "the declarant",
+      "uk": "заявник",
+      "ru": "заявитель",
+      "de": "der Erklärende",
+      "pl": "osoba składająca oświadczenie",
+      "es": "el declarante",
+      "fr": "le déclarant",
+      "ro": "declarantul"
     },
     "examples": {
       "en": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "The undersigned declares the following."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "The declarant signs at the bottom."
       },
       "uk": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "Нижчепідписаний заявляє таке."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "Заявник підписує внизу."
       },
       "ru": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "Нижеподписавшийся заявляет следующее."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "Заявитель подписывает внизу."
       },
       "de": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "Der Unterzeichnete erklärt Folgendes."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "Der Erklärende unterschreibt unten."
       },
       "pl": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "Niżej podpisany oświadcza, co następuje."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "Osoba składająca oświadczenie podpisuje na dole."
       },
       "es": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "El abajo firmante declara lo siguiente."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "El declarante firma al pie."
       },
       "fr": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "Le soussigné déclare ce qui suit."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "Le déclarant signe en bas."
       },
       "ro": {
-        "sentence": "Il sottoscritto dichiara quanto segue.",
-        "translation": "Subsemnatul declară următoarele."
+        "sentence": "Il dichiarante firma in calce.",
+        "translation": "Declarantul semnează jos."
       }
     }
   },
@@ -4603,49 +4603,49 @@
     "id": "b2e_093",
     "level": "B2",
     "topic": "registro_formale",
-    "word": "In merito a",
+    "word": "In ordine a",
     "translations": {
-      "en": "regarding",
-      "uk": "щодо",
-      "ru": "касательно",
-      "de": "bezüglich",
-      "pl": "w sprawie",
+      "en": "with regard to",
+      "uk": "стосовно",
+      "ru": "относительно",
+      "de": "hinsichtlich",
+      "pl": "w odniesieniu do",
       "es": "en relación con",
       "fr": "au sujet de",
-      "ro": "referitor la"
+      "ro": "cu privire la"
     },
     "examples": {
       "en": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "I am writing regarding the invoice."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "With regard to what was requested, I attach the file."
       },
       "uk": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "Пишу щодо рахунку."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "Стосовно запиту додаю файл."
       },
       "ru": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "Пишу касательно счёта."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "Относительно запроса прилагаю файл."
       },
       "de": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "Ich schreibe bezüglich der Rechnung."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "Hinsichtlich der Anfrage lege ich die Datei bei."
       },
       "pl": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "Piszę w sprawie faktury."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "W odniesieniu do prośby załączam plik."
       },
       "es": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "Escribo en relación con la factura."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "En relación con lo solicitado, adjunto el archivo."
       },
       "fr": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "J'écris au sujet de la facture."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "Au sujet de la demande, je joins le fichier."
       },
       "ro": {
-        "sentence": "Scrivo in merito alla fattura.",
-        "translation": "Scriu referitor la factură."
+        "sentence": "In ordine a quanto richiesto, allego il file.",
+        "translation": "Cu privire la solicitare, atașez fișierul."
       }
     }
   },
