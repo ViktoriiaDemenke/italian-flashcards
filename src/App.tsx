@@ -5,7 +5,6 @@ import { CategoryBar, filterLabel } from "./components/CategoryBar";
 import { Flashcard } from "./components/Flashcard";
 import { Header } from "./components/Header";
 import { QuizCard } from "./components/QuizCard";
-import { StatsDrawer } from "./components/StatsDrawer";
 import { cardsFor, DECK, selectionForLevel } from "./data/deck";
 import { loadSession, nextStudy, saveSession, streakOnView } from "./lib/session";
 import { gradedLine, t } from "./lib/ui";
@@ -62,7 +61,6 @@ export default function App() {
   const [flipped, setFlipped] = useState(false);
   const [tense, setTense] = useState<TenseId>("presente");
   const [complete, setComplete] = useState(false);
-  const [statsOpen, setStatsOpen] = useState(true);
   const [cardsToday, setCardsToday] = useState(stored.cardsToday);
   const [streak, setStreak] = useState(stored.streak);
   const [lastStudyDay, setLastStudyDay] = useState<string | null>(stored.lastStudyDay);
@@ -93,7 +91,6 @@ export default function App() {
   const mastered = counts.good + counts.easy;
   const graded = mastered + counts.again + counts.hard;
   const accuracy = graded === 0 ? 0 : Math.round((mastered / graded) * 100);
-  const savedCount = savedIds.length;
   const saved = card ? savedIds.includes(card.id) : false;
 
   function resetPosition() {
@@ -159,6 +156,13 @@ export default function App() {
     >;
   }, [savedIds]);
 
+  function startQuiz() {
+    if (card) remember(card.id, false);
+    setSlide("next");
+    setMode("quiz");
+    resetPosition();
+  }
+
   function toggleSaved() {
     if (!card) return;
     setSavedIds((current) =>
@@ -199,10 +203,24 @@ export default function App() {
           streak={streakOnView({ streak, lastStudyDay })}
           cardsToday={cardsToday}
           dailyGoal={DAILY_GOAL}
-          saved={savedCount}
+          studied={studiedIds.length}
+          toRepeat={repeatIds.length}
           progress={levelProgress}
           level={level}
           tongue={tongue}
+          topics={
+            <CategoryBar
+              level={level}
+              value={filter}
+              topic={topic}
+              tongue={tongue}
+              onChange={(next, nextTopic) => {
+                setFilter(next);
+                setTopic(nextTopic);
+                resetPosition();
+              }}
+            />
+          }
           onLevel={(next) => {
             const nextSelection = selectionForLevel(next);
             setLevel(next);
@@ -211,17 +229,6 @@ export default function App() {
             resetPosition();
           }}
           onTongue={setTongue}
-        />
-        <CategoryBar
-          level={level}
-          value={filter}
-          topic={topic}
-          tongue={tongue}
-          onChange={(next, nextTopic) => {
-            setFilter(next);
-            setTopic(nextTopic);
-            resetPosition();
-          }}
         />
 
         <div className="flex justify-end">
@@ -306,23 +313,16 @@ export default function App() {
               tongue={tongue}
               canPrev={index > 0}
               canNext={index + 1 < deck.length}
+              quizReady={mode === "cards" && index + 1 >= deck.length}
               saved={saved}
               onPrev={() => step(-1)}
               onNext={() => step(1)}
+              onQuiz={startQuiz}
               onSave={toggleSaved}
             />
           </>
         )}
 
-        <div className="mt-auto">
-          <StatsDrawer
-            open={statsOpen}
-            onToggle={() => setStatsOpen((current) => !current)}
-            studied={studiedIds.length}
-            toRepeat={repeatIds.length}
-            tongue={tongue}
-          />
-        </div>
       </div>
     </main>
   );

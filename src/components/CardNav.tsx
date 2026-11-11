@@ -6,13 +6,15 @@ type CardNavProps = {
   tongue: MotherTongue;
   canPrev: boolean;
   canNext: boolean;
+  quizReady: boolean;
   saved: boolean;
   onPrev: () => void;
   onNext: () => void;
+  onQuiz: () => void;
   onSave: () => void;
 };
 
-export function CardNav({ tongue, canPrev, canNext, saved, onPrev, onNext, onSave }: CardNavProps) {
+export function CardNav({ tongue, canPrev, canNext, quizReady, saved, onPrev, onNext, onQuiz, onSave }: CardNavProps) {
   return (
     <div className="grid grid-cols-1 gap-2 sm:grid-cols-[1fr_auto_1fr]">
       <button
@@ -38,11 +40,15 @@ export function CardNav({ tongue, canPrev, canNext, saved, onPrev, onNext, onSav
       </button>
       <button
         type="button"
-        onClick={onNext}
-        disabled={!canNext}
-        className="rounded-xl border border-slate-700 bg-[#111827] px-4 py-3 text-sm font-medium text-slate-100 transition hover:border-emerald-400/50 disabled:cursor-not-allowed disabled:opacity-40"
+        onClick={quizReady ? onQuiz : onNext}
+        disabled={!canNext && !quizReady}
+        className={`rounded-xl border px-4 py-3 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
+          quizReady
+            ? "border-emerald-400 bg-emerald-500 text-slate-950 shadow-[0_0_18px_rgba(16,185,129,0.35)]"
+            : "border-slate-700 bg-[#111827] text-slate-100 hover:border-emerald-400/50"
+        }`}
       >
-        {t(tongue, "next")}
+        {quizReady ? t(tongue, "toQuiz") : t(tongue, "next")}
       </button>
     </div>
   );
