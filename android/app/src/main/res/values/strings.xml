@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Parliamo Italian</string>
+    <string name="title_activity_main">Parliamo Italian</string>
+    <string name="package_name">com.parliamo.italian</string>
+    <string name="custom_url_scheme">com.parliamo.italian</string>
+</resources>

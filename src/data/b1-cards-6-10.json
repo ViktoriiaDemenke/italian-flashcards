@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "b1_cultura_spettacolo_1",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Lo spettacolo",
+    "translations": {
+      "uk": "вистава",
+      "en": "the show",
+      "de": "die Vorstellung",
+      "pl": "przedstawienie",
+      "es": "el espectáculo",
+      "fr": "le spectacle",
+      "ro": "spectacolul",
+      "ru": "спектакль"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "Вистава почалася із запізненням, бо публіка ще не сіла."
+      },
+      "en": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "The show started late because the audience was not seated yet."
+      },
+      "de": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "Die Vorstellung begann verspätet, weil das Publikum noch nicht saß."
+      },
+      "pl": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "Przedstawienie zaczęło się później, bo publiczność jeszcze nie usiadła."
+      },
+      "es": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "El espectáculo empezó tarde porque el público aún no estaba sentado."
+      },
+      "fr": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "Le spectacle a commencé en retard parce que le public n'était pas encore assis."
+      },
+      "ro": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "Spectacolul a început cu întârziere pentru că publicul nu se așezase încă."
+      },
+      "ru": {
+        "sentence": "Lo spettacolo è cominciato in ritardo perché il pubblico non era ancora seduto.",
+        "translation": "Спектакль начался с опозданием, потому что публика ещё не села."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_2",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "La mostra",
+    "translations": {
+      "uk": "виставка",
+      "en": "the exhibition",
+      "de": "die Ausstellung",
+      "pl": "wystawa",
+      "es": "la exposición",
+      "fr": "l'exposition",
+      "ro": "expoziția",
+      "ru": "выставка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "Виставка відкрита до кінця місяця, а в неділю вхід безкоштовний."
+      },
+      "en": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "The exhibition stays open until the end of the month and entry is free on Sunday."
+      },
+      "de": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "Die Ausstellung ist bis Monatsende geöffnet und sonntags ist der Eintritt frei."
+      },
+      "pl": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "Wystawa jest otwarta do końca miesiąca, a w niedzielę wstęp jest wolny."
+      },
+      "es": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "La exposición sigue abierta hasta fin de mes y la entrada es gratis el domingo."
+      },
+      "fr": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "L'exposition reste ouverte jusqu'à la fin du mois et l'entrée est gratuite le dimanche."
+      },
+      "ro": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "Expoziția rămâne deschisă până la sfârșitul lunii, iar duminica intrarea este gratuită."
+      },
+      "ru": {
+        "sentence": "La mostra resta aperta fino a fine mese e l'ingresso è gratuito la domenica.",
+        "translation": "Выставка открыта до конца месяца, а по воскресеньям вход бесплатный."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_3",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Il biglietto ridotto",
+    "translations": {
+      "uk": "пільговий квиток",
+      "en": "the reduced ticket",
+      "de": "die ermäßigte Karte",
+      "pl": "bilet ulgowy",
+      "es": "la entrada reducida",
+      "fr": "le billet réduit",
+      "ro": "biletul redus",
+      "ru": "льготный билет"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "Зі студентським я взяв пільговий квиток на концерт."
+      },
+      "en": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "With the student card I got the reduced ticket for the concert."
+      },
+      "de": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "Mit dem Studentenausweis habe ich die ermäßigte Karte für das Konzert genommen."
+      },
+      "pl": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "Z legitymacją wziąłem bilet ulgowy na koncert."
+      },
+      "es": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "Con el carné de estudiante compré la entrada reducida para el concierto."
+      },
+      "fr": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "Avec la carte étudiante j'ai pris le billet réduit pour le concert."
+      },
+      "ro": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "Cu legitimația de student am luat biletul redus la concert."
+      },
+      "ru": {
+        "sentence": "Con la tessera studente ho preso il biglietto ridotto per il concerto.",
+        "translation": "По студенческому я взял льготный билет на концерт."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_4",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "La recensione",
+    "translations": {
+      "uk": "рецензія",
+      "en": "the review",
+      "de": "die Rezension",
+      "pl": "recenzja",
+      "es": "la reseña",
+      "fr": "la critique",
+      "ro": "recenzia",
+      "ru": "рецензия"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "Я прочитав дуже критичну рецензію, перш ніж вирішити, чи йти на фільм."
+      },
+      "en": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "I read a very critical review before deciding whether to see the film."
+      },
+      "de": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "Ich las eine sehr kritische Rezension, bevor ich entschied, ob ich den Film sehe."
+      },
+      "pl": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "Przeczytałem bardzo krytyczną recenzję, zanim zdecydowałem, czy iść na film."
+      },
+      "es": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "Leí una reseña muy crítica antes de decidir si iba a la película."
+      },
+      "fr": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "J'ai lu une critique très sévère avant de décider d'aller voir le film."
+      },
+      "ro": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "Am citit o recenzie foarte critică înainte să decid dacă merg la film."
+      },
+      "ru": {
+        "sentence": "Ho letto una recensione molto critica prima di decidere se andare al film.",
+        "translation": "Я прочитал очень критическую рецензию, прежде чем решить, идти ли на фильм."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_5",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Il palcoscenico",
+    "translations": {
+      "uk": "сцена",
+      "en": "the stage",
+      "de": "die Bühne",
+      "pl": "scena",
+      "es": "el escenario",
+      "fr": "la scène",
+      "ro": "scena",
+      "ru": "сцена"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "З нашого місця сцену було добре видно, навіть не встаючи."
+      },
+      "en": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "From our seats we could see the stage well, even without standing up."
+      },
+      "de": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "Von unserem Platz aus sah man die Bühne gut, auch ohne aufzustehen."
+      },
+      "pl": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "Z naszych miejsc dobrze było widać scenę, nawet bez wstawania."
+      },
+      "es": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "Desde nuestro sitio se veía bien el escenario, incluso sin levantarse."
+      },
+      "fr": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "De notre place on voyait bien la scène, même sans se lever."
+      },
+      "ro": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "De pe locurile noastre se vedea bine scena, chiar fără să ne ridicăm."
+      },
+      "ru": {
+        "sentence": "Dal nostro posto si vedeva bene il palcoscenico, anche senza alzarsi.",
+        "translation": "С наших мест сцену было хорошо видно, даже не вставая."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_6",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "L'intervallo",
+    "translations": {
+      "uk": "антракт",
+      "en": "the interval",
+      "de": "die Pause",
+      "pl": "antrakt",
+      "es": "el descanso",
+      "fr": "l'entracte",
+      "ro": "pauza",
+      "ru": "антракт"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "Під час антракту ми вийшли на каву, бо вистава була довга."
+      },
+      "en": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "During the interval we went out for a coffee because the show was long."
+      },
+      "de": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "In der Pause gingen wir einen Kaffee holen, weil die Vorstellung lang war."
+      },
+      "pl": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "W antrakcie wyszliśmy na kawę, bo przedstawienie było długie."
+      },
+      "es": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "En el descanso salimos a tomar un café porque el espectáculo era largo."
+      },
+      "fr": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "Pendant l'entracte nous sommes sortis prendre un café parce que le spectacle était long."
+      },
+      "ro": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "În pauză am ieșit să luăm o cafea pentru că spectacolul era lung."
+      },
+      "ru": {
+        "sentence": "Durante l'intervallo siamo usciti a prendere un caffè perché lo spettacolo era lungo.",
+        "translation": "Во время антракта мы вышли за кофе, потому что спектакль был длинным."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_7",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Il festival",
+    "translations": {
+      "uk": "фестиваль",
+      "en": "the festival",
+      "de": "das Festival",
+      "pl": "festiwal",
+      "es": "el festival",
+      "fr": "le festival",
+      "ro": "festivalul",
+      "ru": "фестиваль"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "Фестиваль займає всю площу, а концерти тривають до опівночі."
+      },
+      "en": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "The festival fills the whole square and the concerts go on until midnight."
+      },
+      "de": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "Das Festival nimmt den ganzen Platz ein und die Konzerte dauern bis Mitternacht."
+      },
+      "pl": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "Festiwal zajmuje cały plac, a koncerty trwają do północy."
+      },
+      "es": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "El festival ocupa toda la plaza y los conciertos siguen hasta medianoche."
+      },
+      "fr": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "Le festival occupe toute la place et les concerts continuent jusqu'à minuit."
+      },
+      "ro": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "Festivalul ocupă toată piața, iar concertele continuă până la miezul nopții."
+      },
+      "ru": {
+        "sentence": "Il festival occupa tutta la piazza e i concerti continuano fino a mezzanotte.",
+        "translation": "Фестиваль занимает всю площадь, а концерты идут до полуночи."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_8",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Il sottotitolo",
+    "translations": {
+      "uk": "субтитр",
+      "en": "the subtitle",
+      "de": "der Untertitel",
+      "pl": "napis",
+      "es": "el subtítulo",
+      "fr": "le sous-titre",
+      "ro": "subtitrarea",
+      "ru": "субтитры"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "Я дивився фільм мовою оригіналу з італійськими субтитрами."
+      },
+      "en": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "I watched the film in the original language with Italian subtitles."
+      },
+      "de": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "Ich sah den Film in der Originalsprache mit italienischen Untertiteln."
+      },
+      "pl": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "Oglądałem film w oryginale z włoskimi napisami."
+      },
+      "es": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "Vi la película en versión original con subtítulos en italiano."
+      },
+      "fr": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "J'ai suivi le film en version originale avec les sous-titres en italien."
+      },
+      "ro": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "Am urmărit filmul în original cu subtitrare în italiană."
+      },
+      "ru": {
+        "sentence": "Ho seguito il film in lingua originale con i sottotitoli in italiano.",
+        "translation": "Я смотрел фильм на языке оригинала с итальянскими субтитрами."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_9",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "La trama",
+    "translations": {
+      "uk": "сюжет",
+      "en": "the plot",
+      "de": "die Handlung",
+      "pl": "fabuła",
+      "es": "la trama",
+      "fr": "l'intrigue",
+      "ro": "intriga",
+      "ru": "сюжет"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "Сюжет стає зрозумілим лише в останній дії, коли всі герої зустрічаються."
+      },
+      "en": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "The plot becomes clear only in the last act, when all the characters meet."
+      },
+      "de": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "Die Handlung wird erst im letzten Akt klar, wenn alle Figuren sich treffen."
+      },
+      "pl": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "Fabuła staje się jasna dopiero w ostatnim akcie, gdy wszyscy bohaterowie się spotykają."
+      },
+      "es": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "La trama se aclara solo en el último acto, cuando todos los personajes se encuentran."
+      },
+      "fr": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "L'intrigue ne devient claire qu'au dernier acte, quand tous les personnages se rencontrent."
+      },
+      "ro": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "Intriga devine clară abia în ultimul act, când toate personajele se întâlnesc."
+      },
+      "ru": {
+        "sentence": "La trama diventa chiara solo nell'ultimo atto, quando tutti i personaggi si incontrano.",
+        "translation": "Сюжет становится ясным только в последнем акте, когда все герои встречаются."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_10",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Gli spettatori",
+    "translations": {
+      "en": "the spectators",
+      "uk": "глядачі",
+      "ru": "зрители",
+      "de": "die Zuschauer",
+      "pl": "widzowie",
+      "es": "los espectadores",
+      "fr": "les spectateurs",
+      "ro": "spectatorii"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Глядачі аплодують стоячи."
+      },
+      "en": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "The spectators give a standing ovation."
+      },
+      "de": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Die Zuschauer applaudieren im Stehen."
+      },
+      "pl": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Widzowie biją brawo na stojąco."
+      },
+      "es": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Los espectadores aplauden de pie."
+      },
+      "fr": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Les spectateurs applaudissent debout."
+      },
+      "ro": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Spectatorii aplaudă în picioare."
+      },
+      "ru": {
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Зрители аплодируют стоя."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_11",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "In scena",
+    "translations": {
+      "uk": "на сцені",
+      "en": "on stage",
+      "de": "auf der Bühne",
+      "pl": "na scenie",
+      "es": "en escena",
+      "fr": "sur scène",
+      "ro": "pe scenă",
+      "ru": "на сцене"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "Актриса лишилася на сцені сама майже десять хвилин і не сказала жодного слова."
+      },
+      "en": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "The actress stayed on stage alone for almost ten minutes without saying a word."
+      },
+      "de": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "Die Schauspielerin blieb fast zehn Minuten allein auf der Bühne, ohne ein Wort zu sagen."
+      },
+      "pl": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "Aktorka została sama na scenie prawie dziesięć minut i nie powiedziała ani słowa."
+      },
+      "es": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "La actriz se quedó sola en escena casi diez minutos sin decir una palabra."
+      },
+      "fr": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "L'actrice est restée seule en scène près de dix minutes sans dire un mot."
+      },
+      "ro": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "Actrița a rămas singură pe scenă aproape zece minute fără să spună un cuvânt."
+      },
+      "ru": {
+        "sentence": "L'attrice è rimasta in scena da sola per quasi dieci minuti senza dire una parola.",
+        "translation": "Актриса оставалась на сцене одна почти десять минут и не сказала ни слова."
+      }
+    }
+  },
+  {
+    "id": "b1_cultura_spettacolo_12",
+    "level": "B1",
+    "topic": "cultura_spettacolo",
+    "word": "Il museo",
+    "translations": {
+      "uk": "музей",
+      "en": "the museum",
+      "de": "das Museum",
+      "pl": "muzeum",
+      "es": "el museo",
+      "fr": "le musée",
+      "ro": "muzeul",
+      "ru": "музей"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Ми забронювали відвідування музею, бо на вихідних квитки швидко закінчуються."
+      },
+      "en": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "We booked the museum visit because tickets sell out quickly on weekends."
+      },
+      "de": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Wir haben den Museumsbesuch gebucht, weil die Karten am Wochenende schnell weg sind."
+      },
+      "pl": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Zarezerwowaliśmy wizytę w muzeum, bo w weekend bilety szybko się kończą."
+      },
+      "es": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Reservamos la visita al museo porque los fines de semana las entradas se agotan pronto."
+      },
+      "fr": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Nous avons réservé la visite du musée parce que le week-end les billets partent vite."
+      },
+      "ro": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Am rezervat vizita la muzeu pentru că în weekend biletele se termină repede."
+      },
+      "ru": {
+        "sentence": "Abbiamo prenotato la visita al museo perché nei fine settimana i biglietti finiscono presto.",
+        "translation": "Мы забронировали посещение музея, потому что на выходных билеты быстро заканчиваются."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_1",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il libretto",
+    "translations": {
+      "en": "the passbook",
+      "uk": "ощадна книжка",
+      "ru": "сберегательная книжка",
+      "de": "das Sparbuch",
+      "pl": "książeczka",
+      "es": "la libreta",
+      "fr": "le livret",
+      "ro": "libretul"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Книжка показує внески."
+      },
+      "en": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "The passbook shows the deposits."
+      },
+      "de": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Das Sparbuch zeigt die Einzahlungen."
+      },
+      "pl": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Książeczka pokazuje wpłaty."
+      },
+      "es": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "La libreta muestra los ingresos."
+      },
+      "fr": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Le livret montre les versements."
+      },
+      "ro": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Libretul arată depunerile."
+      },
+      "ru": {
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Книжка показывает взносы."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_2",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il versamento",
+    "translations": {
+      "en": "the deposit payment",
+      "uk": "внесення",
+      "ru": "взнос",
+      "de": "die Einzahlung",
+      "pl": "wpłata",
+      "es": "el ingreso",
+      "fr": "le versement",
+      "ro": "depunerea"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Внесення вже видно."
+      },
+      "en": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "The payment is already visible."
+      },
+      "de": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Die Einzahlung ist schon sichtbar."
+      },
+      "pl": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Wpłata jest już widoczna."
+      },
+      "es": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "El ingreso ya se ve."
+      },
+      "fr": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Le versement est déjà visible."
+      },
+      "ro": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Depunerea este deja vizibilă."
+      },
+      "ru": {
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Взнос уже виден."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_3",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il CRO",
+    "translations": {
+      "en": "the transfer code",
+      "uk": "код переказу",
+      "ru": "код перевода",
+      "de": "die Referenznummer",
+      "pl": "kod przelewu",
+      "es": "el código de transferencia",
+      "fr": "la référence",
+      "ro": "codul transferului"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Код ідентифікує переказ."
+      },
+      "en": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "The code identifies the transfer."
+      },
+      "de": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Die Referenznummer kennzeichnet die Überweisung."
+      },
+      "pl": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Kod identyfikuje przelew."
+      },
+      "es": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "El código identifica la transferencia."
+      },
+      "fr": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "La référence identifie le virement."
+      },
+      "ro": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Codul identifică transferul."
+      },
+      "ru": {
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Код идентифицирует перевод."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_4",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il costo fisso",
+    "translations": {
+      "en": "the fixed fee",
+      "uk": "фіксована плата",
+      "ru": "фиксированная плата",
+      "de": "die feste Gebühr",
+      "pl": "opłata stała",
+      "es": "el coste fijo",
+      "fr": "les frais fixes",
+      "ro": "costul fix"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Фіксована плата — два євро на місяць."
+      },
+      "en": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "The fixed fee is two euros a month."
+      },
+      "de": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Die feste Gebühr ist zwei Euro im Monat."
+      },
+      "pl": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Opłata stała to dwa euro miesięcznie."
+      },
+      "es": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "El coste fijo es de dos euros al mes."
+      },
+      "fr": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Les frais fixes sont de deux euros par mois."
+      },
+      "ro": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Costul fix este de doi euro pe lună."
+      },
+      "ru": {
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Фиксированная плата — два евро в месяц."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_5",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "La giacenza",
+    "translations": {
+      "en": "the balance on hand",
+      "uk": "залишок на рахунку",
+      "ru": "остаток на счёте",
+      "de": "der Bestand",
+      "pl": "stan konta",
+      "es": "el saldo disponible",
+      "fr": "le solde disponible",
+      "ro": "soldul disponibil"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Середній залишок низький."
+      },
+      "en": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "The average balance is low."
+      },
+      "de": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Der Durchschnittsbestand ist niedrig."
+      },
+      "pl": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Średni stan konta jest niski."
+      },
+      "es": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "El saldo medio es bajo."
+      },
+      "fr": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Le solde moyen est bas."
+      },
+      "ro": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Soldul mediu este mic."
+      },
+      "ru": {
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Средний остаток низкий."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_6",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il rendiconto",
+    "translations": {
+      "en": "the statement",
+      "uk": "звіт",
+      "ru": "отчёт",
+      "de": "der Bericht",
+      "pl": "zestawienie",
+      "es": "el informe",
+      "fr": "le relevé détaillé",
+      "ro": "raportul"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Звіт приходить щокварталу."
+      },
+      "en": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "The statement arrives every quarter."
+      },
+      "de": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Der Bericht kommt jedes Quartal."
+      },
+      "pl": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Zestawienie przychodzi co kwartał."
+      },
+      "es": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "El informe llega cada trimestre."
+      },
+      "fr": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Le relevé arrive chaque trimestre."
+      },
+      "ro": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Raportul vine în fiecare trimestru."
+      },
+      "ru": {
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Отчёт приходит каждый квартал."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_7",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Lo scoperto",
+    "translations": {
+      "en": "the overdraft balance",
+      "uk": "овердрафт",
+      "ru": "овердрафт",
+      "de": "die Überziehung",
+      "pl": "debet",
+      "es": "el descubierto",
+      "fr": "le découvert",
+      "ro": "descoperitul"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Овердрафт має високий відсоток."
+      },
+      "en": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "The overdraft has a high interest rate."
+      },
+      "de": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Die Überziehung hat hohe Zinsen."
+      },
+      "pl": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Debet ma wysokie oprocentowanie."
+      },
+      "es": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "El descubierto tiene un interés alto."
+      },
+      "fr": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Le découvert a un intérêt élevé."
+      },
+      "ro": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Descoperitul are o dobândă mare."
+      },
+      "ru": {
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "У овердрафта высокий процент."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_8",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il prestito",
+    "translations": {
+      "en": "the loan",
+      "uk": "позика",
+      "ru": "заём",
+      "de": "das Darlehen",
+      "pl": "pożyczka",
+      "es": "el préstamo",
+      "fr": "le prêt",
+      "ro": "împrumutul"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Позику платять частинами."
+      },
+      "en": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "The loan is paid in instalments."
+      },
+      "de": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Das Darlehen wird in Raten gezahlt."
+      },
+      "pl": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Pożyczkę spłaca się w ratach."
+      },
+      "es": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "El préstamo se paga en cuotas."
+      },
+      "fr": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Le prêt se paie en mensualités."
+      },
+      "ro": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Împrumutul se plătește în rate."
+      },
+      "ru": {
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Заём платят частями."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_9",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Il distributore",
+    "translations": {
+      "en": "the cash machine",
+      "uk": "банкомат",
+      "ru": "банкомат",
+      "de": "der Geldautomat",
+      "pl": "bankomat",
+      "es": "el cajero",
+      "fr": "le distributeur",
+      "ro": "bancomatul"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Банкомат не працює."
+      },
+      "en": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "The cash machine is out of order."
+      },
+      "de": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Der Geldautomat ist außer Betrieb."
+      },
+      "pl": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Bankomat jest nieczynny."
+      },
+      "es": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "El cajero está fuera de servicio."
+      },
+      "fr": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Le distributeur est hors service."
+      },
+      "ro": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Bancomatul este defect."
+      },
+      "ru": {
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Банкомат не работает."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_10",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "L'addebito",
+    "translations": {
+      "uk": "списання",
+      "en": "the debit",
+      "de": "die Abbuchung",
+      "pl": "obciążenie",
+      "es": "el cargo",
+      "fr": "le prélèvement",
+      "ro": "debitarea",
+      "ru": "списание"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "Автоматичне списання рахунку не пройшло, і мені довелося платити вручну."
+      },
+      "en": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "The automatic debit of the bill failed and I had to pay by hand."
+      },
+      "de": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "Die automatische Abbuchung der Rechnung ist fehlgeschlagen und ich musste selbst zahlen."
+      },
+      "pl": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "Automatyczne obciążenie rachunku nie przeszło i musiałem zapłacić ręcznie."
+      },
+      "es": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "El cargo automático de la factura falló y tuve que pagar a mano."
+      },
+      "fr": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "Le prélèvement automatique de la facture a échoué et j'ai dû payer à la main."
+      },
+      "ro": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "Debitarea automată a facturii a eșuat și a trebuit să plătesc manual."
+      },
+      "ru": {
+        "sentence": "L'addebito automatico della bolletta è fallito e ho dovuto pagare a mano.",
+        "translation": "Автоматическое списание счёта не прошло, и мне пришлось платить вручную."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_11",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "L'interesse",
+    "translations": {
+      "en": "the interest",
+      "uk": "відсоток",
+      "ru": "процент",
+      "de": "die Zinsen",
+      "pl": "odsetki",
+      "es": "el interés",
+      "fr": "les intérêts",
+      "ro": "dobânda"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Відсоток за позикою фіксований."
+      },
+      "en": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "The interest on the loan is fixed."
+      },
+      "de": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Die Zinsen auf das Darlehen sind fest."
+      },
+      "pl": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Odsetki od pożyczki są stałe."
+      },
+      "es": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "El interés del préstamo es fijo."
+      },
+      "fr": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Les intérêts du prêt sont fixes."
+      },
+      "ro": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Dobânda la împrumut este fixă."
+      },
+      "ru": {
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Процент по займу фиксированный."
+      }
+    }
+  },
+  {
+    "id": "b1_banca_servizi_12",
+    "level": "B1",
+    "topic": "banca_servizi",
+    "word": "Lo sportello",
+    "translations": {
+      "uk": "відділення",
+      "en": "the branch counter",
+      "de": "der Schalter",
+      "pl": "okienko",
+      "es": "la ventanilla",
+      "fr": "le guichet",
+      "ro": "ghișeul",
+      "ru": "отделение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "У відділенні мені сказали записатися, щоб змінити ліміти картки."
+      },
+      "en": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "At the counter they told me to book an appointment to change the card limits."
+      },
+      "de": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "Am Schalter sagte man mir, ich solle einen Termin machen, um die Kartenlimits zu ändern."
+      },
+      "pl": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "W okienku kazano mi umówić wizytę, żeby zmienić limity karty."
+      },
+      "es": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "En la ventanilla me dijeron que pidiera cita para cambiar los límites de la tarjeta."
+      },
+      "fr": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "Au guichet on m'a dit de prendre rendez-vous pour modifier les plafonds de la carte."
+      },
+      "ro": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "La ghișeu mi-au spus să fac o programare ca să modific limitele cardului."
+      },
+      "ru": {
+        "sentence": "Allo sportello mi hanno detto di prenotare un appuntamento per modificare i limiti della carta.",
+        "translation": "В отделении мне сказали записаться, чтобы изменить лимиты карты."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_1",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "L'inquinamento",
+    "translations": {
+      "uk": "забруднення",
+      "en": "pollution",
+      "de": "die Verschmutzung",
+      "pl": "zanieczyszczenie",
+      "es": "la contaminación",
+      "fr": "la pollution",
+      "ro": "poluarea",
+      "ru": "загрязнение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "Забруднення повітря гіршає в безвітряні дні, особливо в центрі."
+      },
+      "en": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "Air pollution gets worse on windless days, especially in the center."
+      },
+      "de": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "Die Luftverschmutzung wird an windstillen Tagen schlimmer, vor allem im Zentrum."
+      },
+      "pl": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "Zanieczyszczenie powietrza pogarsza się w bezwietrzne dni, zwłaszcza w centrum."
+      },
+      "es": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "La contaminación del aire empeora en los días sin viento, sobre todo en el centro."
+      },
+      "fr": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "La pollution de l'air empire les jours sans vent, surtout en centre-ville."
+      },
+      "ro": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "Poluarea aerului se agravează în zilele fără vânt, mai ales în centru."
+      },
+      "ru": {
+        "sentence": "L'inquinamento dell'aria peggiora nelle giornate senza vento, soprattutto in centro.",
+        "translation": "Загрязнение воздуха усиливается в безветренные дни, особенно в центре."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_2",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "Il riciclo",
+    "translations": {
+      "uk": "переробка",
+      "en": "recycling",
+      "de": "das Recycling",
+      "pl": "recykling",
+      "es": "el reciclaje",
+      "fr": "le recyclage",
+      "ro": "reciclarea",
+      "ru": "переработка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Переробка працює лише якщо ми добре розділяємо пластик, папір і скло перед тим, як викинути."
+      },
+      "en": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Recycling works only if we separate plastic, paper, and glass well before throwing them out."
+      },
+      "de": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Recycling funktioniert nur, wenn wir Plastik, Papier und Glas gut trennen, bevor wir sie wegwerfen."
+      },
+      "pl": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Recykling działa tylko wtedy, gdy dobrze oddzielimy plastik, papier i szkło."
+      },
+      "es": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "El reciclaje funciona solo si separamos bien plástico, papel y vidrio antes de tirarlos."
+      },
+      "fr": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Le recyclage ne marche que si nous séparons bien plastique, papier et verre avant de les jeter."
+      },
+      "ro": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Reciclarea funcționează doar dacă separăm bine plasticul, hârtia și sticla înainte să le aruncăm."
+      },
+      "ru": {
+        "sentence": "Il riciclo funziona solo se separiamo bene plastica, carta e vetro prima di buttarli.",
+        "translation": "Переработка работает только если мы хорошо разделяем пластик, бумагу и стекло перед тем, как выбросить."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_3",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "La siccità",
+    "translations": {
+      "uk": "посуха",
+      "en": "the drought",
+      "de": "die Dürre",
+      "pl": "susza",
+      "es": "la sequía",
+      "fr": "la sécheresse",
+      "ro": "seceta",
+      "ru": "засуха"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "Посуха цього літа зменшила запаси води в кількох громадах."
+      },
+      "en": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "This summer's drought reduced the water reserves of several towns."
+      },
+      "de": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "Die Dürre dieses Sommers hat die Wasservorräte mehrerer Gemeinden verringert."
+      },
+      "pl": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "Susza tego lata zmniejszyła zapasy wody w kilku gminach."
+      },
+      "es": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "La sequía de este verano redujo las reservas de agua de varios municipios."
+      },
+      "fr": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "La sécheresse de cet été a réduit les réserves d'eau de plusieurs communes."
+      },
+      "ro": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "Seceta din vara aceasta a redus rezervele de apă ale mai multor comune."
+      },
+      "ru": {
+        "sentence": "La siccità di questa estate ha ridotto le riserve d'acqua di diversi comuni.",
+        "translation": "Засуха этого лета сократила запасы воды в нескольких общинах."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_4",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "L'alluvione",
+    "translations": {
+      "uk": "повінь",
+      "en": "the flood",
+      "de": "das Hochwasser",
+      "pl": "powódź",
+      "es": "la inundación",
+      "fr": "l'inondation",
+      "ro": "inundația",
+      "ru": "наводнение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "Після повені багатьом родинам довелося покинути квартири на першому поверсі."
+      },
+      "en": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "After the flood many families had to leave the ground-floor homes."
+      },
+      "de": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "Nach dem Hochwasser mussten viele Familien die Wohnungen im Erdgeschoss verlassen."
+      },
+      "pl": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "Po powodzi wiele rodzin musiało opuścić mieszkania na parterze."
+      },
+      "es": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "Tras la inundación muchas familias tuvieron que dejar las casas de la planta baja."
+      },
+      "fr": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "Après l'inondation beaucoup de familles ont dû quitter les logements du rez-de-chaussée."
+      },
+      "ro": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "După inundație multe familii au trebuit să părăsească locuințele de la parter."
+      },
+      "ru": {
+        "sentence": "Dopo l'alluvione molte famiglie hanno dovuto lasciare le case al piano terra.",
+        "translation": "После наводнения многим семьям пришлось покинуть квартиры на первом этаже."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_5",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "Il rifiuto",
+    "translations": {
+      "uk": "відходи",
+      "en": "the waste",
+      "de": "der Abfall",
+      "pl": "odpad",
+      "es": "el residuo",
+      "fr": "le déchet",
+      "ro": "deșeul",
+      "ru": "отходы"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Органічні відходи йдуть у коричневий бак, не разом із пластиком."
+      },
+      "en": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Organic waste goes in the brown bin, not with the plastic."
+      },
+      "de": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Der Bioabfall kommt in die braune Tonne, nicht zum Plastik."
+      },
+      "pl": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Odpad organiczny trafia do brązowego pojemnika, nie razem z plastikiem."
+      },
+      "es": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "El residuo orgánico va al contenedor marrón, no con el plástico."
+      },
+      "fr": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Le déchet organique va dans le bac marron, pas avec le plastique."
+      },
+      "ro": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Deșeul organic merge în pubela maro, nu împreună cu plasticul."
+      },
+      "ru": {
+        "sentence": "Il rifiuto organico va nel bidone marrone, non insieme alla plastica.",
+        "translation": "Органические отходы идут в коричневый бак, а не вместе с пластиком."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_6",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "La specie",
+    "translations": {
+      "uk": "вид",
+      "en": "the species",
+      "de": "die Art",
+      "pl": "gatunek",
+      "es": "la especie",
+      "fr": "l'espèce",
+      "ro": "specia",
+      "ru": "вид"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Цей вид птахів повертається щовесни, але цього року ми бачили менше."
+      },
+      "en": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "This bird species returns every spring, but this year we saw fewer."
+      },
+      "de": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Diese Vogelart kommt jeden Frühling zurück, aber dieses Jahr haben wir weniger gesehen."
+      },
+      "pl": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Ten gatunek ptaków wraca każdej wiosny, ale w tym roku widzieliśmy ich mniej."
+      },
+      "es": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Esta especie de aves vuelve cada primavera, pero este año vimos menos."
+      },
+      "fr": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Cette espèce d'oiseaux revient chaque printemps, mais cette année nous en avons vu moins."
+      },
+      "ro": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Această specie de păsări se întoarce în fiecare primăvară, dar anul acesta am văzut mai puține."
+      },
+      "ru": {
+        "sentence": "Questa specie di uccelli torna ogni primavera, ma quest'anno ne abbiamo visti meno.",
+        "translation": "Этот вид птиц возвращается каждую весну, но в этом году мы видели меньше."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_7",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "Il sentiero",
+    "translations": {
+      "uk": "стежка",
+      "en": "the path",
+      "de": "der Pfad",
+      "pl": "ścieżka",
+      "es": "el sendero",
+      "fr": "le sentier",
+      "ro": "poteca",
+      "ru": "тропа"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "Стежка в лісі була слизька після дощу, і ми йшли повільніше."
+      },
+      "en": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "The path in the woods was slippery after the rain and we walked more slowly."
+      },
+      "de": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "Der Pfad im Wald war nach dem Regen rutschig und wir gingen langsamer."
+      },
+      "pl": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "Ścieżka w lesie była śliska po deszczu i szliśmy wolniej."
+      },
+      "es": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "El sendero del bosque estaba resbaladizo tras la lluvia y caminamos más despacio."
+      },
+      "fr": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "Le sentier dans le bois était glissant après la pluie et nous avons marché plus lentement."
+      },
+      "ro": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "Poteca din pădure era alunecoasă după ploaie și am mers mai încet."
+      },
+      "ru": {
+        "sentence": "Il sentiero nel bosco era scivoloso dopo la pioggia e abbiamo camminato più lentamente.",
+        "translation": "Тропа в лесу была скользкой после дождя, и мы шли медленнее."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_8",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "Risparmiare energia",
+    "translations": {
+      "uk": "економити енергію",
+      "en": "to save energy",
+      "de": "Energie sparen",
+      "pl": "oszczędzać energię",
+      "es": "ahorrar energía",
+      "fr": "économiser l'énergie",
+      "ro": "a economisi energie",
+      "ru": "экономить энергию"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Економити енергію вдома означає вимикати прилади, а не лишати їх у режимі очікування."
+      },
+      "en": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Saving energy at home means turning appliances off instead of leaving them on standby."
+      },
+      "de": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Energie sparen zu Hause heißt, Geräte auszuschalten statt sie im Standby zu lassen."
+      },
+      "pl": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Oszczędzanie energii w domu oznacza wyłączanie urządzeń zamiast zostawiania ich w trybie czuwania."
+      },
+      "es": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Ahorrar energía en casa significa apagar los aparatos en lugar de dejarlos en espera."
+      },
+      "fr": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Économiser l'énergie à la maison, c'est éteindre les appareils au lieu de les laisser en veille."
+      },
+      "ro": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "A economisi energie acasă înseamnă să oprești aparatele în loc să le lași în standby."
+      },
+      "ru": {
+        "sentence": "Risparmiare energia in casa significa spegnere gli apparecchi invece di lasciarli in standby.",
+        "translation": "Экономить энергию дома значит выключать приборы, а не оставлять их в режиме ожидания."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_9",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "Il parco naturale",
+    "translations": {
+      "uk": "природний парк",
+      "en": "the nature park",
+      "de": "der Naturpark",
+      "pl": "park przyrodniczy",
+      "es": "el parque natural",
+      "fr": "le parc naturel",
+      "ro": "parcul natural",
+      "ru": "природный парк"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "У природному парку заборонено розводити вогонь і сходити з позначених стежок."
+      },
+      "en": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "In the nature park it is forbidden to light fires and leave the marked paths."
+      },
+      "de": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "Im Naturpark ist es verboten, Feuer zu machen und die markierten Wege zu verlassen."
+      },
+      "pl": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "W parku przyrodniczym nie wolno palić ognisk ani schodzić ze znakowanych ścieżek."
+      },
+      "es": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "En el parque natural está prohibido encender fuego y salir de los senderos marcados."
+      },
+      "fr": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "Dans le parc naturel il est interdit d'allumer des feux et de quitter les sentiers balisés."
+      },
+      "ro": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "În parcul natural este interzis să aprinzi focuri și să ieși de pe potecile marcate."
+      },
+      "ru": {
+        "sentence": "Nel parco naturale è vietato accendere fuochi e uscire dai sentieri segnati.",
+        "translation": "В природном парке запрещено разводить огонь и сходить с отмеченных троп."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_10",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "La raccolta differenziata",
+    "translations": {
+      "uk": "роздільний збір",
+      "en": "separate waste collection",
+      "de": "die Mülltrennung",
+      "pl": "segregacja odpadów",
+      "es": "la recogida selectiva",
+      "fr": "le tri des déchets",
+      "ro": "colectarea selectivă",
+      "ru": "раздельный сбор"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Роздільний збір у нашому районі змінює день залежно від матеріалу."
+      },
+      "en": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Separate collection in our neighborhood changes day depending on the material."
+      },
+      "de": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Die Mülltrennung in unserem Viertel wechselt den Tag je nach Material."
+      },
+      "pl": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Segregacja odpadów w naszej dzielnicy zmienia dzień w zależności od materiału."
+      },
+      "es": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "La recogida selectiva en nuestro barrio cambia de día según el material."
+      },
+      "fr": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Le tri dans notre quartier change de jour selon le matériau."
+      },
+      "ro": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Colectarea selectivă în cartierul nostru schimbă ziua în funcție de material."
+      },
+      "ru": {
+        "sentence": "La raccolta differenziata nel nostro quartiere cambia giorno a seconda del materiale.",
+        "translation": "Раздельный сбор в нашем районе меняет день в зависимости от материала."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_11",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "L'habitat",
+    "translations": {
+      "uk": "середовище існування",
+      "en": "the habitat",
+      "de": "der Lebensraum",
+      "pl": "siedlisko",
+      "es": "el hábitat",
+      "fr": "l'habitat",
+      "ro": "habitatul",
+      "ru": "среда обитания"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "Будівництво дороги зменшило середовище тварин, які жили вздовж річки."
+      },
+      "en": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "Building the road reduced the habitat of the animals that lived along the river."
+      },
+      "de": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "Der Bau der Straße hat den Lebensraum der Tiere am Fluss verkleinert."
+      },
+      "pl": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "Budowa drogi zmniejszyła siedlisko zwierząt żyjących wzdłuż rzeki."
+      },
+      "es": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "La construcción de la carretera redujo el hábitat de los animales que vivían junto al río."
+      },
+      "fr": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "La construction de la route a réduit l'habitat des animaux qui vivaient le long du fleuve."
+      },
+      "ro": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "Construirea drumului a redus habitatul animalelor care trăiau de-a lungul râului."
+      },
+      "ru": {
+        "sentence": "La costruzione della strada ha ridotto l'habitat degli animali che vivevano lungo il fiume.",
+        "translation": "Строительство дороги сократило среду животных, которые жили вдоль реки."
+      }
+    }
+  },
+  {
+    "id": "b1_ambiente_natura_12",
+    "level": "B1",
+    "topic": "ambiente_natura",
+    "word": "Sostenibile",
+    "translations": {
+      "uk": "сталий",
+      "en": "sustainable",
+      "de": "nachhaltig",
+      "pl": "zrównoważony",
+      "es": "sostenible",
+      "fr": "durable",
+      "ro": "durabil",
+      "ru": "устойчивый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Ми шукаємо більш сталий спосіб пересуватися, користуючись транспортом замість авто щодня."
+      },
+      "en": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "We are looking for a more sustainable way to get around, using transit instead of the car every day."
+      },
+      "de": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Wir suchen eine nachhaltigere Art der Fortbewegung und nehmen täglich die Bahn statt das Auto."
+      },
+      "pl": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Szukamy bardziej zrównoważonego sposobu poruszania się, korzystając codziennie z komunikacji zamiast auta."
+      },
+      "es": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Buscamos una forma más sostenible de movernos, usando el transporte en lugar del coche cada día."
+      },
+      "fr": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Nous cherchons un moyen plus durable de nous déplacer, en prenant les transports au lieu de la voiture chaque jour."
+      },
+      "ro": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Căutăm un mod mai durabil de a ne deplasa, folosind transportul în locul mașinii în fiecare zi."
+      },
+      "ru": {
+        "sentence": "Cerchiamo un modo più sostenibile di spostarci, usando i mezzi invece dell'auto ogni giorno.",
+        "translation": "Мы ищем более устойчивый способ передвигаться, пользуясь транспортом вместо машины каждый день."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_1",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Il litigio",
+    "translations": {
+      "uk": "сварка",
+      "en": "the argument",
+      "de": "der Streit",
+      "pl": "kłótnia",
+      "es": "la discusión",
+      "fr": "la dispute",
+      "ro": "cearta",
+      "ru": "ссора"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "Сварка спалахнула через поспішне слово, і ніхто з двох не хотів зупинитися."
+      },
+      "en": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "The argument started over a sentence said in a hurry and neither of them wanted to stop."
+      },
+      "de": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "Der Streit brach wegen eines hastig gesagten Satzes aus und keiner wollte aufhören."
+      },
+      "pl": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "Kłótnia wybuchła przez zdanie powiedziane w pośpiechu i żadne z nich nie chciało przestać."
+      },
+      "es": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "La discusión estalló por una frase dicha deprisa y ninguno de los dos quería parar."
+      },
+      "fr": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "La dispute a éclaté à cause d'une phrase dite trop vite et aucun des deux ne voulait s'arrêter."
+      },
+      "ro": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "Cearta a izbucnit dintr-o frază spusă în grabă și niciunul nu voia să se oprească."
+      },
+      "ru": {
+        "sentence": "Il litigio è scoppiato per una frase detta di fretta e nessuno dei due voleva fermarsi.",
+        "translation": "Ссора вспыхнула из-за фразы, сказанной в спешке, и никто из двоих не хотел остановиться."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_2",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Il compromesso",
+    "translations": {
+      "uk": "компроміс",
+      "en": "the compromise",
+      "de": "der Kompromiss",
+      "pl": "kompromis",
+      "es": "el compromiso",
+      "fr": "le compromis",
+      "ro": "compromisul",
+      "ru": "компромисс"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Ми знайшли компроміс: я готую в будні, а ти на вихідних."
+      },
+      "en": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "We found a compromise: I cook on weekdays and you cook at the weekend."
+      },
+      "de": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Wir fanden einen Kompromiss: ich koche an Werktagen und du am Wochenende."
+      },
+      "pl": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Znaleźliśmy kompromis: ja gotuję w dni powszednie, a ty w weekend."
+      },
+      "es": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Encontramos un compromiso: yo cocino entre semana y tú el fin de semana."
+      },
+      "fr": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Nous avons trouvé un compromis : je cuisine en semaine et toi le week-end."
+      },
+      "ro": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Am găsit un compromis: eu gătesc în zilele lucrătoare, iar tu în weekend."
+      },
+      "ru": {
+        "sentence": "Abbiamo trovato un compromesso: io cucino nei giorni feriali e tu nel fine settimana.",
+        "translation": "Мы нашли компромисс: я готовлю в будни, а ты на выходных."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_3",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Il malinteso",
+    "translations": {
+      "uk": "непорозуміння",
+      "en": "the misunderstanding",
+      "de": "das Missverständnis",
+      "pl": "nieporozumienie",
+      "es": "el malentendido",
+      "fr": "le malentendu",
+      "ro": "neînțelegerea",
+      "ru": "недоразумение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "Непорозуміння виникло через повідомлення, прочитане надто швидко, без тону голосу."
+      },
+      "en": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "The misunderstanding came from a message read too quickly, without the tone of voice."
+      },
+      "de": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "Das Missverständnis entstand aus einer zu schnell gelesenen Nachricht, ohne den Tonfall."
+      },
+      "pl": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "Nieporozumienie wzięło się z wiadomości przeczytanej zbyt szybko, bez tonu głosu."
+      },
+      "es": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "El malentendido nació de un mensaje leído demasiado deprisa, sin el tono de voz."
+      },
+      "fr": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "Le malentendu est né d'un message lu trop vite, sans le ton de la voix."
+      },
+      "ro": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "Neînțelegerea s-a născut dintr-un mesaj citit prea repede, fără tonul vocii."
+      },
+      "ru": {
+        "sentence": "Il malinteso è nato da un messaggio letto troppo in fretta, senza il tono della voce.",
+        "translation": "Недоразумение возникло из сообщения, прочитанного слишком быстро, без тона голоса."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_4",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Scusarsi",
+    "translations": {
+      "uk": "вибачатися",
+      "en": "to apologize",
+      "de": "sich entschuldigen",
+      "pl": "przepraszać",
+      "es": "disculparse",
+      "fr": "s'excuser",
+      "ro": "a-și cere scuze",
+      "ru": "извиняться"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "Щиро вибачитися важливіше, ніж одразу шукати, хто винен."
+      },
+      "en": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "Apologizing sincerely matters more than immediately finding who was wrong."
+      },
+      "de": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "Sich ehrlich zu entschuldigen zählt mehr, als sofort zu suchen, wer schuld war."
+      },
+      "pl": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "Szczere przeprosiny znaczą więcej niż szybkie szukanie, kto zawinił."
+      },
+      "es": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "Disculparse de verdad importa más que encontrar enseguida quién tuvo la culpa."
+      },
+      "fr": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "S'excuser sincèrement compte plus que de chercher tout de suite qui a tort."
+      },
+      "ro": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "A-și cere scuze sincer contează mai mult decât a găsi imediat cine a greșit."
+      },
+      "ru": {
+        "sentence": "Scusarsi in modo sincero conta più che trovare subito chi ha avuto torto.",
+        "translation": "Искренне извиниться важнее, чем сразу искать, кто виноват."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_5",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Il rispetto",
+    "translations": {
+      "uk": "повага",
+      "en": "respect",
+      "de": "der Respekt",
+      "pl": "szacunek",
+      "es": "el respeto",
+      "fr": "le respect",
+      "ro": "respectul",
+      "ru": "уважение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Повага лишається навіть коли ми не згодні, як виховувати дітей."
+      },
+      "en": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Respect remains even when we disagree on how to raise the children."
+      },
+      "de": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Der Respekt bleibt, auch wenn wir uns nicht einig sind, wie wir die Kinder erziehen."
+      },
+      "pl": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Szacunek zostaje nawet gdy nie zgadzamy się, jak wychowywać dzieci."
+      },
+      "es": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "El respeto permanece incluso cuando no estamos de acuerdo en cómo educar a los hijos."
+      },
+      "fr": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Le respect reste même quand nous ne sommes pas d'accord sur l'éducation des enfants."
+      },
+      "ro": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Respectul rămâne chiar și când nu suntem de acord cum să creștem copiii."
+      },
+      "ru": {
+        "sentence": "Il rispetto resta anche quando non siamo d'accordo su come educare i figli.",
+        "translation": "Уважение остаётся даже когда мы не согласны, как воспитывать детей."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_6",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Il risentimento",
+    "translations": {
+      "en": "resentment",
+      "uk": "образа",
+      "ru": "обида",
+      "de": "der Groll",
+      "pl": "uraza",
+      "es": "el resentimiento",
+      "fr": "le ressentiment",
+      "ro": "resentimentul"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Образа росте в тиші."
+      },
+      "en": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Resentment grows in silence."
+      },
+      "de": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Der Groll wächst in der Stille."
+      },
+      "pl": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Uraza rośnie w ciszy."
+      },
+      "es": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "El resentimiento crece en silencio."
+      },
+      "fr": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Le ressentiment grandit en silence."
+      },
+      "ro": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Resentimentul crește în tăcere."
+      },
+      "ru": {
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Обида растёт в тишине."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_7",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Chiarire",
+    "translations": {
+      "uk": "прояснити",
+      "en": "to clarify",
+      "de": "klären",
+      "pl": "wyjaśnić",
+      "es": "aclarar",
+      "fr": "clarifier",
+      "ro": "a clarifica",
+      "ru": "прояснить"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Ми вирішили прояснити ситуацію особисто, а не писати далі довгі повідомлення."
+      },
+      "en": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "We decided to clarify the situation in person instead of continuing to write long messages."
+      },
+      "de": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Wir beschlossen, die Lage persönlich zu klären, statt weiter lange Nachrichten zu schreiben."
+      },
+      "pl": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Postanowiliśmy wyjaśnić sytuację osobiście zamiast pisać dalej długie wiadomości."
+      },
+      "es": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Decidimos aclarar la situación en persona en lugar de seguir escribiendo mensajes largos."
+      },
+      "fr": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Nous avons décidé de clarifier la situation en personne au lieu de continuer à écrire de longs messages."
+      },
+      "ro": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Am decis să clarificăm situația față în față în loc să continuăm cu mesaje lungi."
+      },
+      "ru": {
+        "sentence": "Abbiamo deciso di chiarire la situazione di persona invece di continuare a scrivere messaggi lunghi.",
+        "translation": "Мы решили прояснить ситуацию лично, а не продолжать писать длинные сообщения."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_8",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Il distacco",
+    "translations": {
+      "en": "detachment",
+      "uk": "відстороненість",
+      "ru": "отстранённость",
+      "de": "die Distanz",
+      "pl": "dystans",
+      "es": "el distanciamiento",
+      "fr": "le détachement",
+      "ro": "detașarea"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Відстороненість робить розмову холодною."
+      },
+      "en": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Detachment makes the conversation cold."
+      },
+      "de": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Distanz macht das Gespräch kalt."
+      },
+      "pl": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Dystans ochładza rozmowę."
+      },
+      "es": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "El distanciamiento enfría el diálogo."
+      },
+      "fr": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Le détachement rend le dialogue froid."
+      },
+      "ro": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Detașarea face dialogul rece."
+      },
+      "ru": {
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Отстранённость делает разговор холодным."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_9",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Perdonare",
+    "translations": {
+      "uk": "пробачити",
+      "en": "to forgive",
+      "de": "verzeihen",
+      "pl": "wybaczyć",
+      "es": "perdonar",
+      "fr": "pardonner",
+      "ro": "a ierta",
+      "ru": "простить"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "Пробачити не означає одразу забути, а перестати використовувати той факт у кожній розмові."
+      },
+      "en": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "To forgive does not mean forgetting at once, but stopping using that fact in every argument."
+      },
+      "de": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "Verzeihen heißt nicht, sofort zu vergessen, sondern aufzuhören, diese Sache in jedem Streit zu benutzen."
+      },
+      "pl": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "Wybaczyć nie znaczy od razu zapomnieć, ale przestać używać tego faktu w każdej kłótni."
+      },
+      "es": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "Perdonar no significa olvidar enseguida, sino dejar de usar ese hecho en cada discusión."
+      },
+      "fr": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "Pardonner ne veut pas dire oublier tout de suite, mais cesser d'utiliser ce fait dans chaque dispute."
+      },
+      "ro": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "A ierta nu înseamnă a uita imediat, ci a nu mai folosi acel fapt în fiecare ceartă."
+      },
+      "ru": {
+        "sentence": "Perdonare non significa dimenticare subito, ma smettere di usare quel fatto in ogni discussione.",
+        "translation": "Простить не значит сразу забыть, а перестать использовать тот факт в каждом споре."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_10",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "La fiducia",
+    "translations": {
+      "uk": "довіра",
+      "en": "trust",
+      "de": "das Vertrauen",
+      "pl": "zaufanie",
+      "es": "la confianza",
+      "fr": "la confiance",
+      "ro": "încrederea",
+      "ru": "доверие"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "Довіра відновлюється повільно, маленькими вчинками, повтореними з часом."
+      },
+      "en": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "Trust is rebuilt slowly, with small acts repeated over time."
+      },
+      "de": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "Vertrauen baut sich langsam wieder auf, mit kleinen Gesten, die sich wiederholen."
+      },
+      "pl": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "Zaufanie odbudowuje się powoli, małymi gestami powtarzanymi w czasie."
+      },
+      "es": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "La confianza se reconstruye despacio, con gestos pequeños repetidos en el tiempo."
+      },
+      "fr": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "La confiance se reconstruit lentement, par de petits gestes répétés dans le temps."
+      },
+      "ro": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "Încrederea se reconstruiește încet, prin gesturi mici repetate în timp."
+      },
+      "ru": {
+        "sentence": "La fiducia si ricostruisce piano, con gesti piccoli ripetuti nel tempo.",
+        "translation": "Доверие восстанавливается медленно, маленькими поступками, повторёнными со временем."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_11",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Offendersi",
+    "translations": {
+      "uk": "ображатися",
+      "en": "to take offense",
+      "de": "sich beleidigt fühlen",
+      "pl": "obrażać się",
+      "es": "ofenderse",
+      "fr": "se vexer",
+      "ro": "a se supăra",
+      "ru": "обижаться"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "Він образився на жарт, який для мене був лише способом зняти напругу."
+      },
+      "en": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "He took offense at a joke that for me was only a way to lighten the mood."
+      },
+      "de": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "Er fühlte sich durch einen Witz beleidigt, der für mich nur die Spannung lösen sollte."
+      },
+      "pl": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "Obraził się na żart, który dla mnie był tylko sposobem na rozładowanie napięcia."
+      },
+      "es": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "Se ofendió por una broma que para mí era solo una forma de quitar tensión."
+      },
+      "fr": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "Il s'est vexé pour une blague qui pour moi n'était qu'une façon de détendre l'atmosphère."
+      },
+      "ro": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "S-a supărat pe o glumă care pentru mine era doar un mod de a destinde atmosfera."
+      },
+      "ru": {
+        "sentence": "Si è offeso per una battuta che per me era solo un modo di sdrammatizzare.",
+        "translation": "Он обиделся на шутку, которая для меня была лишь способом снять напряжение."
+      }
+    }
+  },
+  {
+    "id": "b1_relazioni_conflitti_12",
+    "level": "B1",
+    "topic": "relazioni_conflitti",
+    "word": "Dialogare",
+    "translations": {
+      "uk": "вести діалог",
+      "en": "to talk things through",
+      "de": "im Dialog bleiben",
+      "pl": "rozmawiać",
+      "es": "dialogar",
+      "fr": "dialoguer",
+      "ro": "a dialoga",
+      "ru": "вести диалог"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Ми вирішили поговорити після вечері, коли обидва були спокійніші."
+      },
+      "en": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "We chose to talk things through after dinner, when we were both calmer."
+      },
+      "de": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Wir beschlossen, nach dem Abendessen zu reden, als wir beide ruhiger waren."
+      },
+      "pl": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Wybraliśmy rozmowę po kolacji, gdy oboje byliśmy spokojniejsi."
+      },
+      "es": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Elegimos dialogar después de cenar, cuando los dos estábamos más tranquilos."
+      },
+      "fr": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Nous avons choisi de dialoguer après le dîner, quand nous étions tous les deux plus calmes."
+      },
+      "ro": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Am ales să dialogăm după cină, când amândoi eram mai calmi."
+      },
+      "ru": {
+        "sentence": "Abbiamo scelto di dialogare dopo cena, quando entrambi eravamo più calmi.",
+        "translation": "Мы решили поговорить после ужина, когда оба были спокойнее."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_1",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "Il guasto",
+    "translations": {
+      "uk": "поломка",
+      "en": "the breakdown",
+      "de": "der Defekt",
+      "pl": "awaria",
+      "es": "la avería",
+      "fr": "la panne",
+      "ro": "defecțiunea",
+      "ru": "поломка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "Поломка котла сталася вночі, і вранці не було гарячої води."
+      },
+      "en": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "The boiler breakdown appeared at night and in the morning there was no hot water."
+      },
+      "de": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "Der Defekt der Heizung trat nachts auf und morgens gab es kein warmes Wasser."
+      },
+      "pl": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "Awaria kotła pojawiła się w nocy i rano nie było ciepłej wody."
+      },
+      "es": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "La avería de la caldera apareció de noche y por la mañana no había agua caliente."
+      },
+      "fr": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "La panne de la chaudière est apparue la nuit et le matin il n'y avait pas d'eau chaude."
+      },
+      "ro": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "Defecțiunea centralei a apărut noaptea și dimineața nu era apă caldă."
+      },
+      "ru": {
+        "sentence": "Il guasto alla caldaia è comparso di notte e al mattino non c'era acqua calda.",
+        "translation": "Поломка котла случилась ночью, и утром не было горячей воды."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_2",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "L'idraulico",
+    "translations": {
+      "uk": "сантехнік",
+      "en": "the plumber",
+      "de": "der Klempner",
+      "pl": "hydraulik",
+      "es": "el fontanero",
+      "fr": "le plombier",
+      "ro": "instalatorul",
+      "ru": "сантехник"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "Сантехнік може прийти лише в четвер, а поки ми перекрили воду під раковиною."
+      },
+      "en": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "The plumber can come only on Thursday and meanwhile we shut off the water under the sink."
+      },
+      "de": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "Der Klempner kann erst Donnerstag kommen und inzwischen haben wir das Wasser unter dem Waschbecken abgestellt."
+      },
+      "pl": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "Hydraulik może przyjść dopiero w czwartek, a na razie zakręciliśmy wodę pod zlewem."
+      },
+      "es": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "El fontanero solo puede venir el jueves y mientras tanto cerramos el agua bajo el fregadero."
+      },
+      "fr": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "Le plombier ne peut venir que jeudi et en attendant nous avons coupé l'eau sous l'évier."
+      },
+      "ro": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "Instalatorul poate veni abia joi, iar între timp am închis apa de sub chiuvetă."
+      },
+      "ru": {
+        "sentence": "L'idraulico può venire solo giovedì e nel frattempo abbiamo chiuso l'acqua sotto il lavandino.",
+        "translation": "Сантехник может прийти только в четверг, а пока мы перекрыли воду под раковиной."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_3",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "La perdita",
+    "translations": {
+      "uk": "протікання",
+      "en": "the leak",
+      "de": "das Leck",
+      "pl": "przeciek",
+      "es": "la fuga",
+      "fr": "la fuite",
+      "ro": "scurgerea",
+      "ru": "протечка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "Протікання під мийкою заплямило шафку, і ми поставили відро."
+      },
+      "en": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "The leak under the sink stained the cabinet and we put a bucket there."
+      },
+      "de": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "Das Leck unter der Spüle hat den Schrank fleckig gemacht und wir haben einen Eimer gestellt."
+      },
+      "pl": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "Przeciek pod zlewem poplamił szafkę i postawiliśmy wiadro."
+      },
+      "es": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "La fuga bajo el fregadero manchó el mueble y pusimos un cubo."
+      },
+      "fr": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "La fuite sous l'évier a taché le meuble et nous avons mis un seau."
+      },
+      "ro": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "Scurgerea de sub chiuvetă a pătat dulapul și am pus o găleată."
+      },
+      "ru": {
+        "sentence": "La perdita sotto il lavello ha macchiato il mobile e abbiamo messo un secchio.",
+        "translation": "Протечка под мойкой испачкала шкаф, и мы поставили ведро."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_4",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "La bolletta",
+    "translations": {
+      "uk": "рахунок",
+      "en": "the bill",
+      "de": "die Rechnung",
+      "pl": "rachunek",
+      "es": "la factura",
+      "fr": "la facture",
+      "ro": "factura",
+      "ru": "счёт"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "Рахунок за світло набагато вищий, ніж минулого місяця, і ми не розуміємо чому."
+      },
+      "en": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "The electricity bill is much higher than last month and we do not understand why."
+      },
+      "de": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "Die Stromrechnung ist viel höher als letzten Monat und wir verstehen nicht warum."
+      },
+      "pl": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "Rachunek za prąd jest dużo wyższy niż w zeszłym miesiącu i nie wiemy dlaczego."
+      },
+      "es": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "La factura de la luz es mucho más alta que el mes pasado y no entendemos por qué."
+      },
+      "fr": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "La facture d'électricité est bien plus élevée que le mois dernier et nous ne comprenons pas pourquoi."
+      },
+      "ro": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "Factura la curent este mult mai mare decât luna trecută și nu înțelegem de ce."
+      },
+      "ru": {
+        "sentence": "La bolletta della luce è molto più alta del mese scorso e non capiamo perché.",
+        "translation": "Счёт за свет намного выше, чем в прошлом месяце, и мы не понимаем почему."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_5",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "Il proprietario",
+    "translations": {
+      "uk": "власник",
+      "en": "the landlord",
+      "de": "der Vermieter",
+      "pl": "właściciel",
+      "es": "el propietario",
+      "fr": "le propriétaire",
+      "ro": "proprietarul",
+      "ru": "хозяин"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "Я написав власнику з фото поломки і датою, коли вона з'явилася."
+      },
+      "en": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "I wrote to the landlord with photos of the breakdown and the date it appeared."
+      },
+      "de": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "Ich schrieb dem Vermieter mit Fotos des Defekts und dem Datum, an dem er auftrat."
+      },
+      "pl": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "Napisałem do właściciela ze zdjęciami awarii i datą, kiedy się pojawiła."
+      },
+      "es": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "Escribí al propietario con fotos de la avería y la fecha en que apareció."
+      },
+      "fr": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "J'ai écrit au propriétaire avec les photos de la panne et la date où elle est apparue."
+      },
+      "ro": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "I-am scris proprietarului cu pozele defecțiunii și data la care a apărut."
+      },
+      "ru": {
+        "sentence": "Ho scritto al proprietario con le foto del guasto e la data in cui è comparso.",
+        "translation": "Я написал хозяину с фото поломки и датой, когда она появилась."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_6",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "La riparazione",
+    "translations": {
+      "uk": "ремонт",
+      "en": "the repair",
+      "de": "die Reparatur",
+      "pl": "naprawa",
+      "es": "la reparación",
+      "fr": "la réparation",
+      "ro": "reparația",
+      "ru": "ремонт"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "Ремонт за рахунок власника, бо поломка не через неправильне користування."
+      },
+      "en": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "The repair is the landlord's responsibility because the breakdown is not from misuse."
+      },
+      "de": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "Die Reparatur trägt der Vermieter, weil der Defekt nicht von falschem Gebrauch kommt."
+      },
+      "pl": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "Naprawa jest po stronie właściciela, bo awaria nie wynika ze złego użytkowania."
+      },
+      "es": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "La reparación corre a cargo del propietario porque la avería no viene de un mal uso."
+      },
+      "fr": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "La réparation est à la charge du propriétaire parce que la panne ne vient pas d'un mauvais usage."
+      },
+      "ro": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "Reparația este în sarcina proprietarului pentru că defecțiunea nu vine dintr-o folosire greșită."
+      },
+      "ru": {
+        "sentence": "La riparazione è a carico del proprietario perché il guasto non dipende da un uso scorretto.",
+        "translation": "Ремонт за счёт хозяина, потому что поломка не из-за неправильного использования."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_7",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "L'umidità",
+    "translations": {
+      "uk": "вологість",
+      "en": "damp",
+      "de": "die Feuchtigkeit",
+      "pl": "wilgoć",
+      "es": "la humedad",
+      "fr": "l'humidité",
+      "ro": "umiditatea",
+      "ru": "сырость"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "Вологість на стіні у ванній повернулася після дощів, і видно темну пляму."
+      },
+      "en": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "The damp on the bathroom wall came back after the rain and a dark stain is visible."
+      },
+      "de": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "Die Feuchtigkeit an der Badezimmerwand ist nach dem Regen zurück und man sieht einen dunklen Fleck."
+      },
+      "pl": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "Wilgoć na ścianie w łazience wróciła po deszczach i widać ciemną plamę."
+      },
+      "es": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "La humedad en la pared del baño volvió tras las lluvias y se ve una mancha oscura."
+      },
+      "fr": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "L'humidité sur le mur de la salle de bain est revenue après les pluies et on voit une tache sombre."
+      },
+      "ro": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "Umiditatea de pe peretele băii a revenit după ploi și se vede o pată închisă."
+      },
+      "ru": {
+        "sentence": "L'umidità sul muro del bagno è tornata dopo le piogge e si vede una macchia scura.",
+        "translation": "Сырость на стене в ванной вернулась после дождей, и видна тёмная пятно."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_8",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "Il citofono",
+    "translations": {
+      "uk": "домофон",
+      "en": "the intercom",
+      "de": "die Gegensprechanlage",
+      "pl": "domofon",
+      "es": "el portero automático",
+      "fr": "l'interphone",
+      "ro": "interfonul",
+      "ru": "домофон"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "Домофон не дзвонить уже три дні, і кур'єри лишають пакунки в сусіда."
+      },
+      "en": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "The intercom has not rung for three days and couriers leave parcels with the neighbor."
+      },
+      "de": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "Die Gegensprechanlage klingelt seit drei Tagen nicht und die Boten lassen die Pakete beim Nachbarn."
+      },
+      "pl": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "Domofon nie dzwoni od trzech dni i kurierzy zostawiają paczki u sąsiada."
+      },
+      "es": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "El portero no suena desde hace tres días y los mensajeros dejan los paquetes al vecino."
+      },
+      "fr": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "L'interphone ne sonne plus depuis trois jours et les livreurs laissent les colis chez le voisin."
+      },
+      "ro": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "Interfonul nu sună de trei zile, iar curierii lasă pachetele la vecin."
+      },
+      "ru": {
+        "sentence": "Il citofono non suona da tre giorni e i corrieri lasciano i pacchi dal vicino.",
+        "translation": "Домофон не звонит уже три дня, и курьеры оставляют посылки у соседа."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_9",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "La caparra",
+    "translations": {
+      "uk": "завдаток",
+      "en": "the deposit",
+      "de": "die Kaution",
+      "pl": "kaucja",
+      "es": "la fianza",
+      "fr": "la caution",
+      "ro": "garanția",
+      "ru": "задаток"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "Власник утримує частину завдатку, доки не перевірить пошкодження стіни."
+      },
+      "en": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "The landlord keeps part of the deposit until he checks the damage to the wall."
+      },
+      "de": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "Der Vermieter behält einen Teil der Kaution, bis er den Schaden an der Wand prüft."
+      },
+      "pl": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "Właściciel zatrzymuje część kaucji, dopóki nie sprawdzi uszkodzenia ściany."
+      },
+      "es": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "El propietario retiene parte de la fianza hasta comprobar los daños en la pared."
+      },
+      "fr": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "Le propriétaire retient une partie de la caution tant qu'il n'a pas vérifié les dégâts au mur."
+      },
+      "ro": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "Proprietarul reține o parte din garanție până verifică daunele de pe perete."
+      },
+      "ru": {
+        "sentence": "Il proprietario trattiene una parte della caparra finché non verifica i danni al muro.",
+        "translation": "Хозяин удерживает часть задатка, пока не проверит повреждения стены."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_10",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "Sostituire",
+    "translations": {
+      "uk": "замінити",
+      "en": "to replace",
+      "de": "ersetzen",
+      "pl": "wymienić",
+      "es": "sustituir",
+      "fr": "remplacer",
+      "ro": "a înlocui",
+      "ru": "заменить"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Їм довелося замінити трубу, бо тимчасовий ремонт не тримався."
+      },
+      "en": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "They had to replace the pipe because the temporary repair did not hold."
+      },
+      "de": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Sie mussten das Rohr ersetzen, weil die provisorische Reparatur nicht hielt."
+      },
+      "pl": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Musieli wymienić rurę, bo tymczasowa naprawa nie trzymała."
+      },
+      "es": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Tuvieron que sustituir el tubo porque la reparación provisional no aguantaba."
+      },
+      "fr": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Ils ont dû remplacer le tuyau parce que la réparation provisoire ne tenait pas."
+      },
+      "ro": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Au trebuit să înlocuiască țeava pentru că reparația provizorie nu ținea."
+      },
+      "ru": {
+        "sentence": "Hanno dovuto sostituire il tubo perché la riparazione provvisoria non teneva.",
+        "translation": "Им пришлось заменить трубу, потому что временный ремонт не держался."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_11",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "L'elettricista",
+    "translations": {
+      "uk": "електрик",
+      "en": "the electrician",
+      "de": "der Elektriker",
+      "pl": "elektryk",
+      "es": "el electricista",
+      "fr": "l'électricien",
+      "ro": "electricianul",
+      "ru": "электрик"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "Електрик сказав, що розетку на кухні треба замінити, перш ніж знову виб'є світло."
+      },
+      "en": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "The electrician said the kitchen socket must be changed before the power trips again."
+      },
+      "de": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "Der Elektriker sagte, die Steckdose in der Küche müsse gewechselt werden, bevor wieder der Strom ausfällt."
+      },
+      "pl": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "Elektryk powiedział, że gniazdko w kuchni trzeba wymienić, zanim znowu wyskoczy prąd."
+      },
+      "es": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "El electricista dijo que hay que cambiar el enchufe de la cocina antes de que vuelva a saltar la luz."
+      },
+      "fr": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "L'électricien a dit qu'il faut changer la prise de la cuisine avant que le courant ne saute encore."
+      },
+      "ro": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "Electricianul a spus că priza din bucătărie trebuie schimbată înainte să sară din nou curentul."
+      },
+      "ru": {
+        "sentence": "L'elettricista ha detto che la presa in cucina è da cambiare prima che salti di nuovo la corrente.",
+        "translation": "Электрик сказал, что розетку на кухне надо заменить, прежде чем снова выбьет свет."
+      }
+    }
+  },
+  {
+    "id": "b1_problemi_riparazioni_12",
+    "level": "B1",
+    "topic": "problemi_riparazioni",
+    "word": "In garanzia",
+    "translations": {
+      "uk": "на гарантії",
+      "en": "under warranty",
+      "de": "unter Garantie",
+      "pl": "na gwarancji",
+      "es": "en garantía",
+      "fr": "sous garantie",
+      "ro": "în garanție",
+      "ru": "на гарантии"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "Посудомийна машина ще на гарантії, тож ремонт не має нічого коштувати."
+      },
+      "en": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "The dishwasher is still under warranty, so the repair should cost nothing."
+      },
+      "de": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "Der Geschirrspüler ist noch unter Garantie, also sollte die Reparatur nichts kosten."
+      },
+      "pl": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "Zmywarka jest jeszcze na gwarancji, więc naprawa nie powinna nic kosztować."
+      },
+      "es": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "El lavavajillas sigue en garantía, así que la reparación no debería costar nada."
+      },
+      "fr": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "Le lave-vaisselle est encore sous garantie, donc la réparation ne devrait rien coûter."
+      },
+      "ro": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "Mașina de spălat vase este încă în garanție, deci reparația nu ar trebui să coste nimic."
+      },
+      "ru": {
+        "sentence": "La lavastoviglie è ancora in garanzia, quindi la riparazione non dovrebbe costare nulla.",
+        "translation": "Посудомоечная машина ещё на гарантии, поэтому ремонт не должен ничего стоить."
+      }
+    }
+  }
+]

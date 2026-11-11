@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "a2_mobili_pulizia_1",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "L'armadio",
+    "translations": {
+      "uk": "шафа",
+      "en": "the wardrobe",
+      "de": "der Schrank",
+      "pl": "szafa",
+      "es": "el armario",
+      "fr": "l'armoire",
+      "ro": "dulapul",
+      "ru": "шкаф"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "Шафа в спальні повна."
+      },
+      "en": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "The bedroom wardrobe is full."
+      },
+      "de": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "Der Schrank im Schlafzimmer ist voll."
+      },
+      "pl": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "Szafa w sypialni jest pełna."
+      },
+      "es": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "El armario del dormitorio está lleno."
+      },
+      "fr": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "L'armoire de la chambre est pleine."
+      },
+      "ro": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "Dulapul din dormitor este plin."
+      },
+      "ru": {
+        "sentence": "L'armadio della camera è pieno.",
+        "translation": "Шкаф в спальне полный."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_2",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "Lo scaffale",
+    "translations": {
+      "uk": "стелаж",
+      "en": "the shelf unit",
+      "de": "das Regal",
+      "pl": "regał",
+      "es": "la estantería",
+      "fr": "l'étagère",
+      "ro": "raftul",
+      "ru": "стеллаж"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Я ставлю книжки на стелаж."
+      },
+      "en": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "I put the books on the shelf."
+      },
+      "de": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Ich stelle die Bücher ins Regal."
+      },
+      "pl": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Kładę książki na regał."
+      },
+      "es": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Pongo los libros en la estantería."
+      },
+      "fr": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Je mets les livres sur l'étagère."
+      },
+      "ro": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Pun cărțile pe raft."
+      },
+      "ru": {
+        "sentence": "Metto i libri sullo scaffale.",
+        "translation": "Я ставлю книги на стеллаж."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_3",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "L'aspirapolvere",
+    "translations": {
+      "uk": "пилосос",
+      "en": "the vacuum cleaner",
+      "de": "der Staubsauger",
+      "pl": "odkurzacz",
+      "es": "la aspiradora",
+      "fr": "l'aspirateur",
+      "ro": "aspiratorul",
+      "ru": "пылесос"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Я пилосошу у вітальні."
+      },
+      "en": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "I vacuum the living room."
+      },
+      "de": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Ich sauge das Wohnzimmer."
+      },
+      "pl": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Odkurzam salon."
+      },
+      "es": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Paso la aspiradora en el salón."
+      },
+      "fr": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Je passe l'aspirateur dans le séjour."
+      },
+      "ro": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Dau cu aspiratorul în sufragerie."
+      },
+      "ru": {
+        "sentence": "Passo l'aspirapolvere nel soggiorno.",
+        "translation": "Я пылесошу в гостиной."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_4",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "Il detersivo",
+    "translations": {
+      "uk": "засіб для прибирання",
+      "en": "the detergent",
+      "de": "das Reinigungsmittel",
+      "pl": "detergent",
+      "es": "el detergente",
+      "fr": "le détergent",
+      "ro": "detergentul",
+      "ru": "моющее средство"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "Засіб стоїть під мийкою."
+      },
+      "en": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "The detergent is under the sink."
+      },
+      "de": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "Das Reinigungsmittel ist unter der Spüle."
+      },
+      "pl": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "Detergent jest pod zlewem."
+      },
+      "es": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "El detergente está bajo el fregadero."
+      },
+      "fr": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "Le détergent est sous l'évier."
+      },
+      "ro": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "Detergentul este sub chiuvetă."
+      },
+      "ru": {
+        "sentence": "Il detersivo è sotto il lavello.",
+        "translation": "Средство стоит под мойкой."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_5",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "La scopa",
+    "translations": {
+      "uk": "мітла",
+      "en": "the broom",
+      "de": "der Besen",
+      "pl": "miotła",
+      "es": "la escoba",
+      "fr": "le balai",
+      "ro": "mătura",
+      "ru": "метла"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Я беру мітлу для коридору."
+      },
+      "en": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "I take the broom for the hallway."
+      },
+      "de": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Ich nehme den Besen für den Flur."
+      },
+      "pl": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Biorę miotłę do korytarza."
+      },
+      "es": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Cojo la escoba para el pasillo."
+      },
+      "fr": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Je prends le balai pour le couloir."
+      },
+      "ro": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Iau mătura pentru hol."
+      },
+      "ru": {
+        "sentence": "Prendo la scopa per il corridoio.",
+        "translation": "Я беру метлу для коридора."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_6",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "Il secchio",
+    "translations": {
+      "uk": "відро",
+      "en": "the bucket",
+      "de": "der Eimer",
+      "pl": "wiadro",
+      "es": "el cubo",
+      "fr": "le seau",
+      "ro": "găleata",
+      "ru": "ведро"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Я наповнюю відро гарячою водою."
+      },
+      "en": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "I fill the bucket with hot water."
+      },
+      "de": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Ich fülle den Eimer mit heißem Wasser."
+      },
+      "pl": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Napełniam wiadro gorącą wodą."
+      },
+      "es": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Lleno el cubo de agua caliente."
+      },
+      "fr": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Je remplis le seau d'eau chaude."
+      },
+      "ro": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Umplu găleata cu apă caldă."
+      },
+      "ru": {
+        "sentence": "Riempio il secchio di acqua calda.",
+        "translation": "Я наполняю ведро горячей водой."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_7",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "Il panno",
+    "translations": {
+      "uk": "ганчірка",
+      "en": "the cloth",
+      "de": "das Tuch",
+      "pl": "ściereczka",
+      "es": "el paño",
+      "fr": "le chiffon",
+      "ro": "cârpa",
+      "ru": "тряпка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Я витираю стіл ганчіркою."
+      },
+      "en": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "I wipe the table with a cloth."
+      },
+      "de": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Ich wische den Tisch mit einem Tuch."
+      },
+      "pl": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Wycieram stół ściereczką."
+      },
+      "es": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Limpio la mesa con un paño."
+      },
+      "fr": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Je nettoie la table avec un chiffon."
+      },
+      "ro": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Șterg masa cu o cârpă."
+      },
+      "ru": {
+        "sentence": "Pulisco il tavolo con un panno.",
+        "translation": "Я вытираю стол тряпкой."
+      }
+    }
+  },
+  {
+    "id": "a2_mobili_pulizia_8",
+    "level": "A2",
+    "topic": "mobili_pulizia",
+    "word": "La lavatrice",
+    "translations": {
+      "uk": "пральна машина",
+      "en": "the washing machine",
+      "de": "die Waschmaschine",
+      "pl": "pralka",
+      "es": "la lavadora",
+      "fr": "la machine à laver",
+      "ro": "mașina de spălat",
+      "ru": "стиральная машина"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "Пральна машина закінчить за двадцять хвилин."
+      },
+      "en": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "The washing machine finishes in twenty minutes."
+      },
+      "de": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "Die Waschmaschine ist in zwanzig Minuten fertig."
+      },
+      "pl": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "Pralka skończy za dwadzieścia minut."
+      },
+      "es": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "La lavadora termina en veinte minutos."
+      },
+      "fr": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "La machine finit dans vingt minutes."
+      },
+      "ro": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "Mașina de spălat termină în douăzeci de minute."
+      },
+      "ru": {
+        "sentence": "La lavatrice finisce tra venti minuti.",
+        "translation": "Стиральная машина закончит через двадцать минут."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_1",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "La pioggia",
+    "translations": {
+      "uk": "дощ",
+      "en": "the rain",
+      "de": "der Regen",
+      "pl": "deszcz",
+      "es": "la lluvia",
+      "fr": "la pluie",
+      "ro": "ploaia",
+      "ru": "дождь"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Сьогодні дощ цілий день."
+      },
+      "en": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Today it rains all day."
+      },
+      "de": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Heute regnet es den ganzen Tag."
+      },
+      "pl": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Dziś pada cały dzień."
+      },
+      "es": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Hoy llueve todo el día."
+      },
+      "fr": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Aujourd'hui il pleut toute la journée."
+      },
+      "ro": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Azi plouă toată ziua."
+      },
+      "ru": {
+        "sentence": "Oggi c'è pioggia tutto il giorno.",
+        "translation": "Сегодня дождь весь день."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_2",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "La neve",
+    "translations": {
+      "uk": "сніг",
+      "en": "the snow",
+      "de": "der Schnee",
+      "pl": "śnieg",
+      "es": "la nieve",
+      "fr": "la neige",
+      "ro": "zăpada",
+      "ru": "снег"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "У горах багато снігу."
+      },
+      "en": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "There is a lot of snow in the mountains."
+      },
+      "de": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "In den Bergen liegt viel Schnee."
+      },
+      "pl": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "W górach jest dużo śniegu."
+      },
+      "es": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "En la montaña hay mucha nieve."
+      },
+      "fr": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "À la montagne il y a beaucoup de neige."
+      },
+      "ro": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "La munte este multă zăpadă."
+      },
+      "ru": {
+        "sentence": "In montagna c'è tanta neve.",
+        "translation": "В горах много снега."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_3",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "Il vento",
+    "translations": {
+      "uk": "вітер",
+      "en": "the wind",
+      "de": "der Wind",
+      "pl": "wiatr",
+      "es": "el viento",
+      "fr": "le vent",
+      "ro": "vântul",
+      "ru": "ветер"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "На набережній сильний вітер."
+      },
+      "en": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "The wind is strong on the seafront."
+      },
+      "de": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "Der Wind ist an der Uferpromenade stark."
+      },
+      "pl": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "Na nabrzeżu wieje silny wiatr."
+      },
+      "es": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "El viento es fuerte en el paseo."
+      },
+      "fr": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "Le vent est fort sur le front de mer."
+      },
+      "ro": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "Vântul este puternic pe faleză."
+      },
+      "ru": {
+        "sentence": "Il vento è forte sul lungomare.",
+        "translation": "На набережной сильный ветер."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_4",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "Il sole",
+    "translations": {
+      "uk": "сонце",
+      "en": "the sun",
+      "de": "die Sonne",
+      "pl": "słońce",
+      "es": "el sol",
+      "fr": "le soleil",
+      "ro": "soarele",
+      "ru": "солнце"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "Сонце заходить у вікно."
+      },
+      "en": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "The sun comes in through the window."
+      },
+      "de": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "Die Sonne kommt durch das Fenster."
+      },
+      "pl": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "Słońce wpada przez okno."
+      },
+      "es": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "El sol entra por la ventana."
+      },
+      "fr": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "Le soleil entre par la fenêtre."
+      },
+      "ro": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "Soarele intră pe fereastră."
+      },
+      "ru": {
+        "sentence": "Il sole entra dalla finestra.",
+        "translation": "Солнце заходит в окно."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_5",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "La nebbia",
+    "translations": {
+      "uk": "туман",
+      "en": "the fog",
+      "de": "der Nebel",
+      "pl": "mgła",
+      "es": "la niebla",
+      "fr": "le brouillard",
+      "ro": "ceața",
+      "ru": "туман"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Вранці в долині туман."
+      },
+      "en": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "In the morning there is fog in the valley."
+      },
+      "de": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Morgens liegt Nebel im Tal."
+      },
+      "pl": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Rano w dolinie jest mgła."
+      },
+      "es": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Por la mañana hay niebla en el valle."
+      },
+      "fr": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Le matin il y a du brouillard dans la vallée."
+      },
+      "ro": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Dimineața este ceață în vale."
+      },
+      "ru": {
+        "sentence": "Al mattino c'è nebbia in valle.",
+        "translation": "Утром в долине туман."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_6",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "La primavera",
+    "translations": {
+      "uk": "весна",
+      "en": "spring",
+      "de": "der Frühling",
+      "pl": "wiosna",
+      "es": "la primavera",
+      "fr": "le printemps",
+      "ro": "primăvara",
+      "ru": "весна"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "Навесні цвітуть дерева."
+      },
+      "en": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "In spring the trees blossom."
+      },
+      "de": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "Im Frühling blühen die Bäume."
+      },
+      "pl": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "Wiosną drzewa kwitną."
+      },
+      "es": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "En primavera florecen los árboles."
+      },
+      "fr": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "Au printemps les arbres fleurissent."
+      },
+      "ro": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "Primăvara copacii înfloresc."
+      },
+      "ru": {
+        "sentence": "In primavera fioriscono gli alberi.",
+        "translation": "Весной цветут деревья."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_7",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "L'estate",
+    "translations": {
+      "uk": "літо",
+      "en": "summer",
+      "de": "der Sommer",
+      "pl": "lato",
+      "es": "el verano",
+      "fr": "l'été",
+      "ro": "vara",
+      "ru": "лето"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "Влітку ми їдемо на море."
+      },
+      "en": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "In summer we go to the sea."
+      },
+      "de": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "Im Sommer fahren wir ans Meer."
+      },
+      "pl": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "Latem jedziemy nad morze."
+      },
+      "es": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "En verano vamos al mar."
+      },
+      "fr": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "En été nous allons à la mer."
+      },
+      "ro": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "Vara mergem la mare."
+      },
+      "ru": {
+        "sentence": "D'estate andiamo al mare.",
+        "translation": "Летом мы едем на море."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_8",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "L'autunno",
+    "translations": {
+      "uk": "осінь",
+      "en": "autumn",
+      "de": "der Herbst",
+      "pl": "jesień",
+      "es": "el otoño",
+      "fr": "l'automne",
+      "ro": "toamna",
+      "ru": "осень"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "Восени дні коротшають."
+      },
+      "en": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "In autumn the days get shorter."
+      },
+      "de": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "Im Herbst werden die Tage kürzer."
+      },
+      "pl": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "Jesienią dni się skracają."
+      },
+      "es": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "En otoño los días se acortan."
+      },
+      "fr": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "En automne les jours raccourcissent."
+      },
+      "ro": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "Toamna zilele se scurtează."
+      },
+      "ru": {
+        "sentence": "In autunno le giornate si accorciano.",
+        "translation": "Осенью дни становятся короче."
+      }
+    }
+  },
+  {
+    "id": "a2_meteo_stagioni_9",
+    "level": "A2",
+    "topic": "meteo_stagioni",
+    "word": "L'inverno",
+    "translations": {
+      "uk": "зима",
+      "en": "winter",
+      "de": "der Winter",
+      "pl": "zima",
+      "es": "el invierno",
+      "fr": "l'hiver",
+      "ro": "iarna",
+      "ru": "зима"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "Взимку ми вмикаємо опалення."
+      },
+      "en": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "In winter we turn on the heating."
+      },
+      "de": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "Im Winter machen wir die Heizung an."
+      },
+      "pl": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "Zimą włączamy ogrzewanie."
+      },
+      "es": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "En invierno encendemos la calefacción."
+      },
+      "fr": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "En hiver nous allumons le chauffage."
+      },
+      "ro": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "Iarna pornim încălzirea."
+      },
+      "ru": {
+        "sentence": "In inverno accendiamo il riscaldamento.",
+        "translation": "Зимой мы включаем отопление."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_1",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "Il primo",
+    "translations": {
+      "uk": "перший",
+      "en": "the first",
+      "de": "der erste",
+      "pl": "pierwszy",
+      "es": "el primero",
+      "fr": "le premier",
+      "ro": "primul",
+      "ru": "первый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Я сідаю на перший ранковий поїзд."
+      },
+      "en": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "I take the first train of the morning."
+      },
+      "de": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Ich nehme den ersten Zug am Morgen."
+      },
+      "pl": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Jadę pierwszym porannym pociągiem."
+      },
+      "es": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Tomo el primer tren de la mañana."
+      },
+      "fr": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Je prends le premier train du matin."
+      },
+      "ro": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Iau primul tren de dimineață."
+      },
+      "ru": {
+        "sentence": "Prendo il primo treno del mattino.",
+        "translation": "Я сажусь на первый утренний поезд."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_2",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "Il secondo",
+    "translations": {
+      "uk": "другий",
+      "en": "the second",
+      "de": "der zweite",
+      "pl": "drugi",
+      "es": "el segundo",
+      "fr": "le deuxième",
+      "ro": "al doilea",
+      "ru": "второй"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Ми живемо на другому поверсі."
+      },
+      "en": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "We live on the second floor."
+      },
+      "de": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Wir wohnen im zweiten Stock."
+      },
+      "pl": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Mieszkamy na drugim piętrze."
+      },
+      "es": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Vivimos en el segundo piso."
+      },
+      "fr": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Nous habitons au deuxième étage."
+      },
+      "ro": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Locuim la etajul doi."
+      },
+      "ru": {
+        "sentence": "Abitiamo al secondo piano.",
+        "translation": "Мы живём на втором этаже."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_3",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "Il terzo",
+    "translations": {
+      "uk": "третій",
+      "en": "the third",
+      "de": "der dritte",
+      "pl": "trzeci",
+      "es": "el tercero",
+      "fr": "le troisième",
+      "ro": "al treilea",
+      "ru": "третий"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "Це третя спроба."
+      },
+      "en": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "It is the third attempt."
+      },
+      "de": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "Es ist der dritte Versuch."
+      },
+      "pl": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "To trzecia próba."
+      },
+      "es": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "Es el tercer intento."
+      },
+      "fr": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "C'est la troisième tentative."
+      },
+      "ro": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "Este a treia încercare."
+      },
+      "ru": {
+        "sentence": "È il terzo tentativo.",
+        "translation": "Это третья попытка."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_4",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "Il quarto",
+    "translations": {
+      "uk": "четвертий",
+      "en": "the fourth",
+      "de": "der vierte",
+      "pl": "czwarty",
+      "es": "el cuarto",
+      "fr": "le quatrième",
+      "ro": "al patrulea",
+      "ru": "четвёртый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "Зустріч на четвертий день."
+      },
+      "en": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "The meeting is on the fourth day."
+      },
+      "de": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "Das Treffen ist am vierten Tag."
+      },
+      "pl": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "Spotkanie jest czwartego dnia."
+      },
+      "es": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "La reunión es el cuarto día."
+      },
+      "fr": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "La réunion est le quatrième jour."
+      },
+      "ro": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "Întâlnirea este în a patra zi."
+      },
+      "ru": {
+        "sentence": "La riunione è il quarto giorno.",
+        "translation": "Встреча на четвёртый день."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_5",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "Il quinto",
+    "translations": {
+      "uk": "п'ятий",
+      "en": "the fifth",
+      "de": "der fünfte",
+      "pl": "piąty",
+      "es": "el quinto",
+      "fr": "le cinquième",
+      "ro": "al cincilea",
+      "ru": "пятый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Ми п'яті в таблиці."
+      },
+      "en": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "We are fifth in the ranking."
+      },
+      "de": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Wir sind Fünfte in der Tabelle."
+      },
+      "pl": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Jesteśmy piąci w tabeli."
+      },
+      "es": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Somos quintos en la clasificación."
+      },
+      "fr": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Nous sommes cinquièmes au classement."
+      },
+      "ro": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Suntem pe locul cinci."
+      },
+      "ru": {
+        "sentence": "Siamo quinti in classifica.",
+        "translation": "Мы пятые в таблице."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_6",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "La somma",
+    "translations": {
+      "uk": "сума",
+      "en": "the sum",
+      "de": "die Summe",
+      "pl": "suma",
+      "es": "la suma",
+      "fr": "la somme",
+      "ro": "suma",
+      "ru": "сумма"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "Сума двох рахунків — тридцять євро."
+      },
+      "en": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "The sum of the two bills is thirty euros."
+      },
+      "de": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "Die Summe der zwei Rechnungen ist dreißig Euro."
+      },
+      "pl": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "Suma dwóch rachunków to trzydzieści euro."
+      },
+      "es": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "La suma de las dos cuentas es treinta euros."
+      },
+      "fr": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "La somme des deux additions est trente euros."
+      },
+      "ro": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "Suma celor două note este treizeci de euro."
+      },
+      "ru": {
+        "sentence": "La somma dei due conti è trenta euro.",
+        "translation": "Сумма двух счетов — тридцать евро."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_7",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "La metà",
+    "translations": {
+      "uk": "половина",
+      "en": "half",
+      "de": "die Hälfte",
+      "pl": "połowa",
+      "es": "la mitad",
+      "fr": "la moitié",
+      "ro": "jumătatea",
+      "ru": "половина"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Платимо по половині."
+      },
+      "en": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "We each pay half."
+      },
+      "de": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Wir zahlen jeder die Hälfte."
+      },
+      "pl": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Płacimy po połowie."
+      },
+      "es": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Pagamos la mitad cada uno."
+      },
+      "fr": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Nous payons moitié moitié."
+      },
+      "ro": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Plătim jumătate fiecare."
+      },
+      "ru": {
+        "sentence": "Paghiamo metà per uno.",
+        "translation": "Платим по половине."
+      }
+    }
+  },
+  {
+    "id": "a2_numeri_ordinali_8",
+    "level": "A2",
+    "topic": "numeri_ordinali",
+    "word": "Il doppio",
+    "translations": {
+      "uk": "подвійне",
+      "en": "double",
+      "de": "das Doppelte",
+      "pl": "podwójna ilość",
+      "es": "el doble",
+      "fr": "le double",
+      "ro": "dublul",
+      "ru": "двойное"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "Ціна вдвічі вища, ніж учора."
+      },
+      "en": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "The price is double yesterday's."
+      },
+      "de": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "Der Preis ist doppelt so hoch wie gestern."
+      },
+      "pl": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "Cena jest dwa razy wyższa niż wczoraj."
+      },
+      "es": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "El precio es el doble que ayer."
+      },
+      "fr": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "Le prix est le double d'hier."
+      },
+      "ro": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "Prețul este dublu față de ieri."
+      },
+      "ru": {
+        "sentence": "Il prezzo è il doppio di ieri.",
+        "translation": "Цена вдвое выше, чем вчера."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_1",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "La febbre",
+    "translations": {
+      "uk": "гарячка",
+      "en": "the fever",
+      "de": "das Fieber",
+      "pl": "gorączka",
+      "es": "la fiebre",
+      "fr": "la fièvre",
+      "ro": "febra",
+      "ru": "температура"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "У мене гарячка з учорашнього вечора."
+      },
+      "en": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "I have had a fever since last night."
+      },
+      "de": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "Ich habe seit gestern Abend Fieber."
+      },
+      "pl": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "Mam gorączkę od wczorajszego wieczoru."
+      },
+      "es": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "Tengo fiebre desde anoche."
+      },
+      "fr": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "J'ai de la fièvre depuis hier soir."
+      },
+      "ro": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "Am febră de aseară."
+      },
+      "ru": {
+        "sentence": "Ho la febbre da ieri sera.",
+        "translation": "У меня температура со вчерашнего вечера."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_2",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "Il mal di testa",
+    "translations": {
+      "uk": "головний біль",
+      "en": "the headache",
+      "de": "die Kopfschmerzen",
+      "pl": "ból głowy",
+      "es": "el dolor de cabeza",
+      "fr": "le mal de tête",
+      "ro": "durerea de cap",
+      "ru": "головная боль"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "У мене сильний головний біль."
+      },
+      "en": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "I have a bad headache."
+      },
+      "de": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "Ich habe starke Kopfschmerzen."
+      },
+      "pl": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "Mam silny ból głowy."
+      },
+      "es": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "Tengo un fuerte dolor de cabeza."
+      },
+      "fr": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "J'ai un fort mal de tête."
+      },
+      "ro": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "Am o durere de cap puternică."
+      },
+      "ru": {
+        "sentence": "Ho un forte mal di testa.",
+        "translation": "У меня сильная головная боль."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_3",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "La tosse",
+    "translations": {
+      "uk": "кашель",
+      "en": "the cough",
+      "de": "der Husten",
+      "pl": "kaszel",
+      "es": "la tos",
+      "fr": "la toux",
+      "ro": "tusea",
+      "ru": "кашель"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La tosse non passa.",
+        "translation": "Кашель не минає."
+      },
+      "en": {
+        "sentence": "La tosse non passa.",
+        "translation": "The cough is not going away."
+      },
+      "de": {
+        "sentence": "La tosse non passa.",
+        "translation": "Der Husten geht nicht weg."
+      },
+      "pl": {
+        "sentence": "La tosse non passa.",
+        "translation": "Kaszel nie przechodzi."
+      },
+      "es": {
+        "sentence": "La tosse non passa.",
+        "translation": "La tos no se va."
+      },
+      "fr": {
+        "sentence": "La tosse non passa.",
+        "translation": "La toux ne passe pas."
+      },
+      "ro": {
+        "sentence": "La tosse non passa.",
+        "translation": "Tusea nu trece."
+      },
+      "ru": {
+        "sentence": "La tosse non passa.",
+        "translation": "Кашель не проходит."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_4",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "La farmacia",
+    "translations": {
+      "uk": "аптека",
+      "en": "the pharmacy",
+      "de": "die Apotheke",
+      "pl": "apteka",
+      "es": "la farmacia",
+      "fr": "la pharmacie",
+      "ro": "farmacia",
+      "ru": "аптека"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "Чергова аптека відкрита."
+      },
+      "en": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "The duty pharmacy is open."
+      },
+      "de": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "Die diensthabende Apotheke ist offen."
+      },
+      "pl": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "Dyżurna apteka jest otwarta."
+      },
+      "es": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "La farmacia de guardia está abierta."
+      },
+      "fr": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "La pharmacie de garde est ouverte."
+      },
+      "ro": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "Farmacia de gardă este deschisă."
+      },
+      "ru": {
+        "sentence": "La farmacia di turno è aperta.",
+        "translation": "Дежурная аптека открыта."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_5",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "La ricetta",
+    "translations": {
+      "uk": "рецепт",
+      "en": "the prescription",
+      "de": "das Rezept",
+      "pl": "recepta",
+      "es": "la receta",
+      "fr": "l'ordonnance",
+      "ro": "rețeta",
+      "ru": "рецепт"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Без рецепта сироп не продають."
+      },
+      "en": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "They do not sell the syrup without a prescription."
+      },
+      "de": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Ohne Rezept verkaufen sie den Sirup nicht."
+      },
+      "pl": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Bez recepty nie sprzedają syropu."
+      },
+      "es": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Sin receta no venden el jarabe."
+      },
+      "fr": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Sans ordonnance ils ne vendent pas le sirop."
+      },
+      "ro": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Fără rețetă nu vând siropul."
+      },
+      "ru": {
+        "sentence": "Senza ricetta non vendono lo sciroppo.",
+        "translation": "Без рецепта сироп не продают."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_6",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "Lo sciroppo",
+    "translations": {
+      "uk": "сироп",
+      "en": "the syrup",
+      "de": "der Sirup",
+      "pl": "syrop",
+      "es": "el jarabe",
+      "fr": "le sirop",
+      "ro": "siropul",
+      "ru": "сироп"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Я приймаю сироп двічі на день."
+      },
+      "en": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "I take the syrup twice a day."
+      },
+      "de": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Ich nehme den Sirup zweimal am Tag."
+      },
+      "pl": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Biorę syrop dwa razy dziennie."
+      },
+      "es": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Tomo el jarabe dos veces al día."
+      },
+      "fr": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Je prends le sirop deux fois par jour."
+      },
+      "ro": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Iau siropul de două ori pe zi."
+      },
+      "ru": {
+        "sentence": "Prendo lo sciroppo due volte al giorno.",
+        "translation": "Я принимаю сироп два раза в день."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_7",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "Il cerotto",
+    "translations": {
+      "uk": "пластир",
+      "en": "the plaster",
+      "de": "das Pflaster",
+      "pl": "plaster",
+      "es": "la tirita",
+      "fr": "le pansement",
+      "ro": "plasturele",
+      "ru": "пластырь"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Наклей пластир на палець."
+      },
+      "en": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Put a plaster on the finger."
+      },
+      "de": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Klebe ein Pflaster auf den Finger."
+      },
+      "pl": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Przyklej plaster na palec."
+      },
+      "es": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Pon una tirita en el dedo."
+      },
+      "fr": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Mets un pansement sur le doigt."
+      },
+      "ro": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Pune un plasture pe deget."
+      },
+      "ru": {
+        "sentence": "Metti un cerotto sul dito.",
+        "translation": "Наклей пластырь на палец."
+      }
+    }
+  },
+  {
+    "id": "a2_salute_farmacia_8",
+    "level": "A2",
+    "topic": "salute_farmacia",
+    "word": "L'allergia",
+    "translations": {
+      "uk": "алергія",
+      "en": "the allergy",
+      "de": "die Allergie",
+      "pl": "alergia",
+      "es": "la alergia",
+      "fr": "l'allergie",
+      "ro": "alergia",
+      "ru": "аллергия"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "У мене алергія на пилок."
+      },
+      "en": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "I have a pollen allergy."
+      },
+      "de": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "Ich habe eine Pollenallergie."
+      },
+      "pl": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "Mam alergię na pyłki."
+      },
+      "es": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "Tengo alergia al polen."
+      },
+      "fr": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "J'ai une allergie au pollen."
+      },
+      "ro": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "Am alergie la polen."
+      },
+      "ru": {
+        "sentence": "Ho un'allergia al polline.",
+        "translation": "У меня аллергия на пыльцу."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_1",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Il fidanzato",
+    "translations": {
+      "uk": "наречений",
+      "en": "the boyfriend",
+      "de": "der Freund",
+      "pl": "chłopak",
+      "es": "el novio",
+      "fr": "le petit ami",
+      "ro": "iubitul",
+      "ru": "парень"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "Наречений приїде сьогодні ввечері."
+      },
+      "en": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "The boyfriend arrives this evening."
+      },
+      "de": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "Der Freund kommt heute Abend."
+      },
+      "pl": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "Chłopak przyjeżdża dziś wieczorem."
+      },
+      "es": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "El novio llega esta noche."
+      },
+      "fr": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "Le petit ami arrive ce soir."
+      },
+      "ro": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "Iubitul sosește diseară."
+      },
+      "ru": {
+        "sentence": "Il fidanzato arriva stasera.",
+        "translation": "Парень приедет сегодня вечером."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_2",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "La coppia",
+    "translations": {
+      "uk": "пара",
+      "en": "the couple",
+      "de": "das Paar",
+      "pl": "para",
+      "es": "la pareja",
+      "fr": "le couple",
+      "ro": "cuplul",
+      "ru": "пара"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "Пара живе поверхом вище."
+      },
+      "en": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "The couple lives on the floor above."
+      },
+      "de": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "Das Paar wohnt eine Etage höher."
+      },
+      "pl": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "Para mieszka piętro wyżej."
+      },
+      "es": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "La pareja vive en el piso de arriba."
+      },
+      "fr": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "Le couple habite à l'étage au-dessus."
+      },
+      "ro": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "Cuplul locuiește la etajul de sus."
+      },
+      "ru": {
+        "sentence": "La coppia abita al piano di sopra.",
+        "translation": "Пара живёт этажом выше."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_3",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Timido",
+    "translations": {
+      "uk": "сором'язливий",
+      "en": "shy",
+      "de": "schüchtern",
+      "pl": "nieśmiały",
+      "es": "tímido",
+      "fr": "timide",
+      "ro": "timid",
+      "ru": "застенчивый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Він сором'язливий і мало говорить у групі."
+      },
+      "en": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Being shy, he speaks little in a group."
+      },
+      "de": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Er ist schüchtern und spricht wenig in der Gruppe."
+      },
+      "pl": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Jest nieśmiały i mało mówi w grupie."
+      },
+      "es": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Es tímido y habla poco en grupo."
+      },
+      "fr": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Il est timide et parle peu en groupe."
+      },
+      "ro": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Este timid și vorbește puțin în grup."
+      },
+      "ru": {
+        "sentence": "Da timido parla poco in gruppo.",
+        "translation": "Он застенчивый и мало говорит в группе."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_4",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Generoso",
+    "translations": {
+      "uk": "щедрий",
+      "en": "generous",
+      "de": "großzügig",
+      "pl": "hojny",
+      "es": "generoso",
+      "fr": "généreux",
+      "ro": "generos",
+      "ru": "щедрый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Він щедрий з друзями."
+      },
+      "en": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "He is generous with friends."
+      },
+      "de": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Er ist großzügig zu Freunden."
+      },
+      "pl": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Jest hojny wobec przyjaciół."
+      },
+      "es": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Es generoso con los amigos."
+      },
+      "fr": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Il est généreux avec ses amis."
+      },
+      "ro": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Este generos cu prietenii."
+      },
+      "ru": {
+        "sentence": "È una persona generosa con gli amici.",
+        "translation": "Он щедрый с друзьями."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_5",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Affidabile",
+    "translations": {
+      "uk": "надійний",
+      "en": "reliable",
+      "de": "zuverlässig",
+      "pl": "niezawodny",
+      "es": "fiable",
+      "fr": "fiable",
+      "ro": "de încredere",
+      "ru": "надёжный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Шукаю надійного колегу."
+      },
+      "en": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "I am looking for a reliable colleague."
+      },
+      "de": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Ich suche einen zuverlässigen Kollegen."
+      },
+      "pl": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Szukam niezawodnego kolegi."
+      },
+      "es": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Busco un compañero fiable."
+      },
+      "fr": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Je cherche un collègue fiable."
+      },
+      "ro": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Caut un coleg de încredere."
+      },
+      "ru": {
+        "sentence": "Cerco un collega affidabile.",
+        "translation": "Ищу надёжного коллегу."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_6",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Il vicino",
+    "translations": {
+      "uk": "сусід",
+      "en": "the neighbor",
+      "de": "der Nachbar",
+      "pl": "sąsiad",
+      "es": "el vecino",
+      "fr": "le voisin",
+      "ro": "vecinul",
+      "ru": "сосед"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "Сусід дуже чемний."
+      },
+      "en": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "The neighbor is very kind."
+      },
+      "de": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "Der Nachbar ist sehr freundlich."
+      },
+      "pl": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "Sąsiad jest bardzo miły."
+      },
+      "es": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "El vecino es muy amable."
+      },
+      "fr": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "Le voisin est très gentil."
+      },
+      "ro": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "Vecinul este foarte amabil."
+      },
+      "ru": {
+        "sentence": "Il vicino di casa è molto gentile.",
+        "translation": "Сосед очень вежливый."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_7",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Antipatico",
+    "translations": {
+      "uk": "неприємний",
+      "en": "unpleasant",
+      "de": "unsympathisch",
+      "pl": "niemiły",
+      "es": "antipático",
+      "fr": "antipathique",
+      "ro": "antipatic",
+      "ru": "неприятный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Той клієнт неприємний."
+      },
+      "en": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "That customer is unpleasant."
+      },
+      "de": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Dieser Kunde ist unsympathisch."
+      },
+      "pl": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Ten klient jest niemiły."
+      },
+      "es": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Ese cliente es antipático."
+      },
+      "fr": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Ce client est antipathique."
+      },
+      "ro": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Clientul acela este antipatic."
+      },
+      "ru": {
+        "sentence": "Quel cliente è antipatico.",
+        "translation": "Тот клиент неприятный."
+      }
+    }
+  },
+  {
+    "id": "a2_relazioni_carattere_8",
+    "level": "A2",
+    "topic": "relazioni_carattere",
+    "word": "Socievole",
+    "translations": {
+      "uk": "товариський",
+      "en": "sociable",
+      "de": "gesellig",
+      "pl": "towarzyski",
+      "es": "sociable",
+      "fr": "sociable",
+      "ro": "sociabil",
+      "ru": "общительный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Він товариський і швидко заводить друзів."
+      },
+      "en": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "He is sociable and makes friends quickly."
+      },
+      "de": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Er ist gesellig und findet schnell Freunde."
+      },
+      "pl": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Jest towarzyski i szybko zawiera przyjaźnie."
+      },
+      "es": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Es sociable y hace amigos enseguida."
+      },
+      "fr": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Il est sociable et se fait vite des amis."
+      },
+      "ro": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Este sociabil și își face repede prieteni."
+      },
+      "ru": {
+        "sentence": "È socievole e fa amicizia in fretta.",
+        "translation": "Он общительный и быстро заводит друзей."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_1",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "Il percorso",
+    "translations": {
+      "uk": "маршрут",
+      "en": "the route",
+      "de": "die Strecke",
+      "pl": "trasa",
+      "es": "el recorrido",
+      "fr": "le trajet",
+      "ro": "traseul",
+      "ru": "маршрут"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "Найкоротший маршрут триває двадцять хвилин."
+      },
+      "en": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "The shortest route takes twenty minutes."
+      },
+      "de": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "Die kürzeste Strecke dauert zwanzig Minuten."
+      },
+      "pl": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "Najkrótsza trasa trwa dwadzieścia minut."
+      },
+      "es": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "El recorrido más corto dura veinte minutos."
+      },
+      "fr": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "Le trajet le plus court dure vingt minutes."
+      },
+      "ro": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "Traseul cel mai scurt durează douăzeci de minute."
+      },
+      "ru": {
+        "sentence": "Il percorso più breve dura venti minuti.",
+        "translation": "Самый короткий маршрут занимает двадцать минут."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_2",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "La deviazione",
+    "translations": {
+      "uk": "об'їзд",
+      "en": "the detour",
+      "de": "die Umleitung",
+      "pl": "objazd",
+      "es": "el desvío",
+      "fr": "la déviation",
+      "ro": "devierea",
+      "ru": "объезд"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "У центрі об'їзд."
+      },
+      "en": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "There is a detour in the center."
+      },
+      "de": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "Im Zentrum gibt es eine Umleitung."
+      },
+      "pl": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "W centrum jest objazd."
+      },
+      "es": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "Hay un desvío en el centro."
+      },
+      "fr": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "Il y a une déviation en centre-ville."
+      },
+      "ro": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "În centru este o deviere."
+      },
+      "ru": {
+        "sentence": "C'è una deviazione in centro.",
+        "translation": "В центре объезд."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_3",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "L'incrocio",
+    "translations": {
+      "uk": "перехрестя",
+      "en": "the junction",
+      "de": "die Kreuzung",
+      "pl": "skrzyżowanie",
+      "es": "el cruce",
+      "fr": "le carrefour",
+      "ro": "intersecția",
+      "ru": "перекрёсток"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Поверни на перехресті після банку."
+      },
+      "en": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Turn at the junction after the bank."
+      },
+      "de": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Biege an der Kreuzung nach der Bank ab."
+      },
+      "pl": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Skręć na skrzyżowaniu za bankiem."
+      },
+      "es": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Gira en el cruce después del banco."
+      },
+      "fr": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Tourne au carrefour après la banque."
+      },
+      "ro": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Ia-o la intersecția de după bancă."
+      },
+      "ru": {
+        "sentence": "Gira all'incrocio dopo la banca.",
+        "translation": "Поверни на перекрёстке после банка."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_4",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "Il marciapiede",
+    "translations": {
+      "uk": "тротуар",
+      "en": "the sidewalk",
+      "de": "der Gehweg",
+      "pl": "chodnik",
+      "es": "la acera",
+      "fr": "le trottoir",
+      "ro": "trotuarul",
+      "ru": "тротуар"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Іди тротуаром, не дорогою."
+      },
+      "en": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Walk on the sidewalk, not on the road."
+      },
+      "de": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Geh auf dem Gehweg, nicht auf der Straße."
+      },
+      "pl": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Idź chodnikiem, nie jezdnią."
+      },
+      "es": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Camina por la acera, no por la calle."
+      },
+      "fr": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Marche sur le trottoir, pas sur la route."
+      },
+      "ro": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Mergi pe trotuar, nu pe stradă."
+      },
+      "ru": {
+        "sentence": "Cammina sul marciapiede, non sulla strada.",
+        "translation": "Иди по тротуару, не по дороге."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_5",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "Il senso unico",
+    "translations": {
+      "uk": "односторонній рух",
+      "en": "the one-way street",
+      "de": "die Einbahnstraße",
+      "pl": "ulica jednokierunkowa",
+      "es": "el sentido único",
+      "fr": "le sens unique",
+      "ro": "sensul unic",
+      "ru": "одностороннее движение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Ця вулиця з одностороннім рухом."
+      },
+      "en": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "This street is one-way."
+      },
+      "de": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Diese Straße ist eine Einbahnstraße."
+      },
+      "pl": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Ta ulica jest jednokierunkowa."
+      },
+      "es": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Esta calle es de sentido único."
+      },
+      "fr": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Cette rue est en sens unique."
+      },
+      "ro": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Strada aceasta este cu sens unic."
+      },
+      "ru": {
+        "sentence": "Questa via è a senso unico.",
+        "translation": "Эта улица с односторонним движением."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_6",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "La rotatoria",
+    "translations": {
+      "uk": "кільце",
+      "en": "the roundabout",
+      "de": "der Kreisverkehr",
+      "pl": "rondo",
+      "es": "la rotonda",
+      "fr": "le rond-point",
+      "ro": "sensul giratoriu",
+      "ru": "кольцо"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "З'їжджай другим з'їздом з кільця."
+      },
+      "en": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Take the second exit of the roundabout."
+      },
+      "de": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Nimm die zweite Ausfahrt im Kreisverkehr."
+      },
+      "pl": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Zjedź drugim zjazdem z ronda."
+      },
+      "es": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Toma la segunda salida de la rotonda."
+      },
+      "fr": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Prends la deuxième sortie du rond-point."
+      },
+      "ro": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Ia a doua ieșire din sensul giratoriu."
+      },
+      "ru": {
+        "sentence": "Prendi la seconda uscita della rotatoria.",
+        "translation": "Съезжай вторым съездом с кольца."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_7",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "Il sottopassaggio",
+    "translations": {
+      "uk": "підземний перехід",
+      "en": "the underpass",
+      "de": "die Unterführung",
+      "pl": "przejście podziemne",
+      "es": "el paso subterráneo",
+      "fr": "le passage souterrain",
+      "ro": "pasajul subteran",
+      "ru": "подземный переход"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "До метро можна дійти через підземний перехід."
+      },
+      "en": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "You reach the metro through the underpass."
+      },
+      "de": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "Die U-Bahn erreicht man durch die Unterführung."
+      },
+      "pl": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "Na metro schodzi się przejściem podziemnym."
+      },
+      "es": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "Al metro se llega por el paso subterráneo."
+      },
+      "fr": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "On rejoint le métro par le passage souterrain."
+      },
+      "ro": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "La metrou se ajunge prin pasajul subteran."
+      },
+      "ru": {
+        "sentence": "La metro si raggiunge dal sottopassaggio.",
+        "translation": "К метро можно пройти через подземный переход."
+      }
+    }
+  },
+  {
+    "id": "a2_mobilita_urbana_8",
+    "level": "A2",
+    "topic": "mobilita_urbana",
+    "word": "In fondo",
+    "translations": {
+      "uk": "в кінці",
+      "en": "at the end",
+      "de": "am Ende",
+      "pl": "na końcu",
+      "es": "al final",
+      "fr": "au bout",
+      "ro": "la capăt",
+      "ru": "в конце"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "Зупинка в кінці вулиці."
+      },
+      "en": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "The stop is at the end of the street."
+      },
+      "de": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "Die Haltestelle ist am Ende der Straße."
+      },
+      "pl": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "Przystanek jest na końcu ulicy."
+      },
+      "es": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "La parada está al final de la calle."
+      },
+      "fr": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "L'arrêt est au bout de la rue."
+      },
+      "ro": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "Stația este la capătul străzii."
+      },
+      "ru": {
+        "sentence": "La fermata è in fondo alla via.",
+        "translation": "Остановка в конце улицы."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_1",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "L'antipasto",
+    "translations": {
+      "uk": "закуска",
+      "en": "the starter",
+      "de": "die Vorspeise",
+      "pl": "przystawka",
+      "es": "el entrante",
+      "fr": "l'entrée",
+      "ro": "aperitivul",
+      "ru": "закуска"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "На закуску я візьму прошуто."
+      },
+      "en": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "For a starter I take the ham."
+      },
+      "de": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "Als Vorspeise nehme ich den Schinken."
+      },
+      "pl": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "Na przystawkę biorę szynkę."
+      },
+      "es": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "De entrante tomo el jamón."
+      },
+      "fr": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "En entrée je prends le jambon."
+      },
+      "ro": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "Ca aperitiv iau șunca."
+      },
+      "ru": {
+        "sentence": "Come antipasto prendo il prosciutto.",
+        "translation": "На закуску я возьму прошутто."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_2",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "Il risotto",
+    "translations": {
+      "en": "the risotto",
+      "uk": "ризото",
+      "ru": "ризотто",
+      "de": "das Risotto",
+      "pl": "risotto",
+      "es": "el risotto",
+      "fr": "le risotto",
+      "ro": "risotto-ul"
+    },
+    "examples": {
+      "en": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "The mushroom risotto is creamy."
+      },
+      "uk": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Ризото з грибами кремове."
+      },
+      "ru": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Ризотто с грибами кремовое."
+      },
+      "de": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Das Pilzrisotto ist cremig."
+      },
+      "pl": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Risotto z grzybami jest kremowe."
+      },
+      "es": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "El risotto de setas es cremoso."
+      },
+      "fr": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Le risotto aux champignons est crémeux."
+      },
+      "ro": {
+        "sentence": "Il risotto ai funghi è cremoso.",
+        "translation": "Risotto-ul cu ciuperci este cremos."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_3",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "La bistecca",
+    "translations": {
+      "en": "the steak",
+      "uk": "стейк",
+      "ru": "стейк",
+      "de": "das Steak",
+      "pl": "stek",
+      "es": "el filete",
+      "fr": "le steak",
+      "ro": "friptura"
+    },
+    "examples": {
+      "en": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "The steak is rare."
+      },
+      "uk": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Стейк з кров'ю."
+      },
+      "ru": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Стейк с кровью."
+      },
+      "de": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Das Steak ist blutig."
+      },
+      "pl": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Stek jest krwisty."
+      },
+      "es": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "El filete está poco hecho."
+      },
+      "fr": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Le steak est saignant."
+      },
+      "ro": {
+        "sentence": "La bistecca è al sangue.",
+        "translation": "Friptura este în sânge."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_4",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "Il contorno",
+    "translations": {
+      "uk": "гарнір",
+      "en": "the side dish",
+      "de": "die Beilage",
+      "pl": "dodatek",
+      "es": "la guarnición",
+      "fr": "l'accompagnement",
+      "ro": "garnitura",
+      "ru": "гарнир"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "Гарнір — гриль-овочі."
+      },
+      "en": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "The side dish is grilled vegetables."
+      },
+      "de": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "Die Beilage ist Grillgemüse."
+      },
+      "pl": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "Dodatkiem są grillowane warzywa."
+      },
+      "es": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "La guarnición son verduras a la parrilla."
+      },
+      "fr": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "L'accompagnement, ce sont des légumes grillés."
+      },
+      "ro": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "Garnitura este legume la grătar."
+      },
+      "ru": {
+        "sentence": "Il contorno sono le verdure grigliate.",
+        "translation": "Гарнир — овощи на гриле."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_5",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "Al sangue",
+    "translations": {
+      "uk": "з кров'ю",
+      "en": "rare",
+      "de": "blutig",
+      "pl": "krwisty",
+      "es": "poco hecho",
+      "fr": "saignant",
+      "ro": "în sânge",
+      "ru": "с кровью"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "Стейк я хочу з кров'ю."
+      },
+      "en": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "I would like the steak rare."
+      },
+      "de": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "Das Steak hätte ich gern blutig."
+      },
+      "pl": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "Stek poproszę krwisty."
+      },
+      "es": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "El filete lo quiero poco hecho."
+      },
+      "fr": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "Le steak, je le voudrais saignant."
+      },
+      "ro": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "Friptura o vreau în sânge."
+      },
+      "ru": {
+        "sentence": "La bistecca la vorrei al sangue.",
+        "translation": "Стейк я хочу с кровью."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_6",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "Il coperto",
+    "translations": {
+      "uk": "плата за прибори",
+      "en": "the cover charge",
+      "de": "das Gedeck",
+      "pl": "nakrycie",
+      "es": "el cubierto",
+      "fr": "le couvert",
+      "ro": "tacâmul",
+      "ru": "плата за приборы"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "Плата за прибори — два євро."
+      },
+      "en": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "The cover charge is two euros."
+      },
+      "de": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "Das Gedeck kostet zwei Euro."
+      },
+      "pl": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "Nakrycie kosztuje dwa euro."
+      },
+      "es": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "El cubierto cuesta dos euros."
+      },
+      "fr": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "Le couvert est de deux euros."
+      },
+      "ro": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "Tacâmul costă doi euro."
+      },
+      "ru": {
+        "sentence": "Il coperto è di due euro.",
+        "translation": "Плата за приборы — два евро."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_7",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "La mancia",
+    "translations": {
+      "uk": "чайові",
+      "en": "the tip",
+      "de": "das Trinkgeld",
+      "pl": "napiwek",
+      "es": "la propina",
+      "fr": "le pourboire",
+      "ro": "bacșișul",
+      "ru": "чаевые"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Я залишаю чайові на столі."
+      },
+      "en": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "I leave the tip on the table."
+      },
+      "de": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Ich lasse das Trinkgeld auf dem Tisch."
+      },
+      "pl": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Zostawiam napiwek na stole."
+      },
+      "es": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Dejo la propina en la mesa."
+      },
+      "fr": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Je laisse le pourboire sur la table."
+      },
+      "ro": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Las bacșișul pe masă."
+      },
+      "ru": {
+        "sentence": "Lascio la mancia sul tavolo.",
+        "translation": "Я оставляю чаевые на столе."
+      }
+    }
+  },
+  {
+    "id": "a2_ristorante_cucina_8",
+    "level": "A2",
+    "topic": "ristorante_cucina",
+    "word": "La cottura",
+    "translations": {
+      "uk": "прожарка",
+      "en": "the cooking level",
+      "de": "der Gargrad",
+      "pl": "stopień wysmażenia",
+      "es": "el punto de cocción",
+      "fr": "la cuisson",
+      "ro": "gradul de gătire",
+      "ru": "прожарка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "Яку прожарку ви хочете?"
+      },
+      "en": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "What cooking level do you prefer?"
+      },
+      "de": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "Welchen Gargrad möchten Sie?"
+      },
+      "pl": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "Jaki stopień wysmażenia pan woli?"
+      },
+      "es": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "¿Qué punto de cocción prefiere?"
+      },
+      "fr": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "Quelle cuisson préférez-vous ?"
+      },
+      "ro": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "Ce grad de gătire preferați?"
+      },
+      "ru": {
+        "sentence": "Che cottura preferisce?",
+        "translation": "Какую прожарку вы хотите?"
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_1",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "Il camerino",
+    "translations": {
+      "uk": "примірочна",
+      "en": "the fitting room",
+      "de": "die Umkleidekabine",
+      "pl": "przymierzalnia",
+      "es": "el probador",
+      "fr": "la cabine",
+      "ro": "cabina de probă",
+      "ru": "примерочная"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il camerino è libero.",
+        "translation": "Примірочна вільна."
+      },
+      "en": {
+        "sentence": "Il camerino è libero.",
+        "translation": "The fitting room is free."
+      },
+      "de": {
+        "sentence": "Il camerino è libero.",
+        "translation": "Die Umkleidekabine ist frei."
+      },
+      "pl": {
+        "sentence": "Il camerino è libero.",
+        "translation": "Przymierzalnia jest wolna."
+      },
+      "es": {
+        "sentence": "Il camerino è libero.",
+        "translation": "El probador está libre."
+      },
+      "fr": {
+        "sentence": "Il camerino è libero.",
+        "translation": "La cabine est libre."
+      },
+      "ro": {
+        "sentence": "Il camerino è libero.",
+        "translation": "Cabina de probă este liberă."
+      },
+      "ru": {
+        "sentence": "Il camerino è libero.",
+        "translation": "Примерочная свободна."
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_2",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "La prova",
+    "translations": {
+      "uk": "примірка",
+      "en": "the fitting",
+      "de": "die Anprobe",
+      "pl": "przymiarka",
+      "es": "la prueba",
+      "fr": "l'essayage",
+      "ro": "probarea",
+      "ru": "примерка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Можна приміряти?"
+      },
+      "en": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Can I try it on?"
+      },
+      "de": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Kann ich es anprobieren?"
+      },
+      "pl": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Czy mogę przymierzyć?"
+      },
+      "es": {
+        "sentence": "Posso fare la prova?",
+        "translation": "¿Puedo probármelo?"
+      },
+      "fr": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Je peux l'essayer ?"
+      },
+      "ro": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Pot să probez?"
+      },
+      "ru": {
+        "sentence": "Posso fare la prova?",
+        "translation": "Можно примерить?"
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_3",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "Stretto",
+    "translations": {
+      "uk": "тісний",
+      "en": "tight",
+      "de": "eng",
+      "pl": "ciasny",
+      "es": "estrecho",
+      "fr": "serré",
+      "ro": "strâmt",
+      "ru": "тесный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Цей светр тісний у плечах."
+      },
+      "en": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "This sweater is tight at the shoulders."
+      },
+      "de": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Dieser Pullover ist an den Schultern eng."
+      },
+      "pl": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Ten sweter jest ciasny w ramionach."
+      },
+      "es": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Este jersey queda estrecho de hombros."
+      },
+      "fr": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Ce pull est serré aux épaules."
+      },
+      "ro": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Acest pulover este strâmt la umeri."
+      },
+      "ru": {
+        "sentence": "Questo maglione è stretto di spalle.",
+        "translation": "Этот свитер тесный в плечах."
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_4",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "Largo",
+    "translations": {
+      "uk": "широкий",
+      "en": "loose",
+      "de": "weit",
+      "pl": "luźny",
+      "es": "holgado",
+      "fr": "large",
+      "ro": "larg",
+      "ru": "свободный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Штани трохи широкі."
+      },
+      "en": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "The trousers are a bit loose."
+      },
+      "de": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Die Hose ist etwas weit."
+      },
+      "pl": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Spodnie są trochę luźne."
+      },
+      "es": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Los pantalones quedan un poco holgados."
+      },
+      "fr": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Le pantalon est un peu large."
+      },
+      "ro": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Pantalonii sunt puțin largi."
+      },
+      "ru": {
+        "sentence": "I pantaloni sono un po' larghi.",
+        "translation": "Брюки немного свободные."
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_5",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "Lo sconto",
+    "translations": {
+      "uk": "знижка",
+      "en": "the discount",
+      "de": "der Rabatt",
+      "pl": "zniżka",
+      "es": "el descuento",
+      "fr": "la réduction",
+      "ro": "reducerea",
+      "ru": "скидка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Знижка двадцять відсотків."
+      },
+      "en": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "There is a twenty percent discount."
+      },
+      "de": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Es gibt zwanzig Prozent Rabatt."
+      },
+      "pl": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Jest dwadzieścia procent zniżki."
+      },
+      "es": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Hay un descuento del veinte por ciento."
+      },
+      "fr": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Il y a une réduction de vingt pour cent."
+      },
+      "ro": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Este o reducere de douăzeci la sută."
+      },
+      "ru": {
+        "sentence": "C'è uno sconto del venti per cento.",
+        "translation": "Скидка двадцать процентов."
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_6",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "Il reso",
+    "translations": {
+      "uk": "повернення",
+      "en": "the return",
+      "de": "die Rückgabe",
+      "pl": "zwrot",
+      "es": "la devolución",
+      "fr": "le retour",
+      "ro": "returul",
+      "ru": "возврат"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "Повернення можливе протягом чотирнадцяти днів."
+      },
+      "en": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "A return is possible within fourteen days."
+      },
+      "de": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "Die Rückgabe ist innerhalb von vierzehn Tagen möglich."
+      },
+      "pl": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "Zwrot jest możliwy w ciągu czternastu dni."
+      },
+      "es": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "La devolución es posible en catorce días."
+      },
+      "fr": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "Le retour est possible sous quatorze jours."
+      },
+      "ro": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "Returul este posibil în paisprezece zile."
+      },
+      "ru": {
+        "sentence": "Il reso è possibile entro quattordici giorni.",
+        "translation": "Возврат возможен в течение четырнадцати дней."
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_7",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "La taglia media",
+    "translations": {
+      "uk": "середній розмір",
+      "en": "the medium size",
+      "de": "die mittlere Größe",
+      "pl": "rozmiar średni",
+      "es": "la talla mediana",
+      "fr": "la taille moyenne",
+      "ro": "mărimea medie",
+      "ru": "средний размер"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Я хотів би середній розмір."
+      },
+      "en": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "I would like the medium size."
+      },
+      "de": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Ich hätte gern die mittlere Größe."
+      },
+      "pl": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Poproszę rozmiar średni."
+      },
+      "es": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Querría la talla mediana."
+      },
+      "fr": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Je voudrais la taille moyenne."
+      },
+      "ro": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Aș vrea mărimea medie."
+      },
+      "ru": {
+        "sentence": "Vorrei la taglia media.",
+        "translation": "Я хотел бы средний размер."
+      }
+    }
+  },
+  {
+    "id": "a2_shopping_taglie_8",
+    "level": "A2",
+    "topic": "shopping_taglie",
+    "word": "Il commesso",
+    "translations": {
+      "uk": "продавець",
+      "en": "the shop assistant",
+      "de": "der Verkäufer",
+      "pl": "sprzedawca",
+      "es": "el dependiente",
+      "fr": "le vendeur",
+      "ro": "vânzătorul",
+      "ru": "продавец"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "Продавець приносить мені інший розмір."
+      },
+      "en": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "The assistant brings me another size."
+      },
+      "de": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "Der Verkäufer bringt mir eine andere Größe."
+      },
+      "pl": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "Sprzedawca przynosi mi inny rozmiar."
+      },
+      "es": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "El dependiente me trae otra talla."
+      },
+      "fr": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "Le vendeur m'apporte une autre taille."
+      },
+      "ro": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "Vânzătorul îmi aduce altă mărime."
+      },
+      "ru": {
+        "sentence": "Il commesso mi porta un'altra taglia.",
+        "translation": "Продавец приносит мне другой размер."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_1",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "Il medico",
+    "translations": {
+      "uk": "лікар",
+      "en": "the doctor",
+      "de": "der Arzt",
+      "pl": "lekarz",
+      "es": "el médico",
+      "fr": "le médecin",
+      "ro": "medicul",
+      "ru": "врач"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "Лікар приймає після обіду."
+      },
+      "en": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "The doctor sees patients in the afternoon."
+      },
+      "de": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "Der Arzt hat nachmittags Sprechstunde."
+      },
+      "pl": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "Lekarz przyjmuje po południu."
+      },
+      "es": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "El médico pasa consulta por la tarde."
+      },
+      "fr": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "Le médecin reçoit l'après-midi."
+      },
+      "ro": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "Medicul consultă după-amiaza."
+      },
+      "ru": {
+        "sentence": "Il medico riceve nel pomeriggio.",
+        "translation": "Врач принимает после обеда."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_2",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "L'insegnante",
+    "translations": {
+      "uk": "вчитель",
+      "en": "the teacher",
+      "de": "der Lehrer",
+      "pl": "nauczyciel",
+      "es": "el profesor",
+      "fr": "l'enseignant",
+      "ro": "profesorul",
+      "ru": "учитель"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "Вчитель перевіряє завдання."
+      },
+      "en": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "The teacher marks the homework."
+      },
+      "de": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "Der Lehrer korrigiert die Hausaufgaben."
+      },
+      "pl": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "Nauczyciel sprawdza zadania."
+      },
+      "es": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "El profesor corrige los deberes."
+      },
+      "fr": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "L'enseignant corrige les devoirs."
+      },
+      "ro": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "Profesorul corectează temele."
+      },
+      "ru": {
+        "sentence": "L'insegnante corregge i compiti.",
+        "translation": "Учитель проверяет задания."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_3",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "Il turno",
+    "translations": {
+      "uk": "зміна",
+      "en": "the shift",
+      "de": "die Schicht",
+      "pl": "zmiana",
+      "es": "el turno",
+      "fr": "le service",
+      "ro": "tura",
+      "ru": "смена"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Моя зміна починається о шостій."
+      },
+      "en": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "My shift starts at six."
+      },
+      "de": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Meine Schicht beginnt um sechs."
+      },
+      "pl": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Moja zmiana zaczyna się o szóstej."
+      },
+      "es": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Mi turno empieza a las seis."
+      },
+      "fr": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Mon service commence à six heures."
+      },
+      "ro": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Tura mea începe la șase."
+      },
+      "ru": {
+        "sentence": "Il mio turno inizia alle sei.",
+        "translation": "Моя смена начинается в шесть."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_4",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "Le ferie",
+    "translations": {
+      "en": "the leave",
+      "uk": "відпустка",
+      "ru": "отпуск",
+      "de": "der Urlaub",
+      "pl": "urlop",
+      "es": "las vacaciones",
+      "fr": "les congés",
+      "ro": "concediul"
+    },
+    "examples": {
+      "en": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Leave starts in August."
+      },
+      "uk": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Відпустка починається в серпні."
+      },
+      "ru": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Отпуск начинается в августе."
+      },
+      "de": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Der Urlaub beginnt im August."
+      },
+      "pl": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Urlop zaczyna się w sierpniu."
+      },
+      "es": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Las vacaciones empiezan en agosto."
+      },
+      "fr": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Les congés commencent en août."
+      },
+      "ro": {
+        "sentence": "Le ferie iniziano ad agosto.",
+        "translation": "Concediul începe în august."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_5",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "La pausa pranzo",
+    "translations": {
+      "uk": "обідня перерва",
+      "en": "the lunch break",
+      "de": "die Mittagspause",
+      "pl": "przerwa obiadowa",
+      "es": "la pausa del almuerzo",
+      "fr": "la pause déjeuner",
+      "ro": "pauza de prânz",
+      "ru": "обеденный перерыв"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "Обідня перерва триває годину."
+      },
+      "en": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "The lunch break lasts one hour."
+      },
+      "de": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "Die Mittagspause dauert eine Stunde."
+      },
+      "pl": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "Przerwa obiadowa trwa godzinę."
+      },
+      "es": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "La pausa del almuerzo dura una hora."
+      },
+      "fr": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "La pause déjeuner dure une heure."
+      },
+      "ro": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "Pauza de prânz durează o oră."
+      },
+      "ru": {
+        "sentence": "La pausa pranzo dura un'ora.",
+        "translation": "Обеденный перерыв длится час."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_6",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "Il datore di lavoro",
+    "translations": {
+      "en": "the employer",
+      "uk": "роботодавець",
+      "ru": "работодатель",
+      "de": "der Arbeitgeber",
+      "pl": "pracodawca",
+      "es": "el empleador",
+      "fr": "l'employeur",
+      "ro": "angajatorul"
+    },
+    "examples": {
+      "en": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "The employer signs the contract."
+      },
+      "uk": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Роботодавець підписує договір."
+      },
+      "ru": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Работодатель подписывает договор."
+      },
+      "de": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Der Arbeitgeber unterschreibt den Vertrag."
+      },
+      "pl": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Pracodawca podpisuje umowę."
+      },
+      "es": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "El empleador firma el contrato."
+      },
+      "fr": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "L'employeur signe le contrat."
+      },
+      "ro": {
+        "sentence": "Il datore di lavoro firma il contratto.",
+        "translation": "Angajatorul semnează contractul."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_7",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "Il candidato",
+    "translations": {
+      "en": "the candidate",
+      "uk": "кандидат",
+      "ru": "кандидат",
+      "de": "der Bewerber",
+      "pl": "kandydat",
+      "es": "el candidato",
+      "fr": "le candidat",
+      "ro": "candidatul"
+    },
+    "examples": {
+      "en": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "The candidate arrives early."
+      },
+      "uk": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Кандидат приходить завчасно."
+      },
+      "ru": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Кандидат приходит заранее."
+      },
+      "de": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Der Bewerber kommt früher."
+      },
+      "pl": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Kandydat przychodzi wcześniej."
+      },
+      "es": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "El candidato llega antes."
+      },
+      "fr": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Le candidat arrive en avance."
+      },
+      "ro": {
+        "sentence": "Il candidato arriva in anticipo.",
+        "translation": "Candidatul ajunge mai devreme."
+      }
+    }
+  },
+  {
+    "id": "a2_professioni_lavoro_8",
+    "level": "A2",
+    "topic": "professioni_lavoro",
+    "word": "L'ufficio",
+    "translations": {
+      "uk": "офіс",
+      "en": "the office",
+      "de": "das Büro",
+      "pl": "biuro",
+      "es": "la oficina",
+      "fr": "le bureau",
+      "ro": "biroul",
+      "ru": "офис"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "Офіс зачиняється о вісімнадцятій."
+      },
+      "en": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "The office closes at six."
+      },
+      "de": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "Das Büro schließt um achtzehn Uhr."
+      },
+      "pl": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "Biuro zamyka się o osiemnastej."
+      },
+      "es": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "La oficina cierra a las dieciocho."
+      },
+      "fr": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "Le bureau ferme à dix-huit heures."
+      },
+      "ro": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "Biroul se închide la optsprezece."
+      },
+      "ru": {
+        "sentence": "L'ufficio chiude alle diciotto.",
+        "translation": "Офис закрывается в восемнадцать."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_1",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "Il volo",
+    "translations": {
+      "uk": "рейс",
+      "en": "the flight",
+      "de": "der Flug",
+      "pl": "lot",
+      "es": "el vuelo",
+      "fr": "le vol",
+      "ro": "zborul",
+      "ru": "рейс"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "Рейс до Рима затримується."
+      },
+      "en": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "The flight to Rome is delayed."
+      },
+      "de": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "Der Flug nach Rom hat Verspätung."
+      },
+      "pl": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "Lot do Rzymu jest opóźniony."
+      },
+      "es": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "El vuelo a Roma va con retraso."
+      },
+      "fr": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "Le vol pour Rome est en retard."
+      },
+      "ro": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "Zborul spre Roma are întârziere."
+      },
+      "ru": {
+        "sentence": "Il volo per Roma è in ritardo.",
+        "translation": "Рейс в Рим задерживается."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_2",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "Il gate",
+    "translations": {
+      "uk": "вихід на посадку",
+      "en": "the gate",
+      "de": "das Gate",
+      "pl": "bramka",
+      "es": "la puerta",
+      "fr": "la porte",
+      "ro": "poarta",
+      "ru": "выход на посадку"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "Вихід зачиняється за десять хвилин."
+      },
+      "en": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "The gate closes in ten minutes."
+      },
+      "de": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "Das Gate schließt in zehn Minuten."
+      },
+      "pl": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "Bramka zamyka się za dziesięć minut."
+      },
+      "es": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "La puerta cierra en diez minutos."
+      },
+      "fr": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "La porte ferme dans dix minutes."
+      },
+      "ro": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "Poarta se închide în zece minute."
+      },
+      "ru": {
+        "sentence": "Il gate chiude tra dieci minuti.",
+        "translation": "Выход закрывается через десять минут."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_3",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "Il check-in",
+    "translations": {
+      "uk": "реєстрація",
+      "en": "the check-in",
+      "de": "der Check-in",
+      "pl": "odprawa",
+      "es": "el facturación",
+      "fr": "l'enregistrement",
+      "ro": "înregistrarea",
+      "ru": "регистрация"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "Онлайн-реєстрація вже відкрита."
+      },
+      "en": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "Online check-in is already open."
+      },
+      "de": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "Der Online-Check-in ist schon offen."
+      },
+      "pl": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "Odprawa online jest już otwarta."
+      },
+      "es": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "La facturación en línea ya está abierta."
+      },
+      "fr": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "L'enregistrement en ligne est déjà ouvert."
+      },
+      "ro": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "Înregistrarea online este deja deschisă."
+      },
+      "ru": {
+        "sentence": "Il check-in online è già aperto.",
+        "translation": "Онлайн-регистрация уже открыта."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_4",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "La prenotazione",
+    "translations": {
+      "uk": "бронювання",
+      "en": "the booking",
+      "de": "die Buchung",
+      "pl": "rezerwacja",
+      "es": "la reserva",
+      "fr": "la réservation",
+      "ro": "rezervarea",
+      "ru": "бронирование"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Я підтверджую бронювання готелю."
+      },
+      "en": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "I confirm the hotel booking."
+      },
+      "de": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Ich bestätige die Hotelbuchung."
+      },
+      "pl": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Potwierdzam rezerwację hotelu."
+      },
+      "es": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Confirmo la reserva del hotel."
+      },
+      "fr": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Je confirme la réservation de l'hôtel."
+      },
+      "ro": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Confirm rezervarea hotelului."
+      },
+      "ru": {
+        "sentence": "Confermo la prenotazione dell'hotel.",
+        "translation": "Я подтверждаю бронирование отеля."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_5",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "La camera doppia",
+    "translations": {
+      "uk": "двомісний номер",
+      "en": "the double room",
+      "de": "das Doppelzimmer",
+      "pl": "pokój dwuosobowy",
+      "es": "la habitación doble",
+      "fr": "la chambre double",
+      "ro": "camera dublă",
+      "ru": "двухместный номер"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Ми забронювали двомісний номер."
+      },
+      "en": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "We booked a double room."
+      },
+      "de": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Wir haben ein Doppelzimmer gebucht."
+      },
+      "pl": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Zarezerwowaliśmy pokój dwuosobowy."
+      },
+      "es": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Hemos reservado una habitación doble."
+      },
+      "fr": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Nous avons réservé une chambre double."
+      },
+      "ro": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Am rezervat o cameră dublă."
+      },
+      "ru": {
+        "sentence": "Abbiamo prenotato una camera doppia.",
+        "translation": "Мы забронировали двухместный номер."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_6",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "La colazione",
+    "translations": {
+      "uk": "сніданок",
+      "en": "breakfast",
+      "de": "das Frühstück",
+      "pl": "śniadanie",
+      "es": "el desayuno",
+      "fr": "le petit-déjeuner",
+      "ro": "micul dejun",
+      "ru": "завтрак"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Сніданок входить у ціну."
+      },
+      "en": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Breakfast is included in the price."
+      },
+      "de": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Das Frühstück ist im Preis enthalten."
+      },
+      "pl": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Śniadanie jest w cenie."
+      },
+      "es": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "El desayuno está incluido en el precio."
+      },
+      "fr": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Le petit-déjeuner est inclus dans le prix."
+      },
+      "ro": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Micul dejun este inclus în preț."
+      },
+      "ru": {
+        "sentence": "La colazione è inclusa nel prezzo.",
+        "translation": "Завтрак включён в цену."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_7",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "Il passaporto",
+    "translations": {
+      "uk": "паспорт",
+      "en": "the passport",
+      "de": "der Reisepass",
+      "pl": "paszport",
+      "es": "el pasaporte",
+      "fr": "le passeport",
+      "ro": "pașaportul",
+      "ru": "паспорт"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "Паспорт у ручній поклажі."
+      },
+      "en": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "The passport is in the hand luggage."
+      },
+      "de": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "Der Reisepass ist im Handgepäck."
+      },
+      "pl": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "Paszport jest w bagażu podręcznym."
+      },
+      "es": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "El pasaporte está en el equipaje de mano."
+      },
+      "fr": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "Le passeport est dans le bagage à main."
+      },
+      "ro": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "Pașaportul este în bagajul de mână."
+      },
+      "ru": {
+        "sentence": "Il passaporto è nel bagaglio a mano.",
+        "translation": "Паспорт в ручной клади."
+      }
+    }
+  },
+  {
+    "id": "a2_viaggi_hotel_8",
+    "level": "A2",
+    "topic": "viaggi_hotel",
+    "word": "Lo scalo",
+    "translations": {
+      "en": "the layover",
+      "uk": "пересадка",
+      "ru": "пересадка",
+      "de": "der Zwischenstopp",
+      "pl": "przesiadka",
+      "es": "la escala",
+      "fr": "l'escale",
+      "ro": "escala"
+    },
+    "examples": {
+      "en": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "The layover in Rome lasts two hours."
+      },
+      "uk": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Пересадка в Римі триває дві години."
+      },
+      "ru": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Пересадка в Риме длится два часа."
+      },
+      "de": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Der Zwischenstopp in Rom dauert zwei Stunden."
+      },
+      "pl": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Przesiadka w Rzymie trwa dwie godziny."
+      },
+      "es": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "La escala en Roma dura dos horas."
+      },
+      "fr": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "L'escale à Rome dure deux heures."
+      },
+      "ro": {
+        "sentence": "Lo scalo a Roma dura due ore.",
+        "translation": "Escala la Roma durează două ore."
+      }
+    }
+  }
+]

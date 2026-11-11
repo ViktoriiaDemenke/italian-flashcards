@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "b2_media_opinione_1",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "La fonte",
+    "translations": {
+      "uk": "джерело",
+      "en": "the source",
+      "de": "die Quelle",
+      "pl": "źródło",
+      "es": "la fuente",
+      "fr": "la source",
+      "ro": "sursa",
+      "ru": "источник"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Перш ніж поширити новину, я перевірив, що джерело незалежне і посилається на публічні документи."
+      },
+      "en": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Before sharing the news I checked that the source was independent and cited public documents."
+      },
+      "de": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Bevor ich die Nachricht teilte, prüfte ich, ob die Quelle unabhängig war und öffentliche Dokumente zitierte."
+      },
+      "pl": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Zanim udostępniłem wiadomość, sprawdziłem, czy źródło jest niezależne i cytuje dokumenty publiczne."
+      },
+      "es": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Antes de compartir la noticia comprobé que la fuente fuera independiente y citara documentos públicos."
+      },
+      "fr": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Avant de partager l'info j'ai vérifié que la source était indépendante et citait des documents publics."
+      },
+      "ro": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Înainte să distribui știrea am verificat că sursa era independentă și cita documente publice."
+      },
+      "ru": {
+        "sentence": "Prima di condividere la notizia ho verificato che la fonte fosse indipendente e citasse documenti pubblici.",
+        "translation": "Прежде чем распространить новость, я проверил, что источник независим и ссылается на публичные документы."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_2",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "Il titolo",
+    "translations": {
+      "uk": "заголовок",
+      "en": "the headline",
+      "de": "die Schlagzeile",
+      "pl": "nagłówek",
+      "es": "el titular",
+      "fr": "le titre",
+      "ro": "titlul",
+      "ru": "заголовок"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "Заголовок був настільки тривожним, що сам текст статті виявився значно стриманішим."
+      },
+      "en": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "The headline was so alarming that the body of the article turned out much more cautious."
+      },
+      "de": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "Die Schlagzeile war so alarmierend, dass der Artikel selbst viel vorsichtiger wirkte."
+      },
+      "pl": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "Nagłówek był tak alarmujący, że treść artykułu okazała się znacznie ostrożniejsza."
+      },
+      "es": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "El titular era tan alarmista que el contenido del artículo resultaba mucho más cauto."
+      },
+      "fr": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "Le titre était si alarmiste que le contenu de l'article était bien plus prudent."
+      },
+      "ro": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "Titlul era atât de alarmist încât conținutul articolului era mult mai prudent."
+      },
+      "ru": {
+        "sentence": "Il titolo era così allarmistico che il contenuto dell'articolo risultava molto più cauto.",
+        "translation": "Заголовок был настолько тревожным, что сам текст статьи оказался гораздо сдержаннее."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_3",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "La censura",
+    "translations": {
+      "uk": "цензура",
+      "en": "censorship",
+      "de": "die Zensur",
+      "pl": "cenzura",
+      "es": "la censura",
+      "fr": "la censure",
+      "ro": "cenzura",
+      "ru": "цензура"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "Цензура не скасовує дискусію: вона переносить її в менш контрольовані й більш поляризовані канали."
+      },
+      "en": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "Censorship does not erase the debate: it moves it onto less controllable and more polarized channels."
+      },
+      "de": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "Zensur löscht die Debatte nicht: sie verlagert sie auf weniger kontrollierbare und stärker polarisierte Kanäle."
+      },
+      "pl": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "Cenzura nie kasuje debaty: przenosi ją na kanały mniej kontrolowane i bardziej spolaryzowane."
+      },
+      "es": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "La censura no borra el debate: lo traslada a canales menos controlables y más polarizados."
+      },
+      "fr": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "La censure n'efface pas le débat : elle le déplace vers des canaux moins contrôlables et plus polarisés."
+      },
+      "ro": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "Cenzura nu șterge dezbaterea: o mută pe canale mai greu de controlat și mai polarizate."
+      },
+      "ru": {
+        "sentence": "La censura non cancella il dibattito: lo sposta su canali meno controllabili e più polarizzati.",
+        "translation": "Цензура не отменяет дискуссию: она переносит её в менее контролируемые и более поляризованные каналы."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_4",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "L'editoriale",
+    "translations": {
+      "uk": "редакційна стаття",
+      "en": "the editorial",
+      "de": "der Leitartikel",
+      "pl": "artykuł redakcyjny",
+      "es": "el editorial",
+      "fr": "l'éditorial",
+      "ro": "editorialul",
+      "ru": "передовица"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "Редакційна стаття займала позицію, не приховуючи, на чиєму боці редакція."
+      },
+      "en": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "The editorial took a stance without hiding which side the newsroom was on."
+      },
+      "de": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "Der Leitartikel bezog Stellung, ohne zu verbergen, auf welcher Seite die Redaktion stand."
+      },
+      "pl": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "Artykuł redakcyjny zajmował stanowisko, nie ukrywając, po której stronie jest redakcja."
+      },
+      "es": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "El editorial tomaba partido sin ocultar de qué lado estaba la redacción."
+      },
+      "fr": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "L'éditorial prenait position sans cacher de quel côté était la rédaction."
+      },
+      "ro": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "Editorialul lua poziție fără să ascundă de partea cui era redacția."
+      },
+      "ru": {
+        "sentence": "L'editoriale prendeva posizione senza nascondere da quale parte stesse la redazione.",
+        "translation": "Передовица занимала позицию, не скрывая, на чьей стороне редакция."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_5",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "La bufala",
+    "translations": {
+      "uk": "фейк",
+      "en": "the hoax",
+      "de": "die Falschmeldung",
+      "pl": "fejk",
+      "es": "el bulo",
+      "fr": "le canular",
+      "ro": "știrea falsă",
+      "ru": "фейк"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "Фейк циркулював годинами, перш ніж фактчекер розібрав його цифри."
+      },
+      "en": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "The hoax had been circulating for hours before a fact-checker took apart its figures."
+      },
+      "de": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "Die Falschmeldung kursierte stundenlang, bevor ein Fact-Checker die Zahlen zerlegte."
+      },
+      "pl": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "Fejk krążył godzinami, zanim fact-checker rozłożył jego liczby."
+      },
+      "es": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "El bulo circulaba desde hacía horas antes de que un verificador desmontara sus cifras."
+      },
+      "fr": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "Le canular circulait depuis des heures avant qu'un vérificateur n'en démonte les chiffres."
+      },
+      "ro": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "Știrea falsă circula de ore bune înainte ca un verificator să-i desfacă cifrele."
+      },
+      "ru": {
+        "sentence": "La bufala circolava da ore prima che un fact-checker ne smontasse i numeri.",
+        "translation": "Фейк циркулировал часами, прежде чем фактчекер разобрал его цифры."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_6",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "Il pregiudizio",
+    "translations": {
+      "uk": "упередження",
+      "en": "the bias",
+      "de": "die Voreingenommenheit",
+      "pl": "uprzedzenie",
+      "es": "el prejuicio",
+      "fr": "le parti pris",
+      "ro": "prejudecata",
+      "ru": "предвзятость"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "Упередження того, хто добирає джерела, видно з того, про що стаття вирішує промовчати."
+      },
+      "en": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "The bias of whoever selects the sources shows in what the article chooses not to say."
+      },
+      "de": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "Die Voreingenommenheit dessen, der die Quellen auswählt, zeigt sich an dem, was der Artikel verschweigt."
+      },
+      "pl": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "Uprzedzenie tego, kto dobiera źródła, widać po tym, czego artykuł postanawia nie mówić."
+      },
+      "es": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "El prejuicio de quien selecciona las fuentes se ve en lo que el artículo decide no decir."
+      },
+      "fr": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "Le parti pris de celui qui choisit les sources se voit à ce que l'article choisit de taire."
+      },
+      "ro": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "Prejudecata celui care alege sursele se vede din ce articolul alege să nu spună."
+      },
+      "ru": {
+        "sentence": "Il pregiudizio di chi seleziona le fonti si vede da ciò che l'articolo sceglie di non dire.",
+        "translation": "Предвзятость того, кто отбирает источники, видна по тому, о чём статья решает промолчать."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_7",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "Il sentire comune",
+    "translations": {
+      "en": "the common feeling",
+      "uk": "спільне відчуття",
+      "ru": "общее чувство",
+      "de": "das allgemeine Empfinden",
+      "pl": "wspólne odczucie",
+      "es": "el sentir común",
+      "fr": "le sentiment commun",
+      "ro": "simțul comun"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Спільне відчуття змінюється повільно."
+      },
+      "en": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "The common feeling changes slowly."
+      },
+      "de": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Das allgemeine Empfinden ändert sich langsam."
+      },
+      "pl": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Wspólne odczucie zmienia się powoli."
+      },
+      "es": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "El sentir común cambia despacio."
+      },
+      "fr": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Le sentiment commun change lentement."
+      },
+      "ro": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Simțul comun se schimbă încet."
+      },
+      "ru": {
+        "sentence": "Il sentire comune cambia lentamente.",
+        "translation": "Общее чувство меняется медленно."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_8",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "La testata",
+    "translations": {
+      "uk": "видання",
+      "en": "the outlet",
+      "de": "das Medium",
+      "pl": "tytuł prasowy",
+      "es": "la cabecera",
+      "fr": "le titre de presse",
+      "ro": "publicația",
+      "ru": "издание"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "Те видання виправило статтю на першій шпальті, визнавши, що сплутало два різні вироки."
+      },
+      "en": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "That outlet corrected the article on the front page, admitting it had mixed up two different rulings."
+      },
+      "de": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "Jenes Medium korrigierte den Artikel auf der Titelseite und gab zu, zwei Urteile verwechselt zu haben."
+      },
+      "pl": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "Ten tytuł poprawił artykuł na pierwszej stronie, przyznając, że pomylił dwa wyroki."
+      },
+      "es": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "Esa cabecera corrigió el artículo en portada, admitiendo haber confundido dos sentencias distintas."
+      },
+      "fr": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "Ce titre a corrigé l'article en une, en admettant avoir confondu deux arrêts différents."
+      },
+      "ro": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "Publicația a corectat articolul pe prima pagină, recunoscând că a confundat două sentințe diferite."
+      },
+      "ru": {
+        "sentence": "Quella testata ha corretto l'articolo in prima pagina, ammettendo di aver confuso due sentenze diverse.",
+        "translation": "То издание исправило статью на первой полосе, признав, что перепутало два разных решения."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_9",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "Il fact-checking",
+    "translations": {
+      "uk": "перевірка фактів",
+      "en": "fact-checking",
+      "de": "der Faktencheck",
+      "pl": "weryfikacja faktów",
+      "es": "la verificación",
+      "fr": "la vérification des faits",
+      "ro": "verificarea faptelor",
+      "ru": "проверка фактов"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "Перевірка фактів не замінює читання: вона показує, які твердження тримаються, а які ні."
+      },
+      "en": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "Fact-checking does not replace reading: it shows which claims hold and which do not."
+      },
+      "de": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "Faktencheck ersetzt das Lesen nicht: er zeigt, welche Behauptungen halten und welche nicht."
+      },
+      "pl": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "Weryfikacja faktów nie zastępuje lektury: pokazuje, które twierdzenia się bronią."
+      },
+      "es": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "La verificación no sustituye la lectura: sirve para ver qué afirmaciones se sostienen."
+      },
+      "fr": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "La vérification des faits ne remplace pas la lecture : elle montre quelles affirmations tiennent."
+      },
+      "ro": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "Verificarea faptelor nu înlocuiește lectura: arată care afirmații rezistă și care nu."
+      },
+      "ru": {
+        "sentence": "Il fact-checking non sostituisce la lettura: serve a capire quali affermazioni reggono e quali no.",
+        "translation": "Проверка фактов не заменяет чтение: она показывает, какие утверждения держатся, а какие нет."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_10",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "La polarizzazione",
+    "translations": {
+      "uk": "поляризація",
+      "en": "polarization",
+      "de": "die Polarisierung",
+      "pl": "polaryzacja",
+      "es": "la polarización",
+      "fr": "la polarisation",
+      "ro": "polarizarea",
+      "ru": "поляризация"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "Поляризація ускладнює визнання помилки без враження, що ти перейшов на інший бік."
+      },
+      "en": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "Polarization makes it hard to admit a mistake without seeming to switch sides."
+      },
+      "de": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "Polarisierung macht es schwer, einen Fehler zuzugeben, ohne die Seite gewechselt zu haben."
+      },
+      "pl": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "Polaryzacja utrudnia przyznanie się do błędu bez wrażenia, że przeszło się na drugą stronę."
+      },
+      "es": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "La polarización dificulta admitir un error sin parecer que se cambia de bando."
+      },
+      "fr": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "La polarisation rend difficile d'admettre une erreur sans sembler changer de camp."
+      },
+      "ro": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "Polarizarea face greu să recunoști o greșeală fără să pari că treci de partea cealaltă."
+      },
+      "ru": {
+        "sentence": "La polarizzazione rende difficile ammettere un errore senza sembrare di passare dall'altra parte.",
+        "translation": "Поляризация мешает признать ошибку, не создавая впечатления, что ты перешёл на другую сторону."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_11",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "Il contesto",
+    "translations": {
+      "uk": "контекст",
+      "en": "the context",
+      "de": "der Kontext",
+      "pl": "kontekst",
+      "es": "el contexto",
+      "fr": "le contexte",
+      "ro": "contextul",
+      "ru": "контекст"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Без контексту та фраза здавалася звинуваченням, тоді як у всій промові це було питання."
+      },
+      "en": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Taken out of context, that sentence looked like an accusation, while in the full speech it was a question."
+      },
+      "de": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Aus dem Kontext gerissen wirkte der Satz wie eine Anklage, im ganzen Redebeitrag war es eine Frage."
+      },
+      "pl": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Wyjęte z kontekstu zdanie wyglądało na oskarżenie, a w całej wypowiedzi było pytaniem."
+      },
+      "es": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Fuera de contexto, esa frase parecía una acusación, mientras que en el discurso entero era una pregunta."
+      },
+      "fr": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Hors contexte, cette phrase semblait une accusation, alors que dans le discours entier c'était une question."
+      },
+      "ro": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Scos din context, acel enunț părea o acuzație, deși în discursul întreg era o întrebare."
+      },
+      "ru": {
+        "sentence": "Tolto il contesto, quella frase sembrava un'accusa, mentre nel discorso intero era una domanda.",
+        "translation": "Вне контекста та фраза казалась обвинением, тогда как во всей речи это был вопрос."
+      }
+    }
+  },
+  {
+    "id": "b2_media_opinione_12",
+    "level": "B2",
+    "topic": "media_opinione",
+    "word": "Smentire",
+    "translations": {
+      "uk": "спростовувати",
+      "en": "to deny",
+      "de": "dementieren",
+      "pl": "zdementować",
+      "es": "desmentir",
+      "fr": "démentir",
+      "ro": "a dezminți",
+      "ru": "опровергать"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "Міністерству довелося спростувати реконструкцію, бо протоколи описували іншу послідовність подій."
+      },
+      "en": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "The ministry had to deny the account, because the minutes told a different sequence of events."
+      },
+      "de": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "Das Ministerium musste die Darstellung dementieren, weil die Protokolle einen anderen Ablauf zeigten."
+      },
+      "pl": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "Ministerstwo musiało zdementować rekonstrukcję, bo protokoły opisywały inną kolejność zdarzeń."
+      },
+      "es": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "El ministerio tuvo que desmentir la reconstrucción, porque las actas contaban otra secuencia."
+      },
+      "fr": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "Le ministère a dû démentir la reconstitution, car les procès-verbaux racontaient une autre suite."
+      },
+      "ro": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "Ministerul a trebuit să dezmintă reconstrucția, pentru că procesele-verbale povesteau altă succesiune."
+      },
+      "ru": {
+        "sentence": "Il ministero ha dovuto smentire la ricostruzione, perché i verbali raccontavano un'altra sequenza dei fatti.",
+        "translation": "Министерству пришлось опровергнуть реконструкцию, потому что протоколы описывали другую последовательность."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_1",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "Il contratto",
+    "translations": {
+      "uk": "договір",
+      "en": "the contract",
+      "de": "der Vertrag",
+      "pl": "umowa",
+      "es": "el contrato",
+      "fr": "le contrat",
+      "ro": "contractul",
+      "ru": "договор"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "Договір зобов'язує обидві сторони лише після того, як кожна підписала всі сторінки."
+      },
+      "en": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "The contract binds both parties only after each has signed every page."
+      },
+      "de": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "Der Vertrag bindet beide Seiten erst, nachdem jede alle Seiten unterschrieben hat."
+      },
+      "pl": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "Umowa wiąże obie strony dopiero gdy każda podpisała wszystkie strony."
+      },
+      "es": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "El contrato obliga a ambas partes solo después de que cada una haya firmado todas las páginas."
+      },
+      "fr": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "Le contrat n'engage les deux parties qu'après que chacune a signé toutes les pages."
+      },
+      "ro": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "Contractul obligă ambele părți abia după ce fiecare a semnat toate paginile."
+      },
+      "ru": {
+        "sentence": "Il contratto vincola entrambe le parti solo dopo che ciascuna ha firmato tutte le pagine.",
+        "translation": "Договор связывает обе стороны только после того, как каждая подписала все страницы."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_2",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "La clausola",
+    "translations": {
+      "uk": "пункт",
+      "en": "the clause",
+      "de": "die Klausel",
+      "pl": "klauzula",
+      "es": "la cláusula",
+      "fr": "la clause",
+      "ro": "clauza",
+      "ru": "пункт"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Той пункт дозволяє розірвати договір, якщо послугу призупинено більш ніж на десять днів."
+      },
+      "en": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "That clause allows withdrawal if the service stays suspended for more than ten days."
+      },
+      "de": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Jene Klausel erlaubt den Rücktritt, wenn der Dienst länger als zehn Tage ausfällt."
+      },
+      "pl": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Ta klauzula pozwala odstąpić, jeśli usługa jest zawieszona dłużej niż dziesięć dni."
+      },
+      "es": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Esa cláusula permite desistir si el servicio queda suspendido más de diez días."
+      },
+      "fr": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Cette clause permet de se rétracter si le service reste suspendu plus de dix jours."
+      },
+      "ro": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Clauza permite rezilierea dacă serviciul rămâne suspendat mai mult de zece zile."
+      },
+      "ru": {
+        "sentence": "Quella clausola permette di recedere se il servizio resta sospeso per più di dieci giorni.",
+        "translation": "Тот пункт позволяет расторгнуть договор, если услуга приостановлена больше чем на десять дней."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_3",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "La penale",
+    "translations": {
+      "uk": "штраф",
+      "en": "the penalty",
+      "de": "die Vertragsstrafe",
+      "pl": "kara umowna",
+      "es": "la penalización",
+      "fr": "la pénalité",
+      "ro": "penalitatea",
+      "ru": "неустойка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "Штраф настає лише якщо затримка перевищує строк, указаний унизу договору."
+      },
+      "en": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "The penalty applies only if the delay exceeds the deadline written at the foot of the contract."
+      },
+      "de": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "Die Vertragsstrafe greift nur, wenn die Verspätung die am Vertragsende genannte Frist überschreitet."
+      },
+      "pl": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "Kara umowna wchodzi tylko gdy opóźnienie przekracza termin podany na końcu umowy."
+      },
+      "es": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "La penalización se aplica solo si el retraso supera el plazo indicado al pie del contrato."
+      },
+      "fr": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "La pénalité ne s'applique que si le retard dépasse le délai indiqué en bas du contrat."
+      },
+      "ro": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "Penalitatea se aplică doar dacă întârzierea depășește termenul indicat la finalul contractului."
+      },
+      "ru": {
+        "sentence": "La penale scatta soltanto se il ritardo supera il termine indicato in calce al contratto.",
+        "translation": "Неустойка наступает только если просрочка превышает срок, указанный внизу договора."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_4",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "Il recesso",
+    "translations": {
+      "uk": "відмова від договору",
+      "en": "withdrawal",
+      "de": "der Rücktritt",
+      "pl": "odstąpienie",
+      "es": "el desistimiento",
+      "fr": "la rétractation",
+      "ro": "retragerea",
+      "ru": "отказ от договора"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "Відмову треба повідомити письмово протягом чотирнадцяти днів, інакше зобов'язання лишається чинним."
+      },
+      "en": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "Withdrawal must be notified in writing within fourteen days, otherwise the obligation stays in force."
+      },
+      "de": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "Der Rücktritt muss schriftlich innerhalb von vierzehn Tagen mitgeteilt werden, sonst bleibt die Bindung bestehen."
+      },
+      "pl": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "Odstąpienie trzeba zgłosić pisemnie w ciągu czternastu dni, inaczej zobowiązanie zostaje."
+      },
+      "es": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "El desistimiento debe comunicarse por escrito en catorce días, si no la obligación sigue vigente."
+      },
+      "fr": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "La rétractation doit être notifiée par écrit sous quatorze jours, sinon l'engagement reste en vigueur."
+      },
+      "ro": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "Retragerea trebuie comunicată în scris în paisprezece zile, altfel obligația rămâne în vigoare."
+      },
+      "ru": {
+        "sentence": "Il recesso va comunicato per iscritto entro quattordici giorni, altrimenti il vincolo resta in vigore.",
+        "translation": "Отказ нужно сообщить письменно в течение четырнадцати дней, иначе обязательство остаётся в силе."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_5",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "La controparte",
+    "translations": {
+      "uk": "інша сторона",
+      "en": "the other party",
+      "de": "die Gegenpartei",
+      "pl": "druga strona",
+      "es": "la contraparte",
+      "fr": "la contrepartie",
+      "ro": "cealaltă parte",
+      "ru": "другая сторона"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "Інша сторона стверджує, що виконала зобов'язання, але ще не надала вимаганих доказів."
+      },
+      "en": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "The other party claims to have performed, but has not yet produced the evidence requested."
+      },
+      "de": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "Die Gegenpartei behauptet erfüllt zu haben, hat aber die verlangten Belege noch nicht vorgelegt."
+      },
+      "pl": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "Druga strona twierdzi, że wykonała zobowiązanie, ale nie przedstawiła jeszcze żądanych dowodów."
+      },
+      "es": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "La contraparte sostiene haber cumplido, pero aún no ha aportado las pruebas pedidas."
+      },
+      "fr": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "La contrepartie soutient avoir exécuté, mais n'a pas encore produit les preuves demandées."
+      },
+      "ro": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "Cealaltă parte susține că a executat, dar încă nu a produs probele cerute."
+      },
+      "ru": {
+        "sentence": "La controparte sostiene di aver adempiuto, ma non ha ancora prodotto le prove richieste.",
+        "translation": "Другая сторона утверждает, что исполнила, но ещё не представила запрошенные доказательства."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_6",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "Inadempiente",
+    "translations": {
+      "uk": "той, хто не виконав",
+      "en": "in default",
+      "de": "säumig",
+      "pl": "niewykonujący",
+      "es": "incumplidor",
+      "fr": "défaillant",
+      "ro": "neexecutant",
+      "ru": "неисполнивший"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Той, хто не виконав, має відшкодувати шкоду, якщо не доведе причину, яка від нього не залежить."
+      },
+      "en": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Whoever is in default must compensate the loss, unless they prove a cause not attributable to them."
+      },
+      "de": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Wer säumig ist, muss den Schaden ersetzen, sofern er keinen ihm nicht zurechenbaren Grund nachweist."
+      },
+      "pl": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Kto jest niewykonujący, musi naprawić szkodę, chyba że wykaże przyczynę od niego niezależną."
+      },
+      "es": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Quien resulta incumplidor debe indemnizar, salvo que pruebe una causa que no le sea imputable."
+      },
+      "fr": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Celui qui est défaillant doit réparer le préjudice, sauf s'il prouve une cause qui ne lui est pas imputable."
+      },
+      "ro": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Cine este neexecutant trebuie să repare prejudiciul, dacă nu dovedește o cauză care nu-i este imputabilă."
+      },
+      "ru": {
+        "sentence": "Chi risulta inadempiente deve risarcire il danno, a meno che provi una causa a lui non imputabile.",
+        "translation": "Кто не исполнил, должен возместить ущерб, если не докажет причину, которая от него не зависит."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_7",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "Il foro competente",
+    "translations": {
+      "uk": "підсудність",
+      "en": "the competent court",
+      "de": "das zuständige Gericht",
+      "pl": "sąd właściwy",
+      "es": "el fuero competente",
+      "fr": "la juridiction compétente",
+      "ro": "instanța competentă",
+      "ru": "подсудность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "Підсудність — суд споживача, а не той, який постачальник обрав односторонньо."
+      },
+      "en": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "The competent court is the consumer's, not the one the supplier chose on its own."
+      },
+      "de": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "Das zuständige Gericht ist das des Verbrauchers, nicht das, das der Anbieter einseitig gewählt hat."
+      },
+      "pl": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "Sądem właściwym jest sąd konsumenta, nie ten wybrany jednostronnie przez dostawcę."
+      },
+      "es": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "El fuero competente es el del consumidor, no el elegido unilateralmente por el proveedor."
+      },
+      "fr": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "La juridiction compétente est celle du consommateur, pas celle choisie unilatéralement par le fournisseur."
+      },
+      "ro": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "Instanța competentă este cea a consumatorului, nu cea aleasă unilateral de furnizor."
+      },
+      "ru": {
+        "sentence": "Il foro competente è quello del consumatore, non quello scelto unilateralmente dal fornitore.",
+        "translation": "Подсудность — суд потребителя, а не тот, который поставщик выбрал в одностороннем порядке."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_8",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "La risoluzione",
+    "translations": {
+      "uk": "розірвання",
+      "en": "termination",
+      "de": "die Auflösung",
+      "pl": "rozwiązanie",
+      "es": "la resolución",
+      "fr": "la résolution",
+      "ro": "rezoluțiunea",
+      "ru": "расторжение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Розірвання договору запросили, бо головне зобов'язання не було виконане."
+      },
+      "en": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Termination of the contract was requested because the main obligation had not been performed."
+      },
+      "de": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Die Auflösung des Vertrags wurde beantragt, weil die Hauptpflicht nicht erfüllt worden war."
+      },
+      "pl": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Rozwiązania umowy zażądano, bo główne zobowiązanie nie zostało wykonane."
+      },
+      "es": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Se pidió la resolución del contrato porque la obligación principal no se había cumplido."
+      },
+      "fr": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "La résolution du contrat a été demandée parce que l'obligation principale n'avait pas été exécutée."
+      },
+      "ro": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Rezoluțiunea contractului a fost cerută pentru că obligația principală nu fusese executată."
+      },
+      "ru": {
+        "sentence": "La risoluzione del contratto è stata chiesta perché l'obbligo principale non era stato eseguito.",
+        "translation": "Расторжение договора запросили, потому что главное обязательство не было исполнено."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_9",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "Il termine",
+    "translations": {
+      "uk": "строк",
+      "en": "the deadline",
+      "de": "die Frist",
+      "pl": "termin",
+      "es": "el plazo",
+      "fr": "le délai",
+      "ro": "termenul",
+      "ru": "срок"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "Строк для оскарження рішення спливає в п'ятницю, і після цієї дати скарга неприйнятна."
+      },
+      "en": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "The deadline to challenge the decision expires on Friday, and after that date the appeal is inadmissible."
+      },
+      "de": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "Die Frist, die Entscheidung anzufechten, läuft am Freitag ab, danach ist der Rechtsbehelf unzulässig."
+      },
+      "pl": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "Termin na zaskarżenie decyzji upływa w piątek, a po tej dacie odwołanie jest niedopuszczalne."
+      },
+      "es": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "El plazo para impugnar la decisión vence el viernes, y pasada esa fecha el recurso es inadmisible."
+      },
+      "fr": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "Le délai pour contester la décision expire vendredi, et au-delà le recours est irrecevable."
+      },
+      "ro": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "Termenul pentru a contesta decizia expiră vineri, iar după acea dată calea de atac este inadmisibilă."
+      },
+      "ru": {
+        "sentence": "Il termine per impugnare la decisione scade venerdì, e oltre quella data il ricorso è inammissibile.",
+        "translation": "Срок для обжалования решения истекает в пятницу, и после этой даты жалоба недопустима."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_10",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "La responsabilità",
+    "translations": {
+      "uk": "відповідальність",
+      "en": "liability",
+      "de": "die Haftung",
+      "pl": "odpowiedzialność",
+      "es": "la responsabilidad",
+      "fr": "la responsabilité",
+      "ro": "răspunderea",
+      "ru": "ответственность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "Відповідальність лишається на тому, хто підписав, навіть якщо саме виконання було доручене іншому."
+      },
+      "en": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "Liability stays with the person who signed, even if the actual performance was delegated."
+      },
+      "de": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "Die Haftung bleibt bei dem, der unterschrieben hat, auch wenn die Ausführung delegiert wurde."
+      },
+      "pl": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "Odpowiedzialność zostaje przy tym, kto podpisał, nawet jeśli wykonanie zlecono komuś innemu."
+      },
+      "es": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "La responsabilidad sigue en quien firmó, aunque la ejecución material se haya delegado."
+      },
+      "fr": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "La responsabilité reste à celui qui a signé, même si l'exécution matérielle a été déléguée."
+      },
+      "ro": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "Răspunderea rămâne la cine a semnat, chiar dacă executarea materială a fost delegată."
+      },
+      "ru": {
+        "sentence": "La responsabilità resta in capo a chi ha firmato, anche se l'esecuzione materiale è stata delegata.",
+        "translation": "Ответственность остаётся на том, кто подписал, даже если само исполнение поручили другому."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_11",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "Nulla",
+    "translations": {
+      "uk": "нікчемний",
+      "en": "void",
+      "de": "nichtig",
+      "pl": "nieważny",
+      "es": "nulo",
+      "fr": "nul",
+      "ro": "nul",
+      "ru": "ничтожный"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "Пункт нікчемний, бо повністю виключає право споживача бути поінформованим."
+      },
+      "en": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "The clause is void because it wholly excludes the consumer's right to be informed."
+      },
+      "de": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "Die Klausel ist nichtig, weil sie das Informationsrecht des Verbrauchers völlig ausschließt."
+      },
+      "pl": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "Klauzula jest nieważna, bo całkowicie wyłącza prawo konsumenta do informacji."
+      },
+      "es": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "La cláusula es nula porque excluye por completo el derecho del consumidor a ser informado."
+      },
+      "fr": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "La clause est nulle parce qu'elle exclut totalement le droit du consommateur à être informé."
+      },
+      "ro": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "Clauza este nulă pentru că exclude total dreptul consumatorului de a fi informat."
+      },
+      "ru": {
+        "sentence": "La clausola è nulla perché esclude in modo totale il diritto del consumatore a essere informato.",
+        "translation": "Пункт ничтожен, потому что полностью исключает право потребителя быть информированным."
+      }
+    }
+  },
+  {
+    "id": "b2_diritto_contratti_12",
+    "level": "B2",
+    "topic": "diritto_contratti",
+    "word": "L'arbitrato",
+    "translations": {
+      "uk": "арбітраж",
+      "en": "arbitration",
+      "de": "das Schiedsverfahren",
+      "pl": "arbitraż",
+      "es": "el arbitraje",
+      "fr": "l'arbitrage",
+      "ro": "arbitrajul",
+      "ru": "арбитраж"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "Арбітраж був передбачений лише для спорів між компаніями, не для спорів із приватними особами."
+      },
+      "en": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "Arbitration was provided only for disputes between companies, not for those with private individuals."
+      },
+      "de": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "Das Schiedsverfahren war nur für Streitigkeiten zwischen Unternehmen vorgesehen, nicht für solche mit Privatpersonen."
+      },
+      "pl": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "Arbitraż był przewidziany tylko dla sporów między firmami, nie z osobami prywatnymi."
+      },
+      "es": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "El arbitraje estaba previsto solo para controversias entre empresas, no con particulares."
+      },
+      "fr": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "L'arbitrage n'était prévu que pour les litiges entre entreprises, pas avec des particuliers."
+      },
+      "ro": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "Arbitrajul era prevăzut doar pentru litigiile dintre firme, nu cu persoanele private."
+      },
+      "ru": {
+        "sentence": "L'arbitrato era previsto solo per le controversie tra imprese, non per quelle con i privati.",
+        "translation": "Арбитраж был предусмотрен только для споров между компаниями, а не с частными лицами."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_1",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Il mercato del lavoro",
+    "translations": {
+      "uk": "ринок праці",
+      "en": "the labour market",
+      "de": "der Arbeitsmarkt",
+      "pl": "rynek pracy",
+      "es": "el mercado laboral",
+      "fr": "le marché du travail",
+      "ro": "piața muncii",
+      "ru": "рынок труда"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "Місцевий ринок праці поглинає технічні профілі, тоді як адміністративних забагато."
+      },
+      "en": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "The local labour market absorbs technical profiles, while administrative ones remain in surplus."
+      },
+      "de": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "Der lokale Arbeitsmarkt nimmt technische Profile auf, während administrative im Überangebot bleiben."
+      },
+      "pl": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "Lokalny rynek pracy wchłania profile techniczne, a administracyjne pozostają w nadmiarze."
+      },
+      "es": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "El mercado laboral local absorbe los perfiles técnicos, mientras los administrativos sobran."
+      },
+      "fr": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "Le marché du travail local absorbe les profils techniques, tandis que les profils administratifs restent en excès."
+      },
+      "ro": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "Piața locală a muncii absoarbe profilurile tehnice, în timp ce cele administrative rămân în exces."
+      },
+      "ru": {
+        "sentence": "Il mercato del lavoro locale assorbe i profili tecnici, mentre quelli amministrativi restano in eccesso.",
+        "translation": "Местный рынок труда поглощает технические профили, тогда как административных в избытке."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_2",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "La disoccupazione",
+    "translations": {
+      "uk": "безробіття",
+      "en": "unemployment",
+      "de": "die Arbeitslosigkeit",
+      "pl": "bezrobocie",
+      "es": "el desempleo",
+      "fr": "le chômage",
+      "ro": "șomajul",
+      "ru": "безработица"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Молодіжне безробіття знизилося, але багато договорів лишаються строковими і не стають сталими."
+      },
+      "en": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Youth unemployment has fallen, but many contracts stay fixed-term and do not become permanent."
+      },
+      "de": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Die Jugendarbeitslosigkeit ist gesunken, doch viele Verträge bleiben befristet und werden nicht fest."
+      },
+      "pl": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Bezrobocie młodzieży spadło, ale wiele umów zostaje na czas określony i nie staje się stałych."
+      },
+      "es": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "El desempleo juvenil bajó, pero muchos contratos siguen siendo temporales y no se vuelven fijos."
+      },
+      "fr": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Le chômage des jeunes a baissé, mais beaucoup de contrats restent à durée déterminée."
+      },
+      "ro": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Șomajul tinerilor a scăzut, dar multe contracte rămân pe durată determinată."
+      },
+      "ru": {
+        "sentence": "La disoccupazione giovanile è scesa, ma molti contratti restano a termine e non diventano stabili.",
+        "translation": "Молодёжная безработица снизилась, но многие договоры остаются срочными и не становятся постоянными."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_3",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Il salario minimo",
+    "translations": {
+      "uk": "мінімальна зарплата",
+      "en": "the minimum wage",
+      "de": "der Mindestlohn",
+      "pl": "płaca minimalna",
+      "es": "el salario mínimo",
+      "fr": "le salaire minimum",
+      "ro": "salariul minim",
+      "ru": "минимальная зарплата"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "Мінімальна зарплата покриває заявлені години, а не понаднормові, які лишаються поза відомостю."
+      },
+      "en": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "The minimum wage covers the declared hours, not the overtime that stays off the payslip."
+      },
+      "de": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "Der Mindestlohn deckt die gemeldeten Stunden, nicht die Überstunden, die außerhalb der Abrechnung bleiben."
+      },
+      "pl": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "Płaca minimalna obejmuje zgłoszone godziny, nie nadgodziny poza paskiem."
+      },
+      "es": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "El salario mínimo cubre las horas declaradas, no las extras que quedan fuera de la nómina."
+      },
+      "fr": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "Le salaire minimum couvre les heures déclarées, pas les heures supplémentaires hors bulletin."
+      },
+      "ro": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "Salariul minim acoperă orele declarate, nu orele suplimentare rămase în afara fluturașului."
+      },
+      "ru": {
+        "sentence": "Il salario minimo copre le ore dichiarate, non gli straordinari che restano fuori busta.",
+        "translation": "Минимальная зарплата покрывает заявленные часы, а не сверхурочные, которые остаются вне расчётного листка."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_4",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Il precariato",
+    "translations": {
+      "uk": "нестабільна зайнятість",
+      "en": "precarious work",
+      "de": "prekäre Beschäftigung",
+      "pl": "prekaryzacja",
+      "es": "la precariedad",
+      "fr": "la précarité",
+      "ro": "precariatul",
+      "ru": "нестабильная занятость"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "Нестабільна зайнятість — це не лише низький дохід: це неможливість планувати далі кількох місяців."
+      },
+      "en": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "Precarious work is not only low pay: it is the inability to plan beyond a few months."
+      },
+      "de": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "Prekäre Beschäftigung ist nicht nur niedriges Einkommen: es ist die Unmöglichkeit, über wenige Monate hinaus zu planen."
+      },
+      "pl": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "Prekaryzacja to nie tylko niski dochód: to niemożność planowania dalej niż kilka miesięcy."
+      },
+      "es": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "La precariedad no es solo un ingreso bajo: es la imposibilidad de planear más allá de unos meses."
+      },
+      "fr": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "La précarité n'est pas seulement un bas revenu : c'est l'impossibilité de planifier au-delà de quelques mois."
+      },
+      "ro": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "Precariatul nu este doar un venit mic: este imposibilitatea de a planifica dincolo de câteva luni."
+      },
+      "ru": {
+        "sentence": "Il precariato non è solo un reddito basso: è l'impossibilità di pianificare oltre pochi mesi.",
+        "translation": "Нестабильная занятость — это не только низкий доход: это невозможность планировать дальше нескольких месяцев."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_5",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "La produttività",
+    "translations": {
+      "uk": "продуктивність",
+      "en": "productivity",
+      "de": "die Produktivität",
+      "pl": "produktywność",
+      "es": "la productividad",
+      "fr": "la productivité",
+      "ro": "productivitatea",
+      "ru": "производительность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "Продуктивність зросла, але приріст не перетворився на вищі зарплати для тих, хто виконує роботу."
+      },
+      "en": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "Productivity rose, but the gain did not turn into higher wages for the people doing the work."
+      },
+      "de": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "Die Produktivität ist gestiegen, doch der Zuwachs wurde nicht zu höheren Löhnen für die Ausführenden."
+      },
+      "pl": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "Produktywność wzrosła, ale wzrost nie przełożył się na wyższe płace dla wykonujących pracę."
+      },
+      "es": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "La productividad creció, pero el aumento no se tradujo en salarios más altos para quien hace el trabajo."
+      },
+      "fr": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "La productivité a augmenté, mais la hausse ne s'est pas traduite en salaires plus élevés pour ceux qui font le travail."
+      },
+      "ro": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "Productivitatea a crescut, dar creșterea nu s-a tradus în salarii mai mari pentru cine face munca."
+      },
+      "ru": {
+        "sentence": "La produttività è cresciuta, ma l'aumento non si è tradotto in salari più alti per chi esegue il lavoro.",
+        "translation": "Производительность выросла, но прирост не превратился в более высокие зарплаты для тех, кто выполняет работу."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_6",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Il sindacato",
+    "translations": {
+      "uk": "профспілка",
+      "en": "the union",
+      "de": "die Gewerkschaft",
+      "pl": "związek zawodowy",
+      "es": "el sindicato",
+      "fr": "le syndicat",
+      "ro": "sindicatul",
+      "ru": "профсоюз"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "Профспілка вимагала, щоб оновлення колективного договору охопило і віддалену роботу."
+      },
+      "en": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "The union asked that the renewal of the collective agreement also cover remote work."
+      },
+      "de": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "Die Gewerkschaft verlangte, dass die Erneuerung des Tarifvertrags auch die Fernarbeit einschließt."
+      },
+      "pl": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "Związek zażądał, by odnowienie układu zbiorowego objęło też pracę zdalną."
+      },
+      "es": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "El sindicato pidió que la renovación del convenio colectivo incluyera también el trabajo a distancia."
+      },
+      "fr": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "Le syndicat a demandé que le renouvellement de la convention collective inclue aussi le télétravail."
+      },
+      "ro": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "Sindicatul a cerut ca reînnoirea contractului colectiv să includă și munca la distanță."
+      },
+      "ru": {
+        "sentence": "Il sindacato ha chiesto che il rinnovo del contratto collettivo includesse anche il lavoro da remoto.",
+        "translation": "Профсоюз потребовал, чтобы обновление коллективного договора охватывало и удалённую работу."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_7",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Il licenziamento",
+    "translations": {
+      "uk": "звільнення",
+      "en": "dismissal",
+      "de": "die Kündigung",
+      "pl": "zwolnienie",
+      "es": "el despido",
+      "fr": "le licenciement",
+      "ro": "concedierea",
+      "ru": "увольнение"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "Звільнення оскаржили, бо письмова мотивація не відповідала задокументованим фактам."
+      },
+      "en": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "The dismissal was challenged because the written reason did not match the documented facts."
+      },
+      "de": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "Die Kündigung wurde angefochten, weil die schriftliche Begründung nicht zu den belegten Fakten passte."
+      },
+      "pl": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "Zwalnianie zaskarżono, bo pisemne uzasadnienie nie odpowiadało udokumentowanym faktom."
+      },
+      "es": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "El despido fue impugnado porque la motivación escrita no coincidía con los hechos documentados."
+      },
+      "fr": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "Le licenciement a été contesté parce que le motif écrit ne correspondait pas aux faits documentés."
+      },
+      "ro": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "Concedierea a fost contestată pentru că motivarea scrisă nu corespundea faptelor documentate."
+      },
+      "ru": {
+        "sentence": "Il licenziamento è stato contestato perché la motivazione scritta non corrispondeva ai fatti documentati.",
+        "translation": "Увольнение оспорили, потому что письменная мотивировка не совпадала с задокументированными фактами."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_8",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "La busta paga",
+    "translations": {
+      "uk": "розрахунковий листок",
+      "en": "the payslip",
+      "de": "die Gehaltsabrechnung",
+      "pl": "pasek płacowy",
+      "es": "la nómina",
+      "fr": "le bulletin de paie",
+      "ro": "fluturașul",
+      "ru": "расчётный листок"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "У розрахунковому листку була стаття, яку ніхто в офісі не вмів пояснити працівнику."
+      },
+      "en": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "The payslip showed an item that nobody in the office could explain to the employee."
+      },
+      "de": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "Auf der Abrechnung stand ein Posten, den im Büro niemand dem Beschäftigten erklären konnte."
+      },
+      "pl": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "Na pasku była pozycja, której nikt w biurze nie umiał wyjaśnić pracownikowi."
+      },
+      "es": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "En la nómina aparecía un concepto que nadie en la oficina sabía explicar al empleado."
+      },
+      "fr": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "Sur le bulletin figurait une ligne que personne au bureau ne savait expliquer au salarié."
+      },
+      "ro": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "Pe fluturaș apărea o linie pe care nimeni de la birou nu știa să o explice angajatului."
+      },
+      "ru": {
+        "sentence": "Sulla busta paga compariva una voce che nessuno in ufficio sapeva spiegare al dipendente.",
+        "translation": "В расчётном листке была строка, которую никто в офисе не мог объяснить работнику."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_9",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Il turn over",
+    "translations": {
+      "uk": "плинність кадрів",
+      "en": "staff turnover",
+      "de": "die Fluktuation",
+      "pl": "rotacja kadr",
+      "es": "la rotación",
+      "fr": "le turnover",
+      "ro": "fluctuația",
+      "ru": "текучесть кадров"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "Висока плинність показує, що проблема не в пошуку людей, а в тому, щоб утримати їх після перших місяців."
+      },
+      "en": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "High turnover shows that the problem is not finding people, but keeping them after the first months."
+      },
+      "de": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "Hohe Fluktuation zeigt, dass das Problem nicht das Finden von Leuten ist, sondern sie nach den ersten Monaten zu halten."
+      },
+      "pl": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "Wysoka rotacja pokazuje, że problemem nie jest znalezienie ludzi, lecz zatrzymanie ich po pierwszych miesiącach."
+      },
+      "es": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "La alta rotación muestra que el problema no es encontrar gente, sino retenerla tras los primeros meses."
+      },
+      "fr": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "Un turnover élevé montre que le problème n'est pas de trouver des gens, mais de les garder après les premiers mois."
+      },
+      "ro": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "Fluctuația mare arată că problema nu este să găsești oameni, ci să-i păstrezi după primele luni."
+      },
+      "ru": {
+        "sentence": "Il turn over alto segnala che il problema non è trovare persone, ma trattenerle dopo i primi mesi.",
+        "translation": "Высокая текучесть показывает, что проблема не в поиске людей, а в том, чтобы удержать их после первых месяцев."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_10",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "La congiuntura",
+    "translations": {
+      "uk": "кон'юнктура",
+      "en": "the economic climate",
+      "de": "die Konjunktur",
+      "pl": "koniunktura",
+      "es": "la coyuntura",
+      "fr": "la conjoncture",
+      "ro": "conjunctura",
+      "ru": "конъюнктура"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "Сприятлива кон'юнктура збільшила замовлення, але не послабила тиск на витрати."
+      },
+      "en": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "The favourable climate increased orders, without easing the pressure on costs."
+      },
+      "de": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "Die günstige Konjunktur hat die Aufträge erhöht, ohne den Kostendruck zu lockern."
+      },
+      "pl": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "Korzystna koniunktura zwiększyła zamówienia, nie luzując jednak presji na koszty."
+      },
+      "es": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "La coyuntura favorable aumentó los pedidos, sin aliviar la presión sobre los costes."
+      },
+      "fr": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "La conjoncture favorable a augmenté les commandes, sans relâcher la pression sur les coûts."
+      },
+      "ro": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "Conjunctura favorabilă a crescut comenzile, fără să slăbească presiunea pe costuri."
+      },
+      "ru": {
+        "sentence": "La congiuntura favorevole ha aumentato gli ordini, senza però allentare la pressione sui costi.",
+        "translation": "Благоприятная конъюнктура увеличила заказы, но не ослабила давление на издержки."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_11",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "L'inflazione",
+    "translations": {
+      "uk": "інфляція",
+      "en": "inflation",
+      "de": "die Inflation",
+      "pl": "inflacja",
+      "es": "la inflación",
+      "fr": "l'inflation",
+      "ro": "inflația",
+      "ru": "инфляция"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "Інфляція з'їла купівельну спроможність навіть тих, хто отримав номінальне підвищення."
+      },
+      "en": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "Inflation eroded purchasing power even for those who received a nominal raise."
+      },
+      "de": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "Die Inflation hat die Kaufkraft auch derer aufgezehrt, die eine nominale Erhöhung bekamen."
+      },
+      "pl": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "Inflacja zjadła siłę nabywczą nawet tych, którzy dostali nominalną podwyżkę."
+      },
+      "es": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "La inflación erosionó el poder adquisitivo incluso de quien recibió un aumento nominal."
+      },
+      "fr": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "L'inflation a érodé le pouvoir d'achat même de ceux qui ont reçu une hausse nominale."
+      },
+      "ro": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "Inflația a erodat puterea de cumpărare chiar și a celor care au primit o mărire nominală."
+      },
+      "ru": {
+        "sentence": "L'inflazione ha eroso il potere d'acquisto anche di chi ha ricevuto un aumento nominale.",
+        "translation": "Инфляция съела покупательную способность даже тех, кто получил номинальную прибавку."
+      }
+    }
+  },
+  {
+    "id": "b2_economia_lavoro_12",
+    "level": "B2",
+    "topic": "economia_lavoro",
+    "word": "Assumere",
+    "translations": {
+      "uk": "наймати",
+      "en": "to hire",
+      "de": "einstellen",
+      "pl": "zatrudniać",
+      "es": "contratar",
+      "fr": "embaucher",
+      "ro": "a angaja",
+      "ru": "нанимать"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "Компанія вирішила наймати на невизначений строк лише після випробувального терміну, і не раніше."
+      },
+      "en": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "The company decided to hire on a permanent basis only after the trial period, and not before."
+      },
+      "de": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "Die Firma beschloss, unbefristet einzustellen erst nach der Probezeit, und nicht vorher."
+      },
+      "pl": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "Firma postanowiła zatrudniać na czas nieokreślony dopiero po okresie próbnym."
+      },
+      "es": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "La empresa decidió contratar de forma indefinida solo tras el periodo de prueba, y no antes."
+      },
+      "fr": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "L'entreprise a décidé d'embaucher en CDI seulement après la période d'essai, et pas avant."
+      },
+      "ro": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "Firma a decis să angajeze pe durată nedeterminată abia după perioada de probă."
+      },
+      "ru": {
+        "sentence": "L'azienda ha deciso di assumere a tempo indeterminato solo dopo il periodo di prova, e non prima.",
+        "translation": "Компания решила нанимать на неопределённый срок только после испытательного срока, и не раньше."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_1",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "L'ipotesi",
+    "translations": {
+      "uk": "гіпотеза",
+      "en": "the hypothesis",
+      "de": "die Hypothese",
+      "pl": "hipoteza",
+      "es": "la hipótesis",
+      "fr": "l'hypothèse",
+      "ro": "ipoteza",
+      "ru": "гипотеза"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "Гіпотеза трималася, доки нові дані не показали ефект, якого модель не передбачала."
+      },
+      "en": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "The hypothesis held until the new data showed an effect the model did not predict."
+      },
+      "de": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "Die Hypothese hielt, bis die neuen Daten einen Effekt zeigten, den das Modell nicht vorsah."
+      },
+      "pl": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "Hipoteza broniła się, aż nowe dane pokazały efekt, którego model nie przewidywał."
+      },
+      "es": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "La hipótesis se sostuvo hasta que los datos nuevos mostraron un efecto que el modelo no preveía."
+      },
+      "fr": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "L'hypothèse tenait jusqu'à ce que les nouvelles données montrent un effet que le modèle ne prévoyait pas."
+      },
+      "ro": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "Ipoteza a ținut până când noile date au arătat un efect pe care modelul nu îl prevedea."
+      },
+      "ru": {
+        "sentence": "L'ipotesi reggeva finché i nuovi dati non hanno mostrato un effetto che il modello non prevedeva.",
+        "translation": "Гипотеза держалась, пока новые данные не показали эффект, которого модель не предсказывала."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_2",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Il campione",
+    "translations": {
+      "uk": "вибірка",
+      "en": "the sample",
+      "de": "die Stichprobe",
+      "pl": "próba",
+      "es": "la muestra",
+      "fr": "l'échantillon",
+      "ro": "eșantionul",
+      "ru": "выборка"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "Вибірка була надто мала, щоб поширити результат на всю сукупність."
+      },
+      "en": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "The sample was too small to extend the result to the whole population."
+      },
+      "de": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "Die Stichprobe war zu klein, um das Ergebnis auf die ganze Bevölkerung zu übertragen."
+      },
+      "pl": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "Próba była za mała, by rozciągnąć wynik na całą populację."
+      },
+      "es": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "La muestra era demasiado pequeña para extender el resultado a toda la población."
+      },
+      "fr": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "L'échantillon était trop petit pour étendre le résultat à toute la population."
+      },
+      "ro": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "Eșantionul era prea mic pentru a extinde rezultatul la întreaga populație."
+      },
+      "ru": {
+        "sentence": "Il campione era troppo piccolo per estendere il risultato all'intera popolazione.",
+        "translation": "Выборка была слишком мала, чтобы распространить результат на всю совокупность."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_3",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "La peer review",
+    "translations": {
+      "uk": "рецензування",
+      "en": "peer review",
+      "de": "das Peer-Review",
+      "pl": "recenzja naukowa",
+      "es": "la revisión por pares",
+      "fr": "l'évaluation par les pairs",
+      "ro": "evaluarea inter pares",
+      "ru": "рецензирование"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "Рецензування вимагало оприлюднити сирі дані, а не лише зведені таблиці."
+      },
+      "en": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "Peer review asked that the raw data be made public, not only the summary tables."
+      },
+      "de": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "Das Peer-Review verlangte, die Rohdaten zu veröffentlichen, nicht nur die Übersichtstabellen."
+      },
+      "pl": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "Recenzja naukowa zażądała upublicznienia danych surowych, nie tylko tabel zbiorczych."
+      },
+      "es": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "La revisión por pares pidió hacer públicos los datos brutos, no solo las tablas resumen."
+      },
+      "fr": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "L'évaluation par les pairs a demandé de rendre publics les données brutes, pas seulement les tableaux."
+      },
+      "ro": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "Evaluarea inter pares a cerut publicarea datelor brute, nu doar a tabelelor rezumative."
+      },
+      "ru": {
+        "sentence": "La peer review ha chiesto di rendere pubblici i dati grezzi, non solo le tabelle riassuntive.",
+        "translation": "Рецензирование потребовало опубликовать сырые данные, а не только сводные таблицы."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_4",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "La variabile",
+    "translations": {
+      "uk": "змінна",
+      "en": "the variable",
+      "de": "die Variable",
+      "pl": "zmienna",
+      "es": "la variable",
+      "fr": "la variable",
+      "ro": "variabila",
+      "ru": "переменная"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "Неконтрольована змінна може пояснити різницю краще, ніж втручання, яке хотіли виміряти."
+      },
+      "en": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "An uncontrolled variable can explain the difference better than the intervention one meant to measure."
+      },
+      "de": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "Eine nicht kontrollierte Variable kann den Unterschied besser erklären als die Intervention, die man messen wollte."
+      },
+      "pl": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "Niekontrolowana zmienna może wyjaśnić różnicę lepiej niż interwencja, którą chciano zmierzyć."
+      },
+      "es": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "Una variable no controlada puede explicar la diferencia mejor que la intervención que se quería medir."
+      },
+      "fr": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "Une variable non contrôlée peut expliquer la différence mieux que l'intervention qu'on voulait mesurer."
+      },
+      "ro": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "O variabilă necontrolată poate explica diferența mai bine decât intervenția pe care voiai să o măsori."
+      },
+      "ru": {
+        "sentence": "Una variabile non controllata può spiegare la differenza meglio dell'intervento che si voleva misurare.",
+        "translation": "Неконтролируемая переменная может объяснить разницу лучше, чем вмешательство, которое хотели измерить."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_5",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Il protocollo",
+    "translations": {
+      "uk": "протокол",
+      "en": "the protocol",
+      "de": "das Protokoll",
+      "pl": "protokół",
+      "es": "el protocolo",
+      "fr": "le protocole",
+      "ro": "protocolul",
+      "ru": "протокол"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "Протокол змінили посеред дослідження, і це робить дві групи менш порівнянними."
+      },
+      "en": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "The protocol was changed halfway through the study, and that makes the two groups less comparable."
+      },
+      "de": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "Das Protokoll wurde mitten in der Studie geändert, wodurch die beiden Gruppen weniger vergleichbar sind."
+      },
+      "pl": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "Protokół zmieniono w połowie badania, co czyni obie grupy mniej porównywalnymi."
+      },
+      "es": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "El protocolo se modificó a mitad del estudio, y eso hace menos comparables los dos grupos."
+      },
+      "fr": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "Le protocole a été modifié en cours d'étude, ce qui rend les deux groupes moins comparables."
+      },
+      "ro": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "Protocolul a fost modificat la jumătatea studiului, iar asta face cele două grupuri mai puțin comparabile."
+      },
+      "ru": {
+        "sentence": "Il protocollo è stato modificato a metà studio, e questo rende meno confrontabili i due gruppi.",
+        "translation": "Протокол изменили в середине исследования, и это делает две группы менее сопоставимыми."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_6",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "La correlazione",
+    "translations": {
+      "uk": "кореляція",
+      "en": "the correlation",
+      "de": "die Korrelation",
+      "pl": "korelacja",
+      "es": "la correlación",
+      "fr": "la corrélation",
+      "ro": "corelația",
+      "ru": "корреляция"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "Кореляція очевидна, але сама по собі не доводить, що один чинник спричиняє інший."
+      },
+      "en": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "The correlation is clear, but on its own it does not prove that one factor causes the other."
+      },
+      "de": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "Die Korrelation ist deutlich, beweist aber allein nicht, dass ein Faktor den anderen verursacht."
+      },
+      "pl": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "Korelacja jest wyraźna, ale sama nie dowodzi, że jeden czynnik powoduje drugi."
+      },
+      "es": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "La correlación es evidente, pero por sí sola no demuestra que un factor cause el otro."
+      },
+      "fr": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "La corrélation est nette, mais à elle seule elle ne prouve pas qu'un facteur cause l'autre."
+      },
+      "ro": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "Corelația este evidentă, dar singură nu dovedește că un factor îl cauzează pe celălalt."
+      },
+      "ru": {
+        "sentence": "La correlazione è evidente, ma non dimostra da sola che un fattore causi l'altro.",
+        "translation": "Корреляция очевидна, но сама по себе не доказывает, что один фактор вызывает другой."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_7",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Riprodurre",
+    "translations": {
+      "uk": "відтворити",
+      "en": "to reproduce",
+      "de": "reproduzieren",
+      "pl": "odtworzyć",
+      "es": "reproducir",
+      "fr": "reproduire",
+      "ro": "a reproduce",
+      "ru": "воспроизвести"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Інші групи не змогли відтворити експеримент з тими самими матеріалами й умовами."
+      },
+      "en": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Other groups failed to reproduce the experiment with the same materials and the same conditions."
+      },
+      "de": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Andere Gruppen konnten das Experiment mit denselben Materialien und Bedingungen nicht reproduzieren."
+      },
+      "pl": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Inne grupy nie zdołały odtworzyć eksperymentu z tymi samymi materiałami i warunkami."
+      },
+      "es": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Otros grupos no lograron reproducir el experimento con los mismos materiales y condiciones."
+      },
+      "fr": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "D'autres groupes n'ont pas réussi à reproduire l'expérience avec les mêmes matériaux et conditions."
+      },
+      "ro": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Alte grupuri nu au reușit să reproducă experimentul cu aceleași materiale și condiții."
+      },
+      "ru": {
+        "sentence": "Altri gruppi non sono riusciti a riprodurre l'esperimento con gli stessi materiali e le stesse condizioni.",
+        "translation": "Другие группы не смогли воспроизвести эксперимент с теми же материалами и условиями."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_8",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Il margine di errore",
+    "translations": {
+      "uk": "похибка",
+      "en": "the margin of error",
+      "de": "die Fehlerspanne",
+      "pl": "margines błędu",
+      "es": "el margen de error",
+      "fr": "la marge d'erreur",
+      "ro": "marja de eroare",
+      "ru": "погрешность"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "Похибка настільки велика, що різниця між двома результатами не є значущою."
+      },
+      "en": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "The margin of error is so wide that the difference between the two results is not significant."
+      },
+      "de": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "Die Fehlerspanne ist so groß, dass der Unterschied zwischen den beiden Ergebnissen nicht signifikant ist."
+      },
+      "pl": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "Margines błędu jest tak szeroki, że różnica między wynikami nie jest istotna."
+      },
+      "es": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "El margen de error es tan amplio que la diferencia entre los dos resultados no es significativa."
+      },
+      "fr": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "La marge d'erreur est si large que la différence entre les deux résultats n'est pas significative."
+      },
+      "ro": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "Marja de eroare este atât de largă încât diferența dintre cele două rezultate nu este semnificativă."
+      },
+      "ru": {
+        "sentence": "Il margine di errore è così ampio che la differenza tra i due risultati non è significativa.",
+        "translation": "Погрешность настолько велика, что разница между двумя результатами не значима."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_9",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "La pubblicazione",
+    "translations": {
+      "uk": "публікація",
+      "en": "the publication",
+      "de": "die Veröffentlichung",
+      "pl": "publikacja",
+      "es": "la publicación",
+      "fr": "la publication",
+      "ro": "publicația",
+      "ru": "публикация"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "Публікацію відкликали після того, як автори визнали, що виключили незручні випадки."
+      },
+      "en": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "The publication was withdrawn after the authors admitted they had excluded inconvenient cases."
+      },
+      "de": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "Die Veröffentlichung wurde zurückgezogen, nachdem die Autoren zugaben, unbequeme Fälle ausgeschlossen zu haben."
+      },
+      "pl": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "Publikację wycofano po tym, jak autorzy przyznali, że wyłączyli niewygodne przypadki."
+      },
+      "es": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "La publicación se retiró después de que los autores admitieran haber excluido casos incómodos."
+      },
+      "fr": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "La publication a été retirée après que les auteurs ont admis avoir exclu des cas gênants."
+      },
+      "ro": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "Publicația a fost retrasă după ce autorii au recunoscut că au exclus cazuri incomode."
+      },
+      "ru": {
+        "sentence": "La pubblicazione è stata ritirata dopo che gli autori hanno ammesso di aver escluso dei casi scomodi.",
+        "translation": "Публикацию отозвали после того, как авторы признали, что исключили неудобные случаи."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_10",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Il laboratorio",
+    "translations": {
+      "uk": "лабораторія",
+      "en": "the laboratory",
+      "de": "das Labor",
+      "pl": "laboratorium",
+      "es": "el laboratorio",
+      "fr": "le laboratoire",
+      "ro": "laboratorul",
+      "ru": "лаборатория"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "У лабораторії доступ до зразків обмежений тими, хто підписав журнал безпеки."
+      },
+      "en": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "In the laboratory access to the samples is limited to those who signed the safety log."
+      },
+      "de": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "Im Labor ist der Zugang zu den Proben auf diejenigen beschränkt, die das Sicherheitsbuch unterschrieben haben."
+      },
+      "pl": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "W laboratorium dostęp do próbek mają tylko ci, którzy podpisali rejestr bezpieczeństwa."
+      },
+      "es": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "En el laboratorio el acceso a las muestras se limita a quien firmó el registro de seguridad."
+      },
+      "fr": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "Au laboratoire l'accès aux échantillons est limité à ceux qui ont signé le registre de sécurité."
+      },
+      "ro": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "În laborator accesul la probe este limitat la cine a semnat registrul de siguranță."
+      },
+      "ru": {
+        "sentence": "Nel laboratorio l'accesso ai campioni è limitato a chi ha firmato il registro di sicurezza.",
+        "translation": "В лаборатории доступ к образцам ограничен теми, кто подписал журнал безопасности."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_11",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Il finanziamento",
+    "translations": {
+      "uk": "фінансування",
+      "en": "the funding",
+      "de": "die Finanzierung",
+      "pl": "finansowanie",
+      "es": "la financiación",
+      "fr": "le financement",
+      "ro": "finanțarea",
+      "ru": "финансирование"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "Фінансування покриває три роки за умови, що проміжні результати будуть доступні."
+      },
+      "en": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "The funding covers three years, on condition that the interim results are made accessible."
+      },
+      "de": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "Die Finanzierung deckt drei Jahre, sofern die Zwischenergebnisse zugänglich gemacht werden."
+      },
+      "pl": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "Finansowanie obejmuje trzy lata, pod warunkiem że wyniki pośrednie będą dostępne."
+      },
+      "es": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "La financiación cubre tres años, a condición de que los resultados intermedios se hagan accesibles."
+      },
+      "fr": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "Le financement couvre trois ans, à condition que les résultats intermédiaires soient rendus accessibles."
+      },
+      "ro": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "Finanțarea acoperă trei ani, cu condiția ca rezultatele intermediare să fie făcute accesibile."
+      },
+      "ru": {
+        "sentence": "Il finanziamento copre tre anni, a condizione che i risultati intermedi vengano resi accessibili.",
+        "translation": "Финансирование покрывает три года при условии, что промежуточные результаты будут доступны."
+      }
+    }
+  },
+  {
+    "id": "b2_scienza_ricerca_12",
+    "level": "B2",
+    "topic": "scienza_ricerca",
+    "word": "Falsificare",
+    "translations": {
+      "uk": "сфальсифікувати",
+      "en": "to falsify",
+      "de": "fälschen",
+      "pl": "sfałszować",
+      "es": "falsear",
+      "fr": "falsifier",
+      "ro": "a falsifica",
+      "ru": "фальсифицировать"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Сфальсифікувати дані — не методологічна помилка: це вибір, який знецінює всю подальшу роботу."
+      },
+      "en": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Falsifying the data is not a method error: it is a choice that invalidates all the later work."
+      },
+      "de": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Daten zu fälschen ist kein Methodenfehler: es ist eine Entscheidung, die die ganze folgende Arbeit entwertet."
+      },
+      "pl": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Sfałszowanie danych nie jest błędem metody: to wybór, który unieważnia całą dalszą pracę."
+      },
+      "es": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Falsear los datos no es un error de método: es una elección que invalida todo el trabajo posterior."
+      },
+      "fr": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Falsifier les données n'est pas une erreur de méthode : c'est un choix qui invalide tout le travail suivant."
+      },
+      "ro": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "A falsifica datele nu este o eroare de metodă: este o alegere care invalidează toată munca ulterioară."
+      },
+      "ru": {
+        "sentence": "Falsificare i dati non è un errore di metodo: è una scelta che invalida tutto il lavoro successivo.",
+        "translation": "Фальсифицировать данные — не ошибка метода: это выбор, который обесценивает всю последующую работу."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_1",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "La presente",
+    "translations": {
+      "uk": "цей лист",
+      "en": "this letter",
+      "de": "dieses Schreiben",
+      "pl": "niniejsze pismo",
+      "es": "la presente",
+      "fr": "la présente",
+      "ro": "prezenta",
+      "ru": "настоящее письмо"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Цим листом повідомляємо, що справу прийнято до розгляду і її буде завершено протягом тридцяти днів."
+      },
+      "en": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "This letter informs you that the file has been taken up and will be completed within thirty days."
+      },
+      "de": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Mit diesem Schreiben wird mitgeteilt, dass der Vorgang übernommen wurde und binnen dreißig Tagen erledigt wird."
+      },
+      "pl": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Niniejszym informujemy, że sprawa została przyjęta i zostanie załatwiona w ciągu trzydziestu dni."
+      },
+      "es": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Por la presente se comunica que el expediente ha sido tomado a cargo y se resolverá en treinta días."
+      },
+      "fr": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Par la présente, nous informons que le dossier a été pris en charge et sera traité sous trente jours."
+      },
+      "ro": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Prin prezenta se comunică că dosarul a fost preluat și va fi soluționat în treizeci de zile."
+      },
+      "ru": {
+        "sentence": "Con la presente si comunica che la pratica è stata presa in carico e sarà evasa entro trenta giorni.",
+        "translation": "Настоящим сообщаем, что дело принято к рассмотрению и будет завершено в течение тридцати дней."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_2",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "In attesa di",
+    "translations": {
+      "uk": "в очікуванні",
+      "en": "pending",
+      "de": "in Erwartung",
+      "pl": "w oczekiwaniu",
+      "es": "a la espera de",
+      "fr": "dans l'attente de",
+      "ro": "în așteptarea",
+      "ru": "в ожидании"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Чекаємо на Вашу письмову відповідь, щоб закрити справу без подальших нагадувань."
+      },
+      "en": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "We remain pending your written reply, so that we can close the file without further reminders."
+      },
+      "de": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Wir bleiben in Erwartung Ihrer schriftlichen Rückmeldung, um den Vorgang ohne weitere Mahnungen zu schließen."
+      },
+      "pl": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Pozostajemy w oczekiwaniu na Państwa pisemną odpowiedź, aby zamknąć sprawę bez dalszych ponagleń."
+      },
+      "es": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Quedamos a la espera de su respuesta escrita, para cerrar el expediente sin más requerimientos."
+      },
+      "fr": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Nous restons dans l'attente de votre réponse écrite, afin de clore le dossier sans autres relances."
+      },
+      "ro": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Rămânem în așteptarea unui răspuns scris, ca să putem închide dosarul fără alte solicitări."
+      },
+      "ru": {
+        "sentence": "Restiamo in attesa di un Suo riscontro scritto, così da poter chiudere la pratica senza ulteriori solleciti.",
+        "translation": "Остаёмся в ожидании Вашего письменного ответа, чтобы закрыть дело без дальнейших напоминаний."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_3",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Si prega di",
+    "translations": {
+      "uk": "просимо",
+      "en": "you are kindly asked",
+      "de": "Sie werden gebeten",
+      "pl": "uprzejmie prosimy",
+      "es": "se ruega",
+      "fr": "vous êtes prié de",
+      "ro": "se roagă",
+      "ru": "просим"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Просимо надіслати повний пакет документів, бо неповну заяву не можна розглянути."
+      },
+      "en": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "You are kindly asked to send the complete documentation, because an incomplete application cannot be processed."
+      },
+      "de": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Sie werden gebeten, die vollständigen Unterlagen zu senden, da ein unvollständiger Antrag nicht bearbeitet werden kann."
+      },
+      "pl": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Uprzejmie prosimy o przesłanie kompletnej dokumentacji, gdyż niepełny wniosek nie może być rozpatrzony."
+      },
+      "es": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Se ruega enviar la documentación completa, ya que la solicitud incompleta no puede tramitarse."
+      },
+      "fr": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Vous êtes prié d'envoyer la documentation complète, car une demande incomplète ne peut être instruite."
+      },
+      "ro": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Se roagă trimiterea documentației complete, deoarece cererea incompletă nu poate fi instrumentată."
+      },
+      "ru": {
+        "sentence": "Si prega di inviare la documentazione completa, poiché la domanda incompleta non può essere istruita.",
+        "translation": "Просим прислать полный комплект документов, поскольку неполное заявление не может быть рассмотрено."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_4",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Distinti saluti",
+    "translations": {
+      "uk": "з повагою",
+      "en": "yours faithfully",
+      "de": "mit freundlichen Grüßen",
+      "pl": "z poważaniem",
+      "es": "atentamente",
+      "fr": "veuillez agréer",
+      "ro": "cu stimă",
+      "ru": "с уважением"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "Лист завершують «Distinti saluti», коли адресат — не людина, з якою є близькість."
+      },
+      "en": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "The letter closes with “Distinti saluti” when the recipient is not someone with whom one is familiar."
+      },
+      "de": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "Der Brief endet mit „Distinti saluti“, wenn der Empfänger keine vertraute Person ist."
+      },
+      "pl": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "List kończy się „Distinti saluti”, gdy adresat nie jest osobą, z którą jest się w zażyłości."
+      },
+      "es": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "La carta se cierra con «Distinti saluti» cuando el destinatario no es alguien de confianza."
+      },
+      "fr": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "La lettre se termine par « Distinti saluti » quand le destinataire n'est pas une personne proche."
+      },
+      "ro": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "Scrisoarea se încheie cu «Distinti saluti» când destinatarul nu este o persoană apropiată."
+      },
+      "ru": {
+        "sentence": "La lettera si chiude con «Distinti saluti» quando il destinatario non è una persona con cui si ha confidenza.",
+        "translation": "Письмо заканчивают «Distinti saluti», когда адресат — не близкий человек."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_5",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Il sottoscritto",
+    "translations": {
+      "uk": "той, хто нижче підписався",
+      "en": "the undersigned",
+      "de": "der Unterzeichnete",
+      "pl": "niżej podpisany",
+      "es": "el abajo firmante",
+      "fr": "le soussigné",
+      "ro": "subsemnatul",
+      "ru": "нижеподписавшийся"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "Нижчепідписаний заявляє, що прочитав повідомлення і приймає його умови без застережень."
+      },
+      "en": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "The undersigned declares that he has read the notice and accepts its conditions without reservation."
+      },
+      "de": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "Der Unterzeichnete erklärt, die Information gelesen und die Bedingungen vorbehaltlos akzeptiert zu haben."
+      },
+      "pl": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "Niżej podpisany oświadcza, że przeczytał informację i przyjmuje warunki bez zastrzeżeń."
+      },
+      "es": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "El abajo firmante declara haber leído la información y aceptar sus condiciones sin reservas."
+      },
+      "fr": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "Le soussigné déclare avoir lu la notice et en accepter les conditions sans réserve."
+      },
+      "ro": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "Subsemnatul declară că a citit informarea și că îi acceptă condițiile fără rezerve."
+      },
+      "ru": {
+        "sentence": "Il sottoscritto dichiara di aver letto l'informativa e di accettarne le condizioni senza riserve.",
+        "translation": "Нижеподписавшийся заявляет, что прочитал уведомление и принимает его условия без оговорок."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_6",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Egregio",
+    "translations": {
+      "uk": "шановний",
+      "en": "Dear Sir",
+      "de": "Sehr geehrter",
+      "pl": "Szanowny",
+      "es": "Estimado",
+      "fr": "Monsieur",
+      "ro": "Stimate",
+      "ru": "уважаемый"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "«Egregio» відкриває формальний лист до незнайомої людини, перед прізвищем і титулом."
+      },
+      "en": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "“Egregio” opens a formal letter to someone one does not know, before the surname and the title."
+      },
+      "de": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "„Egregio“ eröffnet einen formellen Brief an eine unbekannte Person, vor Nachname und Titel."
+      },
+      "pl": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "„Egregio” otwiera list formalny do osoby nieznanej, przed nazwiskiem i tytułem."
+      },
+      "es": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "«Egregio» abre una carta formal a alguien a quien no se conoce, antes del apellido y del título."
+      },
+      "fr": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "« Egregio » ouvre une lettre formelle à une personne que l'on ne connaît pas, avant le nom et le titre."
+      },
+      "ro": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "«Egregio» deschide o scrisoare formală către o persoană necunoscută, înainte de nume și titlu."
+      },
+      "ru": {
+        "sentence": "«Egregio» apre una lettera formale a una persona che non si conosce, prima del cognome e del titolo.",
+        "translation": "«Egregio» открывает формальное письмо незнакомому человеку, перед фамилией и титулом."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_7",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Con riferimento a",
+    "translations": {
+      "uk": "щодо",
+      "en": "with reference to",
+      "de": "Bezug nehmend auf",
+      "pl": "w nawiązaniu do",
+      "es": "con referencia a",
+      "fr": "en référence à",
+      "ro": "cu referire la",
+      "ru": "со ссылкой на"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "Щодо Вашого листа від 12 березня уточнюємо, що строк не було продовжено."
+      },
+      "en": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "With reference to yours of 12 March, we clarify that the deadline was not extended."
+      },
+      "de": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "Bezug nehmend auf Ihr Schreiben vom 12. März präzisieren wir, dass die Frist nicht verlängert wurde."
+      },
+      "pl": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "W nawiązaniu do Państwa pisma z 12 marca precyzujemy, że termin nie został przedłużony."
+      },
+      "es": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "Con referencia a la suya del 12 de marzo, precisamos que el plazo no fue prorrogado."
+      },
+      "fr": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "En référence à la vôtre du 12 mars, nous précisons que le délai n'a pas été prorogé."
+      },
+      "ro": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "Cu referire la a dumneavoastră din 12 martie, precizăm că termenul nu a fost prelungit."
+      },
+      "ru": {
+        "sentence": "Con riferimento alla Sua del 12 marzo, Le precisiamo che il termine non è stato prorogato.",
+        "translation": "Со ссылкой на Ваше от 12 марта уточняем, что срок не был продлён."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_8",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Si comunica",
+    "translations": {
+      "uk": "повідомляється",
+      "en": "it is hereby communicated",
+      "de": "es wird mitgeteilt",
+      "pl": "informuje się",
+      "es": "se comunica",
+      "fr": "il est communiqué",
+      "ro": "se comunică",
+      "ru": "сообщается"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Повідомляється, що офіс буде зачинений у зазначений день, а строки переносяться на перший робочий день."
+      },
+      "en": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "It is hereby communicated that the office will be closed on the stated day, and that deadlines move to the next working day."
+      },
+      "de": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Es wird mitgeteilt, dass das Amt am genannten Tag geschlossen bleibt und die Fristen auf den nächsten Werktag rutschen."
+      },
+      "pl": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Informuje się, że urząd będzie zamknięty we wskazanym dniu, a terminy przechodzą na pierwszy dzień roboczy."
+      },
+      "es": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Se comunica que la oficina permanecerá cerrada el día indicado y que los plazos pasan al primer día hábil."
+      },
+      "fr": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Il est communiqué que le bureau restera fermé le jour indiqué et que les échéances passent au premier jour ouvrable."
+      },
+      "ro": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Se comunică că biroul va rămâne închis în ziua indicată, iar termenele se mută în prima zi lucrătoare."
+      },
+      "ru": {
+        "sentence": "Si comunica che l'ufficio resterà chiuso il giorno indicato, e che le scadenze slittano al primo giorno utile.",
+        "translation": "Сообщается, что учреждение будет закрыто в указанный день, а сроки переносятся на первый рабочий день."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_9",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "La scrivente",
+    "translations": {
+      "uk": "та, що пише",
+      "en": "the writer",
+      "de": "die Schreibende",
+      "pl": "pisząca",
+      "es": "la que suscribe",
+      "fr": "la soussignée",
+      "ro": "semnatara",
+      "ru": "пишущая сторона"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "Адміністрація, що пише, не може задовольнити заяву, доки бракує обов'язкового додатка."
+      },
+      "en": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "The writing administration cannot grant the request while a mandatory attachment is missing."
+      },
+      "de": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "Die schreibende Verwaltung kann den Antrag nicht annehmen, solange eine Pflichtanlage fehlt."
+      },
+      "pl": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "Pisząca administracja nie może uwzględnić wniosku, dopóki brakuje obowiązkowego załącznika."
+      },
+      "es": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "La administración que suscribe no puede estimar la instancia mientras falte un anexo obligatorio."
+      },
+      "fr": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "L'administration soussignée ne peut accueillir la demande tant qu'une pièce obligatoire manque."
+      },
+      "ro": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "Administrația semnatară nu poate admite cererea cât timp lipsește o anexă obligatorie."
+      },
+      "ru": {
+        "sentence": "La scrivente amministrazione non può accogliere l'istanza finché manca un allegato obbligatorio.",
+        "translation": "Пишущая администрация не может удовлетворить заявление, пока отсутствует обязательное приложение."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_10",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Cordiali saluti",
+    "translations": {
+      "uk": "з привітом",
+      "en": "kind regards",
+      "de": "freundliche Grüße",
+      "pl": "serdeczne pozdrowienia",
+      "es": "cordiales saludos",
+      "fr": "cordialement",
+      "ro": "cu salutări",
+      "ru": "с приветом"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "«Cordiali saluti» менш віддалене, ніж «Distinti saluti», але лишається доречним для професійних, не близьких стосунків."
+      },
+      "en": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "“Cordiali saluti” is less distant than “Distinti saluti”, but still fits a professional, not intimate, relationship."
+      },
+      "de": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "„Cordiali saluti“ ist weniger distanziert als „Distinti saluti“, bleibt aber für ein berufliches, nicht privates Verhältnis passend."
+      },
+      "pl": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "„Cordiali saluti” jest mniej odległe niż „Distinti saluti”, ale nadal pasuje do relacji zawodowej."
+      },
+      "es": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "«Cordiali saluti» es menos distante que «Distinti saluti», pero sigue siendo propio de una relación profesional."
+      },
+      "fr": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "« Cordiali saluti » est moins distant que « Distinti saluti », mais reste adapté à un rapport professionnel."
+      },
+      "ro": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "«Cordiali saluti» este mai puțin distant decât «Distinti saluti», dar rămâne potrivit unei relații profesionale."
+      },
+      "ru": {
+        "sentence": "«Cordiali saluti» è meno distante di «Distinti saluti», ma resta adatto a un rapporto professionale, non intimo.",
+        "translation": "«Cordiali saluti» менее отстранённое, чем «Distinti saluti», но всё ещё уместно для профессиональных, не близких отношений."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_11",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "In merito a",
+    "translations": {
+      "uk": "стосовно",
+      "en": "regarding",
+      "de": "bezüglich",
+      "pl": "w sprawie",
+      "es": "en relación con",
+      "fr": "au sujet de",
+      "ro": "în legătură cu",
+      "ru": "относительно"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "Стосовно поданого запиту зазначаємо, що строки за законом не дозволяють винятку."
+      },
+      "en": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "Regarding the request made, we point out that the statutory deadlines do not allow an exception."
+      },
+      "de": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "Bezüglich des gestellten Antrags wird darauf hingewiesen, dass die gesetzlichen Fristen keine Ausnahme zulassen."
+      },
+      "pl": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "W sprawie złożonego wniosku zaznaczamy, że terminy ustawowe nie pozwalają na wyjątek."
+      },
+      "es": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "En relación con la solicitud presentada, se hace presente que los plazos legales no permiten una excepción."
+      },
+      "fr": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "Au sujet de la demande présentée, nous signalons que les délais légaux ne permettent pas d'exception."
+      },
+      "ro": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "În legătură cu cererea depusă, se arată că termenele legale nu permit o excepție."
+      },
+      "ru": {
+        "sentence": "In merito alla richiesta avanzata, si fa presente che i termini di legge non consentono un'eccezione.",
+        "translation": "Относительно поданного запроса отмечаем, что законные сроки не допускают исключения."
+      }
+    }
+  },
+  {
+    "id": "b2_registro_formale_12",
+    "level": "B2",
+    "topic": "registro_formale",
+    "word": "Qualora",
+    "translations": {
+      "uk": "у разі якщо",
+      "en": "should",
+      "de": "falls",
+      "pl": "w przypadku gdyby",
+      "es": "en caso de que",
+      "fr": "au cas où",
+      "ro": "în cazul în care",
+      "ru": "в случае если"
+    },
+    "examples": {
+      "uk": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "Якщо документи виявляться неповними, заяву буде архівовано без додаткового попередження."
+      },
+      "en": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "Should the documentation prove incomplete, the application will be filed without further notice."
+      },
+      "de": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "Falls die Unterlagen unvollständig sind, wird der Antrag ohne weitere Ankündigung abgelegt."
+      },
+      "pl": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "Gdyby dokumentacja okazała się niepełna, wniosek zostanie zarchiwizowany bez dalszego zawiadomienia."
+      },
+      "es": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "En caso de que la documentación resultara incompleta, la instancia se archivará sin nuevo aviso."
+      },
+      "fr": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "Au cas où la documentation serait incomplète, la demande sera classée sans nouvel avis."
+      },
+      "ro": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "În cazul în care documentația s-ar dovedi incompletă, cererea va fi arhivată fără un nou aviz."
+      },
+      "ru": {
+        "sentence": "Qualora la documentazione risultasse incompleta, l'istanza sarà archiviata senza ulteriore preavviso.",
+        "translation": "В случае если документы окажутся неполными, заявление будет сдано в архив без дополнительного уведомления."
+      }
+    }
+  }
+]
