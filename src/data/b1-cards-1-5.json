@@ -2403,49 +2403,49 @@
     "id": "b1_tecnologia_social_1",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "Il feed",
+    "word": "La bacheca",
     "translations": {
-      "uk": "стрічка",
-      "en": "the feed",
-      "de": "der Feed",
-      "pl": "kanał",
-      "es": "el feed",
-      "fr": "le fil",
-      "ro": "fluxul",
-      "ru": "лента"
+      "en": "the board",
+      "uk": "дошка",
+      "ru": "доска",
+      "de": "die Pinnwand",
+      "pl": "tablica",
+      "es": "el tablón",
+      "fr": "le tableau",
+      "ro": "panoul"
     },
     "examples": {
       "uk": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "Я перестав відкривати стрічку щойно прокидаюсь, бо вона забирала першу годину дня."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "Дошка показує дописи друзів."
       },
       "en": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "I stopped opening the feed as soon as I wake up, because it took the first hour of the day."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "The board shows friends' posts."
       },
       "de": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "Ich habe aufgehört, den Feed gleich nach dem Aufwachen zu öffnen, weil er die erste Stunde des Tages nahm."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "Die Pinnwand zeigt die Beiträge der Freunde."
       },
       "pl": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "Przestałem otwierać kanał zaraz po przebudzeniu, bo zabierał pierwszą godzinę dnia."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "Tablica pokazuje posty znajomych."
       },
       "es": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "Dejé de abrir el feed al despertarme, porque me quitaba la primera hora del día."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "El tablón muestra las publicaciones de amigos."
       },
       "fr": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "J'ai arrêté d'ouvrir le fil dès le réveil, parce qu'il me prenait la première heure de la journée."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "Le tableau montre les posts des amis."
       },
       "ro": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "Am încetat să deschid fluxul imediat ce mă trezesc, pentru că îmi lua prima oră a zilei."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "Panoul arată postările prietenilor."
       },
       "ru": {
-        "sentence": "Ho smesso di aprire il feed appena mi sveglio, perché mi rubava la prima ora della giornata.",
-        "translation": "Я перестал открывать ленту сразу после пробуждения, потому что она забирала первый час дня."
+        "sentence": "La bacheca mostra i post degli amici.",
+        "translation": "Доска показывает посты друзей."
       }
     }
   },
@@ -2453,49 +2453,49 @@
     "id": "b1_tecnologia_social_2",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "La notifica",
+    "word": "L'avviso",
     "translations": {
+      "en": "the alert",
       "uk": "сповіщення",
-      "en": "the notification",
-      "de": "die Benachrichtigung",
-      "pl": "powiadomienie",
-      "es": "la notificación",
-      "fr": "la notification",
-      "ro": "notificarea",
-      "ru": "уведомление"
+      "ru": "оповещение",
+      "de": "der Hinweis",
+      "pl": "alert",
+      "es": "el aviso",
+      "fr": "l'alerte",
+      "ro": "alerta"
     },
     "examples": {
       "uk": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "Я вимкнув сповіщення груп, бо вони переривали роботу кожні кілька хвилин."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "Сповіщення приходить на телефон."
       },
       "en": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "I turned off group notifications because they interrupted work every few minutes."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "The alert arrives on the phone."
       },
       "de": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "Ich habe die Gruppenbenachrichtigungen ausgeschaltet, weil sie die Arbeit alle paar Minuten unterbrachen."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "Der Hinweis kommt aufs Handy."
       },
       "pl": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "Wyłączyłem powiadomienia grup, bo przerywały pracę co kilka minut."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "Alert przychodzi na telefon."
       },
       "es": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "Desactivé las notificaciones de los grupos porque interrumpían el trabajo cada pocos minutos."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "El aviso llega al teléfono."
       },
       "fr": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "J'ai désactivé les notifications des groupes parce qu'elles interrompaient le travail toutes les quelques minutes."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "L'alerte arrive sur le téléphone."
       },
       "ro": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "Am dezactivat notificările grupurilor pentru că întrerupeau munca la câteva minute."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "Alerta vine pe telefon."
       },
       "ru": {
-        "sentence": "Ho disattivato le notifiche dei gruppi perché interrompevano il lavoro ogni pochi minuti.",
-        "translation": "Я отключил уведомления групп, потому что они прерывали работу каждые несколько минут."
+        "sentence": "L'avviso arriva sul telefono.",
+        "translation": "Оповещение приходит на телефон."
       }
     }
   },
@@ -2503,49 +2503,49 @@
     "id": "b1_tecnologia_social_3",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "L'algoritmo",
+    "word": "Il suggerimento",
     "translations": {
-      "uk": "алгоритм",
-      "en": "the algorithm",
-      "de": "der Algorithmus",
-      "pl": "algorytm",
-      "es": "el algoritmo",
-      "fr": "l'algorithme",
-      "ro": "algoritmul",
-      "ru": "алгоритм"
+      "en": "the suggestion",
+      "uk": "підказка",
+      "ru": "подсказка",
+      "de": "der Vorschlag",
+      "pl": "podpowiedź",
+      "es": "la sugerencia",
+      "fr": "la suggestion",
+      "ro": "sugestia"
     },
     "examples": {
       "uk": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "Алгоритм і далі пропонує матеріали, схожі на ті, що я дивився вчора ввечері."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "Підказка зверху мене не цікавить."
       },
       "en": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "The algorithm keeps suggesting content similar to what I watched last night."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "The suggestion at the top does not interest me."
       },
       "de": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "Der Algorithmus schlägt mir weiter Inhalte vor, die denen von gestern Abend ähneln."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "Der Vorschlag oben interessiert mich nicht."
       },
       "pl": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "Algorytm wciąż podsuwa treści podobne do tych, które oglądałem wczoraj wieczorem."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "Podpowiedź na górze mnie nie interesuje."
       },
       "es": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "El algoritmo sigue proponiéndome contenidos parecidos a los que vi anoche."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "La sugerencia de arriba no me interesa."
       },
       "fr": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "L'algorithme continue de me proposer des contenus semblables à ceux d'hier soir."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "La suggestion en haut ne m'intéresse pas."
       },
       "ro": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "Algoritmul continuă să-mi propună conținut asemănător cu cel de aseară."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "Sugestia de sus nu mă interesează."
       },
       "ru": {
-        "sentence": "L'algoritmo continua a propormi contenuti simili a quelli che ho guardato ieri sera.",
-        "translation": "Алгоритм продолжает предлагать материалы, похожие на те, что я смотрел вчера вечером."
+        "sentence": "Il suggerimento in cima non mi interessa.",
+        "translation": "Подсказка сверху меня не интересует."
       }
     }
   },
@@ -2553,49 +2553,49 @@
     "id": "b1_tecnologia_social_4",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "Il profilo",
+    "word": "La pagina",
     "translations": {
-      "uk": "профіль",
-      "en": "the profile",
-      "de": "das Profil",
-      "pl": "profil",
-      "es": "el perfil",
-      "fr": "le profil",
-      "ro": "profilul",
-      "ru": "профиль"
+      "en": "the page",
+      "uk": "сторінка",
+      "ru": "страница",
+      "de": "die Seite",
+      "pl": "strona",
+      "es": "la página",
+      "fr": "la page",
+      "ro": "pagina"
     },
     "examples": {
       "uk": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "Я зробив профіль приватним після повідомлень від незнайомців."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "Сторінка групи публічна."
       },
       "en": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "I made the profile private after receiving messages from strangers."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "The group page is public."
       },
       "de": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "Ich habe das Profil privat gestellt, nachdem ich Nachrichten von Fremden bekommen hatte."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "Die Seite der Gruppe ist öffentlich."
       },
       "pl": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "Ustawiłem profil jako prywatny po wiadomościach od nieznajomych."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "Strona grupy jest publiczna."
       },
       "es": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "Puse el perfil en privado tras recibir mensajes de desconocidos."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "La página del grupo es pública."
       },
       "fr": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "J'ai rendu le profil privé après avoir reçu des messages d'inconnus."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "La page du groupe est publique."
       },
       "ro": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "Am făcut profilul privat după mesaje de la necunoscuți."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "Pagina grupului este publică."
       },
       "ru": {
-        "sentence": "Ho reso il profilo privato dopo aver ricevuto messaggi da sconosciuti.",
-        "translation": "Я сделал профиль закрытым после сообщений от незнакомцев."
+        "sentence": "La pagina del gruppo è pubblica.",
+        "translation": "Страница группы публичная."
       }
     }
   },
@@ -2603,49 +2603,49 @@
     "id": "b1_tecnologia_social_5",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "La disinformazione",
+    "word": "La notizia falsa",
     "translations": {
-      "uk": "дезінформація",
-      "en": "disinformation",
-      "de": "die Desinformation",
-      "pl": "dezinformacja",
-      "es": "la desinformación",
-      "fr": "la désinformation",
-      "ro": "dezinformarea",
-      "ru": "дезинформация"
+      "en": "the false story",
+      "uk": "неправдива новина",
+      "ru": "ложная новость",
+      "de": "die Falschmeldung",
+      "pl": "fałszywa wiadomość",
+      "es": "la noticia falsa",
+      "fr": "la fausse nouvelle",
+      "ro": "știrea falsă"
     },
     "examples": {
       "uk": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Перш ніж поширити новину, я перевіряю джерело, щоб не розносити дезінформацію."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "Неправдива новина шириться зранку."
       },
       "en": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Before sharing a story I check the source, so I do not spread disinformation."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "The false story has been circulating since this morning."
       },
       "de": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Bevor ich eine Nachricht teile, prüfe ich die Quelle, um keine Desinformation zu verbreiten."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "Die Falschmeldung kursiert seit heute Morgen."
       },
       "pl": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Zanim udostępnię wiadomość, sprawdzam źródło, żeby nie szerzyć dezinformacji."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "Fałszywa wiadomość krąży od rana."
       },
       "es": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Antes de compartir una noticia compruebo la fuente para no difundir desinformación."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "La noticia falsa circula desde esta mañana."
       },
       "fr": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Avant de partager une info, je vérifie la source pour ne pas diffuser de désinformation."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "La fausse nouvelle circule depuis ce matin."
       },
       "ro": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Înainte să distribui o știre verific sursa, ca să nu răspândesc dezinformare."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "Știrea falsă circulă de dimineață."
       },
       "ru": {
-        "sentence": "Prima di condividere una notizia controllo la fonte, per non diffondere disinformazione.",
-        "translation": "Прежде чем распространить новость, я проверяю источник, чтобы не разносить дезинформацию."
+        "sentence": "La notizia falsa gira da stamattina.",
+        "translation": "Ложная новость ходит с утра."
       }
     }
   },
@@ -2653,49 +2653,49 @@
     "id": "b1_tecnologia_social_6",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "Il commento",
+    "word": "La risposta",
     "translations": {
-      "uk": "коментар",
-      "en": "the comment",
-      "de": "der Kommentar",
-      "pl": "komentarz",
-      "es": "el comentario",
-      "fr": "le commentaire",
-      "ro": "comentariul",
-      "ru": "комментарий"
+      "en": "the reply",
+      "uk": "відповідь",
+      "ru": "ответ",
+      "de": "die Antwort",
+      "pl": "odpowiedź",
+      "es": "la respuesta",
+      "fr": "la réponse",
+      "ro": "răspunsul"
     },
     "examples": {
       "uk": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "Я видалив надто агресивний коментар під дописом друга."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "Відповідь під дописом коротка."
       },
       "en": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "I deleted an overly aggressive comment under a friend's post."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "The reply under the post is short."
       },
       "de": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "Ich habe einen zu aggressiven Kommentar unter dem Beitrag eines Freundes gelöscht."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "Die Antwort unter dem Beitrag ist kurz."
       },
       "pl": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "Usunąłem zbyt agresywny komentarz pod postem przyjaciela."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "Odpowiedź pod postem jest krótka."
       },
       "es": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "Borré un comentario demasiado agresivo bajo la publicación de un amigo."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "La respuesta bajo la publicación es breve."
       },
       "fr": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "J'ai supprimé un commentaire trop agressif sous le post d'un ami."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "La réponse sous le post est courte."
       },
       "ro": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "Am șters un comentariu prea agresiv sub postarea unui prieten."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "Răspunsul de sub postare este scurt."
       },
       "ru": {
-        "sentence": "Ho cancellato un commento troppo aggressivo sotto il post di un amico.",
-        "translation": "Я удалил слишком агрессивный комментарий под постом друга."
+        "sentence": "La risposta sotto il post è breve.",
+        "translation": "Ответ под постом короткий."
       }
     }
   },
@@ -2853,49 +2853,49 @@
     "id": "b1_tecnologia_social_10",
     "level": "B1",
     "topic": "tecnologia_social",
-    "word": "Il follower",
+    "word": "L'iscrizione",
     "translations": {
-      "uk": "підписник",
-      "en": "the follower",
-      "de": "der Follower",
-      "pl": "obserwujący",
-      "es": "el seguidor",
-      "fr": "l'abonné",
-      "ro": "urmăritorul",
-      "ru": "подписчик"
+      "en": "the subscription",
+      "uk": "підписка",
+      "ru": "подписка",
+      "de": "das Abo",
+      "pl": "subskrypcja",
+      "es": "la suscripción",
+      "fr": "l'abonnement",
+      "ro": "abonarea"
     },
     "examples": {
       "uk": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "Вона втратила багатьох підписників після нечіткої думки на цю тему."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "Підписка на канал безкоштовна."
       },
       "en": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "She lost many followers after posting an unclear opinion on the topic."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "The channel subscription is free."
       },
       "de": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "Sie verlor viele Follower, nachdem sie eine unklare Meinung zum Thema veröffentlicht hatte."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "Das Abo für den Kanal ist kostenlos."
       },
       "pl": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "Straciła wielu obserwujących po niejasnej opinii na ten temat."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "Subskrypcja kanału jest darmowa."
       },
       "es": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "Perdió muchos seguidores tras publicar una opinión poco clara sobre el tema."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "La suscripción al canal es gratis."
       },
       "fr": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "Elle a perdu beaucoup d'abonnés après avoir publié un avis peu clair sur le sujet."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "L'abonnement à la chaîne est gratuit."
       },
       "ro": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "A pierdut mulți urmăritori după ce a publicat o opinie neclară despre subiect."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "Abonarea la canal este gratuită."
       },
       "ru": {
-        "sentence": "Ha perso molti follower dopo aver pubblicato un'opinione poco chiara sul tema.",
-        "translation": "Она потеряла много подписчиков после неясного мнения по теме."
+        "sentence": "L'iscrizione al canale è gratuita.",
+        "translation": "Подписка на канал бесплатная."
       }
     }
   },

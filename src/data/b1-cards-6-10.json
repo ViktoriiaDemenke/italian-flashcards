@@ -453,49 +453,49 @@
     "id": "b1_cultura_spettacolo_10",
     "level": "B1",
     "topic": "cultura_spettacolo",
-    "word": "Il pubblico",
+    "word": "Gli spettatori",
     "translations": {
-      "uk": "публіка",
-      "en": "the audience",
-      "de": "das Publikum",
-      "pl": "publiczność",
-      "es": "el público",
-      "fr": "le public",
-      "ro": "publicul",
-      "ru": "публика"
+      "en": "the spectators",
+      "uk": "глядачі",
+      "ru": "зрители",
+      "de": "die Zuschauer",
+      "pl": "widzowie",
+      "es": "los espectadores",
+      "fr": "les spectateurs",
+      "ro": "spectatorii"
     },
     "examples": {
       "uk": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "Публіка довго аплодувала, хоча фінал навмисно лишили відкритим."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Глядачі аплодують стоячи."
       },
       "en": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "The audience applauded for a long time even though the ending was deliberately open."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "The spectators give a standing ovation."
       },
       "de": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "Das Publikum applaudierte lange, obwohl das Ende absichtlich offen war."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Die Zuschauer applaudieren im Stehen."
       },
       "pl": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "Publiczność długo klaskała, choć zakończenie celowo pozostawiono otwarte."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Widzowie biją brawo na stojąco."
       },
       "es": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "El público aplaudió largo rato aunque el final era deliberadamente abierto."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Los espectadores aplauden de pie."
       },
       "fr": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "Le public a applaudi longtemps même si la fin était volontairement ouverte."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Les spectateurs applaudissent debout."
       },
       "ro": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "Publicul a aplaudat mult, deși finalul era lăsat deschis intenționat."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Spectatorii aplaudă în picioare."
       },
       "ru": {
-        "sentence": "Il pubblico ha applaudito a lungo anche se la fine era volutamente aperta.",
-        "translation": "Публика долго аплодировала, хотя финал намеренно оставили открытым."
+        "sentence": "Gli spettatori applaudono in piedi.",
+        "translation": "Зрители аплодируют стоя."
       }
     }
   },
@@ -603,49 +603,49 @@
     "id": "b1_banca_servizi_1",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il conto corrente",
+    "word": "Il libretto",
     "translations": {
-      "uk": "поточний рахунок",
-      "en": "the current account",
-      "de": "das Girokonto",
-      "pl": "konto bieżące",
-      "es": "la cuenta corriente",
-      "fr": "le compte courant",
-      "ro": "contul curent",
-      "ru": "текущий счёт"
+      "en": "the passbook",
+      "uk": "ощадна книжка",
+      "ru": "сберегательная книжка",
+      "de": "das Sparbuch",
+      "pl": "książeczka",
+      "es": "la libreta",
+      "fr": "le livret",
+      "ro": "libretul"
     },
     "examples": {
       "uk": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "Я відкрив поточний рахунок онлайн, і банк попросив документ і податковий код."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Книжка показує внески."
       },
       "en": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "I opened a current account online and the bank asked for an ID and my tax code."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "The passbook shows the deposits."
       },
       "de": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "Ich habe online ein Girokonto eröffnet und die Bank verlangte einen Ausweis und die Steuernummer."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Das Sparbuch zeigt die Einzahlungen."
       },
       "pl": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "Otworzyłem konto bieżące online, a bank poprosił o dokument i numer podatkowy."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Książeczka pokazuje wpłaty."
       },
       "es": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "Abrí una cuenta corriente en línea y el banco me pidió un documento y el código fiscal."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "La libreta muestra los ingresos."
       },
       "fr": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "J'ai ouvert un compte courant en ligne et la banque m'a demandé une pièce d'identité et le code fiscal."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Le livret montre les versements."
       },
       "ro": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "Am deschis un cont curent online, iar banca mi-a cerut un act și codul fiscal."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Libretul arată depunerile."
       },
       "ru": {
-        "sentence": "Ho aperto un conto corrente online e la banca mi ha chiesto un documento e il codice fiscale.",
-        "translation": "Я открыл текущий счёт онлайн, и банк попросил документ и налоговый код."
+        "sentence": "Il libretto mostra i versamenti.",
+        "translation": "Книжка показывает взносы."
       }
     }
   },
@@ -653,49 +653,49 @@
     "id": "b1_banca_servizi_2",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il bonifico",
+    "word": "Il versamento",
     "translations": {
-      "uk": "переказ",
-      "en": "the transfer",
-      "de": "die Überweisung",
-      "pl": "przelew",
-      "es": "la transferencia",
-      "fr": "le virement",
-      "ro": "transferul",
-      "ru": "перевод"
+      "en": "the deposit payment",
+      "uk": "внесення",
+      "ru": "взнос",
+      "de": "die Einzahlung",
+      "pl": "wpłata",
+      "es": "el ingreso",
+      "fr": "le versement",
+      "ro": "depunerea"
     },
     "examples": {
       "uk": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "Переказ пішов учора, але одержувач ще не бачить зарахування."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Внесення вже видно."
       },
       "en": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "The transfer left yesterday, but the recipient has not seen the credit yet."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "The payment is already visible."
       },
       "de": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "Die Überweisung ging gestern raus, aber der Empfänger sieht die Gutschrift noch nicht."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Die Einzahlung ist schon sichtbar."
       },
       "pl": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "Przelew wyszedł wczoraj, ale odbiorca jeszcze nie widzi uznania."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Wpłata jest już widoczna."
       },
       "es": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "La transferencia salió ayer, pero el destinatario aún no ve el abono."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "El ingreso ya se ve."
       },
       "fr": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "Le virement est parti hier, mais le destinataire ne voit pas encore le crédit."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Le versement est déjà visible."
       },
       "ro": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "Transferul a plecat ieri, dar destinatarul încă nu vede încasarea."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Depunerea este deja vizibilă."
       },
       "ru": {
-        "sentence": "Il bonifico è partito ieri, ma il destinatario non ha ancora visto l'accredito.",
-        "translation": "Перевод ушёл вчера, но получатель ещё не видит зачисления."
+        "sentence": "Il versamento è già visibile.",
+        "translation": "Взнос уже виден."
       }
     }
   },
@@ -703,49 +703,49 @@
     "id": "b1_banca_servizi_3",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "L'IBAN",
+    "word": "Il CRO",
     "translations": {
-      "uk": "IBAN",
-      "en": "the IBAN",
-      "de": "die IBAN",
-      "pl": "IBAN",
-      "es": "el IBAN",
-      "fr": "l'IBAN",
-      "ro": "IBAN-ul",
-      "ru": "IBAN"
+      "en": "the transfer code",
+      "uk": "код переказу",
+      "ru": "код перевода",
+      "de": "die Referenznummer",
+      "pl": "kod przelewu",
+      "es": "el código de transferencia",
+      "fr": "la référence",
+      "ro": "codul transferului"
     },
     "examples": {
       "uk": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Перед підтвердженням платежу я двічі перевірив IBAN, бо помилка блокує операцію."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Код ідентифікує переказ."
       },
       "en": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Before confirming the payment I checked the IBAN twice, because a mistake blocks the transaction."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "The code identifies the transfer."
       },
       "de": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Vor der Bestätigung habe ich die IBAN zweimal geprüft, weil ein Fehler die Zahlung stoppt."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Die Referenznummer kennzeichnet die Überweisung."
       },
       "pl": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Przed potwierdzeniem płatności sprawdziłem IBAN dwa razy, bo błąd blokuje operację."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Kod identyfikuje przelew."
       },
       "es": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Antes de confirmar el pago revisé el IBAN dos veces, porque un error bloquea la operación."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "El código identifica la transferencia."
       },
       "fr": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Avant de confirmer le paiement j'ai vérifié l'IBAN deux fois, car une erreur bloque l'opération."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "La référence identifie le virement."
       },
       "ro": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Înainte să confirm plata am verificat IBAN-ul de două ori, pentru că o greșeală blochează operațiunea."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Codul identifică transferul."
       },
       "ru": {
-        "sentence": "Prima di confermare il pagamento ho controllato due volte l'IBAN, perché un errore blocca l'operazione.",
-        "translation": "Перед подтверждением платежа я дважды проверил IBAN, потому что ошибка блокирует операцию."
+        "sentence": "Il CRO identifica il bonifico.",
+        "translation": "Код идентифицирует перевод."
       }
     }
   },
@@ -753,49 +753,49 @@
     "id": "b1_banca_servizi_4",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "La commissione",
+    "word": "Il costo fisso",
     "translations": {
-      "uk": "комісія",
-      "en": "the fee",
-      "de": "die Gebühr",
-      "pl": "prowizja",
-      "es": "la comisión",
-      "fr": "la commission",
-      "ro": "comisionul",
-      "ru": "комиссия"
+      "en": "the fixed fee",
+      "uk": "фіксована плата",
+      "ru": "фиксированная плата",
+      "de": "die feste Gebühr",
+      "pl": "opłata stała",
+      "es": "el coste fijo",
+      "fr": "les frais fixes",
+      "ro": "costul fix"
     },
     "examples": {
       "uk": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "Банк бере комісію, якщо я знімаю готівку в банкоматі іншого банку."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Фіксована плата — два євро на місяць."
       },
       "en": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "The bank charges a fee if I withdraw cash from another bank's machine."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "The fixed fee is two euros a month."
       },
       "de": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "Die Bank nimmt eine Gebühr, wenn ich an einem Automaten einer anderen Bank abhebe."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Die feste Gebühr ist zwei Euro im Monat."
       },
       "pl": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "Bank pobiera prowizję, gdy wypłacam gotówkę z bankomatu innego banku."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Opłata stała to dwa euro miesięcznie."
       },
       "es": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "El banco cobra una comisión si saco efectivo en un cajero de otra entidad."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "El coste fijo es de dos euros al mes."
       },
       "fr": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "La banque prend une commission si je retire du liquide à un distributeur d'une autre banque."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Les frais fixes sont de deux euros par mois."
       },
       "ro": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "Banca percepe un comision dacă retrag numerar de la un bancomat al altei bănci."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Costul fix este de doi euro pe lună."
       },
       "ru": {
-        "sentence": "La banca applica una commissione se prelevo contanti da uno sportello di un altro istituto.",
-        "translation": "Банк берёт комиссию, если я снимаю наличные в банкомате другого банка."
+        "sentence": "Il costo fisso è di due euro al mese.",
+        "translation": "Фиксированная плата — два евро в месяц."
       }
     }
   },
@@ -803,49 +803,49 @@
     "id": "b1_banca_servizi_5",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il saldo",
+    "word": "La giacenza",
     "translations": {
-      "uk": "залишок",
-      "en": "the balance",
-      "de": "der Saldo",
-      "pl": "saldo",
-      "es": "el saldo",
-      "fr": "le solde",
-      "ro": "soldul",
-      "ru": "остаток"
+      "en": "the balance on hand",
+      "uk": "залишок на рахунку",
+      "ru": "остаток на счёте",
+      "de": "der Bestand",
+      "pl": "stan konta",
+      "es": "el saldo disponible",
+      "fr": "le solde disponible",
+      "ro": "soldul disponibil"
     },
     "examples": {
       "uk": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Я перевіряю залишок щоранку, бо цього місяця витрати вищі, ніж звичайно."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Середній залишок низький."
       },
       "en": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "I check the balance every morning because this month's spending is higher than usual."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "The average balance is low."
       },
       "de": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Ich prüfe den Saldo jeden Morgen, weil die Ausgaben diesen Monat höher sind als sonst."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Der Durchschnittsbestand ist niedrig."
       },
       "pl": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Sprawdzam saldo każdego ranka, bo w tym miesiącu wydatki są wyższe niż zwykle."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Średni stan konta jest niski."
       },
       "es": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Miro el saldo cada mañana porque este mes los gastos son más altos de lo habitual."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "El saldo medio es bajo."
       },
       "fr": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Je vérifie le solde chaque matin parce que ce mois-ci les dépenses sont plus élevées que d'habitude."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Le solde moyen est bas."
       },
       "ro": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Verific soldul în fiecare dimineață pentru că luna aceasta cheltuielile sunt mai mari decât de obicei."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Soldul mediu este mic."
       },
       "ru": {
-        "sentence": "Controllo il saldo ogni mattina perché questo mese le spese sono più alte del solito.",
-        "translation": "Я проверяю остаток каждое утро, потому что в этом месяце расходы выше обычного."
+        "sentence": "La giacenza media è bassa.",
+        "translation": "Средний остаток низкий."
       }
     }
   },
@@ -853,49 +853,49 @@
     "id": "b1_banca_servizi_6",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "L'estratto conto",
+    "word": "Il rendiconto",
     "translations": {
-      "uk": "виписка",
       "en": "the statement",
-      "de": "der Kontoauszug",
-      "pl": "wyciąg",
-      "es": "el extracto",
-      "fr": "le relevé",
-      "ro": "extrasul de cont",
-      "ru": "выписка"
+      "uk": "звіт",
+      "ru": "отчёт",
+      "de": "der Bericht",
+      "pl": "zestawienie",
+      "es": "el informe",
+      "fr": "le relevé détaillé",
+      "ro": "raportul"
     },
     "examples": {
       "uk": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "У виписці я знайшов списання, якого не впізнаю, і зателефонував у банк."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Звіт приходить щокварталу."
       },
       "en": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "On the statement I found a charge I do not recognize and I called the bank."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "The statement arrives every quarter."
       },
       "de": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "Auf dem Kontoauszug fand ich eine Abbuchung, die ich nicht kenne, und ich rief die Bank an."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Der Bericht kommt jedes Quartal."
       },
       "pl": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "Na wyciągu znalazłem obciążenie, którego nie rozpoznaję, i zadzwoniłem do banku."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Zestawienie przychodzi co kwartał."
       },
       "es": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "En el extracto encontré un cargo que no reconozco y llamé al banco."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "El informe llega cada trimestre."
       },
       "fr": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "Sur le relevé j'ai trouvé un débit que je ne reconnais pas et j'ai appelé la banque."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Le relevé arrive chaque trimestre."
       },
       "ro": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "Pe extrasul de cont am găsit o debitare pe care nu o recunosc și am sunat la bancă."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Raportul vine în fiecare trimestru."
       },
       "ru": {
-        "sentence": "Nell'estratto conto ho trovato un addebito che non riconosco e ho chiamato la banca.",
-        "translation": "В выписке я нашёл списание, которое не узнаю, и позвонил в банк."
+        "sentence": "Il rendiconto arriva ogni trimestre.",
+        "translation": "Отчёт приходит каждый квартал."
       }
     }
   },
@@ -903,49 +903,49 @@
     "id": "b1_banca_servizi_7",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il fido",
+    "word": "Lo scoperto",
     "translations": {
-      "uk": "кредитний ліміт",
-      "en": "the overdraft",
-      "de": "der Dispositionskredit",
-      "pl": "limit debetowy",
+      "en": "the overdraft balance",
+      "uk": "овердрафт",
+      "ru": "овердрафт",
+      "de": "die Überziehung",
+      "pl": "debet",
       "es": "el descubierto",
       "fr": "le découvert",
-      "ro": "descoperitul de cont",
-      "ru": "овердрафт"
+      "ro": "descoperitul"
     },
     "examples": {
       "uk": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "Кредитний ліміт дав мені сплатити оренду, хоча зарплата прийшла на два дні пізніше."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Овердрафт має високий відсоток."
       },
       "en": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "The overdraft let me pay the rent even though my salary arrived two days later."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "The overdraft has a high interest rate."
       },
       "de": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "Der Dispositionskredit ließ mich die Miete zahlen, obwohl das Gehalt zwei Tage später kam."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Die Überziehung hat hohe Zinsen."
       },
       "pl": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "Limit debetowy pozwolił mi zapłacić czynsz, choć pensja przyszła dwa dni później."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Debet ma wysokie oprocentowanie."
       },
       "es": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "El descubierto me permitió pagar el alquiler aunque el sueldo llegó dos días después."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "El descubierto tiene un interés alto."
       },
       "fr": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "Le découvert m'a permis de payer le loyer même si le salaire est arrivé deux jours plus tard."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Le découvert a un intérêt élevé."
       },
       "ro": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "Descoperitul de cont mi-a permis să plătesc chiria deși salariul a venit două zile mai târziu."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "Descoperitul are o dobândă mare."
       },
       "ru": {
-        "sentence": "Il fido mi ha permesso di pagare l'affitto anche se lo stipendio arrivava due giorni dopo.",
-        "translation": "Овердрафт позволил мне заплатить аренду, хотя зарплата пришла на два дня позже."
+        "sentence": "Lo scoperto ha un interesse alto.",
+        "translation": "У овердрафта высокий процент."
       }
     }
   },
@@ -953,49 +953,49 @@
     "id": "b1_banca_servizi_8",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il mutuo",
+    "word": "Il prestito",
     "translations": {
-      "uk": "іпотека",
-      "en": "the mortgage",
-      "de": "die Hypothek",
-      "pl": "kredyt hipoteczny",
-      "es": "la hipoteca",
-      "fr": "le prêt immobilier",
-      "ro": "ipoteca",
-      "ru": "ипотека"
+      "en": "the loan",
+      "uk": "позика",
+      "ru": "заём",
+      "de": "das Darlehen",
+      "pl": "pożyczka",
+      "es": "el préstamo",
+      "fr": "le prêt",
+      "ro": "împrumutul"
     },
     "examples": {
       "uk": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Перед підписанням іпотеки ми порівняли фіксовану і змінну ставку."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Позику платять частинами."
       },
       "en": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Before signing the mortgage we compared the fixed rate and the variable one."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "The loan is paid in instalments."
       },
       "de": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Bevor wir die Hypothek unterschrieben, verglichen wir den festen und den variablen Zinssatz."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Das Darlehen wird in Raten gezahlt."
       },
       "pl": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Przed podpisaniem kredytu porównaliśmy stopę stałą i zmienną."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Pożyczkę spłaca się w ratach."
       },
       "es": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Antes de firmar la hipoteca comparamos el tipo fijo y el variable."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "El préstamo se paga en cuotas."
       },
       "fr": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Avant de signer le prêt nous avons comparé le taux fixe et le taux variable."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Le prêt se paie en mensualités."
       },
       "ro": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Înainte să semnăm ipoteca am comparat rata fixă și pe cea variabilă."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Împrumutul se plătește în rate."
       },
       "ru": {
-        "sentence": "Prima di firmare il mutuo abbiamo confrontato il tasso fisso e quello variabile.",
-        "translation": "Перед подписанием ипотеки мы сравнили фиксированную и плавающую ставку."
+        "sentence": "Il prestito si paga in rate.",
+        "translation": "Заём платят частями."
       }
     }
   },
@@ -1003,49 +1003,49 @@
     "id": "b1_banca_servizi_9",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il prelievo",
+    "word": "Il distributore",
     "translations": {
-      "uk": "зняття готівки",
-      "en": "the withdrawal",
-      "de": "die Abhebung",
-      "pl": "wypłata",
-      "es": "la retirada",
-      "fr": "le retrait",
-      "ro": "retragerea",
-      "ru": "снятие наличных"
+      "en": "the cash machine",
+      "uk": "банкомат",
+      "ru": "банкомат",
+      "de": "der Geldautomat",
+      "pl": "bankomat",
+      "es": "el cajero",
+      "fr": "le distributeur",
+      "ro": "bancomatul"
     },
     "examples": {
       "uk": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "Зняття відхилили, бо я перевищив денний ліміт."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Банкомат не працює."
       },
       "en": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "The withdrawal was refused because I had passed the daily limit."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "The cash machine is out of order."
       },
       "de": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "Die Abhebung wurde abgelehnt, weil ich das Tageslimit überschritten hatte."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Der Geldautomat ist außer Betrieb."
       },
       "pl": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "Wypłata została odrzucona, bo przekroczyłem dzienny limit."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Bankomat jest nieczynny."
       },
       "es": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "La retirada fue rechazada porque había superado el límite diario."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "El cajero está fuera de servicio."
       },
       "fr": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "Le retrait a été refusé parce que j'avais dépassé le plafond journalier."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Le distributeur est hors service."
       },
       "ro": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "Retragerea a fost refuzată pentru că depășisem limita zilnică."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Bancomatul este defect."
       },
       "ru": {
-        "sentence": "Il prelievo è stato rifiutato perché avevo superato il limite giornaliero.",
-        "translation": "Снятие отклонили, потому что я превысил дневной лимит."
+        "sentence": "Il distributore è fuori servizio.",
+        "translation": "Банкомат не работает."
       }
     }
   },
@@ -1103,49 +1103,49 @@
     "id": "b1_banca_servizi_11",
     "level": "B1",
     "topic": "banca_servizi",
-    "word": "Il tasso",
+    "word": "L'interesse",
     "translations": {
-      "uk": "ставка",
-      "en": "the rate",
-      "de": "der Zinssatz",
-      "pl": "stopa",
-      "es": "el tipo",
-      "fr": "le taux",
-      "ro": "rata",
-      "ru": "ставка"
+      "en": "the interest",
+      "uk": "відсоток",
+      "ru": "процент",
+      "de": "die Zinsen",
+      "pl": "odsetki",
+      "es": "el interés",
+      "fr": "les intérêts",
+      "ro": "dobânda"
     },
     "examples": {
       "uk": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "Відсоткова ставка зросла, і щомісячний платіж став важчим."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Відсоток за позикою фіксований."
       },
       "en": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "The interest rate rose and the monthly payment became heavier."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "The interest on the loan is fixed."
       },
       "de": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "Der Zinssatz ist gestiegen und die monatliche Rate wurde höher."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Die Zinsen auf das Darlehen sind fest."
       },
       "pl": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "Stopa procentowa wzrosła i rata miesięczna stała się wyższa."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Odsetki od pożyczki są stałe."
       },
       "es": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "El tipo de interés subió y la cuota mensual se hizo más pesada."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "El interés del préstamo es fijo."
       },
       "fr": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "Le taux d'intérêt a monté et la mensualité est devenue plus lourde."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Les intérêts du prêt sont fixes."
       },
       "ro": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "Rata dobânzii a crescut, iar rata lunară a devenit mai grea."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Dobânda la împrumut este fixă."
       },
       "ru": {
-        "sentence": "Il tasso di interesse è salito e la rata mensile è diventata più pesante.",
-        "translation": "Процентная ставка выросла, и ежемесячный платёж стал тяжелее."
+        "sentence": "L'interesse sul prestito è fisso.",
+        "translation": "Процент по займу фиксированный."
       }
     }
   },
@@ -2053,49 +2053,49 @@
     "id": "b1_relazioni_conflitti_6",
     "level": "B1",
     "topic": "relazioni_conflitti",
-    "word": "La gelosia",
+    "word": "Il risentimento",
     "translations": {
-      "uk": "ревнощі",
-      "en": "jealousy",
-      "de": "die Eifersucht",
-      "pl": "zazdrość",
-      "es": "los celos",
-      "fr": "la jalousie",
-      "ro": "gelozia",
-      "ru": "ревность"
+      "en": "resentment",
+      "uk": "образа",
+      "ru": "обида",
+      "de": "der Groll",
+      "pl": "uraza",
+      "es": "el resentimiento",
+      "fr": "le ressentiment",
+      "ro": "resentimentul"
     },
     "examples": {
       "uk": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Ревнощі стали проблемою, коли він почав перевіряти повідомлення в телефоні."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Образа росте в тиші."
       },
       "en": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Jealousy became a problem when he started checking the messages on the phone."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Resentment grows in silence."
       },
       "de": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Eifersucht wurde zum Problem, als er anfing, die Nachrichten auf dem Telefon zu kontrollieren."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Der Groll wächst in der Stille."
       },
       "pl": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Zazdrość stała się problemem, gdy zaczął sprawdzać wiadomości w telefonie."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Uraza rośnie w ciszy."
       },
       "es": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Los celos se volvieron un problema cuando empezó a revisar los mensajes del teléfono."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "El resentimiento crece en silencio."
       },
       "fr": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "La jalousie est devenue un problème quand il a commencé à contrôler les messages du téléphone."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Le ressentiment grandit en silence."
       },
       "ro": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Gelozia a devenit o problemă când a început să controleze mesajele din telefon."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Resentimentul crește în tăcere."
       },
       "ru": {
-        "sentence": "La gelosia è diventata un problema quando ha cominciato a controllare i messaggi del telefono.",
-        "translation": "Ревность стала проблемой, когда он начал проверять сообщения в телефоне."
+        "sentence": "Il risentimento cresce in silenzio.",
+        "translation": "Обида растёт в тишине."
       }
     }
   },
@@ -2153,49 +2153,49 @@
     "id": "b1_relazioni_conflitti_8",
     "level": "B1",
     "topic": "relazioni_conflitti",
-    "word": "Il confine",
+    "word": "Il distacco",
     "translations": {
-      "uk": "межа",
-      "en": "the boundary",
-      "de": "die Grenze",
-      "pl": "granica",
-      "es": "el límite",
-      "fr": "la limite",
-      "ro": "limita",
-      "ru": "граница"
+      "en": "detachment",
+      "uk": "відстороненість",
+      "ru": "отстранённость",
+      "de": "die Distanz",
+      "pl": "dystans",
+      "es": "el distanciamiento",
+      "fr": "le détachement",
+      "ro": "detașarea"
     },
     "examples": {
       "uk": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "Мені довелося спокійно сказати, яку межу я більше не хочу переходити в цій дружбі."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Відстороненість робить розмову холодною."
       },
       "en": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "I had to say calmly which boundary I no longer wanted to cross in that friendship."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Detachment makes the conversation cold."
       },
       "de": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "Ich musste ruhig sagen, welche Grenze ich in dieser Freundschaft nicht mehr überschreiten wollte."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Distanz macht das Gespräch kalt."
       },
       "pl": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "Musiałem spokojnie powiedzieć, jakiej granicy nie chcę już przekraczać w tej przyjaźni."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Dystans ochładza rozmowę."
       },
       "es": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "Tuve que decir con calma qué límite ya no quería cruzar en esa amistad."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "El distanciamiento enfría el diálogo."
       },
       "fr": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "J'ai dû dire calmement quelle limite je ne voulais plus franchir dans cette amitié."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Le détachement rend le dialogue froid."
       },
       "ro": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "A trebuit să spun calm ce limită nu mai voiam să trec în acea prietenie."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Detașarea face dialogul rece."
       },
       "ru": {
-        "sentence": "Ho dovuto dire con calma quale confine non volevo più superare in quella amicizia.",
-        "translation": "Мне пришлось спокойно сказать, какую границу я больше не хочу переступать в этой дружбе."
+        "sentence": "Il distacco rende il dialogo freddo.",
+        "translation": "Отстранённость делает разговор холодным."
       }
     }
   },
