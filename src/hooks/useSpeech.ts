@@ -1,35 +1,36 @@
 import { useEffect } from "react";
 
+function italianVoice(voices: SpeechSynthesisVoice[]) {
+  return voices.find((voice) => voice.lang.toLowerCase().replace("_", "-").startsWith("it"));
+}
+
 export function useSpeech() {
   useEffect(() => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
-    window.speechSynthesis.getVoices();
-    const prime = () => {
-      window.speechSynthesis.getVoices();
-    };
-    window.speechSynthesis.addEventListener("voiceschanged", prime);
-    return () => window.speechSynthesis.removeEventListener("voiceschanged", prime);
+    const synthesis = window.speechSynthesis;
+    const load = () => synthesis.getVoices();
+    load();
+    synthesis.addEventListener("voiceschanged", load);
+    return () => synthesis.removeEventListener("voiceschanged", load);
   }, []);
 
-  function speak(text: string) {
-    const rate = 0.7;
+  function speak(text: string, rate = 1) {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     const phrase = text.trim();
     if (!phrase) return;
     const synthesis = window.speechSynthesis;
+    const wasBusy = synthesis.speaking || synthesis.pending;
+    if (wasBusy) synthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(phrase);
     utterance.lang = "it-IT";
     utterance.rate = rate;
-    try {
-      const voice = synthesis.getVoices().find((item) => item.lang.toLowerCase().startsWith("it"));
-      if (voice) utterance.voice = voice;
-    } catch {
-      utterance.voice = null;
+    const voice = italianVoice(synthesis.getVoices());
+    if (voice) {
+      utterance.voice = voice;
+      utterance.lang = voice.lang;
     }
-    synthesis.pause();
-    synthesis.cancel();
-    if (synthesis.paused) synthesis.resume();
-    synthesis.speak(utterance);
+    if (wasBusy) window.setTimeout(() => synthesis.speak(utterance), 50);
+    else synthesis.speak(utterance);
   }
 
   return { speak };

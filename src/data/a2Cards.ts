@@ -34,5 +34,15 @@ export const A2_CARDS: StudyCard[] = [...rows, ...extra].map((row) => {
     exampleTranslation,
     translation,
     gloss: translation,
+    contextExamples: contextOf(row),
   };
 });
+
+function contextOf(row: { contextExamples?: { italian?: string; uk?: string; en?: string }[] }) {
+  if (!Array.isArray(row.contextExamples)) return undefined;
+  const examples = row.contextExamples.filter(
+    (item): item is { italian: string; uk: string; en?: string } =>
+      typeof item?.italian === "string" && typeof item?.uk === "string",
+  );
+  return examples.length > 0 ? examples : undefined;
+}

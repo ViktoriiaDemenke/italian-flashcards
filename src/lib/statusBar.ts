@@ -5,4 +5,7 @@ export function initStatusBar() {
   if (!Capacitor.isNativePlatform()) return;
   void StatusBar.setStyle({ style: Style.Dark });
   void StatusBar.setBackgroundColor({ color: "#0f172a" });
+  if (Capacitor.getPlatform() === "android") {
+    void StatusBar.setOverlaysWebView({ overlay: false });
+  }
 }

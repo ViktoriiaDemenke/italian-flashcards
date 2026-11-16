@@ -1,21 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import type { ReactNode } from "react";
-import { AudioLines, Flame, Target } from "lucide-react";
-import { LEVELS } from "../lib/copy";
+import { AudioLines, ChevronLeft, Flame, Target } from "lucide-react";
 import { t, TONGUES } from "../lib/ui";
-import type { Level, MotherTongue } from "../types";
-
-const LEVEL_TITLES: Record<Level, string> = {
-  A1: "Elementare",
-  A2: "Pre-intermedio",
-  B1: "Intermedio",
-  B2: "Avanzato",
-};
-
-type LevelProgress = {
-  total: number;
-  saved: number;
-};
+import type { MotherTongue } from "../types";
 
 type HeaderProps = {
   streak: number;
@@ -23,12 +9,10 @@ type HeaderProps = {
   dailyGoal: number;
   studied: number;
   toRepeat: number;
-  level: Level | null;
   tongue: MotherTongue;
-  progress: Record<Level, LevelProgress>;
-  topics: ReactNode;
-  onLevel: (level: Level) => void;
   onTongue: (tongue: MotherTongue) => void;
+  compact?: boolean;
+  onBack?: () => void;
 };
 
 export function Header({
@@ -37,12 +21,10 @@ export function Header({
   dailyGoal,
   studied,
   toRepeat,
-  level,
   tongue,
-  progress,
-  topics,
-  onLevel,
   onTongue,
+  compact = false,
+  onBack,
 }: HeaderProps) {
   const shown = Math.min(cardsToday, dailyGoal);
   const current = TONGUES.find((item) => item.id === tongue) ?? TONGUES[1];
@@ -66,16 +48,28 @@ export function Header({
   }, [open]);
 
   return (
-    <header className="space-y-4">
-      <div className="flex flex-wrap items-center gap-3">
-        <div className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-400/40 bg-emerald-500/10 text-emerald-400 shadow-[0_0_22px_rgba(16,185,129,0.28)]">
-            <AudioLines className="h-6 w-6 drop-shadow-[0_0_10px_rgba(16,185,129,0.95)]" strokeWidth={1.5} />
-          </div>
-          <h1 className="text-2xl font-semibold tracking-tight text-white">Parliamo</h1>
+    <header className={compact ? "" : "space-y-4"}>
+      <div className={`flex items-center gap-3 ${compact ? "w-full" : "flex-wrap"}`}>
+        <div className="flex min-w-0 items-center gap-3">
+          {compact && onBack && (
+            <button
+              type="button"
+              onClick={onBack}
+              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-slate-700 bg-[#111827] text-slate-100"
+              aria-label={t(tongue, "back")}
+            >
+              <ChevronLeft className="h-5 w-5" />
+            </button>
+          )}
+          {compact ? null : (
+            <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-emerald-400/40 bg-emerald-500/10 text-emerald-400">
+              <AudioLines className="h-6 w-6" strokeWidth={1.5} />
+            </div>
+          )}
+          <h1 className="truncate text-2xl font-semibold tracking-tight text-white">Parliamo</h1>
         </div>
 
-        <div className="relative ml-auto" ref={popover}>
+        {compact ? null : <div className="relative ml-auto" ref={popover}>
             <button
               type="button"
               aria-expanded={open}
@@ -119,10 +113,10 @@ export function Header({
                 })}
               </div>
             )}
-        </div>
+        </div>}
       </div>
 
-      <div className="flex flex-wrap gap-2 text-sm">
+      {compact ? null : <div className="flex flex-wrap gap-2 text-sm">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/50 bg-emerald-500/10 px-3 py-1.5 text-emerald-200">
           <Flame className="h-3.5 w-3.5 text-emerald-300" />
           {streak} {t(tongue, "streak")}
@@ -137,65 +131,8 @@ export function Header({
         <span className="inline-flex items-center rounded-full border border-slate-700 bg-[#111827] px-3 py-1.5 text-slate-200">
           {t(tongue, "repeat")}: {toRepeat}
         </span>
-      </div>
+      </div>}
 
-      <div className="flex flex-col gap-2" role="group" aria-label="Study level">
-        {LEVELS.map((item) => {
-          const active = item.id === level;
-          if (!active) {
-            return (
-              <button
-                key={item.id}
-                type="button"
-                aria-pressed={false}
-                onClick={() => onLevel(item.id)}
-                className="flex items-center justify-between rounded-xl border border-slate-800 bg-[#111827] px-4 py-2 text-left text-slate-400 hover:border-slate-600"
-              >
-                <span>
-                  <span className="font-semibold tracking-[0.14em] text-slate-500">{item.id}</span>{" "}
-                  <span className="text-sm text-slate-300">{LEVEL_TITLES[item.id]}</span>
-                </span>
-                <span className="text-xs text-slate-500">
-                  {progress[item.id].saved}/{progress[item.id].total}
-                </span>
-              </button>
-            );
-          }
-          return (
-            <div
-              key={item.id}
-              className="rounded-2xl border border-[#10b981] bg-[#111827] px-4 py-3.5 shadow-[0_0_22px_rgba(16,185,129,0.38)]"
-            >
-              <button type="button" aria-pressed className="w-full text-left" onClick={() => onLevel(item.id)}>
-                <span className="text-xs font-semibold tracking-[0.16em] text-emerald-400">{item.id}</span>
-                <span className="mt-0.5 block text-base font-medium text-white">{LEVEL_TITLES[item.id]}</span>
-                <span className="mt-2 flex items-center justify-between gap-3 text-xs text-slate-400">
-                  <span>
-                    {progress[item.id].saved}/{progress[item.id].total}
-                  </span>
-                  <span className="text-emerald-300">
-                    {progress[item.id].total === 0
-                      ? "0%"
-                      : `${Math.round((progress[item.id].saved / progress[item.id].total) * 100)}%`}
-                  </span>
-                </span>
-                <span className="mt-1.5 block h-1 overflow-hidden rounded-full bg-slate-800">
-                  <span
-                    className="block h-full rounded-full bg-[#10b981]"
-                    style={{
-                      width:
-                        progress[item.id].total === 0
-                          ? "0%"
-                          : `${Math.min(100, Math.round((progress[item.id].saved / progress[item.id].total) * 100))}%`,
-                    }}
-                  />
-                </span>
-              </button>
-              <div className="mt-3 border-t border-slate-800 pt-3">{topics}</div>
-            </div>
-          );
-        })}
-      </div>
     </header>
   );
 }

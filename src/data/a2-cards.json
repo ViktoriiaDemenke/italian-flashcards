@@ -3297,7 +3297,19 @@
         "sentence": "Il medico riceve nel pomeriggio.",
         "translation": "Врач принимает после обеда."
       }
-    }
+    },
+    "contextExamples": [
+      {
+        "italian": "Devo andare dal medico domani.",
+        "uk": "Завтра мені треба йти до лікаря.",
+        "en": "I have to go to the doctor tomorrow."
+      },
+      {
+        "italian": "Il medico mi ha prescritto una ricetta.",
+        "uk": "Лікар виписав мені рецепт.",
+        "en": "The doctor prescribed me a prescription."
+      }
+    ]
   },
   {
     "id": "a2_professioni_lavoro_2",

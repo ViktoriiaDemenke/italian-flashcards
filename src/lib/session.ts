@@ -14,6 +14,7 @@ export type Session = {
   streak: number;
   lastStudyDay: string | null;
   cardsToday: number;
+  activity: Record<string, number>;
 };
 
 export function dayKey(date = new Date()) {
@@ -39,6 +40,7 @@ export function emptySession(): Session {
     streak: 0,
     lastStudyDay: null,
     cardsToday: 0,
+    activity: {},
   };
 }
 
@@ -54,6 +56,15 @@ function ids(value: unknown) {
   return Array.isArray(value) ? value.filter((id) => typeof id === "string") : [];
 }
 
+function activityMap(value: unknown) {
+  if (!value || typeof value !== "object") return {};
+  const activity: Record<string, number> = {};
+  for (const [key, count] of Object.entries(value)) {
+    if (/^\d{4}-\d{2}-\d{2}$/.test(key) && typeof count === "number" && count > 0) activity[key] = count;
+  }
+  return activity;
+}
+
 export function loadSession(): Session {
   const base = emptySession();
   if (typeof localStorage === "undefined") return base;
@@ -64,6 +75,9 @@ export function loadSession(): Session {
     const today = dayKey();
     const last = typeof parsed.lastStudyDay === "string" ? parsed.lastStudyDay : null;
     const storedToday = typeof parsed.cardsToday === "number" ? parsed.cardsToday : 0;
+    const activity = activityMap(parsed.activity);
+    const cardsToday = last === today ? storedToday : 0;
+    if (cardsToday > 0 && !activity[today]) activity[today] = cardsToday;
     return {
       level: isLevel(parsed.level) ? parsed.level : base.level,
       tongue: isTongue(parsed.tongue) ? parsed.tongue : base.tongue,
@@ -72,7 +86,8 @@ export function loadSession(): Session {
       studiedIds: ids(parsed.studiedIds),
       streak: typeof parsed.streak === "number" && parsed.streak >= 0 ? parsed.streak : 0,
       lastStudyDay: last,
-      cardsToday: last === today ? storedToday : 0,
+      cardsToday,
+      activity,
     };
   } catch {
     return base;
@@ -90,14 +105,14 @@ export function streakOnView(session: Pick<Session, "streak" | "lastStudyDay">, 
   return 0;
 }
 
-export function nextStudy(session: Pick<Session, "streak" | "lastStudyDay" | "cardsToday">, today = dayKey()) {
-  if (session.lastStudyDay === today) {
-    return { streak: Math.max(session.streak, 1), lastStudyDay: today, cardsToday: session.cardsToday + 1 };
-  }
+export function nextStudy(session: Pick<Session, "streak" | "lastStudyDay" | "cardsToday" | "activity">, today = dayKey()) {
+  const sameDay = session.lastStudyDay === today;
+  const cardsToday = sameDay ? session.cardsToday + 1 : 1;
   const continued = session.lastStudyDay === shiftDay(today, -1);
   return {
-    streak: continued ? session.streak + 1 : 1,
+    streak: sameDay ? Math.max(session.streak, 1) : continued ? session.streak + 1 : 1,
     lastStudyDay: today,
-    cardsToday: 1,
+    cardsToday,
+    activity: { ...session.activity, [today]: cardsToday },
   };
 }

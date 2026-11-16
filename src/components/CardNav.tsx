@@ -1,4 +1,4 @@
-import { Bookmark } from "lucide-react";
+import { Bookmark, ChevronLeft, ChevronRight } from "lucide-react";
 import { t } from "../lib/ui";
 import type { MotherTongue } from "../types";
 
@@ -6,49 +6,26 @@ type CardNavProps = {
   tongue: MotherTongue;
   canPrev: boolean;
   canNext: boolean;
-  quizReady: boolean;
   saved: boolean;
   onPrev: () => void;
   onNext: () => void;
-  onQuiz: () => void;
   onSave: () => void;
 };
 
-export function CardNav({ tongue, canPrev, canNext, quizReady, saved, onPrev, onNext, onQuiz, onSave }: CardNavProps) {
+export function CardNav({ tongue, canPrev, canNext, saved, onPrev, onNext, onSave }: CardNavProps) {
   return (
-    <div className="grid grid-cols-1 gap-2 sm:grid-cols-[1fr_auto_1fr]">
-      <button
-        type="button"
-        onClick={onPrev}
-        disabled={!canPrev}
-        className="rounded-xl border border-slate-700 bg-[#111827] px-4 py-3 text-sm font-medium text-slate-100 transition hover:border-emerald-400/50 disabled:cursor-not-allowed disabled:opacity-40"
-      >
-        {t(tongue, "back")}
+    <div className="card-nav">
+      <button type="button" onClick={onPrev} disabled={!canPrev} className="card-nav-side">
+        <ChevronLeft className="h-5 w-5 shrink-0" aria-hidden />
+        <span>{t(tongue, "back")}</span>
       </button>
-      <button
-        type="button"
-        aria-pressed={saved}
-        onClick={onSave}
-        className={`inline-flex items-center justify-center gap-2 rounded-xl border px-4 py-3 text-sm font-medium transition ${
-          saved
-            ? "border-emerald-400 bg-emerald-500 text-slate-950"
-            : "border-emerald-400/40 bg-emerald-500/10 text-emerald-200 hover:bg-emerald-500/20"
-        }`}
-      >
-        <Bookmark className={`h-4 w-4 ${saved ? "fill-current" : ""}`} />
-        {saved ? t(tongue, "saved") : t(tongue, "save")}
+      <button type="button" aria-pressed={saved} onClick={onSave} className={`card-nav-save ${saved ? "is-saved" : ""}`}>
+        <Bookmark className={`h-4 w-4 shrink-0 ${saved ? "fill-current" : ""}`} aria-hidden />
+        <span>{saved ? t(tongue, "saved") : t(tongue, "save")}</span>
       </button>
-      <button
-        type="button"
-        onClick={quizReady ? onQuiz : onNext}
-        disabled={!canNext && !quizReady}
-        className={`rounded-xl border px-4 py-3 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
-          quizReady
-            ? "border-emerald-400 bg-emerald-500 text-slate-950 shadow-[0_0_18px_rgba(16,185,129,0.35)]"
-            : "border-slate-700 bg-[#111827] text-slate-100 hover:border-emerald-400/50"
-        }`}
-      >
-        {quizReady ? t(tongue, "toQuiz") : t(tongue, "next")}
+      <button type="button" onClick={onNext} disabled={!canNext} className="card-nav-side">
+        <span>{t(tongue, "next")}</span>
+        <ChevronRight className="h-5 w-5 shrink-0" aria-hidden />
       </button>
     </div>
   );

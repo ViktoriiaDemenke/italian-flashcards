@@ -169,4 +169,5 @@ export type StudyCard = {
   tenses?: Partial<Record<TenseId, Conjugation>>;
   translation: LangText;
   gloss: LangText;
+  contextExamples?: { italian: string; uk: string; en?: string }[];
 };
