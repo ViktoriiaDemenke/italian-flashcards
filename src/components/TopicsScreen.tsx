@@ -30,7 +30,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { DECK, topicsOnLevel } from "../data/deck";
-import { cardsForTheme } from "../lib/mix";
+import { cardsForPhoto, cardsForTheme } from "../lib/mix";
 import { t, type UiKey } from "../lib/ui";
 import type { CategoryId, Level, MotherTongue } from "../types";
 
@@ -111,12 +111,19 @@ export function TopicsScreen({ level, tongue, studiedIds, repeatIds, onSelect, o
   const [open, setOpen] = useState(false);
   const [theme, setTheme] = useState("");
   const [photoName, setPhotoName] = useState("");
+  const [hasPhoto, setHasPhoto] = useState(false);
   const [notice, setNotice] = useState("");
 
   function createFromTheme() {
-    const query = (theme.trim() || photoName.replace(/\.[a-z0-9]+$/i, " ").replace(/[_-]+/g, " ")).trim();
-    const cards = cardsForTheme(query, tongue).filter((card) => card.level === level);
-    const found = cards.length > 0 ? cards : cardsForTheme(query, tongue);
+    const query = theme.trim();
+    const themed = query ? cardsForTheme(query, tongue).filter((card) => card.level === level) : [];
+    const found = themed.length > 0 ? themed : query ? cardsForTheme(query, tongue) : [];
+    if (found.length === 0 && hasPhoto) {
+      const scene = cardsForPhoto(level);
+      setNotice("");
+      onGenerate(scene.map((card) => card.id), tongue === "uk" ? "За фото" : "From photo");
+      return;
+    }
     if (found.length === 0) {
       setNotice(tongue === "uk" ? "У колоді немає слів за цією темою." : "No deck words match this theme.");
       return;
@@ -159,7 +166,12 @@ export function TopicsScreen({ level, tongue, studiedIds, repeatIds, onSelect, o
               type="file"
               accept="image/*"
               className="sr-only"
-              onChange={(event) => setPhotoName(event.target.files?.[0]?.name ?? "")}
+              onChange={(event) => {
+                const file = event.target.files?.[0];
+                setHasPhoto(Boolean(file));
+                setPhotoName(file?.name ?? "");
+                setNotice("");
+              }}
             />
           </label>
           {notice && <p className="text-sm text-red-300">{notice}</p>}

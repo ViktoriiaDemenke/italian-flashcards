@@ -101,6 +101,22 @@ const CATEGORY_ORDER: CategoryId[] = [
   "registro_formale",
 ];
 
+export function categoryCards(level: Level, filter: FilterId, topic: TopicId | null): StudyCard[] {
+  const exact = cardsFor(level, filter, topic);
+  if (exact.length > 0) return exact;
+  const category = cardsFor(level, filter, null);
+  if (category.length > 0) return category;
+  const known = topicsOnLevel(level);
+  const byTopic = known.find((item) => item.topic === filter || item.topic === topic);
+  if (byTopic) {
+    const themed = cardsFor(level, byTopic.category, byTopic.topic);
+    if (themed.length > 0) return themed;
+  }
+  const first = known[0];
+  if (!first) return [];
+  return cardsFor(level, first.category, null);
+}
+
 export function cardsFor(level: Level, filter: FilterId, topic: TopicId | null): StudyCard[] {
   return DECK.filter((card) => {
     if (card.level !== level) return false;

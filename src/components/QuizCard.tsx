@@ -13,6 +13,7 @@ type QuizCardProps = {
   tongue: MotherTongue;
   pool: StudyCard[];
   onAnswer: (correct: boolean) => void;
+  slide: "next" | "prev";
 };
 
 function shuffle<T>(items: T[], seed: string) {
@@ -27,7 +28,7 @@ function shuffle<T>(items: T[], seed: string) {
   return copy;
 }
 
-export function QuizCard({ card, index, total, tongue, pool, onAnswer }: QuizCardProps) {
+export function QuizCard({ card, index, total, tongue, pool, onAnswer, slide }: QuizCardProps) {
   const progress = total === 0 ? 0 : ((index + 1) / total) * 100;
   const { speak } = useSpeech();
   const choices = useMemo(() => {
@@ -42,24 +43,27 @@ export function QuizCard({ card, index, total, tongue, pool, onAnswer }: QuizCar
   }, [card, index, pool, tongue]);
 
   return (
-    <section className="flex min-h-0 flex-1 flex-col gap-3">
+    <section className="flex h-full min-h-0 flex-1 flex-col gap-3">
       <div className="h-1 overflow-hidden rounded-full bg-[#1e293b]">
         <div
           className="h-full rounded-full bg-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.7)] transition-all"
           style={{ width: `${progress}%` }}
         />
       </div>
-      <article className="flex min-h-0 flex-1 flex-col overflow-y-auto rounded-xl border border-slate-800 bg-[#111827] p-6 sm:p-8">
-        <div className="flex flex-col items-center gap-5 pt-6 text-center">
-          <div className="flex items-center justify-center gap-3">
-            <h2 className="text-3xl font-medium tracking-normal text-white">{card.italian}</h2>
+      <div className="relative min-h-0 flex-1">
+      <article key={card.id} className={`absolute inset-0 flex flex-col overflow-y-auto rounded-xl border border-slate-800 bg-[#111827] px-6 ${slide === "next" ? "card-slide-next" : "card-slide-prev"}`}>
+        <div className="flex w-full flex-1 flex-col items-center justify-center gap-5 text-center">
+          <div className="flex w-full items-center justify-center gap-3">
+            <h2 className="text-center text-3xl font-medium tracking-normal text-white">{card.italian}</h2>
             <SpeakButton tongue={tongue} onSpeak={() => speak(card.italian)} />
           </div>
           {card.example && (
-            <p className="mx-auto flex max-w-md items-center justify-center gap-3 text-lg font-normal leading-relaxed text-slate-200">
-              <span>{card.example}</span>
-              <SpeakButton tongue={tongue} onSpeak={() => speak(card.example ?? "")} />
-            </p>
+            <div className="flex w-full justify-center">
+              <p className="inline-flex max-w-full items-center justify-center gap-3 text-center text-lg font-normal leading-relaxed text-slate-200">
+                <span className="text-center">{card.example}</span>
+                <SpeakButton tongue={tongue} onSpeak={() => speak(card.example ?? "")} />
+              </p>
+            </div>
           )}
         </div>
         <div className="mt-auto grid gap-2 pb-2 pt-10">
@@ -68,13 +72,14 @@ export function QuizCard({ card, index, total, tongue, pool, onAnswer }: QuizCar
               key={choice.id}
               type="button"
               onClick={() => onAnswer(choice.id === card.id)}
-              className="rounded-xl border border-slate-700 bg-[#0f172a] px-4 py-3 text-left text-base text-slate-100 transition hover:border-emerald-400/60 hover:text-emerald-200"
+              className="rounded-xl border border-slate-700 bg-[#0f172a] px-4 py-3 text-center text-base text-slate-100 transition hover:border-emerald-400/60 hover:text-emerald-200"
             >
               {translationOf(choice, tongue)}
             </button>
           ))}
         </div>
       </article>
+      </div>
     </section>
   );
 }

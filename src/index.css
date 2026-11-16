@@ -13,6 +13,7 @@ body,
 #root {
   min-height: 100vh;
   background-color: #0f172a !important;
+  overscroll-behavior: none;
 }
 
 body {
@@ -68,7 +69,7 @@ body::before {
 
 .card-slide-next,
 .card-slide-prev {
-  animation: card-slide 0.34s cubic-bezier(0.2, 0.75, 0.2, 1);
+  animation: card-slide 280ms ease-in-out both;
 }
 
 .card-slide-prev {
@@ -227,8 +228,8 @@ button {
 
 @keyframes card-slide {
   from {
-    opacity: 0.82;
-    transform: translate3d(12px, 0, 0);
+    opacity: 0;
+    transform: translate3d(18px, 0, 0);
   }
   to {
     opacity: 1;
@@ -238,8 +239,8 @@ button {
 
 @keyframes card-slide-back {
   from {
-    opacity: 0.82;
-    transform: translate3d(-12px, 0, 0);
+    opacity: 0;
+    transform: translate3d(-18px, 0, 0);
   }
   to {
     opacity: 1;

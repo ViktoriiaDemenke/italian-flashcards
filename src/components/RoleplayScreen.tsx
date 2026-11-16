@@ -23,7 +23,7 @@ export function RoleplayScreen({ level, tongue, onClose }: RoleplayScreenProps) 
   const { speak } = useSpeech();
 
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-4 px-5 pb-4 pt-3">
+    <div className="mx-auto flex h-dvh w-full max-w-md flex-col gap-4 overflow-hidden overscroll-none px-5 pb-4 pt-3">
       <button
         type="button"
         onClick={onClose}

@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Camera, Check, MessagesSquare, Sparkles } from "lucide-react";
 import { DECK } from "../data/deck";
 import { LEVELS } from "../lib/copy";
-import { cardsForTheme, dailyMix } from "../lib/mix";
+import { cardsForPhoto, cardsForTheme, dailyMix } from "../lib/mix";
 import { dayKey } from "../lib/session";
 import type { Level, MotherTongue } from "../types";
 
@@ -26,6 +26,8 @@ type DashboardProps = {
   onLevel: (level: Level) => void;
   onStartMix: (ids: string[]) => void;
   onStartGenerated: (ids: string[], title: string) => void;
+  canContinue: boolean;
+  onContinue: () => void;
 };
 
 export function Dashboard({
@@ -41,6 +43,8 @@ export function Dashboard({
   onLevel,
   onStartMix,
   onStartGenerated,
+  canContinue,
+  onContinue,
 }: DashboardProps) {
   const mix = dailyMix(level, repeatIds, studiedIds, savedIds);
   const attention = mix.filter((card) => repeatIds.includes(card.id) || savedIds.includes(card.id)).length;
@@ -50,6 +54,7 @@ export function Dashboard({
   const [generator, setGenerator] = useState(false);
   const [theme, setTheme] = useState("");
   const [photoName, setPhotoName] = useState("");
+  const [hasPhoto, setHasPhoto] = useState(false);
   const [notice, setNotice] = useState("");
   const [pickedDay, setPickedDay] = useState(dayKey());
   const weeks = useMemo(() => activityWeeks(), []);
@@ -60,8 +65,14 @@ export function Dashboard({
   });
 
   function createFromTheme() {
-    const query = (theme.trim() || photoName.replace(/\.[a-z0-9]+$/i, " ").replace(/[_-]+/g, " ")).trim();
-    const cards = cardsForTheme(query, tongue);
+    const query = theme.trim();
+    const cards = query ? cardsForTheme(query, tongue) : [];
+    if (cards.length === 0 && hasPhoto) {
+      const scene = cardsForPhoto(level);
+      setNotice("");
+      onStartGenerated(scene.map((card) => card.id), tongue === "uk" ? "За фото" : "From photo");
+      return;
+    }
     if (cards.length === 0) {
       setNotice(tongue === "uk" ? "У колоді немає слів за цією темою. Спробуйте інше слово." : "No deck words match this theme.");
       return;
@@ -75,6 +86,15 @@ export function Dashboard({
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-2.5 px-5 pb-4 pt-3">
+      {canContinue && (
+        <button
+          type="button"
+          onClick={onContinue}
+          className="min-h-12 rounded-2xl bg-emerald-500 text-sm font-medium text-slate-950"
+        >
+          {tongue === "uk" ? "Продовжити сесію" : "Continue session"}
+        </button>
+      )}
       <section className="rounded-2xl border border-slate-800 bg-[#111827] px-4 py-3">
         <div className="flex items-end justify-between">
           <div>
@@ -189,7 +209,12 @@ export function Dashboard({
               type="file"
               accept="image/*"
               className="sr-only"
-              onChange={(event) => setPhotoName(event.target.files?.[0]?.name ?? "")}
+              onChange={(event) => {
+                const file = event.target.files?.[0];
+                setHasPhoto(Boolean(file));
+                setPhotoName(file?.name ?? "");
+                setNotice("");
+              }}
             />
           </label>
           {notice && <p className="text-sm text-red-300">{notice}</p>}

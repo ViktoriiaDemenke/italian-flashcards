@@ -1,4 +1,4 @@
-import type { Level, MotherTongue } from "../types";
+import type { FilterId, Level, MotherTongue, TopicId } from "../types";
 
 const KEY = "parliamo-session";
 
@@ -15,6 +15,25 @@ export type Session = {
   lastStudyDay: string | null;
   cardsToday: number;
   activity: Record<string, number>;
+  resume: Resume | null;
+  topicProgress: Record<string, TopicProgress>;
+};
+
+export type TopicProgress = {
+  section: "cards" | "test";
+  cardIndex: number;
+};
+
+export type Resume = {
+  active: boolean;
+  moduleId: string;
+  section: "cards" | "test";
+  cardIndex: number;
+  level: Level;
+  filter: FilterId;
+  topic: TopicId | null;
+  customIds: string[] | null;
+  customTitle: string | null;
 };
 
 export function dayKey(date = new Date()) {
@@ -41,6 +60,8 @@ export function emptySession(): Session {
     lastStudyDay: null,
     cardsToday: 0,
     activity: {},
+    resume: null,
+    topicProgress: {},
   };
 }
 
@@ -54,6 +75,41 @@ function isTongue(value: unknown): value is MotherTongue {
 
 function ids(value: unknown) {
   return Array.isArray(value) ? value.filter((id) => typeof id === "string") : [];
+}
+
+function readResume(value: unknown): Resume | null {
+  if (!value || typeof value !== "object") return null;
+  const raw = value as Partial<Resume>;
+  if (raw.active !== true || !isLevel(raw.level) || typeof raw.moduleId !== "string") return null;
+  if (raw.section !== "cards" && raw.section !== "test") return null;
+  if (typeof raw.cardIndex !== "number" || raw.cardIndex < 0 || typeof raw.filter !== "string") return null;
+  return {
+    active: true,
+    moduleId: raw.moduleId,
+    section: raw.section,
+    cardIndex: Math.floor(raw.cardIndex),
+    level: raw.level,
+    filter: raw.filter as FilterId,
+    topic: typeof raw.topic === "string" ? (raw.topic as TopicId) : null,
+    customIds: ids(raw.customIds).length > 0 ? ids(raw.customIds) : null,
+    customTitle: typeof raw.customTitle === "string" ? raw.customTitle : null,
+  };
+}
+
+export function topicKey(level: Level, filter: string, topic: string | null) {
+  return `${level}:${filter}:${topic ?? ""}`;
+}
+
+function readTopicProgress(value: unknown) {
+  const progress: Record<string, TopicProgress> = {};
+  if (!value || typeof value !== "object") return progress;
+  for (const [key, item] of Object.entries(value)) {
+    if (!/^(A1|A2|B1|B2):[^:]+:[^:]*$/.test(key) || !item || typeof item !== "object") continue;
+    const raw = item as Partial<TopicProgress>;
+    if ((raw.section !== "cards" && raw.section !== "test") || typeof raw.cardIndex !== "number" || raw.cardIndex < 0) continue;
+    progress[key] = { section: raw.section, cardIndex: Math.floor(raw.cardIndex) };
+  }
+  return progress;
 }
 
 function activityMap(value: unknown) {
@@ -88,6 +144,8 @@ export function loadSession(): Session {
       lastStudyDay: last,
       cardsToday,
       activity,
+      resume: readResume(parsed.resume),
+      topicProgress: readTopicProgress(parsed.topicProgress),
     };
   } catch {
     return base;

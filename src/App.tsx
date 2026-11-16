@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
-import { AudioLines, ChevronLeft, RotateCcw, Sparkles } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { AudioLines, ChevronLeft, Sparkles } from "lucide-react";
 import { CardNav } from "./components/CardNav";
 import { Dashboard } from "./components/Dashboard";
 import { RoleplayScreen } from "./components/RoleplayScreen";
@@ -7,9 +7,9 @@ import { filterLabel } from "./components/CategoryBar";
 import { TopicsScreen } from "./components/TopicsScreen";
 import { Flashcard } from "./components/Flashcard";
 import { QuizCard } from "./components/QuizCard";
-import { cardsFor, DECK, selectionForLevel } from "./data/deck";
+import { cardsFor, categoryCards, DECK, selectionForLevel } from "./data/deck";
 import { cardsByIds } from "./lib/mix";
-import { loadSession, nextStudy, saveSession, streakOnView } from "./lib/session";
+import { loadSession, nextStudy, saveSession, streakOnView, topicKey, type Resume, type TopicProgress } from "./lib/session";
 import { t } from "./lib/ui";
 import type { FilterId, GradeId, Level, MotherTongue, StudyMode, TenseId, TopicId } from "./types";
 
@@ -45,16 +45,16 @@ function splashCards(tongue: MotherTongue) {
 
 export default function App() {
   const stored = loadSession();
-  const [level, setLevel] = useState<Level>(stored.level);
-  const [studying, setStudying] = useState(false);
+  const pending = stored.resume;
+  const [level, setLevel] = useState<Level>(pending?.level ?? stored.level);
+  const [studying, setStudying] = useState(Boolean(pending?.active));
   const [browsing, setBrowsing] = useState(false);
-  const [reviewing, setReviewing] = useState(false);
   const [tongue] = useState<MotherTongue>(stored.tongue);
-  const initial = selectionForLevel(stored.level);
-  const [filter, setFilter] = useState<FilterId>(initial.filter);
-  const [topic, setTopic] = useState<TopicId | null>(initial.topic);
-  const [mode, setMode] = useState<StudyMode>("cards");
-  const [index, setIndex] = useState(0);
+  const initial = selectionForLevel(pending?.level ?? stored.level);
+  const [filter, setFilter] = useState<FilterId>(pending?.filter ?? initial.filter);
+  const [topic, setTopic] = useState<TopicId | null>(pending?.topic ?? initial.topic);
+  const [mode, setMode] = useState<StudyMode>(pending?.section === "test" ? "quiz" : "cards");
+  const [index, setIndex] = useState(pending?.cardIndex ?? 0);
   const [flipped, setFlipped] = useState(false);
   const [tense, setTense] = useState<TenseId>("presente");
   const [complete, setComplete] = useState(false);
@@ -67,8 +67,10 @@ export default function App() {
   const [savedIds, setSavedIds] = useState<string[]>(stored.savedIds);
   const [repeatIds, setRepeatIds] = useState<string[]>(stored.repeatIds);
   const [studiedIds, setStudiedIds] = useState<string[]>(stored.studiedIds);
-  const [customIds, setCustomIds] = useState<string[] | null>(null);
-  const [customTitle, setCustomTitle] = useState<string | null>(null);
+  const [customIds, setCustomIds] = useState<string[] | null>(pending?.customIds ?? null);
+  const [customTitle, setCustomTitle] = useState<string | null>(pending?.customTitle ?? null);
+  const [held, setHeld] = useState<Resume | null>(null);
+  const topicProgress = useRef<Record<string, TopicProgress>>(stored.topicProgress);
   const [slide, setSlide] = useState<"next" | "prev">("next");
   const [splash, setSplash] = useState<"hold" | "fade" | "done">("hold");
   const [floating] = useState(() => splashCards(stored.tongue));
@@ -82,24 +84,81 @@ export default function App() {
     };
   }, []);
 
-  useEffect(() => {
-    saveSession({ level, tongue, savedIds, repeatIds, studiedIds, streak, lastStudyDay, cardsToday, activity });
-  }, [level, tongue, savedIds, repeatIds, studiedIds, streak, lastStudyDay, cardsToday, activity]);
+  if (studying && !complete && !customIds) {
+    topicProgress.current = {
+      ...topicProgress.current,
+      [topicKey(level, filter, topic)]: { section: mode === "quiz" ? "test" : "cards", cardIndex: index },
+    };
+  }
 
-  const deck = useMemo(
-    () => (customIds ? cardsByIds(customIds) : cardsFor(level, filter, topic)),
-    [customIds, level, filter, topic],
-  );
+  const snapshot = useRef(stored);
+  snapshot.current = {
+    level,
+    tongue,
+    savedIds,
+    repeatIds,
+    studiedIds,
+    streak,
+    lastStudyDay,
+    cardsToday,
+    activity,
+    resume: studying && !complete
+      ? {
+          active: true,
+          moduleId: customTitle ?? String(filter),
+          section: mode === "quiz" ? "test" : "cards",
+          cardIndex: index,
+          level,
+          filter,
+          topic,
+          customIds,
+          customTitle,
+        }
+      : complete ? null : held,
+    topicProgress: topicProgress.current,
+  };
+
+  useEffect(() => {
+    saveSession(snapshot.current);
+  }, [level, tongue, savedIds, repeatIds, studiedIds, streak, lastStudyDay, cardsToday, activity, studying, complete, mode, index, filter, topic, customIds, customTitle, held]);
+
+  useEffect(() => {
+    const flush = () => saveSession(snapshot.current);
+    const onHide = () => {
+      if (document.visibilityState === "hidden") flush();
+    };
+    window.addEventListener("pagehide", flush);
+    document.addEventListener("visibilitychange", onHide);
+    return () => {
+      window.removeEventListener("pagehide", flush);
+      document.removeEventListener("visibilitychange", onHide);
+    };
+  }, []);
+
+  const deck = useMemo(() => {
+    if (customIds) {
+      const custom = cardsByIds(customIds);
+      if (custom.length > 0) return custom;
+    }
+    const exact = cardsFor(level, filter, topic);
+    if (exact.length > 0) return exact;
+    return categoryCards(level, filter, topic);
+  }, [customIds, level, filter, topic]);
+
+  useEffect(() => {
+    const exact = customIds ? cardsByIds(customIds) : cardsFor(level, filter, topic);
+    if (deck.length === 0) return;
+    if (exact.length === 0 || index >= deck.length) setIndex(0);
+  }, [customIds, level, filter, topic, deck.length, index]);
 
   const card = deck[index];
   const saved = card ? savedIds.includes(card.id) : false;
 
   useEffect(() => {
-    if (!studying) return;
     window.scrollTo(0, 0);
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
-  }, [studying, index, mode, card?.id]);
+  }, [studying, browsing, roleplay, index, mode, card?.id]);
 
   function resetPosition() {
     setIndex(0);
@@ -122,7 +181,7 @@ export default function App() {
       if (again) return current.includes(id) ? current : [...current, id];
       return current.filter((item) => item !== id);
     });
-    if (again) setWeakIds((current) => (current.includes(id) ? current : [...current, id]));
+    if (again && mode === "quiz") setWeakIds((current) => (current.includes(id) ? current : [...current, id]));
   }
 
   function advance(result: GradeId) {
@@ -164,7 +223,6 @@ export default function App() {
     if (!card) return;
     const marked = savedIds.includes(card.id);
     setSavedIds((current) => (marked ? current.filter((id) => id !== card.id) : [...current, card.id]));
-    if (!marked) setWeakIds((current) => (current.includes(card.id) ? current : [...current, card.id]));
   }
 
   function startWeakReview() {
@@ -215,19 +273,26 @@ export default function App() {
           repeatIds={repeatIds}
           savedIds={savedIds}
           onRoleplay={() => setRoleplay(true)}
+          canContinue={Boolean(held)}
+          onContinue={() => {
+            setHeld(null);
+            setBrowsing(false);
+            setStudying(true);
+            setComplete(false);
+          }}
           onLevel={(next) => {
+            setHeld(null);
             setCustomIds(null);
             setCustomTitle(null);
-            setReviewing(false);
             setBrowsing(true);
             setStudying(false);
             setLevel(next);
             setMode("cards");
           }}
           onStartMix={(ids) => {
+            setHeld(null);
             setCustomIds(ids);
             setCustomTitle("Smart Daily Mix");
-            setReviewing(false);
             setBrowsing(false);
             setStudying(true);
             setMode("cards");
@@ -235,9 +300,9 @@ export default function App() {
             resetPosition();
           }}
           onStartGenerated={(ids, title) => {
+            setHeld(null);
             setCustomIds(ids);
             setCustomTitle(title);
-            setReviewing(false);
             setBrowsing(false);
             setStudying(true);
             setMode("cards");
@@ -246,7 +311,7 @@ export default function App() {
           }}
         />
       )}
-      {splash === "done" && browsing && !studying && !reviewing && (
+      {splash === "done" && browsing && !studying && (
         <div className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-4 px-4 pb-6 pt-3">
           <button
             type="button"
@@ -262,20 +327,26 @@ export default function App() {
             studiedIds={studiedIds}
             repeatIds={repeatIds}
             onSelect={(next) => {
+              const cards = cardsFor(level, next, null);
+              const safe = cards.length > 0 ? cards : categoryCards(level, next, null);
+              const saved = topicProgress.current[topicKey(level, next, null)];
+              setHeld(null);
               setCustomIds(null);
               setCustomTitle(null);
               setFilter(next);
               setTopic(null);
-              setReviewing(false);
               setStudying(true);
-              setMode("cards");
               setWeakIds([]);
-              resetPosition();
+              setMode(saved?.section === "test" ? "quiz" : "cards");
+              setIndex(saved && saved.cardIndex < safe.length ? saved.cardIndex : 0);
+              setFlipped(false);
+              setComplete(false);
+              setTense("presente");
             }}
             onGenerate={(ids, title) => {
+              setHeld(null);
               setCustomIds(ids);
               setCustomTitle(title);
-              setReviewing(false);
               setBrowsing(false);
               setStudying(true);
               setMode("cards");
@@ -285,68 +356,15 @@ export default function App() {
           />
         </div>
       )}
-      {splash === "done" && browsing && !studying && reviewing && (
-        <div className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col gap-4 px-4 pb-6 pt-3">
-          <button
-            type="button"
-            onClick={() => setReviewing(false)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-slate-700 bg-[#111827] text-slate-100"
-            aria-label={t(tongue, "back")}
-          >
-            <ChevronLeft className="h-5 w-5" />
-          </button>
-          <h1 className="text-2xl font-medium text-white">{filterLabel(level, filter, topic, tongue)}</h1>
-          <div className="grid grid-cols-2 gap-3">
-            <article className="rounded-2xl border border-slate-800 bg-[#111827] px-4 py-4">
-              <p className="text-sm text-slate-400">{t(tongue, "studied")}</p>
-              <p className="mt-2 text-2xl font-medium text-white">{deck.filter((item) => studiedIds.includes(item.id)).length}/{deck.length}</p>
-            </article>
-            <article className="rounded-2xl border border-slate-800 bg-[#111827] px-4 py-4">
-              <p className="text-sm text-slate-400">{t(tongue, "saved")}</p>
-              <p className="mt-2 text-2xl font-medium text-white">{deck.filter((item) => savedIds.includes(item.id)).length}</p>
-            </article>
-            <article className="col-span-2 rounded-2xl border border-slate-800 bg-[#111827] px-4 py-4">
-              <p className="text-sm text-slate-400">{t(tongue, "repeat")}</p>
-              <p className="mt-2 text-2xl font-medium text-white">{deck.filter((item) => repeatIds.includes(item.id)).length}</p>
-            </article>
-          </div>
-          <button
-            type="button"
-            onClick={() => {
-              setMode("cards");
-              setComplete(false);
-              setStudying(true);
-            }}
-            className="min-h-12 rounded-xl border border-slate-700 bg-[#111827] text-sm font-medium text-white"
-          >
-            {t(tongue, "flashcards")}
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              setMode("quiz");
-              resetPosition();
-              setStudying(true);
-            }}
-            className="min-h-12 rounded-xl bg-emerald-500 text-sm font-medium text-slate-950"
-          >
-            {t(tongue, "quiz")}
-          </button>
-        </div>
-      )}
       {splash === "done" && studying && (
       <div className="fixed inset-0 z-30 mx-auto flex h-dvh w-full max-w-3xl flex-col gap-4 overflow-hidden bg-[#0f172a] px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-[max(0.75rem,env(safe-area-inset-top))] sm:px-6">
         <header className="flex items-center gap-3">
           <button
             type="button"
             onClick={() => {
+              if (!complete) setHeld(snapshot.current.resume);
               setStudying(false);
-              if (customIds) {
-                setReviewing(false);
-                setBrowsing(false);
-                return;
-              }
-              setReviewing(true);
+              setBrowsing(!customIds);
             }}
             className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-slate-700 bg-[#111827] text-slate-100"
             aria-label={t(tongue, "back")}
@@ -359,58 +377,60 @@ export default function App() {
           </div>
         </header>
 
-        {studying && (complete || !card ? (
+        {studying && (complete || deck.length === 0 ? (
           <section className="flex min-h-0 flex-1 flex-col items-center justify-center gap-3 rounded-xl border border-slate-800 bg-[#111827] px-6 py-16 text-center">
             <h2 className="text-3xl font-medium">
-              {card ? t(tongue, "complete") : t(tongue, "empty")}
+              {deck.length > 0 ? t(tongue, "complete") : t(tongue, "empty")}
             </h2>
-            {card && (
+            {card && mode === "quiz" && (
               <p className="text-sm text-slate-400">
-                {deck.length} {tongue === "uk" ? "карток" : "cards"} · {tongue === "uk" ? "серія" : "streak"} {streakOnView({ streak, lastStudyDay })} · {weakIds.length} {tongue === "uk" ? "слабких" : "weak"}
+                {deck.length} {tongue === "uk" ? "карток" : "cards"} · {weakIds.length} {tongue === "uk" ? "помилок" : "missed"}
               </p>
             )}
-            {!card && <p className="max-w-md text-sm text-slate-400">{t(tongue, "keep")}</p>}
-            {card && (
-              <button
-                type="button"
-                disabled={weakIds.length === 0}
-                onClick={startWeakReview}
-                className="mt-4 inline-flex min-h-12 min-w-56 items-center justify-center gap-2 rounded-xl border border-emerald-400 bg-emerald-500 px-5 text-sm font-medium text-slate-950 shadow-[0_0_24px_rgba(16,185,129,0.28)] disabled:border-slate-700 disabled:bg-[#0f172a] disabled:text-slate-500 disabled:shadow-none"
-              >
-                <Sparkles className="h-4 w-4" />
-                AI Розбір Слабких Місць
-              </button>
-            )}
-            {card && mode === "cards" && (
+            {deck.length === 0 && <p className="max-w-md text-sm text-slate-400">{t(tongue, "keep")}</p>}
+            {deck.length > 0 && mode === "cards" && (
               <button
                 type="button"
                 onClick={() => {
+                  setWeakIds([]);
                   setMode("quiz");
                   resetPosition();
                 }}
-                className={`min-h-12 min-w-56 rounded-xl px-5 text-sm font-medium ${
-                  weakIds.length === 0
-                    ? "border border-emerald-400 bg-emerald-500 text-slate-950 shadow-[0_0_24px_rgba(16,185,129,0.28)]"
-                    : "border border-slate-700 bg-[#0f172a] text-white"
-                }`}
+                className="mt-4 min-h-12 min-w-56 rounded-xl bg-emerald-500 px-5 text-sm font-medium text-slate-950"
               >
                 {t(tongue, "quiz")}
               </button>
             )}
-            {card && (
+            {card && mode === "quiz" && (
               <button
                 type="button"
-                onClick={resetPosition}
-                className="inline-flex min-h-12 min-w-56 items-center justify-center gap-2 rounded-xl border border-slate-700 bg-[#0f172a] px-5 text-sm font-medium text-white"
+                onClick={() => {
+                  setHeld(null);
+                  setCustomIds(null);
+                  setCustomTitle(null);
+                  setStudying(false);
+                  setBrowsing(true);
+                  window.scrollTo(0, 0);
+                }}
+                className="mt-4 min-h-12 min-w-56 rounded-xl bg-emerald-500 px-5 text-sm font-medium text-slate-950"
               >
-                <RotateCcw className="h-4 w-4" />
-                {t(tongue, "againBtn")}
+                {tongue === "uk" ? "Перейти до тем" : "All topics"}
+              </button>
+            )}
+            {deck.length > 0 && mode === "quiz" && weakIds.length > 0 && (
+              <button
+                type="button"
+                onClick={startWeakReview}
+                className="inline-flex min-h-12 min-w-56 items-center justify-center gap-2 rounded-xl border border-emerald-300/80 bg-emerald-400/10 px-5 text-sm font-medium text-emerald-100 shadow-[0_0_24px_rgba(110,231,183,0.35)]"
+              >
+                <Sparkles className="h-4 w-4" />
+                AI Розбір Слабких Місць ({weakIds.length})
               </button>
             )}
           </section>
         ) : (
           <div className="flex min-h-0 flex-1 flex-col justify-between gap-3">
-            <div className={`card-stage flex min-h-0 flex-1 flex-col ${slide === "next" ? "card-slide-next" : "card-slide-prev"}`} key={`${mode}-${card.id}-${slide}`}>
+            <div className="card-stage flex min-h-0 flex-1 flex-col">
               {mode === "cards" ? (
                 <Flashcard
                   card={card}
@@ -422,6 +442,7 @@ export default function App() {
                   tongue={tongue}
                   onFlip={() => setFlipped((current) => !current)}
                   onTense={setTense}
+                  slide={slide}
                 />
               ) : (
                 <QuizCard
@@ -431,6 +452,7 @@ export default function App() {
                   subtitle={filterLabel(level, filter, topic, tongue)}
                   tongue={tongue}
                   pool={deck}
+                  slide={slide}
                   onAnswer={(correct) => advance(correct ? "good" : "again")}
                 />
               )}
