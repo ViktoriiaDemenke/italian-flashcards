@@ -57,7 +57,7 @@ export function Dashboard({
   const [hasPhoto, setHasPhoto] = useState(false);
   const [notice, setNotice] = useState("");
   const [pickedDay, setPickedDay] = useState(dayKey());
-  const weeks = useMemo(() => activityWeeks(), []);
+  const week = useMemo(() => lastSevenDays(), []);
   const levelStats = LEVELS.map((item) => {
     const total = DECK.filter((card) => card.level === item.id).length;
     const done = DECK.filter((card) => card.level === item.id && studiedIds.includes(card.id)).length;
@@ -106,18 +106,20 @@ export function Dashboard({
             <p className="text-xs text-slate-400">{tongue === "uk" ? "сьогодні карток" : "cards today"}</p>
           </div>
         </div>
-        <div className="mt-2.5 grid w-full grid-flow-col grid-rows-7 gap-1" aria-label={tongue === "uk" ? "Активність" : "Activity"}>
-          {weeks.map((day, index) => (
-            <button
-              key={day.key || `empty-${index}`}
-              type="button"
-              disabled={!day.key}
-              onClick={() => day.key && setPickedDay(day.key)}
-              className="h-2.5 w-full rounded-[3px] disabled:bg-transparent"
-              style={{ background: day.key ? heatColor(activity[day.key] ?? 0) : "transparent" }}
-              aria-label={day.key ? `${day.key}: ${activity[day.key] ?? 0}` : undefined}
-            />
-          ))}
+        <div className="mt-3 flex items-center justify-center gap-3" aria-label={tongue === "uk" ? "Активність" : "Activity"}>
+          {week.map((day) => {
+            const count = activity[day] ?? 0;
+            const active = count > 0;
+            return (
+              <button
+                key={day}
+                type="button"
+                onClick={() => setPickedDay(day)}
+                className={`h-2.5 w-2.5 rounded-full ${active ? "bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.85)]" : "bg-slate-700/80"}`}
+                aria-label={`${day}: ${count}`}
+              />
+            );
+          })}
         </div>
         <p className="mt-2 text-xs text-slate-400">{dayCaption(pickedDay, activity[pickedDay] ?? 0, tongue)}</p>
       </section>
@@ -252,28 +254,12 @@ export function Dashboard({
   );
 }
 
-function activityWeeks() {
+function lastSevenDays() {
   const today = new Date();
-  const mondayOffset = (today.getDay() + 6) % 7;
-  const start = new Date(today.getFullYear(), today.getMonth(), today.getDate() - mondayOffset - 7 * 11);
-  const todayKey = dayKey(today);
-  const cells: { key: string }[] = [];
-  for (let week = 0; week < 12; week += 1) {
-    for (let row = 0; row < 7; row += 1) {
-      const date = new Date(start);
-      date.setDate(start.getDate() + week * 7 + row);
-      const key = dayKey(date);
-      cells.push({ key: key <= todayKey ? key : "" });
-    }
-  }
-  return cells;
-}
-
-function heatColor(count: number) {
-  if (count <= 0) return "#1e293b";
-  if (count < 4) return "rgba(16, 185, 129, 0.45)";
-  if (count < 8) return "rgba(16, 185, 129, 0.75)";
-  return "#10b981";
+  return Array.from({ length: 7 }, (_, index) => {
+    const date = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 6 + index);
+    return dayKey(date);
+  });
 }
 
 function dayCaption(key: string, count: number, tongue: MotherTongue) {
