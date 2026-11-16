@@ -38,9 +38,10 @@ export const A2_CARDS: StudyCard[] = [...rows, ...extra].map((row) => {
   };
 });
 
-function contextOf(row: { contextExamples?: { italian?: string; uk?: string; en?: string }[] }) {
-  if (!Array.isArray(row.contextExamples)) return undefined;
-  const examples = row.contextExamples.filter(
+function contextOf(row: object) {
+  const raw = "contextExamples" in row ? row.contextExamples : undefined;
+  if (!Array.isArray(raw)) return undefined;
+  const examples = raw.filter(
     (item): item is { italian: string; uk: string; en?: string } =>
       typeof item?.italian === "string" && typeof item?.uk === "string",
   );
