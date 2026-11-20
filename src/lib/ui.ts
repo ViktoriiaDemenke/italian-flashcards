@@ -139,7 +139,21 @@ export type UiKey =
   | "accuracy"
   | "mother"
   | "means"
-  | "speak";
+  | "speak"
+  | "continueSession"
+  | "activity"
+  | "roleplayPractice"
+  | "dailyMix"
+  | "mixSummary"
+  | "startMix"
+  | "myModules"
+  | "allTopics"
+  | "grammar"
+  | "noStudy"
+  | "cardsWord"
+  | "missedWord"
+  | "roleplayHint"
+  | "nextLine";
 
 const UI: Record<UiKey, Record<MotherTongue, string>> = {
   streak: {
@@ -283,6 +297,20 @@ const UI: Record<UiKey, Record<MotherTongue, string>> = {
   mother: { en: "Mother tongue", uk: "Рідна мова", ru: "Родной язык", de: "Muttersprache", pl: "Język ojczysty", es: "Lengua materna", fr: "Langue maternelle", ro: "Limbă maternă" },
   means: { en: "What does this mean?", uk: "Що це означає?", ru: "Что это значит?", de: "Was bedeutet das?", pl: "Co to znaczy?", es: "¿Qué significa?", fr: "Qu'est-ce que cela veut dire ?", ro: "Ce înseamnă?" },
   speak: { en: "Speak Italian", uk: "Вимовити італійською", ru: "Произнести по-итальянски", de: "Italienisch sprechen", pl: "Wymów po włosku", es: "Pronunciar en italiano", fr: "Prononcer en italien", ro: "Pronunță în italiană" },
+  continueSession: { en: "Continue session", uk: "Продовжити сесію", ru: "Продолжить сессию", de: "Sitzung fortsetzen", pl: "Kontynuuj sesję", es: "Continuar sesión", fr: "Continuer la session", ro: "Continuă sesiunea" },
+  activity: { en: "Activity", uk: "Активність", ru: "Активность", de: "Aktivität", pl: "Aktywność", es: "Actividad", fr: "Activité", ro: "Activitate" },
+  roleplayPractice: { en: "Practice: AI Role-play", uk: "Практика: AI Рольова Гра", ru: "Практика: AI ролевая игра", de: "Übung: KI-Rollenspiel", pl: "Praktyka: odgrywanie ról z AI", es: "Práctica: juego de rol con IA", fr: "Pratique : jeu de rôle IA", ro: "Practică: joc de rol AI" },
+  dailyMix: { en: "Smart Daily Mix", uk: "Розумний мікс дня", ru: "Умный микс дня", de: "Smarter Tagesmix", pl: "Inteligentny miks dnia", es: "Mezcla diaria inteligente", fr: "Mix quotidien intelligent", ro: "Mix zilnic inteligent" },
+  mixSummary: { en: "{n} cards · {a} need attention · {m} mastered", uk: "{n} карток · {a} потребують уваги · {m} засвоєно", ru: "{n} карточек · {a} требуют внимания · {m} усвоено", de: "{n} Karten · {a} brauchen Aufmerksamkeit · {m} gelernt", pl: "{n} kart · {a} wymaga uwagi · {m} opanowanych", es: "{n} tarjetas · {a} requieren atención · {m} dominadas", fr: "{n} cartes · {a} à revoir · {m} maîtrisées", ro: "{n} carduri · {a} necesită atenție · {m} învățate" },
+  startMix: { en: "Start Smart Mix", uk: "Розпочати Smart Мікс", ru: "Начать умный микс", de: "Smarten Mix starten", pl: "Zacznij miks", es: "Empezar la mezcla", fr: "Lancer le mix", ro: "Începe mixul" },
+  myModules: { en: "My modules", uk: "Мої Модулі", ru: "Мои модули", de: "Meine Module", pl: "Moje moduły", es: "Mis módulos", fr: "Mes modules", ro: "Modulele mele" },
+  allTopics: { en: "All topics", uk: "Перейти до тем", ru: "Все темы", de: "Alle Themen", pl: "Wszystkie tematy", es: "Todos los temas", fr: "Tous les thèmes", ro: "Toate temele" },
+  grammar: { en: "Grammar", uk: "Граматика", ru: "Грамматика", de: "Grammatik", pl: "Gramatyka", es: "Gramática", fr: "Grammaire", ro: "Gramatică" },
+  noStudy: { en: "no study", uk: "без занять", ru: "без занятий", de: "kein Lernen", pl: "bez nauki", es: "sin estudio", fr: "pas d'étude", ro: "fără studiu" },
+  cardsWord: { en: "cards", uk: "карток", ru: "карточек", de: "Karten", pl: "kart", es: "tarjetas", fr: "cartes", ro: "carduri" },
+  missedWord: { en: "missed", uk: "помилок", ru: "ошибок", de: "Fehler", pl: "błędów", es: "fallos", fr: "erreurs", ro: "greșeli" },
+  roleplayHint: { en: "Lines from your deck. Say them out loud.", uk: "Репліки з вашої колоди. Проговоріть їх уголос.", ru: "Реплики из вашей колоды. Произнесите их вслух.", de: "Sätze aus deinem Stapel. Sprich sie laut.", pl: "Zdania z twojej talii. Powiedz je na głos.", es: "Frases de tu mazo. Dílas en voz alta.", fr: "Répliques de votre paquet. Dites-les à voix haute.", ro: "Replici din pachetul tău. Spune-le cu voce tare." },
+  nextLine: { en: "Next line", uk: "Наступна репліка", ru: "Следующая реплика", de: "Nächster Satz", pl: "Następne zdanie", es: "Siguiente frase", fr: "Réplique suivante", ro: "Replica următoare" },
 };
 
 export function t(lang: MotherTongue, key: UiKey) {

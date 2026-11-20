@@ -4,6 +4,8 @@ function italianVoice(voices: SpeechSynthesisVoice[]) {
   return voices.find((voice) => voice.lang.toLowerCase().replace("_", "-").startsWith("it"));
 }
 
+let speechTicket = 0;
+
 export function useSpeech() {
   useEffect(() => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
@@ -19,6 +21,7 @@ export function useSpeech() {
     const phrase = text.trim();
     if (!phrase) return;
     const synthesis = window.speechSynthesis;
+    const ticket = ++speechTicket;
     const wasBusy = synthesis.speaking || synthesis.pending;
     if (wasBusy) synthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(phrase);
@@ -29,8 +32,12 @@ export function useSpeech() {
       utterance.voice = voice;
       utterance.lang = voice.lang;
     }
-    if (wasBusy) window.setTimeout(() => synthesis.speak(utterance), 50);
-    else synthesis.speak(utterance);
+    const start = () => {
+      if (ticket !== speechTicket) return;
+      synthesis.speak(utterance);
+    };
+    if (wasBusy) window.setTimeout(start, 50);
+    else start();
   }
 
   return { speak };

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   BookOpen,
   Brain,
@@ -22,15 +21,12 @@ import {
   Smartphone,
   Smile,
   Sofa,
-  Sparkles,
-  Camera,
   Trees,
   Users,
   Wrench,
   type LucideIcon,
 } from "lucide-react";
 import { DECK, topicsOnLevel } from "../data/deck";
-import { cardsForPhoto, cardsForTheme } from "../lib/mix";
 import { t, type UiKey } from "../lib/ui";
 import type { CategoryId, Level, MotherTongue } from "../types";
 
@@ -100,86 +96,16 @@ type TopicsScreenProps = {
   studiedIds: string[];
   repeatIds: string[];
   onSelect: (category: CategoryId) => void;
-  onGenerate: (ids: string[], title: string) => void;
 };
 
-export function TopicsScreen({ level, tongue, studiedIds, repeatIds, onSelect, onGenerate }: TopicsScreenProps) {
+export function TopicsScreen({ level, tongue, studiedIds, repeatIds, onSelect }: TopicsScreenProps) {
   const categories: CategoryId[] = [];
   for (const item of topicsOnLevel(level)) {
     if (!categories.includes(item.category)) categories.push(item.category);
   }
-  const [open, setOpen] = useState(false);
-  const [theme, setTheme] = useState("");
-  const [photoName, setPhotoName] = useState("");
-  const [hasPhoto, setHasPhoto] = useState(false);
-  const [notice, setNotice] = useState("");
-
-  function createFromTheme() {
-    const query = theme.trim();
-    const themed = query ? cardsForTheme(query, tongue).filter((card) => card.level === level) : [];
-    const found = themed.length > 0 ? themed : query ? cardsForTheme(query, tongue) : [];
-    if (found.length === 0 && hasPhoto) {
-      const scene = cardsForPhoto(level);
-      setNotice("");
-      onGenerate(scene.map((card) => card.id), tongue === "uk" ? "За фото" : "From photo");
-      return;
-    }
-    if (found.length === 0) {
-      setNotice(tongue === "uk" ? "У колоді немає слів за цією темою." : "No deck words match this theme.");
-      return;
-    }
-    setNotice("");
-    onGenerate(found.map((card) => card.id), query);
-  }
 
   return (
     <div className="flex flex-col gap-2" role="list" aria-label="Topics">
-      <button
-        type="button"
-        onClick={() => {
-          setOpen((value) => !value);
-          setNotice("");
-        }}
-        className="flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-emerald-400 bg-[#111827] text-sm font-medium text-emerald-200 shadow-[0_0_24px_rgba(16,185,129,0.18)]"
-      >
-        <Sparkles className="h-5 w-5 text-emerald-400" />
-        Генерувати Картки (за фото/темою)
-      </button>
-      {open && (
-        <form
-          className="flex flex-col gap-3 rounded-2xl border border-emerald-400/40 bg-[#111827] p-4"
-          onSubmit={(event) => {
-            event.preventDefault();
-            createFromTheme();
-          }}
-        >
-          <input
-            value={theme}
-            onChange={(event) => setTheme(event.target.value)}
-            placeholder={tongue === "uk" ? "Тема, наприклад кухня" : "Theme, for example kitchen"}
-            className="w-full rounded-xl border border-slate-700 bg-[#0f172a] px-3 py-3 text-base text-white outline-none"
-          />
-          <label className="flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-xl border border-dashed border-slate-600 text-sm text-slate-300">
-            <Camera className="h-4 w-4" />
-            {photoName || (tongue === "uk" ? "Додати фото" : "Add a photo")}
-            <input
-              type="file"
-              accept="image/*"
-              className="sr-only"
-              onChange={(event) => {
-                const file = event.target.files?.[0];
-                setHasPhoto(Boolean(file));
-                setPhotoName(file?.name ?? "");
-                setNotice("");
-              }}
-            />
-          </label>
-          {notice && <p className="text-sm text-red-300">{notice}</p>}
-          <button type="submit" className="min-h-11 rounded-xl bg-emerald-500 text-sm font-medium text-slate-950">
-            {tongue === "uk" ? "Зібрати картки" : "Build cards"}
-          </button>
-        </form>
-      )}
       {categories.map((category) => {
         const cards = DECK.filter((card) => card.level === level && card.category === category);
         const done = cards.filter((card) => studiedIds.includes(card.id)).length;
@@ -205,7 +131,7 @@ export function TopicsScreen({ level, tongue, studiedIds, repeatIds, onSelect, o
             </span>
             <span className="shrink-0 text-right text-xs leading-4 text-slate-400">
               <span className="block text-emerald-300">{done}/{cards.length}</span>
-              {again > 0 && <span className="block text-red-300">{again} {tongue === "uk" ? "повторити" : "review"}</span>}
+              {again > 0 && <span className="block text-red-300">{again} {t(tongue, "repeat")}</span>}
             </span>
           </button>
         );

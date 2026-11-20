@@ -243,7 +243,7 @@ function CardExtras({
         className="inline-flex min-h-10 items-center gap-2 self-center rounded-full border border-slate-700 px-3 text-xs text-slate-300"
       >
         <Sparkles className="h-3.5 w-3.5 text-emerald-300/80" />
-        {tongue === "uk" ? "Граматика" : "Grammar"}
+        {t(tongue, "grammar")}
       </button>
       {hintOpen && (
         <ul className="rounded-xl border border-slate-800 bg-[#0f172a] px-3 py-2.5">

@@ -52,7 +52,7 @@ function shiftDay(key: string, delta: number) {
 export function emptySession(): Session {
   return {
     level: "A1",
-    tongue: "uk",
+    tongue: "en",
     savedIds: [],
     repeatIds: [],
     studiedIds: [],
@@ -71,6 +71,22 @@ function isLevel(value: unknown): value is Level {
 
 function isTongue(value: unknown): value is MotherTongue {
   return typeof value === "string" && TONGUES.includes(value as MotherTongue);
+}
+
+export function tongueFromLocale(locale: string | undefined): MotherTongue | null {
+  const code = (locale ?? "").toLowerCase().split("-")[0];
+  const normalized = code === "ua" ? "uk" : code;
+  return isTongue(normalized) ? normalized : null;
+}
+
+export function deviceTongue(): MotherTongue {
+  if (typeof navigator === "undefined") return "en";
+  const locales = navigator.languages?.length ? navigator.languages : [navigator.language];
+  for (const locale of locales) {
+    const tongue = tongueFromLocale(locale);
+    if (tongue) return tongue;
+  }
+  return "en";
 }
 
 function ids(value: unknown) {
@@ -126,7 +142,7 @@ export function loadSession(): Session {
   if (typeof localStorage === "undefined") return base;
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return base;
+    if (!raw) return { ...base, tongue: deviceTongue() };
     const parsed = JSON.parse(raw) as Partial<Session>;
     const today = dayKey();
     const last = typeof parsed.lastStudyDay === "string" ? parsed.lastStudyDay : null;
@@ -136,7 +152,7 @@ export function loadSession(): Session {
     if (cardsToday > 0 && !activity[today]) activity[today] = cardsToday;
     return {
       level: isLevel(parsed.level) ? parsed.level : base.level,
-      tongue: isTongue(parsed.tongue) ? parsed.tongue : base.tongue,
+      tongue: isTongue(parsed.tongue) ? parsed.tongue : deviceTongue(),
       savedIds: ids(parsed.savedIds),
       repeatIds: ids(parsed.repeatIds),
       studiedIds: ids(parsed.studiedIds),
@@ -148,7 +164,7 @@ export function loadSession(): Session {
       topicProgress: readTopicProgress(parsed.topicProgress),
     };
   } catch {
-    return base;
+    return { ...base, tongue: deviceTongue() };
   }
 }
 

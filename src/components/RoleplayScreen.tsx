@@ -36,7 +36,7 @@ export function RoleplayScreen({ level, tongue, onClose }: RoleplayScreenProps) 
         <p className="text-xs tracking-[0.18em] text-emerald-400">{level}</p>
         <h1 className="mt-1 text-2xl font-medium">Практика: AI Рольова Гра</h1>
         <p className="mt-1 text-sm text-slate-400">
-          {tongue === "uk" ? "Репліки з вашої колоди. Проговоріть їх уголос." : "Lines from your deck. Say them out loud."}
+          {t(tongue, "roleplayHint")}
         </p>
       </header>
       {card && (
@@ -52,7 +52,7 @@ export function RoleplayScreen({ level, tongue, onClose }: RoleplayScreenProps) 
             onClick={() => setIndex((current) => (current + 1) % lines.length)}
             className="min-h-12 rounded-xl bg-emerald-500 text-sm font-medium text-slate-950"
           >
-            {tongue === "uk" ? "Наступна репліка" : "Next line"}
+            {t(tongue, "nextLine")}
           </button>
         </article>
       )}

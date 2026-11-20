@@ -1,9 +1,10 @@
 import { useMemo, useState } from "react";
-import { Camera, Check, MessagesSquare, Sparkles } from "lucide-react";
+import { Check, MessagesSquare } from "lucide-react";
 import { DECK } from "../data/deck";
 import { LEVELS } from "../lib/copy";
-import { cardsForPhoto, cardsForTheme, dailyMix } from "../lib/mix";
+import { dailyMix } from "../lib/mix";
 import { dayKey } from "../lib/session";
+import { t } from "../lib/ui";
 import type { Level, MotherTongue } from "../types";
 
 const LEVEL_TITLES: Record<Level, string> = {
@@ -25,7 +26,6 @@ type DashboardProps = {
   onRoleplay: () => void;
   onLevel: (level: Level) => void;
   onStartMix: (ids: string[]) => void;
-  onStartGenerated: (ids: string[], title: string) => void;
   canContinue: boolean;
   onContinue: () => void;
 };
@@ -42,7 +42,6 @@ export function Dashboard({
   onRoleplay,
   onLevel,
   onStartMix,
-  onStartGenerated,
   canContinue,
   onContinue,
 }: DashboardProps) {
@@ -51,38 +50,14 @@ export function Dashboard({
   const mastered = mix.filter(
     (card) => studiedIds.includes(card.id) && !repeatIds.includes(card.id) && !savedIds.includes(card.id),
   ).length;
-  const [generator, setGenerator] = useState(false);
-  const [theme, setTheme] = useState("");
-  const [photoName, setPhotoName] = useState("");
-  const [hasPhoto, setHasPhoto] = useState(false);
-  const [notice, setNotice] = useState("");
-  const [pickedDay, setPickedDay] = useState(dayKey());
-  const week = useMemo(() => lastSevenDays(), []);
+  const [selectedDay, setSelectedDay] = useState(dayKey());
+  const week = useMemo(() => currentWeek(), []);
+  const todayKey = dayKey();
   const levelStats = LEVELS.map((item) => {
     const total = DECK.filter((card) => card.level === item.id).length;
     const done = DECK.filter((card) => card.level === item.id && studiedIds.includes(card.id)).length;
     return { ...item, total, done, percent: total === 0 ? 0 : Math.round((done / total) * 100) };
   });
-
-  function createFromTheme() {
-    const query = theme.trim();
-    const cards = query ? cardsForTheme(query, tongue) : [];
-    if (cards.length === 0 && hasPhoto) {
-      const scene = cardsForPhoto(level);
-      setNotice("");
-      onStartGenerated(scene.map((card) => card.id), tongue === "uk" ? "За фото" : "From photo");
-      return;
-    }
-    if (cards.length === 0) {
-      setNotice(tongue === "uk" ? "У колоді немає слів за цією темою. Спробуйте інше слово." : "No deck words match this theme.");
-      return;
-    }
-    setNotice("");
-    onStartGenerated(
-      cards.map((card) => card.id),
-      query,
-    );
-  }
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-2.5 px-5 pb-4 pt-3">
@@ -92,36 +67,43 @@ export function Dashboard({
           onClick={onContinue}
           className="min-h-12 rounded-2xl bg-emerald-500 text-sm font-medium text-slate-950"
         >
-          {tongue === "uk" ? "Продовжити сесію" : "Continue session"}
+          {t(tongue, "continueSession")}
         </button>
       )}
       <section className="rounded-2xl border border-slate-800 bg-[#111827] px-4 py-3">
         <div className="flex items-end justify-between">
           <div>
             <p className="text-2xl font-medium text-white">{streak}</p>
-            <p className="text-xs text-slate-400">{tongue === "uk" ? "серія днів" : "day streak"}</p>
+            <p className="text-xs text-slate-400">{t(tongue, "streak")}</p>
           </div>
           <div className="text-right">
             <p className="text-2xl font-medium text-white">{cardsToday}</p>
-            <p className="text-xs text-slate-400">{tongue === "uk" ? "сьогодні карток" : "cards today"}</p>
+            <p className="text-xs text-slate-400">{t(tongue, "cardsToday")}</p>
           </div>
         </div>
-        <div className="mt-3 flex items-center justify-center gap-3" aria-label={tongue === "uk" ? "Активність" : "Activity"}>
-          {week.map((day) => {
+        <div className="mt-3 grid grid-cols-7 gap-1.5" aria-label={t(tongue, "activity")}>
+          {week.map((day, index) => {
             const count = activity[day] ?? 0;
-            const active = count > 0;
+            const done = count > 0 && day <= todayKey;
+            const isToday = day === todayKey;
             return (
               <button
                 key={day}
                 type="button"
-                onClick={() => setPickedDay(day)}
-                className={`h-2.5 w-2.5 rounded-full ${active ? "bg-emerald-400 shadow-[0_0_10px_rgba(52,211,153,0.85)]" : "bg-slate-700/80"}`}
+                onClick={() => setSelectedDay(day)}
+                className={`flex h-14 min-h-11 flex-col items-center justify-center rounded-xl ${
+                  done ? "bg-green-500/20 text-green-400" : "bg-white/5 text-gray-500"
+                } ${isToday ? "border border-green-500" : "border border-transparent"}`}
                 aria-label={`${day}: ${count}`}
-              />
+                aria-pressed={selectedDay === day}
+              >
+                <span className="text-xs">{weekdayLabel(index, tongue)}</span>
+                <span className="text-lg font-bold leading-none">{Number(day.slice(-2))}</span>
+              </button>
             );
           })}
         </div>
-        <p className="mt-2 text-xs text-slate-400">{dayCaption(pickedDay, activity[pickedDay] ?? 0, tongue)}</p>
+        <p className="mt-2 text-center text-xs text-slate-400">{dayCaption(selectedDay, activity[selectedDay] ?? 0, tongue)}</p>
       </section>
 
       <button
@@ -130,16 +112,17 @@ export function Dashboard({
         className="flex min-h-11 items-center justify-center gap-2 rounded-2xl border border-emerald-400/40 bg-[#111827] text-sm font-medium text-emerald-200"
       >
         <MessagesSquare className="h-4 w-4" />
-        Практика: AI Рольова Гра
+        {t(tongue, "roleplayPractice")}
       </button>
 
       <header>
         <p className="text-xs tracking-[0.22em] text-emerald-400">PARLIAMO</p>
-        <h1 className="mt-0.5 text-xl font-medium">Smart Daily Mix</h1>
+        <h1 className="mt-0.5 text-xl font-medium">{t(tongue, "dailyMix")}</h1>
         <p className="mt-1 text-sm text-slate-400">
-          {tongue === "uk"
-            ? `${mix.length} карток · ${attention} потребують уваги · ${mastered} засвоєно`
-            : `${mix.length} cards · ${attention} need attention · ${mastered} mastered`}
+          {t(tongue, "mixSummary")
+            .replace("{n}", String(mix.length))
+            .replace("{a}", String(attention))
+            .replace("{m}", String(mastered))}
         </p>
       </header>
 
@@ -171,63 +154,12 @@ export function Dashboard({
           onClick={() => onStartMix(mix.map((card) => card.id))}
           className="mt-2.5 flex min-h-11 w-full items-center justify-center rounded-xl bg-emerald-500 text-sm font-medium text-slate-950"
         >
-          Розпочати Smart Мікс
+          {t(tongue, "startMix")}
         </button>
       </section>
 
-      <button
-        type="button"
-        onClick={() => {
-          setGenerator((open) => !open);
-          setNotice("");
-        }}
-        className="flex min-h-11 items-center justify-center gap-2 rounded-2xl border border-emerald-400/40 bg-[#111827] text-sm font-medium text-emerald-200"
-      >
-        <Sparkles className="h-4 w-4" />
-        AI Генератор (за фото/темою)
-      </button>
-
-      {generator && (
-        <form
-          className="flex flex-col gap-3 rounded-3xl border border-slate-800 bg-[#111827] p-4"
-          onSubmit={(event) => {
-            event.preventDefault();
-            createFromTheme();
-          }}
-        >
-          <label className="text-sm text-slate-300">
-            {tongue === "uk" ? "Тема" : "Theme"}
-            <input
-              value={theme}
-              onChange={(event) => setTheme(event.target.value)}
-              placeholder={tongue === "uk" ? "наприклад, кухня" : "for example, kitchen"}
-              className="mt-2 w-full rounded-xl border border-slate-700 bg-[#0f172a] px-3 py-3 text-base text-white outline-none"
-            />
-          </label>
-          <label className="flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-xl border border-dashed border-slate-600 text-sm text-slate-300">
-            <Camera className="h-4 w-4" />
-            {photoName || (tongue === "uk" ? "Додати фото" : "Add a photo")}
-            <input
-              type="file"
-              accept="image/*"
-              className="sr-only"
-              onChange={(event) => {
-                const file = event.target.files?.[0];
-                setHasPhoto(Boolean(file));
-                setPhotoName(file?.name ?? "");
-                setNotice("");
-              }}
-            />
-          </label>
-          {notice && <p className="text-sm text-red-300">{notice}</p>}
-          <button type="submit" className="min-h-12 rounded-xl bg-emerald-500 text-sm font-medium text-slate-950">
-            {tongue === "uk" ? "Зібрати картки" : "Build cards"}
-          </button>
-        </form>
-      )}
-
       <section className="flex flex-col gap-2">
-        <h2 className="text-sm text-slate-400">{tongue === "uk" ? "Мої Модулі" : "My modules"}</h2>
+        <h2 className="text-sm text-slate-400">{t(tongue, "myModules")}</h2>
         {levelStats.map((item) => (
           <button
             key={item.id}
@@ -254,18 +186,37 @@ export function Dashboard({
   );
 }
 
-function lastSevenDays() {
+function currentWeek() {
   const today = new Date();
+  const mondayOffset = (today.getDay() + 6) % 7;
+  const monday = new Date(today.getFullYear(), today.getMonth(), today.getDate() - mondayOffset);
   return Array.from({ length: 7 }, (_, index) => {
-    const date = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 6 + index);
+    const date = new Date(monday);
+    date.setDate(monday.getDate() + index);
     return dayKey(date);
   });
+}
+
+function weekdayLabel(index: number, tongue: MotherTongue) {
+  const labels: Record<MotherTongue, string[]> = {
+    en: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    uk: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"],
+    ru: ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"],
+    de: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+    pl: ["Pn", "Wt", "Śr", "Cz", "Pt", "So", "Nd"],
+    es: ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"],
+    fr: ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"],
+    ro: ["Lu", "Ma", "Mi", "Jo", "Vi", "Sâ", "Du"],
+  };
+  return labels[tongue][index] ?? "";
 }
 
 function dayCaption(key: string, count: number, tongue: MotherTongue) {
   const [year, month, day] = key.split("-").map(Number);
   const date = new Date(year, (month || 1) - 1, day || 1);
-  const label = date.toLocaleDateString(tongue === "uk" ? "uk-UA" : "en-GB", { day: "numeric", month: "short" });
-  if (tongue === "uk") return count === 0 ? `${label} · без занять` : `${label} · ${count} карток`;
-  return count === 0 ? `${label} · no study` : `${label} · ${count} cards`;
+  const locales: Record<MotherTongue, string> = {
+    en: "en-GB", uk: "uk-UA", ru: "ru-RU", de: "de-DE", pl: "pl-PL", es: "es-ES", fr: "fr-FR", ro: "ro-RO",
+  };
+  const label = date.toLocaleDateString(locales[tongue], { day: "numeric", month: "short" });
+  return count === 0 ? `${label} · ${t(tongue, "noStudy")}` : `${label} · ${count} ${t(tongue, "cardsWord")}`;
 }

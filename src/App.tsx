@@ -292,17 +292,7 @@ export default function App() {
           onStartMix={(ids) => {
             setHeld(null);
             setCustomIds(ids);
-            setCustomTitle("Smart Daily Mix");
-            setBrowsing(false);
-            setStudying(true);
-            setMode("cards");
-            setWeakIds([]);
-            resetPosition();
-          }}
-          onStartGenerated={(ids, title) => {
-            setHeld(null);
-            setCustomIds(ids);
-            setCustomTitle(title);
+            setCustomTitle(t(tongue, "dailyMix"));
             setBrowsing(false);
             setStudying(true);
             setMode("cards");
@@ -343,16 +333,6 @@ export default function App() {
               setComplete(false);
               setTense("presente");
             }}
-            onGenerate={(ids, title) => {
-              setHeld(null);
-              setCustomIds(ids);
-              setCustomTitle(title);
-              setBrowsing(false);
-              setStudying(true);
-              setMode("cards");
-              setWeakIds([]);
-              resetPosition();
-            }}
           />
         </div>
       )}
@@ -384,7 +364,7 @@ export default function App() {
             </h2>
             {card && mode === "quiz" && (
               <p className="text-sm text-slate-400">
-                {deck.length} {tongue === "uk" ? "карток" : "cards"} · {weakIds.length} {tongue === "uk" ? "помилок" : "missed"}
+                {deck.length} {t(tongue, "cardsWord")} · {weakIds.length} {t(tongue, "missedWord")}
               </p>
             )}
             {deck.length === 0 && <p className="max-w-md text-sm text-slate-400">{t(tongue, "keep")}</p>}
@@ -414,7 +394,7 @@ export default function App() {
                 }}
                 className="mt-4 min-h-12 min-w-56 rounded-xl bg-emerald-500 px-5 text-sm font-medium text-slate-950"
               >
-                {tongue === "uk" ? "Перейти до тем" : "All topics"}
+                {t(tongue, "allTopics")}
               </button>
             )}
             {deck.length > 0 && mode === "quiz" && weakIds.length > 0 && (
